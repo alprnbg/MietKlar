@@ -1,15 +1,26 @@
 import { useState, useEffect } from 'react';
-import { MapContainer, TileLayer, GeoJSON, useMapEvents } from 'react-leaflet';
+import { MapContainer, TileLayer, GeoJSON, useMapEvents, useMap } from 'react-leaflet';
 import { Layer } from 'leaflet';
-import { getApartmentRentColor, getWGRentColor, getDormitoryRentColor } from '../utils/colorScales';
+import { getUnfairnessColor } from '../utils/colorScales';
 import { MunichDistrict, DistrictsGeoJSON, RentType } from '../types';
 import { stadtviertelData } from '../data/stadtviertel';
+import { getAggregatedStatsByStadtviertel, AggregatedRentStats } from '../utils/userRentDatabase';
+import { getViertelCenter } from '../utils/geoUtils';
 import 'leaflet/dist/leaflet.css';
 
 interface MapProps {
   onDistrictClick: (district: MunichDistrict) => void;
   districtsData: DistrictsGeoJSON;
   rentType: RentType;
+  refreshTrigger?: number; // Used to trigger map refresh when user data changes
+  disableStadtviertelZoom?: boolean; // Disable zooming to stadtviertel (for Mietspiegel mode)
+  highlightStadtviertel?: string; // Stadtviertel ID to highlight
+  forceStadtviertelView?: boolean; // Always show stadtviertel regardless of zoom (for CheckRent mode)
+  onViertelClick?: (viertelId: string) => void; // Callback when a viertel is clicked
+  initialCenter?: [number, number]; // Initial map center
+  initialZoom?: number; // Initial map zoom level
+  zoomToViertel?: string | null; // Viertel ID to zoom to
+  onZoomComplete?: () => void; // Callback when zoom is complete
 }
 
 // Component to track zoom level
@@ -22,10 +33,44 @@ function ZoomTracker({ onZoomChange }: { onZoomChange: (zoom: number) => void })
   return null;
 }
 
-export const Map = ({ onDistrictClick, districtsData, rentType }: MapProps) => {
+// Component to handle zooming to a viertel
+function ViertelZoomer({ viertelId, onComplete }: { viertelId: string | null; onComplete?: () => void }) {
+  const map = useMap();
+
+  useEffect(() => {
+    if (viertelId) {
+      const center = getViertelCenter(viertelId);
+      if (center) {
+        map.flyTo(center, 15, { duration: 1.5 });
+        // Call onComplete after zoom animation
+        setTimeout(() => {
+          if (onComplete) onComplete();
+        }, 1500);
+      }
+    }
+  }, [viertelId, map, onComplete]);
+
+  return null;
+}
+
+export const Map = ({
+  onDistrictClick,
+  districtsData,
+  rentType,
+  refreshTrigger,
+  disableStadtviertelZoom = false,
+  highlightStadtviertel,
+  forceStadtviertelView = false,
+  onViertelClick,
+  initialCenter = [48.1351, 11.582],
+  initialZoom = 11,
+  zoomToViertel,
+  onZoomComplete
+}: MapProps) => {
   const [hoveredDistrict, setHoveredDistrict] = useState<string | null>(null);
   const [geoJsonKey, setGeoJsonKey] = useState(0);
   const [currentZoom, setCurrentZoom] = useState(11);
+  const [rentStatsMap, setRentStatsMap] = useState<Map<string, AggregatedRentStats>>(() => getAggregatedStatsByStadtviertel(rentType));
   const ZOOM_THRESHOLD = 13; // Show stadtviertel when zoom >= 13
 
   useEffect(() => {
@@ -33,10 +78,11 @@ export const Map = ({ onDistrictClick, districtsData, rentType }: MapProps) => {
     setGeoJsonKey(prev => prev + 1);
   }, [districtsData, currentZoom]);
 
-  const getRentColor =
-    rentType === 'apartment' ? getApartmentRentColor :
-    rentType === 'wg' ? getWGRentColor :
-    getDormitoryRentColor;
+  useEffect(() => {
+    // Refresh aggregated stats when user data changes or rent type changes
+    setRentStatsMap(getAggregatedStatsByStadtviertel(rentType));
+    setGeoJsonKey(prev => prev + 1);
+  }, [refreshTrigger, rentType]);
 
   const onEachFeature = (feature: any, layer: Layer) => {
     const district = feature as MunichDistrict;
@@ -45,9 +91,9 @@ export const Map = ({ onDistrictClick, districtsData, rentType }: MapProps) => {
     layer.bindTooltip(
       `<div>
         <strong>${district.properties.name}</strong><br/>
+        <strong>€${district.properties.rentData.pricePerSqm}/m²</strong><br/>
         Ø Miete: €${district.properties.rentData.averageRent}<br/>
-        Fair Miete: €${district.properties.rentData.fairRent}<br/>
-        €${district.properties.rentData.pricePerSqm}/m²
+        Fair Miete: €${district.properties.rentData.fairRent}
       </div>`,
       { sticky: true }
     );
@@ -75,20 +121,32 @@ export const Map = ({ onDistrictClick, districtsData, rentType }: MapProps) => {
 
   // Handler for stadtviertel features (neighborhoods)
   const onEachStadtviertel = (feature: any, layer: Layer) => {
-    const viertelName = feature.properties?.vi_nummer || 'Unknown';
+    const viertelId = feature.properties?.vi_nummer || feature.id;
+    const rentStats = rentStatsMap.get(viertelId);
+
+    // Build tooltip content
+    let tooltipContent = `<div><strong>Viertel: ${viertelId}</strong><br/>`;
+
+    if (rentStats && rentStats.entryCount > 0) {
+      const unfairnessSign = rentStats.unfairnessPercentage >= 0 ? '+' : '';
+      tooltipContent += `
+        <strong>€${rentStats.avgPricePerSqm}/m²</strong> (${rentStats.entryCount} entries)<br/>
+        Fair: €${rentStats.fairPricePerSqm.toFixed(2)}/m²<br/>
+        <strong style="color: ${getUnfairnessColor(rentStats.unfairnessPercentage)}">${unfairnessSign}${rentStats.unfairnessPercentage.toFixed(1)}%</strong> vs Fair<br/>
+        Ø Miete: €${rentStats.avgRent} | Ø ${rentStats.avgM2}m²
+      `;
+    } else {
+      tooltipContent += `<em>No user data yet</em>`;
+    }
+
+    tooltipContent += '</div>';
 
     // Bind tooltip
-    layer.bindTooltip(
-      `<div>
-        <strong>Viertel: ${viertelName}</strong><br/>
-        <em>Detailed rent data coming soon</em>
-      </div>`,
-      { sticky: true }
-    );
+    layer.bindTooltip(tooltipContent, { sticky: true });
 
     layer.on({
       mouseover: () => {
-        setHoveredDistrict(viertelName);
+        setHoveredDistrict(rentStats ? `${viertelId} (${rentStats.entryCount} entries)` : viertelId);
         (layer as any).setStyle({
           weight: 2,
           fillOpacity: 0.7
@@ -100,39 +158,42 @@ export const Map = ({ onDistrictClick, districtsData, rentType }: MapProps) => {
           weight: 1,
           fillOpacity: 0.5
         });
+      },
+      click: () => {
+        if (onViertelClick) {
+          onViertelClick(viertelId);
+        }
       }
     });
   };
 
-  const getStyle = (feature: any) => {
-    const district = feature as MunichDistrict;
-    const color = getRentColor(district.properties.rentData.averageRent);
+  // Style for stadtviertel (color by unfairness)
+  const getStadtviertelStyle = (feature: any) => {
+    const viertelId = feature.properties?.vi_nummer || feature.id;
+    const rentStats = rentStatsMap.get(viertelId);
+    const isHighlighted = highlightStadtviertel === viertelId;
+
+    let fillColor = '#CCCCCC'; // Gray for no data
+
+    if (rentStats && rentStats.entryCount > 0) {
+      // Use unfairness color scale
+      fillColor = getUnfairnessColor(rentStats.unfairnessPercentage);
+    }
 
     return {
-      fillColor: color,
-      weight: 2,
+      fillColor: fillColor,
+      weight: isHighlighted ? 4 : 1, // Thicker border for highlighted
       opacity: 1,
-      color: '#666',
-      fillOpacity: 0.6
-    };
-  };
-
-  // Style for stadtviertel (simple blue color for now)
-  const getStadtviertelStyle = () => {
-    return {
-      fillColor: '#4A90E2',
-      weight: 1,
-      opacity: 1,
-      color: '#2E5C8A',
-      fillOpacity: 0.5
+      color: isHighlighted ? '#FF6B00' : '#666', // Orange border for highlighted
+      fillOpacity: rentStats && rentStats.entryCount > 0 ? 0.6 : 0.3
     };
   };
 
   return (
     <div style={{ position: 'relative', height: '100%', width: '100%' }}>
       <MapContainer
-        center={[48.1351, 11.582]}
-        zoom={11}
+        center={initialCenter}
+        zoom={initialZoom}
         style={{ height: '100%', width: '100%' }}
       >
         <TileLayer
@@ -140,29 +201,18 @@ export const Map = ({ onDistrictClick, districtsData, rentType }: MapProps) => {
           url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
         />
         <ZoomTracker onZoomChange={setCurrentZoom} />
+        <ViertelZoomer viertelId={zoomToViertel} onComplete={onZoomComplete} />
 
-        {/* Show Bezirke (districts) when zoomed out */}
-        {currentZoom < ZOOM_THRESHOLD && (
-          <GeoJSON
-            key={`bezirke-${geoJsonKey}`}
-            data={districtsData as any}
-            style={getStyle}
-            onEachFeature={onEachFeature}
-          />
-        )}
-
-        {/* Show Stadtviertel (neighborhoods) when zoomed in */}
-        {currentZoom >= ZOOM_THRESHOLD && (
-          <GeoJSON
-            key={`viertel-${geoJsonKey}`}
-            data={stadtviertelData as any}
-            style={getStadtviertelStyle}
-            onEachFeature={onEachStadtviertel}
-          />
-        )}
+        {/* Always show Stadtviertel with unfairness coloring */}
+        <GeoJSON
+          key={`viertel-${geoJsonKey}`}
+          data={stadtviertelData as any}
+          style={getStadtviertelStyle}
+          onEachFeature={onEachStadtviertel}
+        />
       </MapContainer>
 
-      {/* Zoom indicator */}
+      {/* Zoom indicator 
       <div style={{
         position: 'absolute',
         bottom: '20px',
@@ -178,7 +228,7 @@ export const Map = ({ onDistrictClick, districtsData, rentType }: MapProps) => {
       }}>
         {currentZoom >= ZOOM_THRESHOLD ? '🔍 Stadtviertel' : '📍 Bezirke'} (Zoom: {currentZoom})
       </div>
-
+      */}
       {hoveredDistrict && (
         <div style={{
           position: 'absolute',

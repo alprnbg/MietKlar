@@ -12,40 +12,76 @@ import { TrustScore } from './components/TrustScore';
 import { LegalAICheck } from './components/LegalAICheck';
 import { MoveInHub } from './components/MoveInHub';
 import { ScamPrevention } from './components/ScamPrevention';
+import { StartPage } from './components/StartPage';
+import { StadtviertelDetail } from './components/StadtviertelDetail';
+import { ViertelSuggestionModal } from './components/ViertelSuggestionModal';
 import { MunichDistrict, UserRentData, RentType } from './types';
 import { getDistrictsWithRentType } from './utils/rentDataUtils';
 import { useLanguage } from './i18n/LanguageContext';
+import { useTheme } from './contexts/ThemeContext';
+import { getViertelCenter } from './utils/geoUtils';
+import {
+  saveUserRentEntry,
+  getLatestUserRentEntry,
+  clearAllUserRentEntries
+} from './utils/userRentDatabase';
 import './App.css';
 
 type ViewMode = 'map' | 'rentRadar' | 'trustScore' | 'legalAI' | 'moveInHub' | 'scamPrevention';
+type FlowMode = 'mietspiegel' | 'checkRent' | null;
 
-const STORAGE_KEY = 'munich-rent-user-data';
 const RENT_TYPE_KEY = 'munich-rent-type';
+const FLOW_MODE_KEY = 'munich-flow-mode';
 
 function App() {
-  const { t, language } = useLanguage();
+  const { language } = useLanguage();
+  const { colors } = useTheme();
+  const [flowMode, setFlowMode] = useState<FlowMode>(null);
   const [viewMode, setViewMode] = useState<ViewMode>('map');
   const [selectedDistrict, setSelectedDistrict] = useState<MunichDistrict | null>(null);
+  const [selectedViertel, setSelectedViertel] = useState<string | null>(null);
   const [showRentForm, setShowRentForm] = useState(false);
   const [showSimulator, setShowSimulator] = useState(false);
   const [userRentData, setUserRentData] = useState<UserRentData | null>(null);
   const [rentType, setRentType] = useState<RentType>('apartment');
+  const [mapRefreshTrigger, setMapRefreshTrigger] = useState(0);
+  const [showSuggestionModal, setShowSuggestionModal] = useState(false);
+  const [highlightedViertel, setHighlightedViertel] = useState<string | null>(null);
+  const [zoomToViertel, setZoomToViertel] = useState<string | null>(null);
 
   useEffect(() => {
-    const stored = localStorage.getItem(STORAGE_KEY);
-    if (stored) {
-      try {
-        setUserRentData(JSON.parse(stored));
-      } catch (e) {
-        console.error('Failed to load user rent data', e);
-      }
+    // Load the latest user rent entry for display
+    const latestEntry = getLatestUserRentEntry();
+    if (latestEntry) {
+      setUserRentData(latestEntry);
     }
 
     const storedRentType = localStorage.getItem(RENT_TYPE_KEY) as RentType;
     if (storedRentType === 'apartment' || storedRentType === 'wg' || storedRentType === 'dormitory') {
       setRentType(storedRentType);
     }
+
+    const storedFlowMode = localStorage.getItem(FLOW_MODE_KEY) as FlowMode;
+    if (storedFlowMode === 'mietspiegel' || storedFlowMode === 'checkRent') {
+      setFlowMode(storedFlowMode);
+    }
   }, []);
+
+  const handleSelectFlow = (flow: 'mietspiegel' | 'checkRent') => {
+    setFlowMode(flow);
+    localStorage.setItem(FLOW_MODE_KEY, flow);
+
+    // If checkRent mode and no user data, show rent form immediately
+    if (flow === 'checkRent' && !userRentData) {
+      setShowRentForm(true);
+    }
+  };
+
+  const handleResetFlow = () => {
+    setFlowMode(null);
+    localStorage.removeItem(FLOW_MODE_KEY);
+    setViewMode('map');
+  };
 
   const handleRentTypeChange = (newType: RentType) => {
     setRentType(newType);
@@ -55,71 +91,140 @@ function App() {
 
   const districtsData = getDistrictsWithRentType(rentType);
 
+  // Calculate initial map center and zoom for checkRent mode
+  const getInitialMapSettings = (): { center: [number, number], zoom: number } => {
+    if (flowMode === 'checkRent' && userRentData?.stadtviertel) {
+      const viertelCenter = getViertelCenter(userRentData.stadtviertel);
+      if (viertelCenter) {
+        return { center: viertelCenter, zoom: 14 };
+      }
+    }
+    return { center: [48.1351, 11.582], zoom: 11 };
+  };
+
+  const mapSettings = getInitialMapSettings();
+
   const handleSaveRent = (data: UserRentData) => {
+    saveUserRentEntry(data);
     setUserRentData(data);
-    localStorage.setItem(STORAGE_KEY, JSON.stringify(data));
     setShowRentForm(false);
+    // Trigger map refresh to show new data
+    setMapRefreshTrigger(prev => prev + 1);
   };
 
   const handleDeleteRent = () => {
-    if (confirm('Möchten Sie Ihre Mietdaten wirklich löschen?')) {
+    if (confirm('Möchten Sie alle Ihre Mietdaten wirklich löschen?')) {
+      clearAllUserRentEntries();
       setUserRentData(null);
-      localStorage.removeItem(STORAGE_KEY);
+      // Trigger map refresh to remove user data
+      setMapRefreshTrigger(prev => prev + 1);
     }
   };
 
-  const menuItems = [
-    { id: 'map' as ViewMode, icon: '🗺️', label: language === 'de' ? 'Karte' : 'Map' },
-    { id: 'rentRadar' as ViewMode, icon: '🎯', label: 'RentRadar' },
-    { id: 'trustScore' as ViewMode, icon: '⭐', label: 'TrustScore' },
-    { id: 'legalAI' as ViewMode, icon: '⚖️', label: 'LegalAI' },
-    { id: 'moveInHub' as ViewMode, icon: '🏠', label: 'Move-in Hub' },
-    { id: 'scamPrevention' as ViewMode, icon: '🛡️', label: 'Scam Guard' }
-  ];
+  // Menu items for navigation (currently commented out in UI)
+  // const menuItems = [
+  //   { id: 'map' as ViewMode, icon: '🗺️', label: language === 'de' ? 'Karte' : 'Map' },
+  //   { id: 'rentRadar' as ViewMode, icon: '🎯', label: 'RentRadar' },
+  //   { id: 'trustScore' as ViewMode, icon: '⭐', label: 'TrustScore' },
+  //   { id: 'legalAI' as ViewMode, icon: '⚖️', label: 'LegalAI' },
+  //   { id: 'moveInHub' as ViewMode, icon: '🏠', label: 'Move-in Hub' },
+  //   { id: 'scamPrevention' as ViewMode, icon: '🛡️', label: 'Scam Guard' }
+  // ];
+
+  // Show StartPage if no flow selected
+  if (!flowMode) {
+    return <StartPage onSelectFlow={handleSelectFlow} />;
+  }
 
   return (
-    <div className="app">
-      <header className="header">
+    <div className="app" style={{ background: colors.background, minHeight: '100vh' }}>
+      <header className="header" style={{ background: colors.headerBg }}>
         <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', flexWrap: 'wrap', gap: '16px' }}>
-          <div>
-            <h1 style={{ fontSize: '28px', marginBottom: '4px' }}>{t('appTitle')}</h1>
-            <p style={{ margin: 0, fontSize: '14px', opacity: 0.9 }}>
-              {t('appSubtitle')} {viewMode === 'map' && `- ${
-                rentType === 'apartment' ? t('apartments') :
-                rentType === 'wg' ? t('wgRooms') :
-                t('dormitories')
-              }`}
-            </p>
+          <div style={{ display: 'flex', alignItems: 'center', gap: '16px' }}>
+            <img
+              src={colors.logo}
+              alt="Munich Logo"
+              style={{
+                height: '50px',
+                width: 'auto',
+                filter: 'drop-shadow(0 2px 4px rgba(0,0,0,0.2))'
+              }}
+              onError={(e) => {
+                // Fallback if image doesn't load
+                e.currentTarget.style.display = 'none';
+              }}
+            />
+            <button
+              onClick={handleResetFlow}
+              style={{
+                background: 'rgba(0,0,0,0.1)',
+                border: `1px solid ${colors.primary}`,
+                borderRadius: '6px',
+                color: colors.headerText,
+                padding: '8px 12px',
+                cursor: 'pointer',
+                fontSize: '14px',
+                display: 'flex',
+                alignItems: 'center',
+                gap: '6px',
+                fontWeight: '500'
+              }}
+            >
+              ← {language === 'de' ? 'Zurück' : 'Back'}
+            </button>
+            <div>
+              <h1 style={{ fontSize: '28px', marginBottom: '4px', color: colors.headerText }}>
+                {flowMode === 'mietspiegel'
+                  ? (language === 'de' ? 'Mietspiegel' : 'Rent Index')
+                  : (language === 'de' ? 'Mietpreis-Prüfung' : 'Rent Check')}
+              </h1>
+              <p style={{ margin: 0, fontSize: '14px', opacity: 0.9, color: colors.headerText }}>
+                {flowMode === 'mietspiegel'
+                  ? (language === 'de' ? 'Übersicht der Mietpreise in München' : 'Overview of rent prices in Munich')
+                  : (language === 'de' ? 'Prüfen Sie, ob Ihre Miete fair ist' : 'Check if your rent is fair')}
+              </p>
+            </div>
           </div>
-          {viewMode === 'map' && (
+          {viewMode === 'map' && flowMode === 'checkRent' && (
             <div style={{ display: 'flex', gap: '12px' }}>
-              <button
-                onClick={() => setShowSimulator(true)}
-                style={{
-                  padding: '12px 20px',
-                  background: 'white',
-                  color: '#1976d2',
-                  border: '2px solid white',
-                  borderRadius: '8px',
-                  fontSize: '14px',
-                  fontWeight: '600',
-                  cursor: 'pointer',
-                  display: 'flex',
-                  alignItems: 'center',
-                  gap: '8px',
-                  whiteSpace: 'nowrap'
-                }}
-              >
-                <span style={{ fontSize: '16px' }}>📊</span>
-                {t('rentSimulator')}
-              </button>
+              {userRentData && (
+                <button
+                  onClick={() => setShowSuggestionModal(true)}
+                  style={{
+                    padding: '12px 20px',
+                    background: 'rgba(255,255,255,0.2)',
+                    color: colors.headerText,
+                    border: `2px solid ${colors.primary}`,
+                    borderRadius: '8px',
+                    fontSize: '14px',
+                    fontWeight: '600',
+                    cursor: 'pointer',
+                    display: 'flex',
+                    alignItems: 'center',
+                    gap: '8px',
+                    whiteSpace: 'nowrap',
+                    transition: 'all 0.2s'
+                  }}
+                  onMouseEnter={(e) => {
+                    e.currentTarget.style.background = colors.primary;
+                    e.currentTarget.style.color = '#000000';
+                  }}
+                  onMouseLeave={(e) => {
+                    e.currentTarget.style.background = 'rgba(255,255,255,0.2)';
+                    e.currentTarget.style.color = colors.headerText;
+                  }}
+                >
+                  <span style={{ fontSize: '16px' }}>🏘️</span>
+                  {language === 'de' ? 'Viertel finden' : 'Find Neighborhood'}
+                </button>
+              )}
               <button
                 onClick={() => setShowRentForm(true)}
                 style={{
                   padding: '12px 20px',
-                  background: 'white',
-                  color: '#1976d2',
-                  border: '2px solid white',
+                  background: colors.primary,
+                  color: '#000000',
+                  border: `2px solid ${colors.primary}`,
                   borderRadius: '8px',
                   fontSize: '14px',
                   fontWeight: '600',
@@ -131,14 +236,15 @@ function App() {
                 }}
               >
                 <span style={{ fontSize: '16px' }}>+</span>
-                {userRentData ? t('editRent') : t('addRent')}
+                {userRentData ? (language === 'de' ? 'Bearbeiten' : 'Edit') : (language === 'de' ? 'Miete eingeben' : 'Enter Rent')}
               </button>
             </div>
           )}
         </div>
       </header>
 
-      {/* Navigation Menu */}
+      {/*
+      Navigation Menu
       <nav style={{
         background: '#2c3e50',
         padding: '0',
@@ -193,16 +299,75 @@ function App() {
           ))}
         </div>
       </nav>
+      */}
+
 
       {/* Main Content */}
       {viewMode === 'map' ? (
+        flowMode === 'checkRent' && !userRentData ? (
+          // Show placeholder when no rent data in checkRent mode
+          <div style={{
+            display: 'flex',
+            flexDirection: 'column',
+            alignItems: 'center',
+            justifyContent: 'center',
+            height: 'calc(100vh - 120px)',
+            padding: '40px',
+            textAlign: 'center'
+          }}>
+            <div style={{ fontSize: '80px', marginBottom: '24px' }}>📍</div>
+            <h2 style={{ fontSize: '32px', color: colors.primary, marginBottom: '16px' }}>
+              {language === 'de' ? 'Geben Sie Ihre Miete ein' : 'Enter Your Rent'}
+            </h2>
+            <p style={{ fontSize: '18px', color: colors.textSecondary, marginBottom: '32px', maxWidth: '600px' }}>
+              {language === 'de'
+                ? 'Um Ihre Mietpreise mit anderen zu vergleichen und faire Viertel zu finden, geben Sie bitte zuerst Ihre Mietdaten ein.'
+                : 'To compare your rent prices with others and find fair neighborhoods, please enter your rent data first.'}
+            </p>
+            <button
+              onClick={() => setShowRentForm(true)}
+              style={{
+                padding: '16px 32px',
+                background: colors.primary,
+                color: '#000000',
+                border: 'none',
+                borderRadius: '8px',
+                fontSize: '18px',
+                fontWeight: '700',
+                cursor: 'pointer',
+                boxShadow: '0 4px 12px rgba(255, 204, 0, 0.3)'
+              }}
+            >
+              {language === 'de' ? '+ Miete eingeben' : '+ Enter Rent'}
+            </button>
+          </div>
+        ) : (
         <div className="map-container">
+          {/* Show rent type switcher for both modes */}
           <RentTypeSwitcher activeType={rentType} onChange={handleRentTypeChange} />
-          <LanguageSwitcher />
-          <Map onDistrictClick={setSelectedDistrict} districtsData={districtsData} rentType={rentType} />
+          {flowMode === 'mietspiegel' && (
+            <LanguageSwitcher />
+          )}
+          <Map
+            onDistrictClick={setSelectedDistrict}
+            districtsData={districtsData}
+            rentType={rentType}
+            refreshTrigger={mapRefreshTrigger}
+            disableStadtviertelZoom={flowMode === 'mietspiegel'}
+            highlightStadtviertel={
+              highlightedViertel ||
+              (flowMode === 'checkRent' && userRentData ? userRentData.stadtviertel : undefined)
+            }
+            forceStadtviertelView={flowMode === 'checkRent'}
+            onViertelClick={flowMode === 'checkRent' ? setSelectedViertel : undefined}
+            initialCenter={mapSettings.center}
+            initialZoom={mapSettings.zoom}
+            zoomToViertel={zoomToViertel}
+            onZoomComplete={() => setZoomToViertel(null)}
+          />
           <Legend rentType={rentType} />
 
-          {userRentData && (
+          {userRentData && flowMode === 'checkRent' && userRentData.rentType === rentType && (
             <UserRentDisplay
               userData={userRentData}
               onEdit={() => setShowRentForm(true)}
@@ -214,7 +379,17 @@ function App() {
             district={selectedDistrict}
             onClose={() => setSelectedDistrict(null)}
           />
+
+          {flowMode === 'checkRent' && (
+            <StadtviertelDetail
+              viertelId={selectedViertel}
+              onClose={() => setSelectedViertel(null)}
+              userStadtviertel={userRentData?.stadtviertel}
+              rentType={rentType}
+            />
+          )}
         </div>
+        )
       ) : (
         <div className="content-view">
           {viewMode === 'rentRadar' ? (
@@ -246,6 +421,20 @@ function App() {
           fairRent={selectedDistrict?.properties.rentData.fairRent}
         />
       )}
+
+      <ViertelSuggestionModal
+        isOpen={showSuggestionModal}
+        onClose={() => {
+          setShowSuggestionModal(false);
+          setHighlightedViertel(null);
+        }}
+        onViertelClick={(viertelId) => {
+          setSelectedViertel(viertelId);
+          setViewMode('map');
+          setZoomToViertel(viertelId);
+        }}
+        onHoverViertel={setHighlightedViertel}
+      />
     </div>
   );
 }

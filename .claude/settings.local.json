@@ -16,7 +16,13 @@
       "Bash(npx cap init:*)",
       "Bash(npx cap:*)",
       "Bash(python convert_stadtviertel.py:*)",
-      "Bash(node generate_rent_data.js:*)"
+      "Bash(node generate_rent_data.js:*)",
+      "Bash(node generate_rent_data.cjs:*)",
+      "Bash(node generate_rent_data_v2.cjs:*)",
+      "Bash(node -e:*)",
+      "Bash(node fetch_munich_pois.js:*)",
+      "Bash(node fetch_munich_pois.cjs:*)",
+      "Bash(node update_stadtviertel_pois.cjs:*)"
     ],
     "deny": [],
     "ask": []

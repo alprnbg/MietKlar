@@ -1,6 +1,10 @@
-import { useState } from 'react';
-import { UserRentData, RentType } from '../types';
-import { munichDistrictsData } from '../data/munichDistricts_real';
+import { useState, useCallback } from 'react';
+import { MapContainer, TileLayer, Marker, useMapEvents } from 'react-leaflet';
+import { LatLng } from 'leaflet';
+import { UserRentData, RentType, OwnerType, ApartmentSource } from '../types';
+import { findStadtviertel } from '../utils/geoUtils';
+import { useTheme } from '../contexts/ThemeContext';
+import 'leaflet/dist/leaflet.css';
 
 interface RentEntryFormProps {
   onClose: () => void;
@@ -9,8 +13,19 @@ interface RentEntryFormProps {
   currentRentType: RentType;
 }
 
+// Map click handler component
+function LocationPicker({ onLocationSelect }: { onLocationSelect: (lat: number, lng: number) => void }) {
+  useMapEvents({
+    click(e) {
+      onLocationSelect(e.latlng.lat, e.latlng.lng);
+    },
+  });
+  return null;
+}
+
 export const RentEntryForm = ({ onClose, onSubmit, existingData, currentRentType }: RentEntryFormProps) => {
-  const [formData, setFormData] = useState<Partial<UserRentData>>(existingData || {
+  const { colors } = useTheme();
+  const [formData, setFormData] = useState<Partial<UserRentData>>(existingData ? existingData : {
     district: '',
     rentType: currentRentType,
     monthlyRent: 0,
@@ -19,22 +34,52 @@ export const RentEntryForm = ({ onClose, onSubmit, existingData, currentRentType
     yearBuilt: new Date().getFullYear(),
     hasBalcony: false,
     hasElevator: false,
-    heatingIncluded: false,
-    description: ''
+    recentlyRenovated: false,
+    ownerType: 'private' as OwnerType,
+    ownerCompanyName: '',
+    apartmentSource: 'immobilienscout24' as ApartmentSource,
+    description: '',
+    coordinates: undefined,
+    stadtviertel: undefined
   });
 
+  const [selectedLocation, setSelectedLocation] = useState<LatLng | null>(
+    existingData?.coordinates
+      ? new LatLng(existingData.coordinates.lat, existingData.coordinates.lng)
+      : null
+  );
   const [errors, setErrors] = useState<Record<string, string>>({});
+  const [contractPhoto, setContractPhoto] = useState<File | null>(null);
+  const [isValidating, setIsValidating] = useState(false);
+  const [validationProgress, setValidationProgress] = useState(0);
+  const [currentStep, setCurrentStep] = useState<'form' | 'upload'>('form');
 
-  const districts = munichDistrictsData.features
-    .map(f => f.properties.name)
-    .sort();
+  // Handle map click to select location
+  const handleLocationSelect = useCallback((lat: number, lng: number) => {
+    const viertel = findStadtviertel(lng, lat);
+    setSelectedLocation(new LatLng(lat, lng));
+    setFormData(prev => ({
+      ...prev,
+      coordinates: { lat, lng },
+      stadtviertel: viertel || undefined,
+      district: viertel || '' // Use stadtviertel as district for compatibility
+    }));
+    // Clear location error if it exists
+    if (errors.coordinates) {
+      setErrors(prev => {
+        const newErrors = { ...prev };
+        delete newErrors.coordinates;
+        return newErrors;
+      });
+    }
+  }, [errors.coordinates]);
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleFormSubmit = (e: React.FormEvent) => {
     e.preventDefault();
 
     const newErrors: Record<string, string> = {};
 
-    if (!formData.district) newErrors.district = 'Bitte wählen Sie einen Stadtbezirk';
+    if (!formData.coordinates) newErrors.coordinates = 'Bitte wählen Sie einen Standort auf der Karte';
     if (!formData.monthlyRent || formData.monthlyRent <= 0) newErrors.monthlyRent = 'Bitte geben Sie die Miete ein';
     if (!formData.apartmentSize || formData.apartmentSize <= 0) newErrors.apartmentSize = 'Bitte geben Sie die Wohnungsgröße ein';
 
@@ -43,8 +88,17 @@ export const RentEntryForm = ({ onClose, onSubmit, existingData, currentRentType
       return;
     }
 
+    // Move to upload step
+    setCurrentStep('upload');
+  };
+
+  const handleFinalSubmit = () => {
+    if (!contractPhoto) {
+      return;
+    }
+
     const userData: UserRentData = {
-      district: formData.district!,
+      district: formData.stadtviertel || formData.district || 'Unknown',
       rentType: currentRentType,
       monthlyRent: formData.monthlyRent!,
       apartmentSize: formData.apartmentSize!,
@@ -52,9 +106,15 @@ export const RentEntryForm = ({ onClose, onSubmit, existingData, currentRentType
       yearBuilt: formData.yearBuilt || new Date().getFullYear(),
       hasBalcony: formData.hasBalcony || false,
       hasElevator: formData.hasElevator || false,
-      heatingIncluded: formData.heatingIncluded || false,
+      recentlyRenovated: formData.recentlyRenovated || false,
+      ownerType: formData.ownerType || 'private',
+      ownerCompanyName: formData.ownerType === 'company' ? formData.ownerCompanyName : undefined,
+      apartmentSource: formData.apartmentSource || 'immobilienscout24',
       description: formData.description || '',
-      dateEntered: new Date().toISOString()
+      dateEntered: new Date().toISOString(),
+      coordinates: formData.coordinates,
+      stadtviertel: formData.stadtviertel,
+      pricePerSqm: formData.monthlyRent! / formData.apartmentSize!
     };
 
     onSubmit(userData);
@@ -68,6 +128,29 @@ export const RentEntryForm = ({ onClose, onSubmit, existingData, currentRentType
         delete newErrors[field];
         return newErrors;
       });
+    }
+  };
+
+  const handleContractUpload = (e: React.ChangeEvent<HTMLInputElement>) => {
+    const file = e.target.files?.[0];
+    if (file) {
+      setContractPhoto(file);
+      setIsValidating(true);
+      setValidationProgress(0);
+
+      // Simulate validation process with progress
+      const interval = setInterval(() => {
+        setValidationProgress(prev => {
+          if (prev >= 100) {
+            clearInterval(interval);
+            setTimeout(() => {
+              setIsValidating(false);
+            }, 500);
+            return 100;
+          }
+          return prev + 10;
+        });
+      }, 200);
     }
   };
 
@@ -90,19 +173,40 @@ export const RentEntryForm = ({ onClose, onSubmit, existingData, currentRentType
       padding: '20px'
     }}>
       <div style={{
-        background: 'white',
+        background: colors.background,
         borderRadius: '12px',
         padding: '32px',
         maxWidth: '600px',
         width: '100%',
         maxHeight: '90vh',
         overflowY: 'auto',
-        boxShadow: '0 10px 40px rgba(0,0,0,0.3)'
+        boxShadow: '0 10px 40px rgba(0,0,0,0.3)',
+        border: `2px solid ${colors.border}`
       }}>
         <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '24px' }}>
-          <h2 style={{ margin: 0, color: '#1976d2' }}>
-            {currentRentType === 'apartment' ? 'Ihre Wohnung eingeben' : 'Ihr WG-Zimmer eingeben'}
-          </h2>
+          <div style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
+            {currentStep === 'upload' && (
+              <button
+                onClick={() => setCurrentStep('form')}
+                style={{
+                  background: 'none',
+                  border: 'none',
+                  fontSize: '24px',
+                  cursor: 'pointer',
+                  color: colors.textSecondary,
+                  padding: 0,
+                  lineHeight: 1
+                }}
+              >
+                ←
+              </button>
+            )}
+            <h2 style={{ margin: 0, color: colors.primary }}>
+              {currentStep === 'form'
+                ? (currentRentType === 'apartment' ? 'Ihre Wohnung eingeben' : 'Ihr WG-Zimmer eingeben')
+                : 'Mietvertrag hochladen'}
+            </h2>
+          </div>
           <button
             onClick={onClose}
             style={{
@@ -110,7 +214,7 @@ export const RentEntryForm = ({ onClose, onSubmit, existingData, currentRentType
               border: 'none',
               fontSize: '28px',
               cursor: 'pointer',
-              color: '#666',
+              color: colors.textSecondary,
               padding: 0,
               lineHeight: 1
             }}
@@ -119,33 +223,90 @@ export const RentEntryForm = ({ onClose, onSubmit, existingData, currentRentType
           </button>
         </div>
 
-        <form onSubmit={handleSubmit}>
+        {/* Progress indicator */}
+        <div style={{
+          display: 'flex',
+          gap: '8px',
+          marginBottom: '24px',
+          justifyContent: 'center'
+        }}>
+          <div style={{
+            flex: 1,
+            height: '4px',
+            borderRadius: '2px',
+            background: colors.primary
+          }} />
+          <div style={{
+            flex: 1,
+            height: '4px',
+            borderRadius: '2px',
+            background: currentStep === 'upload' ? colors.primary : colors.border
+          }} />
+        </div>
+
+        {currentStep === 'form' ? (
+        <form onSubmit={handleFormSubmit}>
+          {/* Map Location Picker */}
           <div style={{ marginBottom: '20px' }}>
-            <label style={{ display: 'block', marginBottom: '8px', fontWeight: '500', color: '#333' }}>
-              Stadtbezirk *
+            <label style={{ display: 'block', marginBottom: '8px', fontWeight: '500', color: colors.text }}>
+              Standort auf Karte wählen *
             </label>
-            <select
-              value={formData.district || ''}
-              onChange={(e) => handleChange('district', e.target.value)}
-              style={{
-                width: '100%',
+            <div style={{
+              width: '100%',
+              height: '300px',
+              border: `2px solid ${errors.coordinates ? '#d32f2f' : '#ddd'}`,
+              borderRadius: '8px',
+              overflow: 'hidden',
+              marginBottom: '8px'
+            }}>
+              <MapContainer
+                center={[48.1351, 11.582]}
+                zoom={12}
+                style={{ height: '100%', width: '100%' }}
+              >
+                <TileLayer
+                  attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+                  url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+                />
+                <LocationPicker onLocationSelect={handleLocationSelect} />
+                {selectedLocation && (
+                  <Marker position={selectedLocation} />
+                )}
+              </MapContainer>
+            </div>
+            {selectedLocation && formData.stadtviertel && (
+              <div style={{
+                background: '#e8f5e9',
                 padding: '10px',
-                border: `1px solid ${errors.district ? '#d32f2f' : '#ddd'}`,
                 borderRadius: '6px',
-                fontSize: '14px'
-              }}
-            >
-              <option value="">Bitte wählen...</option>
-              {districts.map(district => (
-                <option key={district} value={district}>{district}</option>
-              ))}
-            </select>
-            {errors.district && <span style={{ color: '#d32f2f', fontSize: '12px' }}>{errors.district}</span>}
+                fontSize: '13px',
+                color: '#2e7d32',
+                marginBottom: '8px'
+              }}>
+                ✓ Stadtviertel: <strong>{formData.stadtviertel}</strong>
+              </div>
+            )}
+            {selectedLocation && !formData.stadtviertel && (
+              <div style={{
+                background: colors.surfaceHover,
+                padding: '10px',
+                borderRadius: '6px',
+                fontSize: '13px',
+                color: '#e65100',
+                marginBottom: '8px'
+              }}>
+                ⚠ Gewählter Standort liegt außerhalb der bekannten Stadtviertel
+              </div>
+            )}
+            {errors.coordinates && <span style={{ color: '#d32f2f', fontSize: '12px' }}>{errors.coordinates}</span>}
+            <p style={{ fontSize: '12px', color: colors.textSecondary, margin: '8px 0 0 0' }}>
+              Klicken Sie auf die Karte, um Ihren Standort zu markieren
+            </p>
           </div>
 
           <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '16px', marginBottom: '20px' }}>
             <div>
-              <label style={{ display: 'block', marginBottom: '8px', fontWeight: '500', color: '#333' }}>
+              <label style={{ display: 'block', marginBottom: '8px', fontWeight: '500', color: colors.text }}>
                 Monatliche Miete (€) *
               </label>
               <input
@@ -157,7 +318,9 @@ export const RentEntryForm = ({ onClose, onSubmit, existingData, currentRentType
                   padding: '10px',
                   border: `1px solid ${errors.monthlyRent ? '#d32f2f' : '#ddd'}`,
                   borderRadius: '6px',
-                  fontSize: '14px'
+                  fontSize: '14px',
+                  background: '#FFFFFF',
+                  color: '#000000'
                 }}
                 placeholder="z.B. 1200"
               />
@@ -165,7 +328,7 @@ export const RentEntryForm = ({ onClose, onSubmit, existingData, currentRentType
             </div>
 
             <div>
-              <label style={{ display: 'block', marginBottom: '8px', fontWeight: '500', color: '#333' }}>
+              <label style={{ display: 'block', marginBottom: '8px', fontWeight: '500', color: colors.text }}>
                 Wohnungsgröße (m²) *
               </label>
               <input
@@ -177,7 +340,9 @@ export const RentEntryForm = ({ onClose, onSubmit, existingData, currentRentType
                   padding: '10px',
                   border: `1px solid ${errors.apartmentSize ? '#d32f2f' : '#ddd'}`,
                   borderRadius: '6px',
-                  fontSize: '14px'
+                  fontSize: '14px',
+                  background: '#FFFFFF',
+                  color: '#000000'
                 }}
                 placeholder="z.B. 65"
               />
@@ -187,12 +352,13 @@ export const RentEntryForm = ({ onClose, onSubmit, existingData, currentRentType
 
           {formData.monthlyRent && formData.apartmentSize && (
             <div style={{
-              background: '#e3f2fd',
+              background: colors.surfaceHover,
               padding: '12px',
               borderRadius: '6px',
               marginBottom: '20px',
               fontSize: '14px',
-              color: '#1976d2'
+              color: colors.primary,
+              border: `1px solid ${colors.border}`
             }}>
               <strong>Preis pro m²: €{pricePerSqm}</strong>
             </div>
@@ -200,7 +366,7 @@ export const RentEntryForm = ({ onClose, onSubmit, existingData, currentRentType
 
           <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '16px', marginBottom: '20px' }}>
             <div>
-              <label style={{ display: 'block', marginBottom: '8px', fontWeight: '500', color: '#333' }}>
+              <label style={{ display: 'block', marginBottom: '8px', fontWeight: '500', color: colors.text }}>
                 Anzahl Zimmer
               </label>
               <input
@@ -214,13 +380,15 @@ export const RentEntryForm = ({ onClose, onSubmit, existingData, currentRentType
                   padding: '10px',
                   border: '1px solid #ddd',
                   borderRadius: '6px',
-                  fontSize: '14px'
+                  fontSize: '14px',
+                  background: '#FFFFFF',
+                  color: '#000000'
                 }}
               />
             </div>
 
             <div>
-              <label style={{ display: 'block', marginBottom: '8px', fontWeight: '500', color: '#333' }}>
+              <label style={{ display: 'block', marginBottom: '8px', fontWeight: '500', color: colors.text }}>
                 Baujahr
               </label>
               <input
@@ -234,7 +402,9 @@ export const RentEntryForm = ({ onClose, onSubmit, existingData, currentRentType
                   padding: '10px',
                   border: '1px solid #ddd',
                   borderRadius: '6px',
-                  fontSize: '14px'
+                  fontSize: '14px',
+                  background: '#FFFFFF',
+                  color: '#000000'
                 }}
                 placeholder={new Date().getFullYear().toString()}
               />
@@ -242,7 +412,7 @@ export const RentEntryForm = ({ onClose, onSubmit, existingData, currentRentType
           </div>
 
           <div style={{ marginBottom: '20px' }}>
-            <label style={{ display: 'block', marginBottom: '12px', fontWeight: '500', color: '#333' }}>
+            <label style={{ display: 'block', marginBottom: '12px', fontWeight: '500', color: colors.text }}>
               Ausstattung
             </label>
             <div style={{ display: 'flex', flexDirection: 'column', gap: '10px' }}>
@@ -253,7 +423,7 @@ export const RentEntryForm = ({ onClose, onSubmit, existingData, currentRentType
                   onChange={(e) => handleChange('hasBalcony', e.target.checked)}
                   style={{ marginRight: '8px', width: '18px', height: '18px', cursor: 'pointer' }}
                 />
-                <span style={{ fontSize: '14px' }}>Balkon/Terrasse</span>
+                <span style={{ fontSize: '14px', color: colors.text }}>Balkon/Terrasse</span>
               </label>
               <label style={{ display: 'flex', alignItems: 'center', cursor: 'pointer' }}>
                 <input
@@ -262,22 +432,98 @@ export const RentEntryForm = ({ onClose, onSubmit, existingData, currentRentType
                   onChange={(e) => handleChange('hasElevator', e.target.checked)}
                   style={{ marginRight: '8px', width: '18px', height: '18px', cursor: 'pointer' }}
                 />
-                <span style={{ fontSize: '14px' }}>Aufzug vorhanden</span>
+                <span style={{ fontSize: '14px', color: colors.text }}>Aufzug vorhanden</span>
               </label>
               <label style={{ display: 'flex', alignItems: 'center', cursor: 'pointer' }}>
                 <input
                   type="checkbox"
-                  checked={formData.heatingIncluded || false}
-                  onChange={(e) => handleChange('heatingIncluded', e.target.checked)}
+                  checked={formData.recentlyRenovated || false}
+                  onChange={(e) => handleChange('recentlyRenovated', e.target.checked)}
                   style={{ marginRight: '8px', width: '18px', height: '18px', cursor: 'pointer' }}
                 />
-                <span style={{ fontSize: '14px' }}>Heizung inklusive</span>
+                <span style={{ fontSize: '14px', color: colors.text }}>Kürzlich renoviert</span>
               </label>
             </div>
           </div>
 
+          <div style={{ marginBottom: '20px' }}>
+            <label style={{ display: 'block', marginBottom: '12px', fontWeight: '500', color: colors.text }}>
+              Vermieter
+            </label>
+            <div style={{ display: 'flex', gap: '16px', marginBottom: '12px' }}>
+              <label style={{ display: 'flex', alignItems: 'center', cursor: 'pointer' }}>
+                <input
+                  type="radio"
+                  name="ownerType"
+                  value="private"
+                  checked={formData.ownerType === 'private'}
+                  onChange={(e) => handleChange('ownerType', e.target.value as OwnerType)}
+                  style={{ marginRight: '8px', width: '18px', height: '18px', cursor: 'pointer' }}
+                />
+                <span style={{ fontSize: '14px', color: colors.text }}>Privatperson</span>
+              </label>
+              <label style={{ display: 'flex', alignItems: 'center', cursor: 'pointer' }}>
+                <input
+                  type="radio"
+                  name="ownerType"
+                  value="company"
+                  checked={formData.ownerType === 'company'}
+                  onChange={(e) => handleChange('ownerType', e.target.value as OwnerType)}
+                  style={{ marginRight: '8px', width: '18px', height: '18px', cursor: 'pointer' }}
+                />
+                <span style={{ fontSize: '14px', color: colors.text }}>Unternehmen</span>
+              </label>
+            </div>
+            {formData.ownerType === 'company' && (
+              <input
+                type="text"
+                value={formData.ownerCompanyName || ''}
+                onChange={(e) => handleChange('ownerCompanyName', e.target.value)}
+                placeholder="Name des Unternehmens"
+                style={{
+                  width: '100%',
+                  padding: '10px',
+                  border: '1px solid #ddd',
+                  borderRadius: '6px',
+                  fontSize: '14px',
+                  background: '#FFFFFF',
+                  color: '#000000'
+                }}
+              />
+            )}
+          </div>
+
+          <div style={{ marginBottom: '20px' }}>
+            <label style={{ display: 'block', marginBottom: '8px', fontWeight: '500', color: colors.text }}>
+              Wo haben Sie die Wohnung gefunden?
+            </label>
+            <select
+              value={formData.apartmentSource || 'immobilienscout24'}
+              onChange={(e) => handleChange('apartmentSource', e.target.value as ApartmentSource)}
+              style={{
+                width: '100%',
+                padding: '10px',
+                border: '1px solid #ddd',
+                borderRadius: '6px',
+                fontSize: '14px',
+                cursor: 'pointer',
+                background: '#FFFFFF',
+                color: '#000000'
+              }}
+            >
+              <option value="immobilienscout24">ImmobilienScout24</option>
+              <option value="immowelt">Immowelt</option>
+              <option value="wg-gesucht">WG-Gesucht</option>
+              <option value="ebay-kleinanzeigen">eBay Kleinanzeigen</option>
+              <option value="facebook">Facebook</option>
+              <option value="friends">Freunde/Familie</option>
+              <option value="newspaper">Zeitung</option>
+              <option value="other">Andere</option>
+            </select>
+          </div>
+
           <div style={{ marginBottom: '24px' }}>
-            <label style={{ display: 'block', marginBottom: '8px', fontWeight: '500', color: '#333' }}>
+            <label style={{ display: 'block', marginBottom: '8px', fontWeight: '500', color: colors.text }}>
               Zusätzliche Beschreibung
             </label>
             <textarea
@@ -292,7 +538,9 @@ export const RentEntryForm = ({ onClose, onSubmit, existingData, currentRentType
                 borderRadius: '6px',
                 fontSize: '14px',
                 fontFamily: 'inherit',
-                resize: 'vertical'
+                resize: 'vertical',
+                background: '#FFFFFF',
+                color: '#000000'
               }}
             />
           </div>
@@ -303,10 +551,10 @@ export const RentEntryForm = ({ onClose, onSubmit, existingData, currentRentType
               onClick={onClose}
               style={{
                 padding: '12px 24px',
-                border: '1px solid #ddd',
+                border: `2px solid ${colors.border}`,
                 borderRadius: '6px',
-                background: 'white',
-                color: '#666',
+                background: colors.surface,
+                color: colors.text,
                 fontSize: '14px',
                 fontWeight: '500',
                 cursor: 'pointer'
@@ -320,17 +568,198 @@ export const RentEntryForm = ({ onClose, onSubmit, existingData, currentRentType
                 padding: '12px 24px',
                 border: 'none',
                 borderRadius: '6px',
-                background: '#1976d2',
-                color: 'white',
+                background: colors.primary,
+                color: '#000000',
                 fontSize: '14px',
-                fontWeight: '500',
+                fontWeight: '700',
                 cursor: 'pointer'
               }}
             >
-              Speichern
+              Weiter →
             </button>
           </div>
         </form>
+        ) : (
+          /* Upload Step */
+          <div>
+            <div style={{
+              textAlign: 'center',
+              marginBottom: '32px',
+              padding: '24px',
+              background: colors.surface,
+              borderRadius: '12px',
+              border: `2px solid ${colors.border}`
+            }}>
+              <div style={{ fontSize: '48px', marginBottom: '16px' }}>📄</div>
+              <h3 style={{ margin: '0 0 8px 0', fontSize: '18px', color: colors.text }}>
+                Mietvertrag bestätigen
+              </h3>
+              <p style={{ margin: 0, fontSize: '14px', color: colors.textSecondary }}>
+                Bitte laden Sie ein Foto Ihres Mietvertrags hoch, um den Mietbetrag zu bestätigen
+              </p>
+            </div>
+
+            {/* Contract Photo Upload */}
+            <div style={{ marginBottom: '24px' }}>
+              <div style={{
+                border: `2px dashed ${contractPhoto ? colors.primary : colors.border}`,
+                borderRadius: '12px',
+                padding: '40px 20px',
+                textAlign: 'center',
+                background: contractPhoto ? `${colors.primary}10` : colors.surface,
+                cursor: 'pointer',
+                transition: 'all 0.3s'
+              }}>
+                <input
+                  type="file"
+                  accept="image/*"
+                  onChange={handleContractUpload}
+                  style={{ display: 'none' }}
+                  id="contract-upload"
+                />
+                <label htmlFor="contract-upload" style={{ cursor: 'pointer', display: 'block' }}>
+                  {contractPhoto ? (
+                    <div>
+                      <div style={{ fontSize: '64px', marginBottom: '12px' }}>✓</div>
+                      <div style={{ color: colors.text, fontWeight: '700', marginBottom: '8px', fontSize: '16px' }}>
+                        {contractPhoto.name}
+                      </div>
+                      <div style={{ fontSize: '13px', color: colors.textSecondary }}>
+                        Klicken Sie, um ein anderes Foto hochzuladen
+                      </div>
+                    </div>
+                  ) : (
+                    <div>
+                      <div style={{ fontSize: '64px', marginBottom: '12px' }}>📸</div>
+                      <div style={{ color: colors.text, fontWeight: '700', marginBottom: '8px', fontSize: '16px' }}>
+                        Vertragsfoto hochladen
+                      </div>
+                      <div style={{ fontSize: '13px', color: colors.textSecondary, marginBottom: '16px' }}>
+                        Klicken oder ziehen Sie eine Datei hierher
+                      </div>
+                      <div style={{
+                        display: 'inline-block',
+                        padding: '12px 24px',
+                        background: colors.primary,
+                        color: '#000000',
+                        borderRadius: '8px',
+                        fontSize: '14px',
+                        fontWeight: '600'
+                      }}>
+                        Datei auswählen
+                      </div>
+                    </div>
+                  )}
+                </label>
+              </div>
+
+              {/* Validation Progress Bar */}
+              {isValidating && (
+                <div style={{ marginTop: '24px' }}>
+                  <div style={{
+                    display: 'flex',
+                    justifyContent: 'space-between',
+                    alignItems: 'center',
+                    marginBottom: '12px'
+                  }}>
+                    <span style={{ fontSize: '15px', color: colors.text, fontWeight: '600' }}>
+                      🔍 Vertrag wird validiert...
+                    </span>
+                    <span style={{ fontSize: '15px', color: colors.primary, fontWeight: '700' }}>
+                      {validationProgress}%
+                    </span>
+                  </div>
+                  <div style={{
+                    width: '100%',
+                    height: '12px',
+                    background: colors.surface,
+                    borderRadius: '6px',
+                    overflow: 'hidden',
+                    border: `2px solid ${colors.border}`
+                  }}>
+                    <div style={{
+                      width: `${validationProgress}%`,
+                      height: '100%',
+                      background: `linear-gradient(90deg, ${colors.primary}, ${colors.secondary})`,
+                      transition: 'width 0.2s ease-out',
+                      boxShadow: `0 0 15px ${colors.primary}60`
+                    }} />
+                  </div>
+                  <div style={{
+                    textAlign: 'center',
+                    marginTop: '12px',
+                    fontSize: '13px',
+                    color: colors.textSecondary,
+                    fontStyle: 'italic'
+                  }}>
+                    Prüfung der Vertragsdaten läuft...
+                  </div>
+                </div>
+              )}
+
+              {contractPhoto && !isValidating && (
+                <div style={{
+                  marginTop: '20px',
+                  padding: '16px',
+                  background: '#e8f5e9',
+                  borderRadius: '8px',
+                  display: 'flex',
+                  alignItems: 'center',
+                  gap: '12px',
+                  border: '2px solid #4caf50'
+                }}>
+                  <span style={{ fontSize: '28px' }}>✓</span>
+                  <div>
+                    <div style={{ color: '#2e7d32', fontSize: '15px', fontWeight: '700', marginBottom: '4px' }}>
+                      Vertrag erfolgreich validiert
+                    </div>
+                    <div style={{ color: '#2e7d32', fontSize: '12px' }}>
+                      Die Mietdaten wurden bestätigt
+                    </div>
+                  </div>
+                </div>
+              )}
+            </div>
+
+            {/* Action Buttons */}
+            <div style={{ display: 'flex', gap: '12px', justifyContent: 'flex-end' }}>
+              <button
+                type="button"
+                onClick={() => setCurrentStep('form')}
+                style={{
+                  padding: '12px 24px',
+                  border: `2px solid ${colors.border}`,
+                  borderRadius: '6px',
+                  background: colors.surface,
+                  color: colors.text,
+                  fontSize: '14px',
+                  fontWeight: '500',
+                  cursor: 'pointer'
+                }}
+              >
+                ← Zurück
+              </button>
+              <button
+                type="button"
+                onClick={handleFinalSubmit}
+                disabled={!contractPhoto || isValidating}
+                style={{
+                  padding: '12px 24px',
+                  border: 'none',
+                  borderRadius: '6px',
+                  background: (!contractPhoto || isValidating) ? colors.border : colors.primary,
+                  color: (!contractPhoto || isValidating) ? colors.textSecondary : '#000000',
+                  fontSize: '14px',
+                  fontWeight: '700',
+                  cursor: (!contractPhoto || isValidating) ? 'not-allowed' : 'pointer',
+                  opacity: (!contractPhoto || isValidating) ? 0.5 : 1
+                }}
+              >
+                Speichern
+              </button>
+            </div>
+          </div>
+        )}
       </div>
     </div>
   );

@@ -1,0 +1,6975 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6687221,
+          48.1228511
+        ]
+      },
+      "properties": {
+        "id": 34034199,
+        "type": "node",
+        "name": "HypoVereinsbank",
+        "category": "banks",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "283",
+        "addr:postcode": "81825",
+        "addr:street": "Truderinger Straße",
+        "amenity": "bank",
+        "atm": "yes",
+        "bic": "HYVEDEMMXXX",
+        "blz": "70020270",
+        "brand": "HypoVereinsbank",
+        "brand:wikidata": "Q220189",
+        "brand:wikipedia": "en:HypoVereinsbank",
+        "contact:website": "https://www.hypovereinsbank.de/hvb/kontaktwege/filiale/l/munchen/truderinger-strasse-283/490",
+        "opening_hours": "Mo-We,Fr 09:00-12:30; Th 09:00-12:30,14:00-17:00; Sa,Su,PH off",
+        "operator": "HypoVereinsbank",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6747397,
+          48.2245991
+        ]
+      },
+      "properties": {
+        "id": 82504530,
+        "type": "node",
+        "name": "Kreissparkasse Ismaning",
+        "category": "banks",
+        "addr:city": "Ismaning",
+        "addr:country": "DE",
+        "addr:housenumber": "13a",
+        "addr:postcode": "85737",
+        "addr:street": "Bahnhofstraße",
+        "amenity": "bank",
+        "atm": "yes",
+        "contact:phone": "+49 89 238010",
+        "operator": "Kreissparkasse München Starnberg",
+        "source": "survey",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6774639,
+          48.2247406
+        ]
+      },
+      "properties": {
+        "id": 82504532,
+        "type": "node",
+        "name": "VR-Bank Ismaning Hallbergmoos Neufahrn eG.",
+        "category": "banks",
+        "addr:city": "Ismaning",
+        "addr:country": "DE",
+        "addr:housenumber": "3",
+        "addr:postcode": "85737",
+        "addr:street": "Bahnhofstraße",
+        "amenity": "bank",
+        "atm": "yes",
+        "contact:email": "info@vr-ismaning.de",
+        "contact:fax": "+49 89 960 95-900",
+        "contact:phone": "+49 89 960 95-0",
+        "contact:website": "https://www.vrbank-ihn.de/privatkunden.html",
+        "description": "Hauptgeschäftsstelle",
+        "operator": "VR-Bank Ismaning Hallbergmoos Neufahrn eG.",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.662921,
+          48.0629473
+        ]
+      },
+      "properties": {
+        "id": 82538122,
+        "type": "node",
+        "name": "Volksbank Raiffeisenbank Rosenheim-Chiemsee eG",
+        "category": "banks",
+        "addr:city": "Ottobrunn",
+        "addr:country": "DE",
+        "addr:housenumber": "69",
+        "addr:postcode": "85521",
+        "addr:street": "Rosenheimer Landstraße",
+        "amenity": "bank",
+        "cash_in": "customers",
+        "contact:fax": "+49 89 608 124-20",
+        "contact:phone": "+49 89 608 124-0",
+        "opening_hours": "Mo,Tu,Fr 09:00-12:15,14:00-16:00; We 09:00-12:15; Th 09:00-12:15,14:00-17:30; Su,Sa,PH off",
+        "operator": "Volksbank Raiffeisenbank Rosenheim-Chiemsee eG",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6619648,
+          48.0642034
+        ]
+      },
+      "properties": {
+        "id": 82539005,
+        "type": "node",
+        "name": "Deutsche Bank",
+        "category": "banks",
+        "addr:city": "Ottobrunn",
+        "addr:country": "DE",
+        "addr:housenumber": "2",
+        "addr:postcode": "85521",
+        "addr:street": "Naupliaallee",
+        "amenity": "bank",
+        "brand": "Deutsche Bank",
+        "brand:wikidata": "Q66048",
+        "brand:wikipedia": "en:Deutsche Bank",
+        "opening_hours": "Tu,Th 09:00-12:30,13:30-16:00; We 09:00-14:00",
+        "operator": "Deutsche Bank",
+        "source": "survey",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5982585,
+          48.1358333
+        ]
+      },
+      "properties": {
+        "id": 82563860,
+        "type": "node",
+        "name": "Stadtsparkasse München",
+        "category": "banks",
+        "addr:floor": "0",
+        "addr:housenumber": "1",
+        "addr:street": "Einsteinstraße",
+        "amenity": "bank",
+        "atm": "yes",
+        "check_date": "2025-10-26",
+        "internet_access": "wlan",
+        "level": "0",
+        "operator": "Stadtsparkasse München",
+        "source": "knowledge",
+        "website": "https://www.sskm.de/",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5245914,
+          48.0997063
+        ]
+      },
+      "properties": {
+        "id": 82567037,
+        "type": "node",
+        "name": "Stadtsparkasse München",
+        "category": "banks",
+        "addr:city": "München",
+        "addr:housenumber": "100",
+        "addr:postcode": "81379",
+        "addr:street": "Boschetsrieder Straße",
+        "amenity": "bank",
+        "check_date": "2023-03-21",
+        "opening_hours": "Mo, We, Fr 09:00-12:30; Tu 14:00-16:00; Th 14:00-18:00  || \"nach Vereinbarung\"",
+        "operator": "Stadtsparkasse München",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5500212,
+          48.1388502
+        ]
+      },
+      "properties": {
+        "id": 82772297,
+        "type": "node",
+        "name": "Sparda-Bank",
+        "category": "banks",
+        "amenity": "bank",
+        "atm": "yes",
+        "brand": "Sparda-Bank",
+        "brand:wikidata": "Q2307136",
+        "brand:wikipedia": "de:Sparda-Bank (Deutschland)",
+        "check_date": "2025-10-14",
+        "opening_hours": "Mo,Fr 09:00-13:00; Tu,Th 09:00-13:00,14:00-18:00; Mo,Tu,Th 08:30-13:00, 14:00-18:00 \"Beratungszeiten\"; Fr 08:30-13:00 \"Beratungszeiten\";",
+        "operator": "Sparda-Bank München eG",
+        "toilets:wheelchair": "no",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5672569,
+          48.1333679
+        ]
+      },
+      "properties": {
+        "id": 83102025,
+        "type": "node",
+        "name": "Kreissparkasse München",
+        "category": "banks",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "amenity": "bank",
+        "atm": "yes",
+        "check_date": "2024-05-30",
+        "check_date:opening_hours": "2023-03-19",
+        "opening_hours": "Mo-Fr 07:30-19:00",
+        "operator": "Kreissparkasse München Starnberg Ebersberg",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6612585,
+          48.0651598
+        ]
+      },
+      "properties": {
+        "id": 87650153,
+        "type": "node",
+        "name": "HypoVereinsbank",
+        "category": "banks",
+        "addr:city": "Ottobrunn",
+        "addr:country": "DE",
+        "addr:housenumber": "57",
+        "addr:postcode": "85521",
+        "addr:street": "Rosenheimer Landstraße",
+        "amenity": "bank",
+        "brand": "HypoVereinsbank",
+        "brand:wikidata": "Q220189",
+        "brand:wikipedia": "en:HypoVereinsbank",
+        "check_date": "2023-09-16",
+        "opening_hours": "Mo-Fr 09:00-13:00,14:00-16:00; Th 09:00-13:00,14:00-17:30; Su,PH off",
+        "operator": "HypoVereinsbank",
+        "source": "survey",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6696558,
+          48.2242272
+        ]
+      },
+      "properties": {
+        "id": 94067829,
+        "type": "node",
+        "name": "VR-Bank",
+        "category": "banks",
+        "addr:city": "Ismaning",
+        "addr:country": "DE",
+        "addr:housenumber": "56",
+        "addr:postcode": "85737",
+        "addr:street": "Münchener Straße",
+        "amenity": "bank",
+        "atm": "yes",
+        "contact:email": "info@vr-ismaning.de",
+        "contact:fax": "+49 89 96095900",
+        "contact:phone": "+49 89 960950",
+        "description": "Zweigstelle Ismaning",
+        "official_name": "VR-Bank Ismaning Hallbergmoos Neufahrn eG",
+        "operator": "Volks- und Raiffeisenbank Ismaning e.G.",
+        "website": "https://www.vrbank-ihn.de/privatkunden.html",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5276476,
+          48.0995806
+        ]
+      },
+      "properties": {
+        "id": 99874725,
+        "type": "node",
+        "name": "Commerzbank",
+        "category": "banks",
+        "amenity": "bank",
+        "atm": "yes",
+        "brand": "Commerzbank",
+        "brand:wikidata": "Q157617",
+        "brand:wikipedia": "de:Commerzbank",
+        "opening_hours": "Mo-Fr 09:00-13:00, Mo,We 14:00-16:00; Tu,Th 14:00-18:00; Sa 09:00-14:00",
+        "operator": "Commerzbank",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.3774612,
+          48.069638
+        ]
+      },
+      "properties": {
+        "id": 157391222,
+        "type": "node",
+        "name": "HypoVereinsbank",
+        "category": "banks",
+        "amenity": "bank",
+        "atm": "yes",
+        "brand": "HypoVereinsbank",
+        "brand:wikidata": "Q220189",
+        "brand:wikipedia": "en:HypoVereinsbank",
+        "opening_hours": "Mo-Fr 09:00-12:30, Th 14:00-17:00",
+        "phone": "+49 89 8936630",
+        "website": "http://www.hvb.de/",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5664226,
+          48.1548973
+        ]
+      },
+      "properties": {
+        "id": 173668706,
+        "type": "node",
+        "name": "Stadtsparkasse München",
+        "category": "banks",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "8a",
+        "addr:postcode": "80798",
+        "addr:street": "Görresstraße",
+        "amenity": "bank",
+        "atm": "yes",
+        "check_date": "2025-05-19",
+        "opening_hours": "Mo-We,Fr 08:45-12:30,13:30-16:00; Th 08:45-12:30,13:30-18:00 || \"Beratungstermine auch außerhalb der Öffnungszeiten\"",
+        "operator": "Stadtsparkasse München",
+        "ref": "Filiale Josephsplatz",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5613686,
+          48.1396301
+        ]
+      },
+      "properties": {
+        "id": 173671765,
+        "type": "node",
+        "name": "Commerzbank",
+        "category": "banks",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "1",
+        "addr:postcode": "80335",
+        "addr:street": "Bahnhofplatz",
+        "amenity": "bank",
+        "atm": "yes",
+        "brand": "Commerzbank",
+        "brand:wikidata": "Q157617",
+        "brand:wikipedia": "de:Commerzbank",
+        "check_date": "2025-10-22",
+        "check_date:opening_hours": "2025-10-22",
+        "opening_hours": "Mo,We 14:00-16:00, Mo-Th 10:00-13:00, Tu,Th 14:00-18:00, Fr 10:00-14:00",
+        "operator": "Commerzbank AG",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.4420546,
+          48.14885
+        ]
+      },
+      "properties": {
+        "id": 201747881,
+        "type": "node",
+        "name": "Genossenschaftsbank eG München",
+        "category": "banks",
+        "amenity": "bank",
+        "atm": "yes",
+        "brand": "Genossenschaftsbank eG München",
+        "contact:email": "kontakt@genobamuc.de",
+        "contact:fax": "+49 89 86303179",
+        "contact:phone": "+49 89 86303170",
+        "contact:website": "https://www.genobamuc.de/",
+        "opening_hours": "Mo-We,Fr 08:30-12:30, 14:00-16:00; Th 08:30-12:30, 14:00-17:30; PH off",
+        "operator": "Genossenschaftsbank eG München",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6106947,
+          48.0670832
+        ]
+      },
+      "properties": {
+        "id": 213525943,
+        "type": "node",
+        "name": "HypoVereinsbank",
+        "category": "banks",
+        "addr:city": "Unterhaching",
+        "addr:country": "DE",
+        "addr:housenumber": "13",
+        "addr:postcode": "82008",
+        "addr:street": "Münchner Straße",
+        "amenity": "bank",
+        "atm": "yes",
+        "brand": "HypoVereinsbank",
+        "brand:wikidata": "Q220189",
+        "brand:wikipedia": "en:HypoVereinsbank",
+        "check_date:opening_hours": "2025-05-25",
+        "opening_hours": "\"nach Vereinbarung\"",
+        "operator": "HypoVereinsbank",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5794787,
+          48.1834554
+        ]
+      },
+      "properties": {
+        "id": 239974118,
+        "type": "node",
+        "name": "Sparkasse",
+        "category": "banks",
+        "amenity": "bank",
+        "atm": "yes",
+        "check_date": "2025-07-24",
+        "check_date:opening_hours": "2025-07-24",
+        "opening_hours": "Mo-Fr 08:00-20:00",
+        "phone": "+49 89 21670",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6672955,
+          48.0754794
+        ]
+      },
+      "properties": {
+        "id": 243507814,
+        "type": "node",
+        "name": "Kreissparkasse",
+        "category": "banks",
+        "addr:city": "Neubiberg",
+        "addr:country": "DE",
+        "addr:housenumber": "29",
+        "addr:street": "Hauptstraße",
+        "amenity": "bank",
+        "check_date": "2025-05-21",
+        "dog": "no",
+        "official_name": "Kreissparkasse München Starnberg Ebersberg",
+        "opening_hours": "Mo-Fr 08:45-12:30, Mo-We 13:30-16:00, Th 13:30-18:00",
+        "operator": "Kreissparkasse München Starnberg Ebersberg",
+        "source": "survey",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.4215101,
+          48.1481822
+        ]
+      },
+      "properties": {
+        "id": 243727145,
+        "type": "node",
+        "name": "Genossenschaftsbank München",
+        "category": "banks",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "61",
+        "addr:postcode": "81243",
+        "addr:street": "Limesstraße",
+        "amenity": "bank",
+        "atm": "yes",
+        "operator": "Genossenschaftsbank München",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6637129,
+          48.0757737
+        ]
+      },
+      "properties": {
+        "id": 243877053,
+        "type": "node",
+        "name": "Münchner Bank",
+        "category": "banks",
+        "addr:city": "Neubiberg",
+        "addr:country": "DE",
+        "addr:housenumber": "16",
+        "addr:postcode": "85579",
+        "addr:street": "Hauptstraße",
+        "amenity": "bank",
+        "atm": "yes",
+        "check_date:opening_hours": "2025-05-02",
+        "opening_hours": "Mo,Tu 09:00-13:00,14:00-16:30; We 09:00-14:00; Th 09:00-13:00,14:00-17:30; Fr 09:00-13:00,14:00-16:00",
+        "operator": "Münchner Bank",
+        "source": "survey",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.7175931,
+          48.1692412
+        ]
+      },
+      "properties": {
+        "id": 243885846,
+        "type": "node",
+        "name": "VR-Bank",
+        "category": "banks",
+        "addr:city": "Aschheim",
+        "addr:country": "DE",
+        "addr:housenumber": "14",
+        "addr:postcode": "85609",
+        "addr:street": "Feldkirchner Straße",
+        "amenity": "bank",
+        "opening_hours": "Mo-Fr 09:00-12:00, Tu 14:00-16:00, Th 14:00-18:00",
+        "operator": "VR-Bank",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6793344,
+          48.0632435
+        ]
+      },
+      "properties": {
+        "id": 256912456,
+        "type": "node",
+        "name": "Kreissparkasse",
+        "category": "banks",
+        "addr:city": "Ottobrunn",
+        "addr:country": "DE",
+        "addr:housenumber": "3",
+        "addr:postcode": "85521",
+        "addr:street": "Bahnhofsplatz",
+        "amenity": "bank",
+        "atm": "yes",
+        "official_name": "Kreissparkasse München Starnberg Ebersberg",
+        "opening_hours": "PH,Mo-Su 00:00-24:00",
+        "operator": "Kreissparkasse München Starnberg Ebersberg",
+        "source": "survey",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5632997,
+          48.2121754
+        ]
+      },
+      "properties": {
+        "id": 258170400,
+        "type": "node",
+        "name": "Stadtsparkasse München",
+        "category": "banks",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "504",
+        "addr:postcode": "80933",
+        "addr:street": "Schleißheimer Straße",
+        "amenity": "bank",
+        "atm": "yes",
+        "level": "0",
+        "opening_hours": "Mo 09:00-12:30; Tu 14:00-16:00; We 09:00-12:30; Th 14:00-18:00; Fr 09:00-12:30",
+        "operator": "Stadtsparkasse München",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6044112,
+          48.1288056
+        ]
+      },
+      "properties": {
+        "id": 263828256,
+        "type": "node",
+        "name": "Targobank",
+        "category": "banks",
+        "addr:city": "München",
+        "addr:housenumber": "6a",
+        "addr:postcode": "81667",
+        "addr:street": "Orleansplatz",
+        "amenity": "bank",
+        "brand": "Targobank",
+        "brand:wikidata": "Q1455437",
+        "brand:wikipedia": "en:Targobank",
+        "check_date": "2025-08-01",
+        "check_date:opening_hours": "2025-08-01",
+        "opening_hours": "Mo-Fr 10:00-13:00, Tu 14:00-18:00, Th 14:00-16:00",
+        "operator": "Targobank",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6040982,
+          48.1289207
+        ]
+      },
+      "properties": {
+        "id": 263829225,
+        "type": "node",
+        "name": "Santander",
+        "category": "banks",
+        "addr:city": "München",
+        "addr:housenumber": "6",
+        "addr:postcode": "81667",
+        "addr:street": "Orleansplatz",
+        "amenity": "bank",
+        "brand": "Santander",
+        "brand:wikidata": "Q875292",
+        "brand:wikimedia_commons": "Category:Santander Consumer Bank",
+        "brand:wikipedia": "de:Santander Consumer Bank (Deutschland)",
+        "check_date": "2025-10-26",
+        "check_date:opening_hours": "2025-08-01",
+        "official_name": "Santander Consumer Bank",
+        "opening_hours": "Mo,Tu,Th 09:00-13:00,14:00-18:00; We 09:00-13:00,14:00-16:00; Fr 09:00-14:00",
+        "opening_hours:office": "Mo-Th 08:30-13:00,14:00-19:00; Fr 08:30-16:00; PH off",
+        "operator": "Santander Consumer Bank AG",
+        "ref": "Orleansplatz - Ostbahnhof",
+        "website": "https://www.santander.de/privatkunden/",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6030369,
+          48.1288727
+        ]
+      },
+      "properties": {
+        "id": 263830581,
+        "type": "node",
+        "name": "Commerzbank",
+        "category": "banks",
+        "addr:city": "München",
+        "addr:housenumber": "51",
+        "addr:postcode": "81667",
+        "addr:street": "Wörthstraße",
+        "amenity": "bank",
+        "brand": "Commerzbank",
+        "brand:wikidata": "Q157617",
+        "brand:wikipedia": "de:Commerzbank",
+        "check_date": "2025-10-26",
+        "check_date:opening_hours": "2025-02-01",
+        "contact:fax": "+49 89 489 007-30",
+        "contact:phone": "+49 89 489 007-0",
+        "level": "0",
+        "opening_hours": "Mo 10:00-13:00,14:00-16:00; Tu 10:00-13:00,14:00-18:00; We 10:00-13:00,14:00-16:00; Th 10:00-13:00,14:00-18:00; Fr 10:00-14:00",
+        "operator": "Commerzbank AG",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6026381,
+          48.1286235
+        ]
+      },
+      "properties": {
+        "id": 263830767,
+        "type": "node",
+        "name": "HypoVereinsbank",
+        "category": "banks",
+        "addr:city": "München",
+        "addr:housenumber": "3",
+        "addr:postcode": "81667",
+        "addr:street": "Orleansplatz",
+        "amenity": "bank",
+        "atm": "yes",
+        "bic": "HYVEDEMMXXX",
+        "blz": "70020270",
+        "brand": "HypoVereinsbank",
+        "brand:wikidata": "Q220189",
+        "brand:wikipedia": "en:HypoVereinsbank",
+        "check_date:opening_hours": "2024-07-10",
+        "contact:phone": "+49 89 45 85 59-0",
+        "opening_hours": "Mo-We 09:00-12:30,14:00-16:00; Th 09:00-13:00,14:00-17:30; Fr 09:00-12:30,14:00-16:00",
+        "operator": "HypoVereinsbank",
+        "website": "https://www.hypovereinsbank.de/hvb/privatkunden",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6003861,
+          48.1281295
+        ]
+      },
+      "properties": {
+        "id": 263867001,
+        "type": "node",
+        "name": "Stadtsparkasse München",
+        "category": "banks",
+        "amenity": "bank",
+        "atm": "yes",
+        "opening_hours": "Mo-Su,PH 06:00-22:00",
+        "operator": "Stadtsparkasse München",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5967802,
+          48.1286467
+        ]
+      },
+      "properties": {
+        "id": 263880167,
+        "type": "node",
+        "name": "Deutsche Bank",
+        "category": "banks",
+        "amenity": "bank",
+        "atm": "yes",
+        "brand": "Deutsche Bank",
+        "brand:wikidata": "Q66048",
+        "brand:wikipedia": "en:Deutsche Bank",
+        "check_date:opening_hours": "2024-11-16",
+        "opening_hours": "Mo-Fr 09:00-12:30, Tu 13:30-16:00, Th 13:30-17:30",
+        "operator": "Deutsche Bank",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5026088,
+          48.1352038
+        ]
+      },
+      "properties": {
+        "id": 264796875,
+        "type": "node",
+        "name": "Sparkasse",
+        "category": "banks",
+        "amenity": "bank",
+        "check_date": "2024-04-01",
+        "opening_hours": "Mo-We,Fr 08:45-12:30,13:30-16:00; Th 08:45-12:30,13:30-18:00",
+        "operator": "Stadtsparkasse München",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5730887,
+          48.187321
+        ]
+      },
+      "properties": {
+        "id": 265567314,
+        "type": "node",
+        "name": "HypoVereinsbank",
+        "category": "banks",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "28",
+        "addr:postcode": "80807",
+        "addr:street": "Frankfurter Ring",
+        "amenity": "bank",
+        "atm": "yes",
+        "bic": "HYVEDEMMXXX",
+        "blz": "70020270",
+        "brand": "HypoVereinsbank",
+        "brand:wikidata": "Q220189",
+        "brand:wikipedia": "en:HypoVereinsbank",
+        "check_date": "2023-06-04",
+        "opening_hours": "Mo-Fr 09:00-12:30,14:00-16:00",
+        "operator": "HypoVereinsbank UniCredit Bank AG",
+        "phone": "+49 89 3509840",
+        "website": "https://www.hypovereinsbank.de",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5804251,
+          48.1152396
+        ]
+      },
+      "properties": {
+        "id": 268028392,
+        "type": "node",
+        "name": "Postbank",
+        "category": "banks",
+        "amenity": "bank",
+        "check_date:opening_hours": "2022-04-23",
+        "opening_hours": "Mo-Fr 09:00-18:30; Sa 09:00-12:30",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5665465,
+          48.186223
+        ]
+      },
+      "properties": {
+        "id": 268896868,
+        "type": "node",
+        "name": "Stadtsparkasse München",
+        "category": "banks",
+        "addr:city": "München",
+        "addr:housenumber": "26",
+        "addr:street": "Neustifter Straße",
+        "amenity": "bank",
+        "atm": "yes",
+        "opening_hours": "Mo,We,Fr 09:00-12:00,13:00-16:00",
+        "operator": "Stadtsparkasse München",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5740653,
+          48.0951625
+        ]
+      },
+      "properties": {
+        "id": 268995586,
+        "type": "node",
+        "name": "Stadtsparkasse München",
+        "category": "banks",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "18",
+        "addr:street": "Am Hollerbusch",
+        "amenity": "bank",
+        "atm": "yes",
+        "brand": "Sparkasse",
+        "check_date": "2025-05-01",
+        "description": "Geschäftsstelle Harlaching",
+        "email": "GS.Harlaching@sskm.de",
+        "fax": "+49 89 2167 910060",
+        "opening_hours": "Mo-Fr 08:45-12:30,13:30-16:00; Th 08:45-12:30,13:30-18:00",
+        "operator": "Stadtsparkasse München",
+        "phone": "+49 89 2167 10060",
+        "website": "https://www.sskm.de/",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.4306932,
+          48.1297918
+        ]
+      },
+      "properties": {
+        "id": 269386738,
+        "type": "node",
+        "name": "Sparkasse SB-Geschäftsstelle",
+        "category": "banks",
+        "addr:city": "Gräfelfing",
+        "addr:country": "DE",
+        "addr:housenumber": "4",
+        "addr:postcode": "82166",
+        "addr:street": "Jahnplatz",
+        "amenity": "bank",
+        "atm": "yes",
+        "operator": "KSK-MS",
+        "self_service": "yes",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.4592428,
+          48.148047
+        ]
+      },
+      "properties": {
+        "id": 269698928,
+        "type": "node",
+        "name": "Sparda-Bank",
+        "category": "banks",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "3",
+        "addr:postcode": "81241",
+        "addr:street": "Spiegelstraße",
+        "amenity": "bank",
+        "atm": "yes",
+        "brand": "Sparda-Bank",
+        "brand:wikidata": "Q2307136",
+        "brand:wikipedia": "de:Sparda-Bank (Deutschland)",
+        "check_date:opening_hours": "2023-08-08",
+        "opening_hours:signed": "no",
+        "operator": "Sparda-Bank",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.460015,
+          48.1471968
+        ]
+      },
+      "properties": {
+        "id": 269698936,
+        "type": "node",
+        "name": "Commerzbank",
+        "category": "banks",
+        "amenity": "bank",
+        "atm": "yes",
+        "brand": "Commerzbank",
+        "brand:wikidata": "Q157617",
+        "brand:wikipedia": "de:Commerzbank",
+        "check_date": "2025-10-29",
+        "check_date:opening_hours": "2025-07-28",
+        "contact:phone": "+49 89 8960050",
+        "name:de": "Commerzbank",
+        "opening_hours": "Mo-Th 10:00-13:00, Fr 10:00-14:00, Mo,We 14:00-16:00, Tu,Th 14:00-18:00",
+        "operator": "Commerzbank",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.4599775,
+          48.1468411
+        ]
+      },
+      "properties": {
+        "id": 269698938,
+        "type": "node",
+        "name": "HypoVereinsbank",
+        "category": "banks",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "494",
+        "addr:postcode": "81241",
+        "addr:street": "Landsberger Straße",
+        "amenity": "bank",
+        "atm": "yes",
+        "bic": "HYVEDEMMXXX",
+        "blz": "70020270",
+        "brand": "HypoVereinsbank",
+        "brand:wikidata": "Q220189",
+        "brand:wikipedia": "en:HypoVereinsbank",
+        "check_date": "2024-12-30",
+        "name:de": "HypoVereinsbank",
+        "opening_hours": "Mo-Fr 09:00-13:00,14:00-16:00; Th 09:00-13:00,14:00-17:30",
+        "operator": "HypoVereinsbank UniCredit Bank AG",
+        "phone": "+49 89 8394020",
+        "toilets:wheelchair": "no",
+        "website": "https://www.hypovereinsbank.de",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.4602609,
+          48.1465074
+        ]
+      },
+      "properties": {
+        "id": 269698939,
+        "type": "node",
+        "name": "Targobank",
+        "category": "banks",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:floor": "0",
+        "addr:housenumber": "521",
+        "addr:postcode": "81241",
+        "addr:street": "Landsberger Straße",
+        "amenity": "bank",
+        "atm": "yes",
+        "brand": "Targobank",
+        "brand:wikidata": "Q1455437",
+        "brand:wikipedia": "en:Targobank",
+        "check_date": "2025-04-13",
+        "check_date:opening_hours": "2024-01-10",
+        "level": "0",
+        "name:de": "Targobank",
+        "opening_hours": "Mo-Th 10:00-13:00, Fr 10:00-13:00, Mo,Tu,Th 14:00-18:00",
+        "operator": "Targobank",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.4610303,
+          48.1467967
+        ]
+      },
+      "properties": {
+        "id": 269698947,
+        "type": "node",
+        "name": "Stadtsparkasse München",
+        "category": "banks",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "488",
+        "addr:postcode": "81241",
+        "addr:street": "Landsberger Straße",
+        "amenity": "bank",
+        "atm": "yes",
+        "check_date": "2024-12-30",
+        "name:de": "Stadtsparkasse München",
+        "network": "Sparkassen-Finanzgruppe",
+        "opening_hours": "Mo-We, Fr 08:45-12:30, 13:30-16:00; Th 08:45-12:30, 13:30-18:00",
+        "operator": "Stadtsparkasse München",
+        "phone": "+49 89 216710023",
+        "website": "https://www.sparkasse.de/standorte/filialen/stadtsparkasse-muenchen-beratungscenter-muenchen-west-40742",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.4611313,
+          48.1470197
+        ]
+      },
+      "properties": {
+        "id": 269698951,
+        "type": "node",
+        "name": "Deutsche Bank",
+        "category": "banks",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "10",
+        "addr:postcode": "81241",
+        "addr:street": "Bäckerstraße",
+        "amenity": "bank",
+        "atm": "yes",
+        "brand": "Deutsche Bank",
+        "brand:wikidata": "Q66048",
+        "brand:wikipedia": "en:Deutsche Bank",
+        "check_date": "2025-04-13",
+        "name:de": "Deutsche Bank",
+        "network": "Cash Group",
+        "opening_hours": "Mo-Fr 09:00-12:30, Tu 13:30-16:00, Th 13:30-17:00, Fr 13:30-15:00",
+        "operator": "Deutsche Bank",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.4589927,
+          48.1496546
+        ]
+      },
+      "properties": {
+        "id": 269728169,
+        "type": "node",
+        "name": "Postbank",
+        "category": "banks",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:floor": "0",
+        "addr:housenumber": "2",
+        "addr:postcode": "81241",
+        "addr:street": "Kaflerstraße",
+        "amenity": "bank",
+        "atm": "yes",
+        "brand": "Postbank",
+        "brand:wikidata": "Q708835",
+        "check_date": "2024-12-30",
+        "check_date:opening_hours": "2023-11-28",
+        "level": "0",
+        "name:de": "Postbank",
+        "note": "Postfiliale ist im Nachbarnode; in Wirklichkeit sind die Schalter im selben Raum",
+        "opening_hours": "Mo-Fr 08:30-18:30; Sa 09:00-13:00",
+        "operator": "Deutsche Postbank AG",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.4617163,
+          48.1484333
+        ]
+      },
+      "properties": {
+        "id": 270124874,
+        "type": "node",
+        "name": "Münchner Bank",
+        "category": "banks",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "1a",
+        "addr:postcode": "81241",
+        "addr:street": "Bäckerstraße",
+        "amenity": "bank",
+        "atm": "yes",
+        "check_date": "2023-07-29",
+        "network": "Bankcard-Servicenetz",
+        "opening_hours": "Mo-Fr 09:00-12:30",
+        "operator": "Münchner Bank",
+        "phone": "+49 89 2128-6100",
+        "website": "https://www.muenchner-bank.de/wir-fuer-sie/filialen-ansprechpartner/filialen1/uebersicht-filialen/filiale-pasing.html",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.7089173,
+          48.1112899
+        ]
+      },
+      "properties": {
+        "id": 270586916,
+        "type": "node",
+        "name": "Stadtsparkasse München",
+        "category": "banks",
+        "addr:city": "München",
+        "addr:housenumber": "264",
+        "addr:postcode": "81827",
+        "addr:street": "Wasserburger Landstraße",
+        "amenity": "bank",
+        "check_date:opening_hours": "2024-06-25",
+        "opening_hours": "Mo,We,Fr 09:00-12:00,13:00-16:00",
+        "operator": "Stadtsparkasse München",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5814803,
+          48.1156393
+        ]
+      },
+      "properties": {
+        "id": 274119863,
+        "type": "node",
+        "name": "Stadtsparkasse München – BeratungsCenter Giesing",
+        "category": "banks",
+        "addr:city": "München",
+        "addr:housenumber": "3",
+        "addr:postcode": "81541",
+        "addr:street": "Werinherstraße",
+        "amenity": "bank",
+        "atm": "yes",
+        "bic": "SSKMDEMMXXX",
+        "brand": "Sparkasse",
+        "currency:EUR": "yes",
+        "drive_through": "no",
+        "email": "BC.Giesing@sskm.de",
+        "fax": "+49 89 2167 910010",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "level": "0",
+        "opening_hours": "Mo-Th 09:00-18:00; Fr 09:00-16:00; PH,Sa,Su off",
+        "operator": "Stadtsparkasse München",
+        "phone": "+49 89 2167 10010",
+        "website": "https://www.sskm.de/de/home/toolbar/filialen/stadtsparkasse-muenchen-beratungscenter-giesing-40729.html",
+        "wheelchair": "limited",
+        "wikidata": "Q1438593",
+        "wikipedia": "de:Stadtsparkasse München"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5775587,
+          48.1365733
+        ]
+      },
+      "properties": {
+        "id": 276932731,
+        "type": "node",
+        "name": "Stadtsparkasse München",
+        "category": "banks",
+        "addr:city": "München",
+        "addr:housenumber": "2",
+        "addr:street": "Sparkassenstraße",
+        "amenity": "bank",
+        "atm": "yes",
+        "check_date": "2024-01-04",
+        "opening_hours": "24/7",
+        "operator": "Stadtsparkasse",
+        "source": "knowledge",
+        "wheelchair": "yes",
+        "wikidata": "Q1438593"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5730107,
+          48.1770335
+        ]
+      },
+      "properties": {
+        "id": 278394360,
+        "type": "node",
+        "name": "Stadtsparkasse München - Filiale Belgradstraße",
+        "category": "banks",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "162",
+        "addr:postcode": "80804",
+        "addr:street": "Belgradstraße",
+        "amenity": "bank",
+        "check_date": "2024-07-27",
+        "opening_hours": "Tu 09:00-12:00,13:00-16:00; Th 09:00-12:00,13:00-18:00",
+        "operator": "Stadtsparkasse",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6703338,
+          48.1219954
+        ]
+      },
+      "properties": {
+        "id": 279881222,
+        "type": "node",
+        "name": "Stadtsparkasse München",
+        "category": "banks",
+        "amenity": "bank",
+        "atm": "yes",
+        "check_date": "2025-02-18",
+        "check_date:opening_hours": "2025-02-18",
+        "drive_through": "no",
+        "opening_hours": "Mo-Fr 09:00-12:00, Mo-We,Fr 13:00-16:00, Th 13:00-18:00",
+        "operator": "Sparkasse",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.671679,
+          48.0807246
+        ]
+      },
+      "properties": {
+        "id": 281215583,
+        "type": "node",
+        "name": "Stadtsparkasse München",
+        "category": "banks",
+        "amenity": "bank",
+        "atm": "yes",
+        "opening_hours": "Mo,We,Fr 09:00-12:30; Tu 14:00-16:00; Th 14:00-18:00",
+        "operator": "Stadtsparkasse München",
+        "source": "survey",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6312405,
+          48.0995729
+        ]
+      },
+      "properties": {
+        "id": 286032256,
+        "type": "node",
+        "name": "Stadtsparkasse München",
+        "category": "banks",
+        "amenity": "bank",
+        "atm": "yes",
+        "check_date:opening_hours": "2024-01-19",
+        "opening_hours": "Tu 09:00-12:00,13:00-16:00; Th 09:00-12:00,13:00-18:00; PH,Sa,Su off",
+        "opening_hours:office": "Mo-Th 09:00-18:00; Fr 09:00-16:00; PH off",
+        "opening_hours:url": "https://www.sskm.de/de/home/toolbar/filialen/stadtsparkasse-muenchen-filiale-alt-perlach-40741.html",
+        "operator": "Stadtsparkasse München",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6829052,
+          48.1506177
+        ]
+      },
+      "properties": {
+        "id": 286453303,
+        "type": "node",
+        "name": "Münchner Bank",
+        "category": "banks",
+        "amenity": "bank",
+        "check_date": "2024-12-31",
+        "opening_hours": "24/7",
+        "operator": "Münchner Bank",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.643008,
+          48.1674041
+        ]
+      },
+      "properties": {
+        "id": 289551153,
+        "type": "node",
+        "name": "Stadtsparkasse Johanneskirchen",
+        "category": "banks",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "98",
+        "addr:postcode": "81927",
+        "addr:street": "Johanneskirchner Straße",
+        "amenity": "bank",
+        "check_date:opening_hours": "2024-04-08",
+        "opening_hours": "Mo-Th 09:00-18:00; Fr 09:00-16:00",
+        "operator": "Stadtsparkasse",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5745841,
+          48.1602273
+        ]
+      },
+      "properties": {
+        "id": 292596869,
+        "type": "node",
+        "name": "Stadtsparkasse München",
+        "category": "banks",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "55",
+        "addr:postcode": "80796",
+        "addr:street": "Hohenzollernstraße",
+        "amenity": "bank",
+        "atm": "yes",
+        "check_date": "2025-07-20",
+        "contact:email": "BC.Schwabing-West@sskm.de",
+        "contact:fax": "+49 89 2167 910018",
+        "contact:phone": "+49 89 2167 10018",
+        "contact:website": "https://www.sskm.de/",
+        "opening_hours": "Mo-We,Fr 09:00-12:00,13:00-16:00; Th 09:00-12:00,13:00-18:00",
+        "operator": "Stadtsparkasse",
+        "wheelchair": "limited",
+        "wheelchair:description": "Stufe am Eingang"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5838361,
+          48.1406124
+        ]
+      },
+      "properties": {
+        "id": 299100585,
+        "type": "node",
+        "name": "Münchner Hypothekenbank EG",
+        "category": "banks",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "10",
+        "addr:postcode": "80539",
+        "addr:street": "Karl-Scharnagl-Ring",
+        "amenity": "bank",
+        "atm": "no",
+        "email": "serviceteam800@muenchenerhyp.de",
+        "operator": "Münchener Hypothekenbank eG",
+        "phone": "+49 89 53870",
+        "website": "https://www.mhb.de/de",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5967871,
+          48.1065715
+        ]
+      },
+      "properties": {
+        "id": 299324461,
+        "type": "node",
+        "name": "Stadtsparkasse München",
+        "category": "banks",
+        "addr:city": "München",
+        "addr:housenumber": "43",
+        "addr:postcode": "81549",
+        "addr:street": "Schwanseestraße",
+        "amenity": "bank",
+        "atm": "yes",
+        "check_date": "2024-12-17",
+        "opening_hours": "Tu 09:00-12:00,13:00-16:00; Th 09:00-12:00,13:00-18:00",
+        "operator": "Stadtsparkasse München",
+        "phone": "+49 89 216710032",
+        "website": "https://www.sskm.de/",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5236013,
+          48.1973801
+        ]
+      },
+      "properties": {
+        "id": 305263395,
+        "type": "node",
+        "name": "Raiffeisenbank",
+        "category": "banks",
+        "addr:city": "München",
+        "addr:housenumber": "217b",
+        "addr:postcode": "80995",
+        "addr:street": "Feldmochinger Straße",
+        "amenity": "bank",
+        "atm": "yes",
+        "check_date": "2025-07-25",
+        "email": "service@rb-muenchen-nord.de",
+        "opening_hours": "Mo 08:30-12:30,13:30-16:30; Th 08:30-12:30,13:30-18:00",
+        "operator": "Raiffeisenbank",
+        "phone": "+49 89 3100031000",
+        "website": "https://rb-muenchen-nord.de",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5663249,
+          48.1344942
+        ]
+      },
+      "properties": {
+        "id": 305449484,
+        "type": "node",
+        "name": "Santander",
+        "category": "banks",
+        "addr:city": "München",
+        "addr:housenumber": "33",
+        "addr:postcode": "80331",
+        "addr:street": "Sonnenstraße",
+        "amenity": "bank",
+        "atm": "yes",
+        "brand": "Santander",
+        "brand:wikidata": "Q875292",
+        "brand:wikipedia": "en:Santander Bank",
+        "check_date": "2025-08-14",
+        "official_name": "Santander Group",
+        "opening_hours": "Mo-Tu,Th 09:00-13:00,14:00-18:00; We 09:00-13:00,14:00-16:00; Fr 09:00-14:00",
+        "operator": "Santander",
+        "website": "https://www.santander.de/privatkunden/",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5649503,
+          48.1353656
+        ]
+      },
+      "properties": {
+        "id": 305449492,
+        "type": "node",
+        "name": "Deutsche Postbank",
+        "category": "banks",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "24",
+        "addr:postcode": "80331",
+        "addr:street": "Sonnenstraße",
+        "amenity": "bank",
+        "check_date": "2024-05-04",
+        "check_date:opening_hours": "2023-03-19",
+        "opening_hours": "Mo-Fr 09:30-18:00; Sa 09:30-12:30",
+        "website": "https://www.postbank.de/",
+        "wheelchair": "limited",
+        "wheelchair:description": "Über zweiten kommt man mit dem Rollstuhl sehr gut rein, allerdings ist es drin sehr voll gestellt."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5821775,
+          48.0978781
+        ]
+      },
+      "properties": {
+        "id": 305968037,
+        "type": "node",
+        "name": "Sparda-Bank",
+        "category": "banks",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "6",
+        "addr:postcode": "81547",
+        "addr:street": "Mangfallplatz",
+        "amenity": "bank",
+        "atm": "yes",
+        "brand": "Sparda-Bank",
+        "brand:wikidata": "Q2307136",
+        "brand:wikipedia": "de:Sparda-Bank (Deutschland)",
+        "check_date": "2023-09-02",
+        "opening_hours": "Mo-Fr 08:00-13:00, Mo,Th 14:00-18:00, We 14:00-16:00",
+        "operator": "Sparda-Bank",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.4306845,
+          48.1181024
+        ]
+      },
+      "properties": {
+        "id": 306551729,
+        "type": "node",
+        "name": "Sparkasse",
+        "category": "banks",
+        "amenity": "bank",
+        "atm": "yes",
+        "check_date": "2016-09-06",
+        "opening_hours": "Mo-Fr 07:30-19:00;PH off",
+        "operator": "KSK-MS",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.4294111,
+          48.1187235
+        ]
+      },
+      "properties": {
+        "id": 306551754,
+        "type": "node",
+        "name": "HypoVereinsbank",
+        "category": "banks",
+        "addr:city": "Gräfelfing",
+        "addr:country": "DE",
+        "addr:housenumber": "96",
+        "addr:postcode": "82166",
+        "addr:street": "Bahnhofstraße",
+        "amenity": "bank",
+        "atm": "yes",
+        "brand": "HypoVereinsbank",
+        "brand:wikidata": "Q220189",
+        "brand:wikipedia": "en:HypoVereinsbank",
+        "check_date": "2016-12-22",
+        "contact:phone": "+49 89 898163-0",
+        "opening_hours": "Mo,Tu,Fr 09:00-13:00,14:00-16:00; We 09:00-13:00; Th 09:00-13:00,14:00-17:30; PH off",
+        "operator": "HypoVereinsbank",
+        "website": "https://www.hypovereinsbank.de/hvb/privatkunden",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.4278673,
+          48.1192326
+        ]
+      },
+      "properties": {
+        "id": 306551870,
+        "type": "node",
+        "name": "Münchner Bank",
+        "category": "banks",
+        "amenity": "bank",
+        "atm": "yes",
+        "opening_hours": "Mo,Tu,We,Fr 8:30-12:30, 14:00-16:00; Th 8:30-12:30, 14:00-17:30; PH off",
+        "operator": "Münchner Bank",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5753707,
+          48.1192935
+        ]
+      },
+      "properties": {
+        "id": 307535905,
+        "type": "node",
+        "name": "HypoVereinsbank",
+        "category": "banks",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "36",
+        "addr:postcode": "81543",
+        "addr:street": "Humboldtstraße",
+        "amenity": "bank",
+        "atm": "yes",
+        "bic": "HYVEDEMMXXX",
+        "blz": "70020270",
+        "brand": "HypoVereinsbank",
+        "brand:wikidata": "Q220189",
+        "brand:wikipedia": "en:HypoVereinsbank",
+        "opening_hours": "Mo-Fr 09:00-13:00,14:00-16:00; Th 09:00-13:00,14:30-17:30",
+        "operator": "HypoVereinsbank UniCredit Bank AG",
+        "phone": "+49 89 623 007-0",
+        "website": "https://www.hypovereinsbank.de",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5977571,
+          48.1349088
+        ]
+      },
+      "properties": {
+        "id": 307535920,
+        "type": "node",
+        "name": "HypoVereinsbank",
+        "category": "banks",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "60",
+        "addr:postcode": "81667",
+        "addr:street": "Innere Wiener Straße",
+        "amenity": "bank",
+        "atm": "yes",
+        "bic": "HYVEDEMMXXX",
+        "blz": "70020270",
+        "brand": "HypoVereinsbank",
+        "brand:wikidata": "Q220189",
+        "brand:wikipedia": "en:HypoVereinsbank",
+        "check_date": "2025-08-04",
+        "check_date:opening_hours": "2025-08-04",
+        "opening_hours": "Mo-Fr 09:00-12:30, Th 14:00-17:00",
+        "operator": "HypoVereinsbank UniCredit Bank AG",
+        "phone": "+49 89 48097-0",
+        "website": "https://www.hypovereinsbank.de",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5750838,
+          48.159489
+        ]
+      },
+      "properties": {
+        "id": 308055991,
+        "type": "node",
+        "name": "Münchner Bank",
+        "category": "banks",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "64",
+        "addr:postcode": "80801",
+        "addr:street": "Nordendstraße",
+        "amenity": "bank",
+        "atm": "yes",
+        "check_date": "2025-05-01",
+        "contact:email": "TeamMail.GS07@muenchner-bank.de",
+        "contact:phone": "+49 89 2128-5700",
+        "contact:website": "https://www.muenchner-bank.de/ueber-uns/filialen-und-geldautomaten/muenchner-bank-eg-filiale-schwabing.html",
+        "opening_hours": "Mo-We 09:00-13:00,14:00-17:00; Th 09:00-13:00,14:00-18:00; Fr 09:00-14:00",
+        "operator": "Münchner Bank",
+        "wheelchair": "no",
+        "wheelchair:description": "hohe Stufe"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5626815,
+          48.186343
+        ]
+      },
+      "properties": {
+        "id": 308960791,
+        "type": "node",
+        "name": "Deutsche Bank",
+        "category": "banks",
+        "addr:city": "München",
+        "addr:housenumber": "22",
+        "addr:street": "Bertholdstraße",
+        "amenity": "bank",
+        "atm": "yes",
+        "brand": "Deutsche Bank",
+        "brand:wikidata": "Q66048",
+        "brand:wikipedia": "en:Deutsche Bank",
+        "operator": "Deutsche Bank",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.4607928,
+          48.1888635
+        ]
+      },
+      "properties": {
+        "id": 310233262,
+        "type": "node",
+        "name": "Kreissparkasse",
+        "category": "banks",
+        "amenity": "bank",
+        "atm": "yes",
+        "opening_hours": "Mo 13:30-16:00; Tu,We,Fr 08:45-12:30; Th 13:30-18:00",
+        "operator": "Kreissparkasse",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.4630639,
+          48.1892698
+        ]
+      },
+      "properties": {
+        "id": 310233448,
+        "type": "node",
+        "name": "Volksbank Raiffeisenbank",
+        "category": "banks",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "20",
+        "addr:postcode": "80999",
+        "addr:street": "Vesaliusstraße",
+        "amenity": "bank",
+        "atm": "yes",
+        "opening_hours": "Mo 08:15-12:00,13:30-17:00; Tu,We 08:15-12:00; Th 08:15-12:00,13:30-18:00; Fr 08:15-12:00",
+        "operator": "Volksbank Raiffeisenbank",
+        "website": "https://www.vr-dachau.de/",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.4721258,
+          48.2223995
+        ]
+      },
+      "properties": {
+        "id": 310807469,
+        "type": "node",
+        "name": "Volksbank Raiffeisenbank",
+        "category": "banks",
+        "addr:city": "Karlsfeld",
+        "addr:country": "DE",
+        "addr:housenumber": "202",
+        "addr:postcode": "85757",
+        "addr:street": "Münchner Straße",
+        "amenity": "bank",
+        "atm": "yes",
+        "opening_hours": "Mo,Th,Fr 08:15-12:00, Th 13:30-18:00",
+        "operator": "Volksbank Raiffeisenbank"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6205674,
+          48.1517827
+        ]
+      },
+      "properties": {
+        "id": 312395108,
+        "type": "node",
+        "name": "Stadtsparkasse",
+        "category": "banks",
+        "amenity": "bank",
+        "check_date:opening_hours": "2023-12-16",
+        "opening_hours": "Mo-Th 09:00-18:00; Fr 09:00-16:00",
+        "operator": "Stadtsparkasse",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5264044,
+          48.1173481
+        ]
+      },
+      "properties": {
+        "id": 312771780,
+        "type": "node",
+        "name": "Stadtsparkasse",
+        "category": "banks",
+        "amenity": "bank",
+        "atm": "yes",
+        "check_date:opening_hours": "2022-07-04",
+        "opening_hours": "Mo-Fr 08:45-12:30, Mo-We,Fr 13:30-16:00, Th 13:30-18:00",
+        "operator": "Stadtsparkasse München",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5027121,
+          48.1137411
+        ]
+      },
+      "properties": {
+        "id": 313339256,
+        "type": "node",
+        "name": "Stadtsparkasse",
+        "category": "banks",
+        "amenity": "bank",
+        "atm": "yes",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.3662449,
+          48.1269079
+        ]
+      },
+      "properties": {
+        "id": 313406025,
+        "type": "node",
+        "name": "Sparkasse",
+        "category": "banks",
+        "addr:city": "Germering",
+        "addr:country": "DE",
+        "addr:housenumber": "1",
+        "addr:postcode": "82110",
+        "addr:street": "Otto-Wagner-Straße",
+        "amenity": "bank",
+        "atm": "yes",
+        "check_date": "2023-08-30",
+        "operator": "Sparkasse",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6672313,
+          48.1241067
+        ]
+      },
+      "properties": {
+        "id": 313453623,
+        "type": "node",
+        "name": "VR Bank München Land eG",
+        "category": "banks",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "273",
+        "addr:postcode": "81825",
+        "addr:street": "Truderinger Straße",
+        "amenity": "bank",
+        "atm": "yes",
+        "opening_hours": "Mo-Fr 08:15-16:00;Th 08:15-18:00",
+        "operator": "VR Bank",
+        "phone": "+49 89 420498-0",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5338541,
+          48.1171275
+        ]
+      },
+      "properties": {
+        "id": 313938098,
+        "type": "node",
+        "name": "Sparda-Bank",
+        "category": "banks",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "32",
+        "addr:postcode": "81369",
+        "addr:street": "Albert-Roßhaupter-Straße",
+        "amenity": "bank",
+        "atm": "yes",
+        "branch": "Harras",
+        "brand": "Sparda-Bank",
+        "brand:wikidata": "Q2307136",
+        "brand:wikipedia": "de:Sparda-Bank (Deutschland)",
+        "opening_hours": "Mo,Tu,Th,Fr 08:30-13:00, Tu,Th 14:00-18:00",
+        "operator": "Sparda-Bank München eG",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5403513,
+          48.1167497
+        ]
+      },
+      "properties": {
+        "id": 313941659,
+        "type": "node",
+        "name": "Targobank",
+        "category": "banks",
+        "amenity": "bank",
+        "atm": "yes",
+        "brand": "Targobank",
+        "brand:wikidata": "Q1455437",
+        "brand:wikipedia": "en:Targobank",
+        "check_date": "2025-08-21",
+        "level": "0",
+        "opening_hours": "Mo,Tu,Th 10:00-13:00,14:00-18:00; We,Fr 10:00-13:00",
+        "operator": "Targobank",
+        "source": "survey",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5856814,
+          48.1604791
+        ]
+      },
+      "properties": {
+        "id": 315972802,
+        "type": "node",
+        "name": "Stadtsparkasse",
+        "category": "banks",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "51",
+        "addr:postcode": "80802",
+        "addr:street": "Leopoldstraße",
+        "amenity": "bank",
+        "atm": "yes",
+        "opening_hours": "Mo,We,Fr 09:00-12:00,13:00-16:00",
+        "operator": "Stadtsparkasse",
+        "wheelchair": "no",
+        "wheelchair:description": "Stufe"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6371208,
+          48.1552896
+        ]
+      },
+      "properties": {
+        "id": 317642143,
+        "type": "node",
+        "name": "HypoVereinsbank",
+        "category": "banks",
+        "addr:housenumber": "2",
+        "addr:postcode": "81927",
+        "addr:street": "Wilhelm-Dieß-Weg",
+        "amenity": "bank",
+        "atm": "yes",
+        "bic": "HYVEDEMMXXX",
+        "blz": "70020270",
+        "brand": "HypoVereinsbank",
+        "brand:wikidata": "Q220189",
+        "brand:wikipedia": "en:HypoVereinsbank",
+        "check_date": "2025-01-02",
+        "check_date:opening_hours": "2022-05-07",
+        "drive_through": "no",
+        "opening_hours": "Mo-Fr 09:00-12:30, Mo,Fr 14:00-16:00, Th 14:00-17:00",
+        "operator": "HypoVereinsbank",
+        "website": "https://www.hypovereinsbank.de/hvb/privatkunden",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6600337,
+          48.0669207
+        ]
+      },
+      "properties": {
+        "id": 318421992,
+        "type": "node",
+        "name": "Oberbank",
+        "category": "banks",
+        "addr:city": "Ottobrunn",
+        "addr:country": "DE",
+        "addr:housenumber": "39",
+        "addr:postcode": "85521",
+        "addr:street": "Rosenheimer Landstraße",
+        "amenity": "bank",
+        "brand": "Oberbank",
+        "brand:wikidata": "Q2009139",
+        "brand:wikipedia": "de:Oberbank",
+        "opening_hours": "\"Mo-Fr 8-19h mit Terminvereinbarung\"",
+        "operator": "Oberbank",
+        "source": "survey",
+        "wheelchair": "yes",
+        "wheelchair:description": "Außen: kurze Rampe um eine Stufe zu überwinden"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6035252,
+          48.1097837
+        ]
+      },
+      "properties": {
+        "id": 318715743,
+        "type": "node",
+        "name": "Stadtsparkasse München",
+        "category": "banks",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "152",
+        "addr:postcode": "81539",
+        "addr:street": "Balanstraße",
+        "amenity": "bank",
+        "atm": "yes",
+        "opening_hours": "Mo,We,Fr 09:00-12:00,13:00-16:00",
+        "operator": "Stadtsparkasse München",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5701922,
+          48.1121892
+        ]
+      },
+      "properties": {
+        "id": 324639775,
+        "type": "node",
+        "name": "Stadtsparkasse München",
+        "category": "banks",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "35",
+        "addr:postcode": "81543",
+        "addr:street": "Hans-Mielich-Straße",
+        "amenity": "bank",
+        "check_date": "2025-03-11",
+        "opening_hours": "Tu 09:00-12:00,13:00-16:00; Th 09:00-12:00,13:00-18:00",
+        "operator": "Stadtsparkasse München",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5674061,
+          48.1415753
+        ]
+      },
+      "properties": {
+        "id": 329117984,
+        "type": "node",
+        "name": "BBBank",
+        "category": "banks",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "1a",
+        "addr:postcode": "80333",
+        "addr:street": "Barer Straße",
+        "amenity": "bank",
+        "atm": "yes",
+        "brand": "BBBank",
+        "brand:wikidata": "Q795504",
+        "brand:wikipedia": "de:BBBank",
+        "check_date": "2025-01-04",
+        "operator": "Baden-Württembergischer Genossenschaftsverband",
+        "operator:en": "Baden-Württemberg Cooperative Association",
+        "operator:wikidata": "Q798896",
+        "operator:wikipedia": "de:Baden-Württembergischer Genossenschaftsverband",
+        "source": "survey"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5403698,
+          48.1164869
+        ]
+      },
+      "properties": {
+        "id": 329357591,
+        "type": "node",
+        "name": "Stadtsparkasse München",
+        "category": "banks",
+        "amenity": "bank",
+        "atm": "yes",
+        "level": "0",
+        "opening_hours": "Mo-Fr 09:00-12:00, Mo-We,Fr 13:00-16:00, Th 13:00-18:00",
+        "operator": "Stadtsparkasse München",
+        "source": "survey",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5316766,
+          48.1531624
+        ]
+      },
+      "properties": {
+        "id": 330177373,
+        "type": "node",
+        "name": "Stadtsparkasse München",
+        "category": "banks",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "2",
+        "addr:postcode": "80639",
+        "addr:street": "Winthirstraße",
+        "amenity": "bank",
+        "atm": "yes",
+        "email": "kontakt@sskm.de",
+        "fax": "+49 89 2167910002",
+        "opening_hours": "Mo-We 08:45-12:30,13:30-16:00; Th 08:45-12:30,13:30-18:00; Fr 08:45-12:30,13:30-16:00",
+        "operator": "Stadtsparkasse München",
+        "phone": "+49 89 2167-10002",
+        "website": "https://www.sskm.de/",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5406991,
+          48.1555033
+        ]
+      },
+      "properties": {
+        "id": 330430070,
+        "type": "node",
+        "name": "Bank Austria",
+        "category": "banks",
+        "amenity": "bank",
+        "operator": "Mahag",
+        "source": "survey"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.677671,
+          48.0631589
+        ]
+      },
+      "properties": {
+        "id": 330811165,
+        "type": "node",
+        "name": "Postbank",
+        "category": "banks",
+        "addr:city": "Ottobrunn",
+        "addr:country": "DE",
+        "addr:housenumber": "131",
+        "addr:postcode": "85521",
+        "addr:street": "Mozartstraße",
+        "amenity": "bank",
+        "atm": "no",
+        "brand": "Postbank",
+        "brand:wikidata": "Q708835",
+        "brand:wikipedia": "de:Postbank",
+        "check_date:opening_hours": "2024-12-31",
+        "opening_hours": "Mo-Fr 09:00-18:00; Sa 09:00-13:00",
+        "operator": "Postbank",
+        "source": "survey"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6407502,
+          48.1923378
+        ]
+      },
+      "properties": {
+        "id": 331350567,
+        "type": "node",
+        "name": "VR-Bank",
+        "category": "banks",
+        "addr:city": "Unterföhring",
+        "addr:country": "DE",
+        "addr:housenumber": "1",
+        "addr:postcode": "85774",
+        "addr:street": "Bahnhofstraße",
+        "amenity": "bank",
+        "atm": "yes",
+        "description": "Zweigstelle Unterföhring",
+        "official_name": "R-Bank Ismaning Hallbergmoos Neufahrn eG",
+        "operator": "Volks- und Raiffeisenbank Ismaning e.G.",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5629072,
+          48.0917406
+        ]
+      },
+      "properties": {
+        "id": 331825934,
+        "type": "node",
+        "name": "Münchner Bank",
+        "category": "banks",
+        "amenity": "bank",
+        "atm": "yes",
+        "check_date": "2025-05-01",
+        "description": "Coin ATM avaialble, takes cash or card (only Müncher Bank cards).",
+        "opening_hours": "Mo-We 09:00-12:30,14:00-16:00; Th 09:00-12:30,14:00-17:30; Fr 09:00-14:00",
+        "operator": "Münchner Bank"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5932075,
+          48.12855
+        ]
+      },
+      "properties": {
+        "id": 332797652,
+        "type": "node",
+        "name": "Stadtsparkasse",
+        "category": "banks",
+        "amenity": "bank",
+        "atm": "yes",
+        "check_date": "2025-03-11",
+        "check_date:opening_hours": "2025-03-11",
+        "drive_through": "no",
+        "opening_hours": "Tu 09:00-12:00,13:00-16:00; Th 09:00-12:00,13:00-18:00",
+        "operator": "Stadtsparkasse",
+        "website": "https://www.sskm.de/",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5973543,
+          48.1324248
+        ]
+      },
+      "properties": {
+        "id": 332797659,
+        "type": "node",
+        "name": "Münchner Bank",
+        "category": "banks",
+        "amenity": "bank",
+        "check_date:opening_hours": "2024-06-15",
+        "opening_hours": "Mo-Fr 09:00-13:00, Mo,Th 14:00-18:00, We 14:00-16:00",
+        "operator": "Münchner Bank",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5405749,
+          48.1336352
+        ]
+      },
+      "properties": {
+        "id": 337484391,
+        "type": "node",
+        "name": "Stadtsparkasse",
+        "category": "banks",
+        "amenity": "bank",
+        "atm": "yes",
+        "check_date": "2025-02-09",
+        "opening_hours": "Mo-We,Fr 08:45-16:00+; Th 08:45-18:00",
+        "operator": "Stadtsparkasse München",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6191375,
+          48.1504641
+        ]
+      },
+      "properties": {
+        "id": 338746296,
+        "type": "node",
+        "name": "Deutsche Bank",
+        "category": "banks",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "11",
+        "addr:postcode": "81925",
+        "addr:street": "Arabellastraße",
+        "amenity": "bank",
+        "atm": "yes",
+        "brand": "Deutsche Bank",
+        "brand:wikidata": "Q66048",
+        "brand:wikipedia": "en:Deutsche Bank",
+        "check_date:opening_hours": "2025-01-24",
+        "opening_hours": "Mo,We-Fr 10:00-12:30, Tu,Th 14:00-16:00",
+        "operator": "Deutsche Bank",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5581879,
+          48.1291223
+        ]
+      },
+      "properties": {
+        "id": 339111317,
+        "type": "node",
+        "name": "HypoVereinsbank",
+        "category": "banks",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "83",
+        "addr:postcode": "80337",
+        "addr:street": "Lindwurmstraße",
+        "amenity": "bank",
+        "atm": "yes",
+        "bic": "HYVEDEMMXXX",
+        "blz": "70020270",
+        "brand": "HypoVereinsbank",
+        "brand:wikidata": "Q220189",
+        "brand:wikipedia": "en:HypoVereinsbank",
+        "opening_hours": "Mo-Fr 09:00-13:00,14:00-16:00; Th 09:00-13:00,14:00-17:30",
+        "operator": "HypoVereinsbank UniCredit Bank AG",
+        "phone": "+49 89 539830",
+        "website": "https://www.hypovereinsbank.de",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6087671,
+          48.1511135
+        ]
+      },
+      "properties": {
+        "id": 344498799,
+        "type": "node",
+        "name": "HypoVereinsbank",
+        "category": "banks",
+        "addr:city": "München",
+        "addr:housenumber": "2",
+        "addr:postcode": "81679",
+        "addr:street": "Oberföhringer Straße",
+        "amenity": "bank",
+        "bic": "HYVEDEMMXXX",
+        "blz": "70020270",
+        "brand": "HypoVereinsbank",
+        "brand:wikidata": "Q220189",
+        "brand:wikipedia": "en:HypoVereinsbank",
+        "contact:phone": "+49 89 37 80",
+        "opening_hours": "24/7",
+        "operator": "HypoVereinsbank",
+        "website": "https://www.hypovereinsbank.de/hvb/privatkunden",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5959684,
+          48.1728642
+        ]
+      },
+      "properties": {
+        "id": 345843660,
+        "type": "node",
+        "name": "Stadtsparkasse Verwaltungszentrum",
+        "category": "banks",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "75",
+        "addr:postcode": "80805",
+        "addr:street": "Ungererstraße",
+        "amenity": "bank",
+        "atm": "yes",
+        "bic": "SSKMDEMMXXX",
+        "fax": "+49 89 2167 900000",
+        "opening_hours": "Mo,We,Fr 09:00-12:30; Tu 14:00-16:00; Th 14:00-18:00",
+        "operator": "Stadtsparkasse",
+        "phone": "+49 89 2167 0",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5855392,
+          48.179026
+        ]
+      },
+      "properties": {
+        "id": 345843686,
+        "type": "node",
+        "name": "Deutsche Bundesbank",
+        "category": "banks",
+        "addr:housenumber": "234",
+        "addr:postcode": "80807",
+        "addr:street": "Leopoldstraße",
+        "amenity": "bank",
+        "check_date": "2024-07-27",
+        "opening_hours": "Mo-Fr 09:00-12:30",
+        "operator": "Deutsche Bundesbank",
+        "phone": "+49 89 28895",
+        "website": "https://www.bundesbank.de/de/bundesbank/hauptverwaltungen-filialen/by/filialen/filiale-muenchen-605466",
+        "wheelchair": "yes",
+        "wheelchair:description": "schwellenfrei, Behinderten-WC"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5114316,
+          48.1807576
+        ]
+      },
+      "properties": {
+        "id": 353915890,
+        "type": "node",
+        "name": "HypoVereinsbank",
+        "category": "banks",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "425",
+        "addr:postcode": "80992",
+        "addr:street": "Dachauer Straße",
+        "addr:suburb": "Moosach",
+        "amenity": "bank",
+        "bic": "HYVEDEMMXXX",
+        "blz": "70020270",
+        "branch": "München-Moosach",
+        "brand": "HypoVereinsbank",
+        "brand:wikidata": "Q220189",
+        "brand:wikipedia": "en:HypoVereinsbank",
+        "contact:phone": "+49 89 149 806-0",
+        "contact:website": "https://www.hypovereinsbank.de/",
+        "opening_hours": "Mo-Fr 09:00-12:30, Th 14:00-17:00; Sa,Su,PH off",
+        "operator": "UniCredit Bank AG",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.4599729,
+          48.1902746
+        ]
+      },
+      "properties": {
+        "id": 364735047,
+        "type": "node",
+        "name": "Raiffeisenbank München Nord eG",
+        "category": "banks",
+        "amenity": "bank",
+        "atm": "yes",
+        "opening_hours": "Mo 08:30-12:30; Tu 08:30-12:30,13:30-16:30; Th 08:30-12:30,13:30-18:00; Fr 08:30-13:00",
+        "operator": "Raiffeisenbank",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.46289,
+          48.2168565
+        ]
+      },
+      "properties": {
+        "id": 364808938,
+        "type": "node",
+        "name": "Sparkasse Dachau",
+        "category": "banks",
+        "amenity": "bank",
+        "atm": "yes",
+        "opening_hours": "Tu 08:15-12:00; Th 13:30-18:00",
+        "operator": "Sparkasse",
+        "website": "https://www.sparkasse-dachau.de"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.4762309,
+          48.1645322
+        ]
+      },
+      "properties": {
+        "id": 365492794,
+        "type": "node",
+        "name": "HypoVereinsbank",
+        "category": "banks",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "48",
+        "addr:postcode": "81247",
+        "addr:street": "Verdistraße",
+        "amenity": "bank",
+        "atm": "yes",
+        "bic": "HYVEDEMMXXX",
+        "blz": "70020270",
+        "brand": "HypoVereinsbank",
+        "brand:wikidata": "Q220189",
+        "opening_hours": "Mo-Fr 09:00-13:00,14:00-16:00; Th 09:00-13:00,14:00-17:30",
+        "operator": "HypoVereinsbank UniCredit Bank AG",
+        "phone": "+49 89 891360 3",
+        "website": "https://www.hypovereinsbank.de",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5631002,
+          48.2054937
+        ]
+      },
+      "properties": {
+        "id": 371181190,
+        "type": "node",
+        "name": "Raiffeisenbank",
+        "category": "banks",
+        "addr:city": "München",
+        "addr:housenumber": "427",
+        "addr:postcode": "80935",
+        "addr:street": "Schleißheimer Straße",
+        "amenity": "bank",
+        "atm": "yes",
+        "brand": "Raiffeisenbank",
+        "brand:wikidata": "Q24282825",
+        "brand:wikipedia": "cs:Raiffeisenbank",
+        "opening_hours": "Mo,Tu,Th 08:30-12:30, 13:30-18:00; We,Fr 08:30-14:00",
+        "operator": "Raiffeisenbank",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5974334,
+          48.134934
+        ]
+      },
+      "properties": {
+        "id": 384918144,
+        "type": "node",
+        "name": "Targobank",
+        "category": "banks",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "61",
+        "addr:postcode": "81667",
+        "addr:street": "Innere Wiener Straße",
+        "amenity": "bank",
+        "atm": "yes",
+        "brand": "Targobank",
+        "brand:wikidata": "Q1455437",
+        "brand:wikipedia": "en:Targobank",
+        "check_date": "2024-11-06",
+        "check_date:opening_hours": "2024-11-06",
+        "fax": "+49 89 614588844",
+        "opening_hours": "Mo-Fr 10:00-13:00, Tu 14:00-18:00, Th 14:00-16:00",
+        "operator": "TARGOBANK AG & Co. KGaA",
+        "phone": "+49 89 475086",
+        "toilets:wheelchair": "no",
+        "website": "https://www.targobank.de",
+        "wheelchair": "yes",
+        "wheelchair:description": "Automaten selbst sind gut erreichbar."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.3656875,
+          48.1297024
+        ]
+      },
+      "properties": {
+        "id": 392722195,
+        "type": "node",
+        "name": "Oberbank",
+        "category": "banks",
+        "amenity": "bank",
+        "atm": "yes",
+        "brand": "Oberbank",
+        "brand:wikidata": "Q2009139",
+        "brand:wikipedia": "de:Oberbank",
+        "check_date": "2023-08-30",
+        "opening_hours": "Mo-Fr 08:00-19:00",
+        "operator": "Oberbank",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.3657731,
+          48.1268489
+        ]
+      },
+      "properties": {
+        "id": 393884148,
+        "type": "node",
+        "name": "Sparda-Bank",
+        "category": "banks",
+        "addr:city": "Germering",
+        "addr:country": "DE",
+        "addr:housenumber": "2a",
+        "addr:postcode": "82110",
+        "addr:street": "Otto-Wagner-Straße",
+        "amenity": "bank",
+        "atm": "yes",
+        "brand": "Sparda-Bank",
+        "brand:wikidata": "Q2307136",
+        "brand:wikipedia": "en:Sparda-Bank",
+        "check_date": "2025-09-29",
+        "opening_hours": "Mo,Tu,Th,Fr 09:00-13:00, Tu,Th 14:00-18:00",
+        "operator": "Sparda-Bank München eG",
+        "toilets:wheelchair": "no",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.4653609,
+          48.0927811
+        ]
+      },
+      "properties": {
+        "id": 395504719,
+        "type": "node",
+        "name": "Raiffeisenbank München Süd eG",
+        "category": "banks",
+        "addr:housenumber": "1",
+        "addr:postcode": "82061",
+        "addr:street": "Gautinger Straße",
+        "amenity": "bank",
+        "atm": "yes",
+        "bic": "GENODEF1M03",
+        "opening_hours": "Mo-We,Fr 08:30-12:30,14:00-16:00; Th 08:30-12:30,14:00-18:00",
+        "operator": "Raiffeisenbank",
+        "phone": "+49 89 759060",
+        "website": "https://www.raiba-muc-sued.de/",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6111341,
+          48.1907158
+        ]
+      },
+      "properties": {
+        "id": 403161819,
+        "type": "node",
+        "name": "Sparda-Bank",
+        "category": "banks",
+        "amenity": "bank",
+        "atm": "yes",
+        "brand": "Sparda-Bank",
+        "brand:wikidata": "Q2307136",
+        "brand:wikipedia": "de:Sparda-Bank (Deutschland)",
+        "opening_hours": "Mo,Tu,Th,Fr 09:00-13:00, Tu,Th 14:00-18:00",
+        "operator": "Sparda-Bank"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5654967,
+          48.1374872
+        ]
+      },
+      "properties": {
+        "id": 408798820,
+        "type": "node",
+        "name": "Hausbank München",
+        "category": "banks",
+        "addr:housenumber": "13",
+        "addr:postcode": "80331",
+        "addr:street": "Sonnenstraße",
+        "amenity": "bank",
+        "check_date": "2025-05-26",
+        "opening_hours": "Mo-Fr 09:00-12:30,14:00-16:00",
+        "operator": "Hausbank München",
+        "toilets:wheelchair": "no",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5663625,
+          48.1327637
+        ]
+      },
+      "properties": {
+        "id": 409497587,
+        "type": "node",
+        "name": "Stadtsparkasse",
+        "category": "banks",
+        "amenity": "bank",
+        "atm": "yes",
+        "check_date": "2025-04-30",
+        "opening_hours": "Mo,Tu,We,Fr 08:45-12:30,13:30-16:00; Th 08:45-12:30,13:30-18:00; PH off",
+        "operator": "Stadtsparkasse",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5671672,
+          48.1239135
+        ]
+      },
+      "properties": {
+        "id": 409497612,
+        "type": "node",
+        "name": "Stadtsparkasse",
+        "category": "banks",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "21",
+        "addr:postcode": "80469",
+        "addr:street": "Baldestraße",
+        "amenity": "bank",
+        "atm": "yes",
+        "check_date": "2025-09-08",
+        "opening_hours": "24/7",
+        "operator": "Stadtsparkasse München",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5705403,
+          48.1307845
+        ]
+      },
+      "properties": {
+        "id": 409497620,
+        "type": "node",
+        "name": "Stadtsparkasse",
+        "category": "banks",
+        "amenity": "bank",
+        "atm": "yes",
+        "check_date:opening_hours": "2023-01-31",
+        "opening_hours": "Mo-Su,PH 12:00-12:00",
+        "operator": "Stadtsparkasse",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5336234,
+          48.15344
+        ]
+      },
+      "properties": {
+        "id": 409556202,
+        "type": "node",
+        "name": "HypoVereinsbank",
+        "category": "banks",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "164",
+        "addr:postcode": "80634",
+        "addr:street": "Nymphenburger Straße",
+        "amenity": "bank",
+        "atm": "yes",
+        "bic": "HYVEDEMMXXX",
+        "blz": "70020270",
+        "brand": "HypoVereinsbank",
+        "brand:wikidata": "Q220189",
+        "brand:wikipedia": "en:HypoVereinsbank",
+        "opening_hours": "Mo-Fr 09:00-13:00,14:00-16:00; Th 09:00-13:00,14:00-17:30",
+        "operator": "HypoVereinsbank UniCredit Bank AG",
+        "phone": "+49 89 179 15 0",
+        "website": "https://www.hypovereinsbank.de",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.479567,
+          48.1642958
+        ]
+      },
+      "properties": {
+        "id": 411401521,
+        "type": "node",
+        "name": "Genossenschaftsbank München",
+        "category": "banks",
+        "amenity": "bank",
+        "atm": "yes",
+        "operator": "Genossenschaftsbank München",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.4231561,
+          48.1448138
+        ]
+      },
+      "properties": {
+        "id": 411615816,
+        "type": "node",
+        "name": "Stadtsparkasse München (Neuaubing)",
+        "category": "banks",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "97",
+        "addr:postcode": "81243",
+        "addr:street": "Limesstraße",
+        "amenity": "bank",
+        "atm": "yes",
+        "opening_hours": "Mo,We,Fr 09:00-12:00,13:00-16:00",
+        "operator": "Stadtsparkasse München (Neuaubing)",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.4150136,
+          48.1582074
+        ]
+      },
+      "properties": {
+        "id": 411617332,
+        "type": "node",
+        "name": "Stadtsparkasse München",
+        "category": "banks",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "11",
+        "addr:postcode": "81245",
+        "addr:street": "Altostraße",
+        "amenity": "bank",
+        "atm": "yes",
+        "check_date": "2025-05-28",
+        "opening_hours": "Mo-We,Fr 08:45-12:30,13:30-16:00; Th 08:45-12:30,13:30-18:00",
+        "operator": "Stadtsparkasse München (Alt-Aubing)",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6135628,
+          48.0640311
+        ]
+      },
+      "properties": {
+        "id": 414178358,
+        "type": "node",
+        "name": "VR Bank",
+        "category": "banks",
+        "amenity": "bank",
+        "atm": "yes",
+        "check_date": "2023-07-30",
+        "opening_hours": "Mo-Fr 08:15-12:30,13:30-16:00; Th 08:15-12:30,13:30-18:00; Sa,Su,PH off",
+        "operator": "VR Bank",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5746688,
+          48.1592013
+        ]
+      },
+      "properties": {
+        "id": 416352938,
+        "type": "node",
+        "name": "HypoVereinsbank",
+        "category": "banks",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "49",
+        "addr:postcode": "80801",
+        "addr:street": "Nordendstraße",
+        "amenity": "bank",
+        "atm": "yes",
+        "bic": "HYVEDEMMXXX",
+        "blz": "70020270",
+        "brand": "HypoVereinsbank",
+        "brand:wikidata": "Q220189",
+        "brand:wikipedia": "en:HypoVereinsbank",
+        "check_date": "2025-05-12",
+        "check_date:opening_hours": "2025-03-05",
+        "contact:phone": "+49 89 272 908-0",
+        "contact:website": "https://www.hypovereinsbank.de/hvb/kontaktwege/filiale/l/munchen/nordendstrasse-49/499",
+        "opening_hours": "Mo-We,Fr 09:00-12:30,14:00-16:00; Th 09:00-12:30,14:00-17:30; Sa,Su,PH off",
+        "operator": "HypoVereinsbank UniCredit Bank AG",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.466423,
+          48.164967
+        ]
+      },
+      "properties": {
+        "id": 429432236,
+        "type": "node",
+        "name": "Kreissparkasse",
+        "category": "banks",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "98",
+        "addr:postcode": "81247",
+        "addr:street": "Verdistraße",
+        "amenity": "bank",
+        "operator": "Kreissparkasse"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5343822,
+          48.1531285
+        ]
+      },
+      "properties": {
+        "id": 444043941,
+        "type": "node",
+        "name": "Targobank",
+        "category": "banks",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "21",
+        "addr:postcode": "80634",
+        "addr:street": "Leonrodstraße",
+        "amenity": "bank",
+        "atm": "yes",
+        "brand": "Targobank",
+        "brand:wikidata": "Q1455437",
+        "brand:wikipedia": "en:Targobank",
+        "check_date:opening_hours": "2023-07-24",
+        "opening_hours": "Mo-Fr 10:00-13:00, Mo,Tu,Th 14:00-18:00",
+        "operator": "Targobank",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.3642433,
+          48.1310773
+        ]
+      },
+      "properties": {
+        "id": 451706656,
+        "type": "node",
+        "name": "Volksbank Raiffeisenbank",
+        "category": "banks",
+        "addr:city": "Germering",
+        "addr:country": "DE",
+        "addr:housenumber": "38",
+        "addr:postcode": "82110",
+        "addr:street": "Untere Bahnhofstraße",
+        "amenity": "bank",
+        "atm": "yes",
+        "check_date": "2025-09-29",
+        "opening_hours": "Mo-Th 08:30-12:00, Fr 08:30-13:00, Mo,Tu 14:00-16:00, Th 14:00-18:00",
+        "operator": "Volksbank Raiffeisenbank Fürstenfeldbruck eG",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5587992,
+          48.1362406
+        ]
+      },
+      "properties": {
+        "id": 458228443,
+        "type": "node",
+        "name": "İşbank",
+        "category": "banks",
+        "amenity": "bank",
+        "atm": "yes",
+        "brand": "İşbank",
+        "brand:wikidata": "Q2607251",
+        "brand:wikipedia": "de:İşbank",
+        "opening_hours": "Mo-Fr 08:30-13:00, Mo-We,Fr 14:00-16:30, Th 14:00-17:30",
+        "operator": "İşbank",
+        "source": "sightwalk.de",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.3649079,
+          48.1296061
+        ]
+      },
+      "properties": {
+        "id": 470698696,
+        "type": "node",
+        "name": "HypoVereinsbank",
+        "category": "banks",
+        "amenity": "bank",
+        "atm": "yes",
+        "brand": "HypoVereinsbank",
+        "brand:wikidata": "Q220189",
+        "brand:wikipedia": "en:HypoVereinsbank",
+        "opening_hours": "Mo-Fr 09:00-12:30, Th 14:00-17:00",
+        "operator": "HypoVereinsbank",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6168971,
+          48.0792408
+        ]
+      },
+      "properties": {
+        "id": 515664992,
+        "type": "node",
+        "name": "OLB",
+        "category": "banks",
+        "amenity": "bank",
+        "atm": "yes",
+        "brand": "OLB",
+        "network": "CashPool",
+        "old_name": "Degussa Bank",
+        "opening_hours": "Mo-We,Fr 10:00-12:00; Th 14:00-16:00",
+        "operator": "Oldenburgische Landesbank",
+        "phone": "+49 89 234 23867",
+        "website": "https://www.olb.de/service/kontakt-und-informationen/kontaktaufnahme/filialfinder/filialen/neubiberg",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6174735,
+          48.1484924
+        ]
+      },
+      "properties": {
+        "id": 528998450,
+        "type": "node",
+        "name": "Münchner Bank",
+        "category": "banks",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "82",
+        "addr:postcode": "81679",
+        "addr:street": "Richard-Strauss-Straße",
+        "amenity": "bank",
+        "atm": "yes",
+        "opening_hours": "Mo-We 08:30-12:30,14:00-16:00; Th 08:30-12:30,14:00-17:30; Fr 08:30-12:30,14:00-16:00",
+        "operator": "Münchner Bank",
+        "wheelchair": "yes",
+        "wikidata": "Q1958943"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.504149,
+          48.082807
+        ]
+      },
+      "properties": {
+        "id": 532648628,
+        "type": "node",
+        "name": "Stadtsparkasse München",
+        "category": "banks",
+        "amenity": "bank",
+        "atm": "yes",
+        "check_date": "2023-08-10",
+        "description": "Nur Automatenfiliale",
+        "opening_hours": "24/7",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6652276,
+          48.0751945
+        ]
+      },
+      "properties": {
+        "id": 534732226,
+        "type": "node",
+        "name": "Postbank",
+        "category": "banks",
+        "addr:city": "Neubiberg",
+        "addr:country": "DE",
+        "addr:housenumber": "28",
+        "addr:postcode": "85579",
+        "addr:street": "Hauptstraße",
+        "amenity": "bank",
+        "atm": "yes",
+        "brand": "Postbank",
+        "brand:wikidata": "Q708835",
+        "check_date": "2025-05-21",
+        "opening_hours": "Mo-Fr 08:30-18:00; Sa 08:30-13:00",
+        "operator": "Postbank",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.3868884,
+          48.1327418
+        ]
+      },
+      "properties": {
+        "id": 586670342,
+        "type": "node",
+        "name": "VR Bank",
+        "category": "banks",
+        "amenity": "bank",
+        "atm": "yes",
+        "check_date": "2023-08-30",
+        "opening_hours": "Mo 08:00-12:30,14:00-16:00; Tu,Th 08:00-12:30,14:00-18:00; We 08:00-12:30; Fr 08:00-15:00",
+        "operator": "VR Bank",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.3662698,
+          48.1230789
+        ]
+      },
+      "properties": {
+        "id": 601497056,
+        "type": "node",
+        "name": "Volksbank Raiffeisenbank",
+        "category": "banks",
+        "amenity": "bank",
+        "operator": "VR Bank"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6158625,
+          48.1493264
+        ]
+      },
+      "properties": {
+        "id": 615651636,
+        "type": "node",
+        "name": "LBS",
+        "category": "banks",
+        "amenity": "bank",
+        "brand": "LBS",
+        "brand:wikidata": "Q13604004"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5724396,
+          48.1383162
+        ]
+      },
+      "properties": {
+        "id": 656252932,
+        "type": "node",
+        "name": "Münchner Bank",
+        "category": "banks",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "3",
+        "addr:postcode": "80331",
+        "addr:street": "Frauenplatz",
+        "amenity": "bank",
+        "atm": "yes",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.4984029,
+          48.0942567
+        ]
+      },
+      "properties": {
+        "id": 660720624,
+        "type": "node",
+        "name": "Raiffeisenbank München Süd eG",
+        "category": "banks",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "59",
+        "addr:postcode": "81476",
+        "addr:street": "Forstenrieder Allee",
+        "amenity": "bank",
+        "check_date": "2024-11-15",
+        "opening_hours": "Mo-Fr 08:00-12:30, Mo-We,Fr 14:00-16:00, Th 14:00-18:00",
+        "phone": "+49 89 759060",
+        "website": "https://www.raiba-muc-sued.de/",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5276919,
+          48.0799872
+        ]
+      },
+      "properties": {
+        "id": 666112145,
+        "type": "node",
+        "name": "Commerzbank",
+        "category": "banks",
+        "addr:city": "München",
+        "addr:housenumber": "216",
+        "addr:postcode": "81479",
+        "addr:street": "Wolfratshauser Straße",
+        "amenity": "bank",
+        "atm": "yes",
+        "brand": "Commerzbank",
+        "brand:wikidata": "Q157617",
+        "brand:wikipedia": "de:Commerzbank",
+        "entrance": "yes",
+        "website": "https://www.commerzbank.de/",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.476922,
+          48.1157558
+        ]
+      },
+      "properties": {
+        "id": 672684381,
+        "type": "node",
+        "name": "Sparda-Bank",
+        "category": "banks",
+        "amenity": "bank",
+        "atm": "yes",
+        "brand": "Sparda-Bank",
+        "brand:wikidata": "Q2307136",
+        "brand:wikipedia": "de:Sparda-Bank (Deutschland)",
+        "opening_hours": "Mo-Fr 08:00-13:00, Mo 14:00-15:30, Tu,Th 14:00-17:30",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.4777902,
+          48.1157589
+        ]
+      },
+      "properties": {
+        "id": 672684382,
+        "type": "node",
+        "name": "Sparkasse",
+        "category": "banks",
+        "addr:city": "München",
+        "addr:housenumber": "130",
+        "addr:postcode": "81375",
+        "addr:street": "Würmtalstraße",
+        "amenity": "bank",
+        "atm": "yes",
+        "drive_through": "no",
+        "opening_hours": "Mo-We,Fr 09:00-12:00,13:00-16:00",
+        "operator": "Stadtsparkasse München",
+        "website": "https://www.sskm.de/",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6299819,
+          48.0995694
+        ]
+      },
+      "properties": {
+        "id": 672915392,
+        "type": "node",
+        "name": "Münchner Bank",
+        "category": "banks",
+        "amenity": "bank",
+        "atm": "yes",
+        "check_date": "2024-01-02",
+        "check_date:opening_hours": "2022-11-14",
+        "opening_hours": "Th 14:00-17:30, Mo,We,Fr 08:30-13:00, Tu,Th 08:30-12:30, Tu 14:00-16:00",
+        "operator": "Münchner Bank",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5127776,
+          48.1536053
+        ]
+      },
+      "properties": {
+        "id": 693819421,
+        "type": "node",
+        "name": "Stadtsparkasse",
+        "category": "banks",
+        "amenity": "bank",
+        "check_date": "2023-07-24",
+        "opening_hours": "Mo-Fr 08:00-20:00",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5720787,
+          48.141448
+        ]
+      },
+      "properties": {
+        "id": 699702757,
+        "type": "node",
+        "name": "BHF Bank",
+        "category": "banks",
+        "amenity": "bank",
+        "check_date": "2023-06-28",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5721624,
+          48.1414234
+        ]
+      },
+      "properties": {
+        "id": 699702758,
+        "type": "node",
+        "name": "UBI Banca",
+        "category": "banks",
+        "amenity": "bank",
+        "check_date": "2023-06-28",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5327505,
+          48.1534369
+        ]
+      },
+      "properties": {
+        "id": 707948690,
+        "type": "node",
+        "name": "Commerzbank",
+        "category": "banks",
+        "amenity": "bank",
+        "atm": "yes",
+        "brand": "Commerzbank",
+        "brand:wikidata": "Q157617",
+        "brand:wikipedia": "de:Commerzbank",
+        "opening_hours": "Mo-Th 09:00-13:00, Mo,We 14:00-16:00, Tu,Th 14:00-18:00, Fr 09:00-14:00",
+        "operator": "Commerzbank AG",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5131579,
+          48.1798495
+        ]
+      },
+      "properties": {
+        "id": 741558257,
+        "type": "node",
+        "name": "Sparda-Bank",
+        "category": "banks",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "413",
+        "addr:postcode": "80992",
+        "addr:street": "Dachauer Straße",
+        "addr:suburb": "Moosach",
+        "amenity": "bank",
+        "bic": "GENODEF1S04",
+        "branch": "Geschäftsstelle Moosach",
+        "brand": "Sparda-Bank",
+        "brand:wikidata": "Q2307136",
+        "brand:wikipedia": "en:Sparda-Bank",
+        "contact:fax": "+49 89 55142 100",
+        "contact:phone": "+49 89 55142 400",
+        "contact:website": "https://www.sparda-m.de/",
+        "opening_hours": "Tu,Th 09:00-13:00,14:00-18:00; Mo,Fr 09:00-13:00; We,PH off",
+        "operator": "Sparda-Bank München eG",
+        "wheelchair": "yes",
+        "wikidata": "Q2307151",
+        "wikipedia": "de:Sparda-Bank München"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5131245,
+          48.1804247
+        ]
+      },
+      "properties": {
+        "id": 741558284,
+        "type": "node",
+        "name": "Commerzbank",
+        "category": "banks",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "266",
+        "addr:postcode": "80992",
+        "addr:street": "Dachauer Straße",
+        "addr:suburb": "Moosach",
+        "amenity": "bank",
+        "branch": "Filiale München-Moosach",
+        "brand": "Commerzbank",
+        "brand:wikidata": "Q157617",
+        "brand:wikipedia": "de:Commerzbank",
+        "contact:fax": "+49 89 143 698-20",
+        "contact:phone": "+49 89 143 698-0",
+        "contact:website": "https://www.commerzbank.de/",
+        "operator": "Commerzbank AG",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5143107,
+          48.1792976
+        ]
+      },
+      "properties": {
+        "id": 741558287,
+        "type": "node",
+        "name": "Stadtsparkasse München",
+        "category": "banks",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "407",
+        "addr:postcode": "80992",
+        "addr:street": "Dachauer Straße",
+        "addr:suburb": "Moosach",
+        "amenity": "bank",
+        "branch": "BeratungsCenter Moosach",
+        "brand": "Sparkasse",
+        "brand:wikidata": "Q13601825",
+        "check_date": "2025-01-22",
+        "contact:email": "BC.Moosach@sskm.de",
+        "contact:fax": "+49 89 2167910028",
+        "contact:phone": "+49 89 2167-10028",
+        "contact:website": "https://www.sskm.de/",
+        "opening_hours": "Mo-Fr 08:45-12:30, 13:30-16:00; Th 08:45-12:30, 13:30-18:00; PH off",
+        "operator": "Stadtsparkasse München",
+        "operator:wikidata": "Q1438593",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5719585,
+          48.1401093
+        ]
+      },
+      "properties": {
+        "id": 769061544,
+        "type": "node",
+        "name": "Deutsche Bank",
+        "category": "banks",
+        "amenity": "bank",
+        "atm": "yes",
+        "brand": "Deutsche Bank",
+        "brand:wikidata": "Q66048",
+        "brand:wikipedia": "en:Deutsche Bank",
+        "opening_hours": "Mo-Th 09:30-17:00; Fr 09:30-15:00",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.4907901,
+          48.1185264
+        ]
+      },
+      "properties": {
+        "id": 818966497,
+        "type": "node",
+        "name": "Sparkasse",
+        "category": "banks",
+        "addr:city": "München",
+        "addr:housenumber": "90",
+        "addr:postcode": "81375",
+        "addr:street": "Guardinistraße",
+        "amenity": "bank",
+        "atm": "yes",
+        "check_date": "2025-10-18",
+        "opening_hours": "24/7",
+        "operator": "Sparkasse München",
+        "website": "https://www.sskm.de",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5026631,
+          48.1359488
+        ]
+      },
+      "properties": {
+        "id": 832859821,
+        "type": "node",
+        "name": "HypoVereinsbank",
+        "category": "banks",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "62",
+        "addr:postcode": "80686",
+        "addr:street": "Fürstenrieder Straße",
+        "amenity": "bank",
+        "atm": "yes",
+        "bic": "HYVEDEMMXXX",
+        "brand": "HypoVereinsbank",
+        "brand:wikidata": "Q220189",
+        "brand:wikipedia": "en:HypoVereinsbank",
+        "opening_hours": "Mo-Fr 09:00-13:00,14:00-16:00; Th 09:00-13:00,14:00-17:30",
+        "operator": "HypoVereinsbank UniCredit Bank AG",
+        "phone": "+49 89 589270",
+        "website": "https://www.hypovereinsbank.de",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.4802032,
+          48.0893113
+        ]
+      },
+      "properties": {
+        "id": 838540347,
+        "type": "node",
+        "name": "HypoVereinsbank",
+        "category": "banks",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "2",
+        "addr:postcode": "81475",
+        "addr:street": "Engadiner Straße",
+        "amenity": "bank",
+        "atm": "yes",
+        "brand": "HypoVereinsbank",
+        "brand:wikidata": "Q220189",
+        "brand:wikipedia": "en:HypoVereinsbank",
+        "check_date:opening_hours": "2023-03-24",
+        "opening_hours": "Mo-Fr 09:00-12:30, Mo,Fr 14:00-16:00, Th 14:00-17:00",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5550715,
+          48.2089443
+        ]
+      },
+      "properties": {
+        "id": 930762097,
+        "type": "node",
+        "name": "HypoVereinsbank",
+        "category": "banks",
+        "addr:city": "München",
+        "addr:housenumber": "66",
+        "addr:postcode": "80935",
+        "addr:street": "Weitlstraße",
+        "amenity": "bank",
+        "atm": "yes",
+        "bic": "HYVEDEMMXXX",
+        "blz": "70020270",
+        "brand": "HypoVereinsbank",
+        "brand:wikidata": "Q220189",
+        "brand:wikipedia": "en:HypoVereinsbank",
+        "opening_hours": "Mo-Fr 09:00-12:00",
+        "operator": "HypoVereinsbank",
+        "website": "https://www.hypovereinsbank.de/hvb/privatkunden",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5471181,
+          48.1587143
+        ]
+      },
+      "properties": {
+        "id": 972415426,
+        "type": "node",
+        "name": "Stadtsparkasse München",
+        "category": "banks",
+        "amenity": "bank",
+        "atm": "yes",
+        "check_date": "2025-10-26",
+        "check_date:opening_hours": "2025-10-26",
+        "opening_hours": "Mo,We,Fr 09:00-12:00,13:00-16:00; PH off",
+        "operator": "Stadtsparkasse München",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6453359,
+          48.1009562
+        ]
+      },
+      "properties": {
+        "id": 981114884,
+        "type": "node",
+        "name": "Commerzbank",
+        "category": "banks",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "12",
+        "addr:postcode": "81737",
+        "addr:street": "Thomas-Dehler-Straße",
+        "amenity": "bank",
+        "atm": "yes",
+        "brand": "Commerzbank",
+        "brand:wikidata": "Q157617",
+        "brand:wikipedia": "de:Commerzbank",
+        "check_date": "2023-12-20",
+        "check_date:opening_hours": "2024-05-05",
+        "level": "0",
+        "opening_hours": "Fr 09:00-14:00; Tu,Th 14:00-18:00,09:00-13:00; Mo,We 09:00-13:00,14:00-16:00",
+        "operator": "Commerzbank",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5726079,
+          48.2047937
+        ]
+      },
+      "properties": {
+        "id": 1006281674,
+        "type": "node",
+        "name": "Stadtsparkasse München",
+        "category": "banks",
+        "addr:housenumber": "86",
+        "addr:street": "Weyprechtstraße",
+        "amenity": "bank",
+        "operator": "Stadtsparkasse München",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5558612,
+          48.1281214
+        ]
+      },
+      "properties": {
+        "id": 1091413969,
+        "type": "node",
+        "name": "Stadtsparkasse München",
+        "category": "banks",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "107",
+        "addr:postcode": "80337",
+        "addr:street": "Lindwurmstraße",
+        "amenity": "bank",
+        "atm": "yes",
+        "level": "0",
+        "opening_hours": "Tu,Th 09:00-12:00, Tu 13:00-16:00, Th 13:00-18:00",
+        "operator": "Stadtsparkasse München",
+        "website": "https://www.sskm.de/",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.4490004,
+          48.1628505
+        ]
+      },
+      "properties": {
+        "id": 1112716191,
+        "type": "node",
+        "name": "Genossenschaftsbank eG München",
+        "category": "banks",
+        "amenity": "bank",
+        "atm": "yes",
+        "opening_hours": "Mo-Fr 09:00-12:30"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.4928746,
+          48.1791521
+        ]
+      },
+      "properties": {
+        "id": 1128145577,
+        "type": "node",
+        "name": "Raiffeisenbank Dachau eG, Filiale Untermenzing",
+        "category": "banks",
+        "addr:housenumber": "98",
+        "addr:postcode": "80997",
+        "addr:street": "Allacher Straße",
+        "amenity": "bank",
+        "email": "mailbox@vr-dachau.de",
+        "opening_hours": "Mo-Th 08:00-18:00; Fr 08:00-14:00",
+        "phone": "+49 89 143408 30",
+        "website": "https://www.vr-dachau.de/wir-fuer-sie/filialen-ansprechpartner/filialen/uebersicht-filialen/Filiale-Muenchen-Untermenzing.html",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5579252,
+          48.1297405
+        ]
+      },
+      "properties": {
+        "id": 1150871278,
+        "type": "node",
+        "name": "Postbank",
+        "category": "banks",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "1",
+        "addr:postcode": "80337",
+        "addr:street": "Goetheplatz",
+        "amenity": "bank",
+        "brand": "Postbank",
+        "brand:wikidata": "Q708835",
+        "opening_hours": "Mo-Fr 09:00-18:00, Sa 09:00-12:30",
+        "phone": "+49 1803 040500",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5736174,
+          48.146255
+        ]
+      },
+      "properties": {
+        "id": 1227896773,
+        "type": "node",
+        "name": "DZ Bank",
+        "category": "banks",
+        "amenity": "bank",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5022593,
+          48.1356256
+        ]
+      },
+      "properties": {
+        "id": 1245363179,
+        "type": "node",
+        "name": "Postbank",
+        "category": "banks",
+        "amenity": "bank",
+        "atm": "yes",
+        "brand": "Postbank",
+        "brand:wikidata": "Q708835",
+        "brand:wikipedia": "de:Postbank",
+        "opening_hours": "Mo-Fr 08:30-18:00; Sa 08:30-12:30",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.7078378,
+          48.1119579
+        ]
+      },
+      "properties": {
+        "id": 1272907856,
+        "type": "node",
+        "name": "VR Bank München Land",
+        "category": "banks",
+        "addr:city": "München",
+        "addr:housenumber": "249",
+        "addr:postcode": "81827",
+        "addr:street": "Wasserburger Landstraße",
+        "amenity": "bank",
+        "atm": "yes",
+        "check_date": "2025-08-30",
+        "opening_hours": "Mo,We,Fr 09:00-12:00; Tu 14:00-16:00; Th 14:00-18:00; Sa-Su,PH off",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.4800334,
+          48.0898992
+        ]
+      },
+      "properties": {
+        "id": 1304189549,
+        "type": "node",
+        "name": "Stadtsparkasse München",
+        "category": "banks",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "1",
+        "addr:postcode": "81475",
+        "addr:street": "Appenzeller Straße",
+        "amenity": "bank",
+        "atm": "yes",
+        "bic": "SSKMDEMMXXX",
+        "contact:email": "FL.Fuerstenried-West@sskm.de",
+        "email": "FL.Fuerstenried-West@sskm.de",
+        "opening_hours": "Tu 09:00-12:00,13:00-16:00; Th 09:00-12:00,13:00-18:00; PH off",
+        "operator": "Stadtsparkasse München",
+        "phone": "+49 89 2167-0",
+        "service_times": "Mo-Fr 08:00-20:00 \"nach Vereinbarung\"; Sa,Su,PH off",
+        "website": "https://www.sskm.de/",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.4882954,
+          48.1414451
+        ]
+      },
+      "properties": {
+        "id": 1305287494,
+        "type": "node",
+        "name": "Genossenschaftsbank",
+        "category": "banks",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "18",
+        "addr:postcode": "80687",
+        "addr:street": "Willibaldstraße",
+        "amenity": "bank",
+        "email": "kontakt@genobamuc.de",
+        "fax": "+49 89 86303 169",
+        "opening_hours": "Mo-Fr 09:00-12:30",
+        "operator": "Genossenschaftsbank eG München",
+        "phone": "+49 89 86303 160",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5866234,
+          48.1786285
+        ]
+      },
+      "properties": {
+        "id": 1328633815,
+        "type": "node",
+        "name": "Deutsche Bundesbank",
+        "category": "banks",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housename": "Deutsche Bundesbank",
+        "addr:housenumber": "3",
+        "addr:postcode": "80807",
+        "addr:street": "Erwin-von-Kreibig-Straße",
+        "amenity": "bank",
+        "wheelchair": "yes",
+        "wheelchair:description": "barrierefrei.- Behinderten - WC"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.59888,
+          48.140673
+        ]
+      },
+      "properties": {
+        "id": 1353243711,
+        "type": "node",
+        "name": "UBS",
+        "category": "banks",
+        "addr:country": "DE",
+        "addr:housenumber": "1",
+        "addr:postcode": "81675",
+        "addr:street": "Europaplatz",
+        "amenity": "bank",
+        "branch": "Niederlassung München",
+        "brand": "UBS",
+        "brand:wikidata": "Q193199",
+        "check_date": "2025-10-10",
+        "operator": "UBS Deutschland AG",
+        "website": "https://www.ubs.com/de/de.html",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5294934,
+          48.1622024
+        ]
+      },
+      "properties": {
+        "id": 1376047996,
+        "type": "node",
+        "name": "PSD Bank",
+        "category": "banks",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "46",
+        "addr:postcode": "80637",
+        "addr:street": "Waisenhausstraße",
+        "amenity": "bank",
+        "opening_hours": "Mo-Fr 09:00-12:00, Mo-Th 13:00-16:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5290527,
+          48.1641858
+        ]
+      },
+      "properties": {
+        "id": 1376048039,
+        "type": "node",
+        "name": "Stadtsparkasse München",
+        "category": "banks",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "72",
+        "addr:postcode": "80637",
+        "addr:street": "Waisenhausstraße",
+        "amenity": "bank",
+        "atm": "yes",
+        "operator": "Stadtsparkasse München",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5810675,
+          48.1164304
+        ]
+      },
+      "properties": {
+        "id": 1379601763,
+        "type": "node",
+        "name": "Münchner Bank",
+        "category": "banks",
+        "addr:housenumber": "45",
+        "addr:street": "Tegernseer Landstraße",
+        "amenity": "bank",
+        "atm": "yes",
+        "check_date": "2025-02-28",
+        "check_date:opening_hours": "2025-02-28",
+        "drive_through": "no",
+        "opening_hours": "Mo-We,Fr 09:00-13:00,14:00-16:00; Th 09:00-13:00,14:00-18:00",
+        "operator": "Münchner Bank",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5846979,
+          48.1584206
+        ]
+      },
+      "properties": {
+        "id": 1398862436,
+        "type": "node",
+        "name": "HypoVereinsbank",
+        "category": "banks",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "29",
+        "addr:postcode": "80802",
+        "addr:street": "Leopoldstraße",
+        "amenity": "bank",
+        "branch": "SB",
+        "brand": "HypoVereinsbank",
+        "brand:wikidata": "Q220189",
+        "brand:wikipedia": "de:Unicredit_Bank",
+        "contact:website": "https://www.hypovereinsbank.de/hvb/kontaktwege/filiale#!/l/munchen/leopoldstrasse-29/599",
+        "opening_hours": "24/7",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5858253,
+          48.16111
+        ]
+      },
+      "properties": {
+        "id": 1401109291,
+        "type": "node",
+        "name": "Postbank",
+        "category": "banks",
+        "amenity": "bank",
+        "atm": "yes",
+        "brand": "Postbank",
+        "brand:wikidata": "Q708835",
+        "brand:wikipedia": "de:Postbank",
+        "check_date:opening_hours": "2023-02-25",
+        "opening_hours": "Mo-Fr 08:00-18:30; Sa 09:00-12:30",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6045323,
+          48.1425623
+        ]
+      },
+      "properties": {
+        "id": 1407921685,
+        "type": "node",
+        "name": "Bankhaus August Lenz & Co.",
+        "category": "banks",
+        "amenity": "bank",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.3727126,
+          48.1942989
+        ]
+      },
+      "properties": {
+        "id": 1434626845,
+        "type": "node",
+        "name": "Sparkasse Gröbenzell",
+        "category": "banks",
+        "amenity": "bank",
+        "atm": "yes",
+        "check_date:opening_hours": "2024-09-05",
+        "opening_hours": "Mo,We,Fr 08:30-12:30; Tu 14:00-16:00; Th 14:00-18:00",
+        "operator": "Sparkasse",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.3724343,
+          48.1934413
+        ]
+      },
+      "properties": {
+        "id": 1434714875,
+        "type": "node",
+        "name": "HypoVereinsbank",
+        "category": "banks",
+        "amenity": "bank",
+        "atm": "yes",
+        "brand": "HypoVereinsbank",
+        "brand:wikidata": "Q220189",
+        "brand:wikipedia": "en:HypoVereinsbank",
+        "opening_hours": "Mo-Fr 08:30-12:30,14:00-16:00; We 08:30-12:30; Th 08:30-12:30,14:00-17:30",
+        "operator": "HypoVereinsbank UniCredit Bank AG",
+        "website": "https://www.hypovereinsbank.de",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5739844,
+          48.139981
+        ]
+      },
+      "properties": {
+        "id": 1446830338,
+        "type": "node",
+        "name": "HypoVereinsbank",
+        "category": "banks",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "14",
+        "addr:postcode": "80333",
+        "addr:street": "Kardinal-Faulhaber-Straße",
+        "amenity": "bank",
+        "atm": "yes",
+        "bic": "HYVEDEMMXXX",
+        "blz": "70020270",
+        "brand": "HypoVereinsbank",
+        "brand:wikidata": "Q220189",
+        "brand:wikipedia": "en:HypoVereinsbank",
+        "opening_hours": "\"temp. off till March 2016 because of construction\"",
+        "operator": "HypoVereinsbank UniCredit Bank AG",
+        "phone": "+49 89 378 28970",
+        "website": "https://www.hypovereinsbank.de",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.4686829,
+          48.2251707
+        ]
+      },
+      "properties": {
+        "id": 1538455196,
+        "type": "node",
+        "name": "Sparkasse Dachau",
+        "category": "banks",
+        "amenity": "bank",
+        "atm": "yes",
+        "check_date": "2024-01-24",
+        "opening_hours": "Mo-Th 08:15-12:00, Mo,Tu 13:30-16:45, Th 13:30-19:00, Fr 08:15-13:00",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6325766,
+          48.1680375
+        ]
+      },
+      "properties": {
+        "id": 1543575120,
+        "type": "node",
+        "name": "Volksbank Raiffeisenbank Ismaning eG",
+        "category": "banks",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "191",
+        "addr:postcode": "81925",
+        "addr:street": "Cosimastraße",
+        "amenity": "bank",
+        "atm": "yes",
+        "check_date:opening_hours": "2025-02-21",
+        "opening_hours": "Mo-Fr 08:30-12:30, We 14:00-16:00",
+        "phone": "+49 89 96095-660",
+        "website": "https://www.vrbank-ihn.de/wir-fuer-sie/filialen-ansprechpartner/filialen/uebersicht-filialen/15444.html",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5597675,
+          48.1375599
+        ]
+      },
+      "properties": {
+        "id": 1645036904,
+        "type": "node",
+        "name": "Deutsche Bank",
+        "category": "banks",
+        "amenity": "bank",
+        "atm": "yes",
+        "brand": "Deutsche Bank",
+        "brand:wikidata": "Q66048",
+        "brand:wikipedia": "en:Deutsche Bank",
+        "check_date": "2023-01-30",
+        "opening_hours": "Mo-We 09:00-12:30,13:30-16:00; Th 09:00-12:30,13:30-17:00; Fr 09:00-15:00",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.4905275,
+          48.1231406
+        ]
+      },
+      "properties": {
+        "id": 1684431196,
+        "type": "node",
+        "name": "HypoVereinsbank",
+        "category": "banks",
+        "addr:city": "München",
+        "addr:housenumber": "74",
+        "addr:postcode": "81375",
+        "addr:street": "Stiftsbogen",
+        "amenity": "bank",
+        "brand": "HypoVereinsbank",
+        "brand:wikidata": "Q220189",
+        "brand:wikipedia": "en:HypoVereinsbank",
+        "website": "https://www.hypovereinsbank.de/hvb/privatkunden",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.3658897,
+          48.1274576
+        ]
+      },
+      "properties": {
+        "id": 1700603125,
+        "type": "node",
+        "name": "Postbank",
+        "category": "banks",
+        "amenity": "bank",
+        "atm": "yes",
+        "brand": "Postbank",
+        "brand:wikidata": "Q708835",
+        "opening_hours": "Mo,We-Fr 09:00-13:00, Tu 09:00-14:00, Mo,We,Th 14:00-17:00",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.418553,
+          48.1042438
+        ]
+      },
+      "properties": {
+        "id": 1717999291,
+        "type": "node",
+        "name": "SB-Terminal Münchner Bank",
+        "category": "banks",
+        "amenity": "bank",
+        "atm": "yes",
+        "check_date": "2025-09-19",
+        "description": "Nur SB-Terminal, keine Geschäftsstelle",
+        "self_service": "yes",
+        "website": "https://www.vr.de/standorte/P/muenchner-bank-eg-filiale-planegg-6920.html"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.4959488,
+          48.0954301
+        ]
+      },
+      "properties": {
+        "id": 1741333387,
+        "type": "node",
+        "name": "Stadtsparkasse München",
+        "category": "banks",
+        "addr:city": "München",
+        "addr:housenumber": "1",
+        "addr:postcode": "81476",
+        "addr:street": "Winterthurer Straße",
+        "air_conditioning": "yes",
+        "amenity": "bank",
+        "atm": "yes",
+        "bic": "SSKMDEMMXXX",
+        "check_date": "2025-08-24",
+        "drive_through": "no",
+        "opening_hours": "Mo,We,Fr 09:00-12:00,13:00-16:00",
+        "operator": "Stadtsparkasse München",
+        "operator:wikidata": "Q1438593",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5082895,
+          48.0781429
+        ]
+      },
+      "properties": {
+        "id": 1741400448,
+        "type": "node",
+        "name": "Deutsche Bank",
+        "category": "banks",
+        "amenity": "bank",
+        "atm": "yes",
+        "brand": "Deutsche Bank",
+        "brand:wikidata": "Q66048",
+        "brand:wikipedia": "en:Deutsche Bank",
+        "check_date:opening_hours": "2024-10-28",
+        "opening_hours": "Mo,We-Fr 10:00-12:30, Tu,Th 14:00-16:00",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5238404,
+          48.0755353
+        ]
+      },
+      "properties": {
+        "id": 1750914638,
+        "type": "node",
+        "name": "HypoVereinsbank",
+        "category": "banks",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "187",
+        "addr:postcode": "81479",
+        "addr:street": "Wolfratshauser Straße",
+        "amenity": "bank",
+        "atm": "yes",
+        "bic": "HYVEDEMMXXX",
+        "blz": "70020270",
+        "brand": "HypoVereinsbank",
+        "brand:wikidata": "Q220189",
+        "brand:wikipedia": "en:HypoVereinsbank",
+        "opening_hours": "Mo-Fr 09:00-12:30, Th 14:00-17:00",
+        "website": "https://www.hypovereinsbank.de/hvb/privatkunden",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6227788,
+          48.1310848
+        ]
+      },
+      "properties": {
+        "id": 1813634341,
+        "type": "node",
+        "name": "IKB Deutsche Industriebank",
+        "category": "banks",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "37",
+        "addr:postcode": "81673",
+        "addr:street": "Streitfeldstraße",
+        "amenity": "bank",
+        "contact:phone": "+49 89 545 120",
+        "contact:website": "https://www.ikb.de",
+        "note": "Ich sehe hier keine Bank",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.4879209,
+          48.1407822
+        ]
+      },
+      "properties": {
+        "id": 1850831322,
+        "type": "node",
+        "name": "Stadtsparkasse München",
+        "category": "banks",
+        "amenity": "bank",
+        "atm": "yes",
+        "opening_hours": "Mo-We,Fr 08:45-12:30,13:30-16:00; Th 08:45-12:30,13:30-18:00",
+        "operator": "Stadtsparkasse München",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5265134,
+          48.1170044
+        ]
+      },
+      "properties": {
+        "id": 1856721072,
+        "type": "node",
+        "name": "Raiffeisenbank München Süd eG",
+        "category": "banks",
+        "amenity": "bank",
+        "indoor": "yes",
+        "opening_hours": "24/7",
+        "phone": "+49 89 759060",
+        "website": "https://www.raiba-muc-sued.de/",
+        "wheelchair": "yes",
+        "wheelchair:description": "Der Geldautomat befindet sich im Gebäude der U-Bahn"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5555263,
+          48.1305385
+        ]
+      },
+      "properties": {
+        "id": 1869121801,
+        "type": "node",
+        "name": "Südtiroler Sparkasse",
+        "category": "banks",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "20",
+        "addr:postcode": "80336",
+        "addr:street": "Herzog-Heinrich-Straße",
+        "amenity": "bank",
+        "atm": "no",
+        "email": "info@suedspa.de",
+        "fax": "+49 89 599443599",
+        "opening_hours": "Mo-Fr 09:00-12:00",
+        "operator": "Südtiroler Sparkasse AG",
+        "phone": "+49 89 59944350",
+        "website": "https://www.suedspa.de/privatkunden-und-familien/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5025029,
+          48.1436902
+        ]
+      },
+      "properties": {
+        "id": 1979319515,
+        "type": "node",
+        "name": "DAB BNP Paribas",
+        "category": "banks",
+        "addr:housenumber": "300",
+        "addr:postcode": "80687",
+        "addr:street": "Landsberger Straße",
+        "amenity": "bank",
+        "atm": "yes",
+        "wheelchair": "yes",
+        "wikidata": "Q1151571",
+        "wikipedia": "de:DAB BNP Paribas"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.372367,
+          48.1950834
+        ]
+      },
+      "properties": {
+        "id": 2068797996,
+        "type": "node",
+        "name": "VR-Bank Gröbenzell",
+        "category": "banks",
+        "addr:city": "Gröbenzell",
+        "addr:country": "DE",
+        "addr:housenumber": "4",
+        "addr:postcode": "82194",
+        "addr:street": "Kirchenstraße",
+        "amenity": "bank",
+        "atm": "yes",
+        "fax": "+49 8142 294-2819",
+        "opening_hours": "Mo-Tu 08:30-12:00, 14:00-16:00; Th 08:30-12:00, 14:00-18:00; We 08:30-12:00; Fr 08:30-13:00",
+        "operator": "Volksbank Raiffeisenbank Fürstenfeldbruck eG",
+        "phone": "+49 8142 294-2800",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.4593659,
+          48.1486744
+        ]
+      },
+      "properties": {
+        "id": 2139154207,
+        "type": "node",
+        "name": "Genossenschaftsbank München",
+        "category": "banks",
+        "amenity": "bank",
+        "check_date:opening_hours": "2024-12-30",
+        "opening_hours": "Mo-Fr 09:00-12:30",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5185544,
+          48.077119
+        ]
+      },
+      "properties": {
+        "id": 2145844138,
+        "type": "node",
+        "name": "Stadtsparkasse München",
+        "category": "banks",
+        "amenity": "bank",
+        "atm": "yes",
+        "opening_hours": "Tu 09:00-12:00,13:00-16:00; Th 09:00-12:00,13:00-18:00",
+        "operator": "Stadtsparkasse München",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5530256,
+          48.1807268
+        ]
+      },
+      "properties": {
+        "id": 2161315604,
+        "type": "node",
+        "name": "Stadtsparkasse München Filiale Olympiadorf",
+        "category": "banks",
+        "addr:city": "München",
+        "addr:housenumber": "8",
+        "addr:postcode": "80809",
+        "addr:street": "Helene-Mayer-Ring",
+        "amenity": "bank",
+        "atm": "yes",
+        "brand": "Sparkasse",
+        "check_date:opening_hours": "2025-10-03",
+        "email": "GS.Olympiadorf@sskm.de",
+        "opening_hours": "Mo-Su,PH 06:00-22:00",
+        "operator": "Stadtsparkasse München",
+        "phone": "+49 89 2167 10090",
+        "website": "https://www.sskm.de/",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6458389,
+          48.10637
+        ]
+      },
+      "properties": {
+        "id": 2283812816,
+        "type": "node",
+        "name": "Postbank",
+        "category": "banks",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "78",
+        "addr:street": "Albert-Schweitzer-Straße",
+        "amenity": "bank",
+        "brand": "Postbank",
+        "brand:wikidata": "Q708835",
+        "brand:wikipedia": "de:Postbank",
+        "check_date": "2024-09-02",
+        "level": "0",
+        "opening_hours": "Mo-Fr 09:00-13:00,14:00-18:00; Sa 09:30-12:30",
+        "operator": "Postbank",
+        "source": "survey",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5622565,
+          48.1484884
+        ]
+      },
+      "properties": {
+        "id": 2335071489,
+        "type": "node",
+        "name": "LBS Immobiliencenter",
+        "category": "banks",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "43",
+        "addr:postcode": "80333",
+        "addr:street": "Augustenstraße",
+        "amenity": "bank",
+        "contact:phone": "+49 89 523 049 49"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.4709877,
+          48.1110983
+        ]
+      },
+      "properties": {
+        "id": 2381440533,
+        "type": "node",
+        "name": "Sparda-Bank",
+        "category": "banks",
+        "amenity": "bank",
+        "bic": "GENODEF1S04",
+        "brand": "Sparda-Bank",
+        "brand:wikidata": "Q2307136",
+        "brand:wikipedia": "de:Sparda-Bank (Deutschland)",
+        "level": "1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.4759008,
+          48.1134973
+        ]
+      },
+      "properties": {
+        "id": 2450344300,
+        "type": "node",
+        "name": "Deutsche Bank",
+        "category": "banks",
+        "addr:housenumber": "10",
+        "addr:postcode": "81377",
+        "addr:street": "Sauerbruchstraße",
+        "amenity": "bank",
+        "atm": "no",
+        "brand": "Deutsche Bank",
+        "brand:wikidata": "Q66048",
+        "brand:wikipedia": "en:Deutsche Bank",
+        "check_date": "2024-05-04",
+        "opening_hours": "Tu,Th 09:00-13:00",
+        "phone": "+49 89 839311220",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5107535,
+          48.180882
+        ]
+      },
+      "properties": {
+        "id": 2499957640,
+        "type": "node",
+        "name": "Raiffeisenbank München Nord eG",
+        "category": "banks",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "46",
+        "addr:postcode": "80992",
+        "addr:street": "Bunzlauer Straße",
+        "addr:suburb": "Moosach",
+        "amenity": "bank",
+        "branch": "Geschäftsstelle Moosach",
+        "contact:email": "service@rb-muenchen-nord.de",
+        "contact:fax": "+49 89 310 003-2659",
+        "contact:phone": "+49 89 310 003-1000",
+        "contact:website": "https://www.rb-muenchen-nord.de/",
+        "opening_hours": "Th 08:30-12:30,13:30-18:00; We 08:30-13:00; Mo 08:30-12:30,13:30-16:30; Tu 08:30-12:30; Fr-Su,PH off",
+        "operator": "Raiffeisenbank München Nord eG"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5717202,
+          48.1406573
+        ]
+      },
+      "properties": {
+        "id": 2591630370,
+        "type": "node",
+        "name": "Degussa Bank",
+        "category": "banks",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:floor": "0",
+        "addr:housenumber": "12",
+        "addr:postcode": "80333",
+        "addr:street": "Promenadeplatz",
+        "alt_name": "Degussa Goldhandel GmbH Verkaufsniederlassung",
+        "amenity": "bank",
+        "atm": "no",
+        "branch": "Goldhandel",
+        "brand": "Degussa Bank",
+        "brand:wikidata": "Q1182932",
+        "brand:wikipedia": "de:Degussa Bank",
+        "check_date": "2025-10-26",
+        "check_date:opening_hours": "2023-03-12",
+        "email": "muenchen@degussa-goldhandel.de",
+        "level": "0",
+        "opening_hours": "Mo-We,Fr 10:00-17:00; Th 10:00-18:00",
+        "phone": "+49 89 139261318",
+        "website": "https://www.degussa-goldhandel.de/",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.4599061,
+          48.1476299
+        ]
+      },
+      "properties": {
+        "id": 2610201716,
+        "type": "node",
+        "name": "Santander",
+        "category": "banks",
+        "amenity": "bank",
+        "brand": "Santander",
+        "brand:wikidata": "Q875292",
+        "brand:wikipedia": "en:Santander Bank",
+        "check_date": "2024-02-01",
+        "opening_hours": "Mo-Th 09:00-13:00, Mo,Tu,Th 14:00-18:00, We 14:00-16:00, Fr 09:00-14:00",
+        "website": "https://www.mux.de/Santander-Consumer-Bank-Gleichmannstr",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.645965,
+          48.1026948
+        ]
+      },
+      "properties": {
+        "id": 2876915718,
+        "type": "node",
+        "name": "HypoVereinsbank",
+        "category": "banks",
+        "amenity": "bank",
+        "atm": "yes",
+        "brand": "HypoVereinsbank",
+        "brand:wikidata": "Q220189",
+        "brand:wikipedia": "en:HypoVereinsbank",
+        "check_date": "2025-01-29",
+        "opening_hours": "Mo-Fr 09:00-12:30, Th 14:00-17:00",
+        "operator": "Unicredit",
+        "service_times": "Mo-Th 09:00-18:00; Fr 09:00-16:00",
+        "source": "survey",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5279101,
+          48.1398468
+        ]
+      },
+      "properties": {
+        "id": 2989553016,
+        "type": "node",
+        "name": "Deutsche Apotheker- und Ärztebank eG",
+        "category": "banks",
+        "addr:city": "München",
+        "addr:housenumber": "2",
+        "addr:postcode": "80339",
+        "addr:street": "Barthstraße",
+        "amenity": "bank",
+        "atm": "yes",
+        "check_date": "2023-06-03",
+        "email": "niederlassung.muenchen@apobank.de",
+        "phone": "+49 89 551120",
+        "website": "https://www.apobank.de/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6400432,
+          48.1584632
+        ]
+      },
+      "properties": {
+        "id": 3049566573,
+        "type": "node",
+        "name": "Postbank",
+        "category": "banks",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "77",
+        "addr:postcode": "81927",
+        "addr:street": "Meistersingerstraße",
+        "amenity": "bank",
+        "atm": "yes",
+        "brand": "Postbank",
+        "brand:wikidata": "Q708835",
+        "check_date:opening_hours": "2024-05-30",
+        "opening_hours": "Mo-Fr 09:00-18:00; Sa 09:30-12:30",
+        "operator": "Deutsche Post AG",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5026925,
+          48.1114264
+        ]
+      },
+      "properties": {
+        "id": 3078149420,
+        "type": "node",
+        "name": "Postbank",
+        "category": "banks",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "259",
+        "addr:postcode": "81377",
+        "addr:street": "Fürstenrieder Straße",
+        "amenity": "bank",
+        "brand": "Postbank",
+        "brand:wikidata": "Q708835",
+        "brand:wikipedia": "de:Postbank",
+        "opening_hours": "Mo-Fr 08:30-12:30, 14:00-18:00; Sa 09:00-12:30",
+        "operator": "Postbank",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5730391,
+          48.1851827
+        ]
+      },
+      "properties": {
+        "id": 3099415950,
+        "type": "node",
+        "name": "Targobank",
+        "category": "banks",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "66",
+        "addr:postcode": "80807",
+        "addr:street": "Knorrstraße",
+        "amenity": "bank",
+        "atm": "yes",
+        "brand": "Targobank",
+        "brand:wikidata": "Q1455437",
+        "brand:wikipedia": "en:Targobank",
+        "check_date:opening_hours": "2024-03-12",
+        "opening_hours": "Mo,Tu,Th 09:00-13:00,14:00-18:00; We 09:00-13:00; Fr 09:00-13:00,14:00-17:00",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5731784,
+          48.143841
+        ]
+      },
+      "properties": {
+        "id": 3149254392,
+        "type": "node",
+        "name": "DKB",
+        "category": "banks",
+        "amenity": "bank",
+        "atm": "yes",
+        "check_date": "2023-06-28",
+        "operator": "Deutsche Kredit Bank",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5613795,
+          48.1397578
+        ]
+      },
+      "properties": {
+        "id": 3220196887,
+        "type": "node",
+        "name": "Postbank",
+        "category": "banks",
+        "amenity": "bank",
+        "brand": "Postbank",
+        "brand:wikidata": "Q708835",
+        "brand:wikipedia": "de:Postbank",
+        "check_date": "2025-01-20",
+        "opening_hours": "Mo 09:00-18:30; Sa 09:00-13:30; Su, PH off",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5309695,
+          48.1563377
+        ]
+      },
+      "properties": {
+        "id": 3323584351,
+        "type": "node",
+        "name": "Münchner Bank",
+        "category": "banks",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "187",
+        "addr:postcode": "80634",
+        "addr:street": "Nymphenburger Straße",
+        "amenity": "bank",
+        "contact:email": "TeamMail.GS03@muenchner-bank.de",
+        "contact:phone": "+49 89 2128-5960",
+        "contact:website": "https://www.muenchner-bank.de/ueber-uns/filialen-und-geldautomaten/muenchner-bank-eg-filiale-nymphenburg.html",
+        "opening_hours": "Mo 09:00-12:30, 13:30-16:00; Tu,Th 09:00-12:30, 13:30-18:00; We,Fr 09:00-14:00; Sa,Su,PH off",
+        "wheelchair": "no",
+        "wheelchair:description": "Ein Stufe am Eingang"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5830355,
+          48.1384072
+        ]
+      },
+      "properties": {
+        "id": 3646997034,
+        "type": "node",
+        "name": "Berenberg",
+        "category": "banks",
+        "addr:city": "München",
+        "addr:housenumber": "30",
+        "addr:postcode": "80539",
+        "addr:street": "Maximilianstraße",
+        "amenity": "bank",
+        "atm": "no",
+        "opening_hours:signed": "no",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5857543,
+          48.1422569
+        ]
+      },
+      "properties": {
+        "id": 3664093241,
+        "type": "node",
+        "name": "GLS Bank",
+        "category": "banks",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "5a",
+        "addr:postcode": "80538",
+        "addr:street": "Bruderstraße",
+        "amenity": "bank",
+        "atm": "yes",
+        "contact:email": "kundendialog@gls.de",
+        "contact:phone": "+49 234 5797 100",
+        "contact:website": "https://www.gls.de",
+        "description": "closed unless you arranged a date",
+        "drive_through": "no",
+        "official_name": "GLS Bank Filiale München",
+        "opening_hours": "PH off",
+        "production_input:money:ethical_banking": "yes",
+        "source": "survey by BenE München",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5067828,
+          48.0782783
+        ]
+      },
+      "properties": {
+        "id": 3681305979,
+        "type": "node",
+        "name": "Postbank",
+        "category": "banks",
+        "amenity": "bank",
+        "atm": "yes",
+        "brand": "Postbank",
+        "brand:wikidata": "Q708835",
+        "opening_hours": "mo-fr 08:30-18:00; sa 08:30-12:30; ph off",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5771502,
+          48.1458337
+        ]
+      },
+      "properties": {
+        "id": 3722843864,
+        "type": "node",
+        "name": "Sparda-Bank",
+        "category": "banks",
+        "addr:city": "München",
+        "addr:housenumber": "33",
+        "addr:postcode": "80333",
+        "addr:street": "Oskar-von-Miller-Ring",
+        "amenity": "bank",
+        "atm": "yes",
+        "brand": "Sparda-Bank",
+        "brand:wikidata": "Q2307136",
+        "brand:wikipedia": "de:Sparda-Bank (Deutschland)",
+        "drive_through": "no",
+        "level": "0",
+        "opening_hours": "Mo-We 08:00-13:00,14:00-16:00; Th 08:00-13:00,14:00-17:30; Fr 08:00-13:00; Sa-Su off",
+        "operator": "Sparda-Bank München eG",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5663101,
+          48.1345205
+        ]
+      },
+      "properties": {
+        "id": 3779989716,
+        "type": "node",
+        "name": "Santander",
+        "category": "banks",
+        "amenity": "bank",
+        "check_date": "2025-11-06",
+        "level": "0",
+        "note": "Räume werden von der Santander Bank neben an genutzt",
+        "opening_hours": "Mo,Tu,Th 09:00-13:00,14:00-18:00; We 09:00-13:00,14:00-16:00; Fr 09:00-14:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5595667,
+          48.1390619
+        ]
+      },
+      "properties": {
+        "id": 3829927542,
+        "type": "node",
+        "name": "Merkur Privatbank",
+        "category": "banks",
+        "addr:city": "München",
+        "addr:housenumber": "33",
+        "addr:postcode": "80335",
+        "addr:street": "Bayerstraße",
+        "amenity": "bank",
+        "atm": "yes",
+        "check_date": "2024-05-04",
+        "cuisine": "kebab",
+        "drive_through": "no",
+        "opening_hours": "Mo,We 09:00-16:00; Tu,Th 09:00-18:00; Fr 09:00-12:30",
+        "opening_hours:url": "https://www.merkur-bank.de/privatbank/muenchen.html",
+        "operator": "MERKUR BANK KGaA",
+        "phone": "+49 89 599980",
+        "takeaway": "yes",
+        "website": "https://www.merkur-privatbank.de/kontakt/muenchen.html",
+        "wheelchair": "yes",
+        "wikidata": "Q1921855",
+        "wikipedia": "de:Merkur Bank"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5608528,
+          48.1414218
+        ]
+      },
+      "properties": {
+        "id": 3892314757,
+        "type": "node",
+        "name": "Western Union",
+        "category": "banks",
+        "addr:floor": "0",
+        "amenity": "bank",
+        "brand": "Western Union",
+        "brand:wikidata": "Q861042",
+        "brand:wikipedia": "en:Western Union",
+        "check_date": "2025-10-26",
+        "level": "0",
+        "opening_hours": "Mo-Fr 08:00-20:00; Sa 10:00-17:00",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5719347,
+          48.1384341
+        ]
+      },
+      "properties": {
+        "id": 3961270264,
+        "type": "node",
+        "name": "Münchner Bank",
+        "category": "banks",
+        "amenity": "bank",
+        "atm": "yes",
+        "check_date": "2025-05-28",
+        "check_date:opening_hours": "2023-03-20",
+        "opening_hours": "Mo-We,Fr 09:00-16:00; Th 09:00-18:00",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6568335,
+          48.1081817
+        ]
+      },
+      "properties": {
+        "id": 4210799346,
+        "type": "node",
+        "name": "Münchner Bank",
+        "category": "banks",
+        "amenity": "bank",
+        "opening_hours": "Mo-Su,PH 00:00-24:00",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.574684,
+          48.139732
+        ]
+      },
+      "properties": {
+        "id": 4217578491,
+        "type": "node",
+        "name": "HypoVereinsbank",
+        "category": "banks",
+        "amenity": "bank",
+        "brand": "HypoVereinsbank",
+        "brand:wikidata": "Q220189",
+        "brand:wikipedia": "en:HypoVereinsbank",
+        "check_date": "2025-05-28",
+        "opening_hours": "24/7",
+        "wheelchair": "limited",
+        "wheelchair:description": "Stufe (7cm) bei der Tür"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5398857,
+          48.1177198
+        ]
+      },
+      "properties": {
+        "id": 4305587221,
+        "type": "node",
+        "name": "Commerzbank",
+        "category": "banks",
+        "addr:city": "München",
+        "addr:housenumber": "42",
+        "addr:postcode": "81369",
+        "addr:street": "Plinganserstraße",
+        "amenity": "bank",
+        "atm": "yes",
+        "branch": "München Harras",
+        "brand": "Commerzbank",
+        "brand:wikidata": "Q157617",
+        "brand:wikipedia": "de:Commerzbank",
+        "check_date": "2025-08-31",
+        "check_date:opening_hours": "2025-08-31",
+        "level": "0",
+        "opening_hours": "Mo,We 10:00-13:00,14:00-16:00; Tu,Th 10:00-13:00,14:00-18:00; Fr 10:00-14:00",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5583997,
+          48.1382939
+        ]
+      },
+      "properties": {
+        "id": 4462470093,
+        "type": "node",
+        "name": "Ziraat Bank",
+        "category": "banks",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "10",
+        "addr:postcode": "80336",
+        "addr:street": "Goethestraße",
+        "amenity": "bank",
+        "contact:website": "https://www.ziraatbank.de/",
+        "operator": "Ziraat Bank"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5033575,
+          48.134679
+        ]
+      },
+      "properties": {
+        "id": 4467007779,
+        "type": "node",
+        "name": "Sparda-Bank",
+        "category": "banks",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "67",
+        "addr:postcode": "80686",
+        "addr:street": "Fürstenrieder Straße",
+        "amenity": "bank",
+        "atm": "yes",
+        "brand": "Sparda-Bank",
+        "brand:wikidata": "Q2307136",
+        "brand:wikipedia": "de:Sparda-Bank (Deutschland)",
+        "opening_hours": "Tu 08:30-13:00,14:00-17:30; We 08:30-13:00; Th 08:30-13:00,14:00-17:30",
+        "operator": "Sparda-Bank München eG",
+        "website": "https://www.sparda-m.de"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.4199622,
+          48.1038679
+        ]
+      },
+      "properties": {
+        "id": 4489365889,
+        "type": "node",
+        "name": "Kreissparkasse",
+        "category": "banks",
+        "addr:city": "Planegg",
+        "addr:country": "DE",
+        "addr:housenumber": "20",
+        "addr:postcode": "82152",
+        "addr:street": "Bahnhofstraße",
+        "amenity": "bank",
+        "atm": "yes",
+        "check_date": "2025-07-30",
+        "contact:phone": "+49 89 238010",
+        "contact:website": "https://www.kskmse.de/",
+        "drive_through": "no",
+        "opening_hours": "Mo 09:00-12:00, 14:00-16:00; Tu,We,Fr 09:00-12:00; Th 09:00-12:00, 14:00-18:00; Sa,Su,PH off"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5393088,
+          48.1172376
+        ]
+      },
+      "properties": {
+        "id": 4663579973,
+        "type": "node",
+        "name": "HypoVereinsbank",
+        "category": "banks",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "13",
+        "addr:postcode": "81373",
+        "addr:street": "Am Harras",
+        "amenity": "bank",
+        "atm": "yes",
+        "bic": "HYVEDEMMXXX",
+        "blz": "70020270",
+        "brand": "HypoVereinsbank",
+        "brand:wikidata": "Q220189",
+        "brand:wikipedia": "en:HypoVereinsbank",
+        "check_date": "2025-03-07",
+        "level": "0",
+        "opening_hours": "Mo-Fr 09:00-12:30, Mo-We,Fr 14:00-16:00, Th 14:00-18:00",
+        "operator": "HypoVereinsbank",
+        "website": "https://www.hypovereinsbank.de/hvb/privatkunden",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6403256,
+          48.1496444
+        ]
+      },
+      "properties": {
+        "id": 4796635677,
+        "type": "node",
+        "name": "Stadtsparkasse München",
+        "category": "banks",
+        "addr:city": "München",
+        "addr:housenumber": "29a",
+        "addr:postcode": "81927",
+        "addr:street": "Ostpreußenstraße",
+        "amenity": "bank",
+        "atm": "yes",
+        "drive_through": "no",
+        "opening_hours": "Mo-We,Fr 08:45-12:30,13:30-16:00; Th 08:45-12:30,13:30-18:00",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6454267,
+          48.126836
+        ]
+      },
+      "properties": {
+        "id": 4847236199,
+        "type": "node",
+        "name": "Sparkasse",
+        "category": "banks",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "15",
+        "addr:postcode": "81673",
+        "addr:street": "Sankt-Veit-Straße",
+        "amenity": "bank",
+        "atm": "yes",
+        "check_date": "2023-09-15",
+        "operator": "Stadtsparkasse München"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5580995,
+          48.1497483
+        ]
+      },
+      "properties": {
+        "id": 4948385320,
+        "type": "node",
+        "name": "Ziraat Bank",
+        "category": "banks",
+        "amenity": "bank",
+        "atm": "yes",
+        "check_date": "2025-10-02",
+        "opening_hours": "Mo-Fr 09:00-24:00, Mo-We 13:00-17:00, Th 13:00-18:00, Fr 13:00-16:15"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5832669,
+          48.1184842
+        ]
+      },
+      "properties": {
+        "id": 6070832107,
+        "type": "node",
+        "name": "Sparda-Bank",
+        "category": "banks",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "15",
+        "addr:postcode": "81541",
+        "addr:street": "Tegernseer Landstraße",
+        "amenity": "bank",
+        "atm": "yes",
+        "brand": "Sparda-Bank",
+        "brand:wikidata": "Q2307136",
+        "brand:wikipedia": "de:Sparda-Bank (Deutschland)",
+        "check_date": "2025-11-15",
+        "check_date:opening_hours": "2025-11-15",
+        "opening_hours": "Mo,Fr 09:30-13:00; Tu,Th 09:30-13:00,14:00-18:00",
+        "operator": "Sparda-Bank München eG",
+        "website": "https://www.sparda-m.de/",
+        "wheelchair": "yes",
+        "wheelchair:description": "Ebenerdiger Eingang"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5620527,
+          48.1375172
+        ]
+      },
+      "properties": {
+        "id": 6080493135,
+        "type": "node",
+        "name": "Flessabank",
+        "category": "banks",
+        "amenity": "bank",
+        "check_date": "2025-05-26",
+        "opening_hours": "Mo-Fr 09:00-12:30",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.418479,
+          48.1042899
+        ]
+      },
+      "properties": {
+        "id": 6143231791,
+        "type": "node",
+        "name": "Münchner Bank eG",
+        "category": "banks",
+        "amenity": "bank"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5652751,
+          48.1524642
+        ]
+      },
+      "properties": {
+        "id": 6269035840,
+        "type": "node",
+        "name": "CreditPlus",
+        "category": "banks",
+        "amenity": "bank",
+        "contact:website": "https://www.creditplus.de/kredite/beratung/filiale-muenchen",
+        "drive_through": "no",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5077643,
+          48.1811405
+        ]
+      },
+      "properties": {
+        "id": 6417041165,
+        "type": "node",
+        "name": "Postbank",
+        "category": "banks",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "3",
+        "addr:postcode": "80992",
+        "addr:street": "Breslauer Straße",
+        "addr:suburb": "Moosach",
+        "amenity": "bank",
+        "atm": "no",
+        "brand": "Postbank",
+        "brand:wikidata": "Q708835",
+        "brand:wikipedia": "de:Postbank",
+        "check_date": "2024-11-08",
+        "opening_hours": "Mo-Fr 09:00-18:00; Sa 09:00-12:30; Su, PH off",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5569808,
+          48.1460058
+        ]
+      },
+      "properties": {
+        "id": 6418521125,
+        "type": "node",
+        "name": "Evangelische Bank eG",
+        "category": "banks",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "68",
+        "addr:postcode": "80335",
+        "addr:street": "Karlstraße",
+        "amenity": "bank",
+        "atm": "yes",
+        "email": "info@eb.de",
+        "fax": "+49 89 5525 91-25",
+        "phone": "+49 800 520 604 10",
+        "website": "https://www.eb.de/startseite.html",
+        "wheelchair": "yes",
+        "wikidata": "Q18286870",
+        "wikipedia": "de:Evangelische Bank"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.4113717,
+          48.0970269
+        ]
+      },
+      "properties": {
+        "id": 6429963594,
+        "type": "node",
+        "name": "VR-Bank",
+        "category": "banks",
+        "addr:city": "Krailling",
+        "addr:housenumber": "58",
+        "addr:postcode": "82152",
+        "addr:street": "Margaretenstraße",
+        "amenity": "bank",
+        "atm": "yes",
+        "drive_through": "no",
+        "opening_hours": "Mo,Th 08:00-12:00, Mo 14:00-16:00, Th 14:00-18:00",
+        "phone": "+49 89 89520969",
+        "website": "https://www.vrsta.de/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5856021,
+          48.1589992
+        ]
+      },
+      "properties": {
+        "id": 6651401564,
+        "type": "node",
+        "name": "Stadtsparkasse",
+        "category": "banks",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "56a",
+        "addr:postcode": "80802",
+        "addr:street": "Leopoldstraße",
+        "amenity": "bank",
+        "atm": "yes",
+        "check_date": "2023-05-16",
+        "internet_access": "wlan",
+        "internet_access:fee": "customers",
+        "opening_hours": "Mo,We 10:00-13:00,14:00-16:00; Tu,Th 09:00-13:00,14:00-18:00; Fr 09:00-14:00",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5857867,
+          48.1607566
+        ]
+      },
+      "properties": {
+        "id": 6651464886,
+        "type": "node",
+        "name": "Deutsche Bank",
+        "category": "banks",
+        "amenity": "bank",
+        "brand": "Deutsche Bank",
+        "brand:wikidata": "Q66048",
+        "brand:wikipedia": "en:Deutsche Bank",
+        "check_date:opening_hours": "2023-02-25",
+        "opening_hours": "Mo-Th 09:30-17:00; Fr 09:30-15:00",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5623327,
+          48.1408948
+        ]
+      },
+      "properties": {
+        "id": 6689509688,
+        "type": "node",
+        "name": "Targobank",
+        "category": "banks",
+        "amenity": "bank",
+        "atm": "yes",
+        "brand": "Targobank",
+        "brand:wikidata": "Q1455437",
+        "brand:wikipedia": "en:Targobank",
+        "check_date": "2025-05-19",
+        "level": "0",
+        "opening_hours": "Mo,We,Fr 10:00-13:00; Tu 10:00-13:00,14:00-18:00; Th 10:00-13:00,14:00-16:00",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.662389,
+          48.1219052
+        ]
+      },
+      "properties": {
+        "id": 6689587116,
+        "type": "node",
+        "name": "Postbank",
+        "category": "banks",
+        "addr:city": "München",
+        "addr:housenumber": "210",
+        "addr:postcode": "81825",
+        "addr:street": "Kreillerstraße",
+        "amenity": "bank",
+        "atm": "yes",
+        "brand": "Postbank",
+        "brand:wikidata": "Q708835",
+        "brand:wikipedia": "de:Postbank",
+        "drive_through": "no",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5859818,
+          48.1746386
+        ]
+      },
+      "properties": {
+        "id": 7095165676,
+        "type": "node",
+        "name": "Raiffeisenbank RSA",
+        "category": "banks",
+        "amenity": "bank",
+        "atm": "no",
+        "check_date": "2024-07-27",
+        "opening_hours": "Mo, Tu, Th, Fr 12:00-19:00",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.4675293,
+          48.1897105
+        ]
+      },
+      "properties": {
+        "id": 7117929610,
+        "type": "node",
+        "name": "Stadtsparkasse München",
+        "category": "banks",
+        "addr:city": "München",
+        "addr:housenumber": "9",
+        "addr:postcode": "80999",
+        "addr:street": "Oertelplatz",
+        "amenity": "bank",
+        "atm": "yes",
+        "contact:phone": "+49 89 216 710 046",
+        "contact:website": "https://www.sskm.de",
+        "opening_hours": "Mo-We 09:00-12:00,13:00-16:00; Th 09:00-12:00,13:00-18:00",
+        "operator": "Stadtsparkasse München",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5530332,
+          48.1424263
+        ]
+      },
+      "properties": {
+        "id": 7340385013,
+        "type": "node",
+        "name": "Sparda-Bank",
+        "category": "banks",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "15",
+        "addr:postcode": "80335",
+        "addr:street": "Arnulfstraße",
+        "amenity": "bank",
+        "atm": "yes",
+        "brand": "Sparda-Bank",
+        "brand:wikidata": "Q2307136",
+        "brand:wikipedia": "de:Sparda-Bank (Deutschland)",
+        "check_date": "2023-03-23",
+        "contact:email": "info@sparda-m.de",
+        "contact:fax": "+49 89 55142100",
+        "contact:phone": "+49 8955142400",
+        "contact:website": "https://www.sparda-m.de",
+        "identity": "economy_for_the_common_good",
+        "official_name": "Sparda-Bank München eG",
+        "opening_hours": "Mo,We,Fr 09:00-13:00,14:00-18:00; Tu,Th 09:00-13:00",
+        "operator": "Sparda-Bank München eG",
+        "source": "survey by BenE München",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6419006,
+          48.1938716
+        ]
+      },
+      "properties": {
+        "id": 7644312163,
+        "type": "node",
+        "name": "Münchner Bank",
+        "category": "banks",
+        "addr:city": "Unterföhring",
+        "addr:country": "DE",
+        "addr:housenumber": "80",
+        "addr:postcode": "85774",
+        "addr:street": "Münchner Straße",
+        "amenity": "bank",
+        "atm": "yes",
+        "operator": "Münchner Bank"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5634387,
+          48.1448286
+        ]
+      },
+      "properties": {
+        "id": 7775883672,
+        "type": "node",
+        "name": "LIGA Bank",
+        "category": "banks",
+        "addr:city": "München",
+        "addr:housenumber": "18",
+        "addr:postcode": "80333",
+        "addr:street": "Luisenstraße",
+        "amenity": "bank",
+        "atm": "yes",
+        "check_date": "2025-09-11",
+        "check_date:opening_hours": "2025-09-11",
+        "drive_through": "no",
+        "email": "info@ligabank.de",
+        "fax": "+49 89 54889 151",
+        "opening_hours": "Mo,We,Fr 08:30-13:00; Tu,Th 08:30-17:00",
+        "operator": "LIGA Bank eG",
+        "phone": "+49 89 54889 0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5452552,
+          48.1978059
+        ]
+      },
+      "properties": {
+        "id": 8001044533,
+        "type": "node",
+        "name": "Raiffeisenbank München-Nord eG",
+        "category": "banks",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "206",
+        "addr:postcode": "80935",
+        "addr:street": "Lerchenauer Straße",
+        "amenity": "bank",
+        "atm": "yes",
+        "disused:amenity": "bank",
+        "opening_hours": "We,Fr 08:30-13:00",
+        "operator": "Raiffeisenbank",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.4347294,
+          48.1493665
+        ]
+      },
+      "properties": {
+        "id": 9007723662,
+        "type": "node",
+        "name": "Sparkasse",
+        "category": "banks",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "13",
+        "addr:postcode": "81243",
+        "addr:street": "Radolfzeller Straße",
+        "amenity": "bank",
+        "atm": "yes",
+        "opening_hours": "Mo-Fr 08:00-20:00",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5850454,
+          48.1592428
+        ]
+      },
+      "properties": {
+        "id": 9130200815,
+        "type": "node",
+        "name": "Commerzbank",
+        "category": "banks",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "37",
+        "addr:postcode": "80802",
+        "addr:street": "Leopoldstraße",
+        "amenity": "bank",
+        "brand": "Commerzbank",
+        "brand:wikidata": "Q157617",
+        "brand:wikipedia": "de:Commerzbank",
+        "contact:website": "https://www.commerzbank.de/filialen/de/M%C3%BCnchen-Leopoldstra%C3%9Fe",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5780528,
+          48.145331
+        ]
+      },
+      "properties": {
+        "id": 9394345400,
+        "type": "node",
+        "name": "Oberbank",
+        "category": "banks",
+        "amenity": "bank",
+        "atm": "yes",
+        "brand": "Oberbank",
+        "brand:wikidata": "Q2009139",
+        "brand:wikipedia": "de:Oberbank",
+        "check_date": "2025-10-10",
+        "opening_hours": "Mo-Fr 08:00-19:00; PH closed",
+        "wheelchair": "limited",
+        "wheelchair:description": "Zugang zum Geldautomat ebenerdig"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6492897,
+          48.091573
+        ]
+      },
+      "properties": {
+        "id": 9569417504,
+        "type": "node",
+        "name": "Degussa Bank",
+        "category": "banks",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "6",
+        "addr:postcode": "81739",
+        "addr:street": "Otto-Hahn-Ring",
+        "amenity": "bank",
+        "atm": "yes",
+        "brand": "Degussa Bank",
+        "brand:wikidata": "Q1182932",
+        "network": "CashPool",
+        "operator": "Degussa Bank"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.646334,
+          48.0999867
+        ]
+      },
+      "properties": {
+        "id": 10104476835,
+        "type": "node",
+        "name": "Stadtsparkasse München",
+        "category": "banks",
+        "addr:city": "München",
+        "addr:housenumber": "15",
+        "addr:postcode": "81737",
+        "addr:street": "Thomas-Dehler-Straße",
+        "amenity": "bank",
+        "check_date:opening_hours": "2025-02-03",
+        "level": "0",
+        "opening_hours": "Mo-Fr 09:00-12:00, Mo-We,Fr 13:00-16:00, Th 13:00-18:00",
+        "operator": "Stadtsparkasse München",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.576905,
+          48.134317
+        ]
+      },
+      "properties": {
+        "id": 10109163832,
+        "type": "node",
+        "name": "Targobank",
+        "category": "banks",
+        "amenity": "bank",
+        "brand": "Targobank",
+        "brand:wikidata": "Q1455437",
+        "opening_hours": "Mo-Fr 10:00-13:00, Tu 14:00-18:00, Th 14:00-16:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5725699,
+          48.1399087
+        ]
+      },
+      "properties": {
+        "id": 11223018662,
+        "type": "node",
+        "name": "Bethmann",
+        "category": "banks",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "9",
+        "addr:postcode": "80333",
+        "addr:street": "Promenadeplatz",
+        "amenity": "bank",
+        "contact:website": "https://www.bethmannbank.de/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6040626,
+          48.1241265
+        ]
+      },
+      "properties": {
+        "id": 11519663183,
+        "type": "node",
+        "name": "Postbank",
+        "category": "banks",
+        "amenity": "bank",
+        "brand": "Postbank",
+        "brand:wikidata": "Q708835",
+        "opening_hours": "Mo-Fr 08:00-18:00; Sa 08:00-12:30",
+        "operator": "Postbank Filialvertrieb AG",
+        "start_date": "2023-01-17"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.570937,
+          48.1373296
+        ]
+      },
+      "properties": {
+        "id": 12523273647,
+        "type": "node",
+        "name": "KT Bank",
+        "category": "banks",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "3",
+        "addr:postcode": "80331",
+        "addr:street": "Altheimer Eck",
+        "amenity": "bank",
+        "atm": "yes",
+        "opening_hours": "Mo,Tu 09:00-13:00, 14:00-17:00; We 09:00-13:00; Th 09:00-13:00, 14:00-18:00; Fr 09:00-12:15, 14:15-16:30",
+        "website": "https://www.kt-bank.de/kundenservice/filialen/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5687512,
+          48.1414881
+        ]
+      },
+      "properties": {
+        "id": 12898619731,
+        "type": "node",
+        "name": "Bank of China",
+        "category": "banks",
+        "amenity": "bank"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5697442,
+          48.1409564
+        ]
+      },
+      "properties": {
+        "id": 13201422614,
+        "type": "node",
+        "name": "Merck Finck",
+        "category": "banks",
+        "amenity": "bank",
+        "atm": "yes",
+        "website": "https://www.merckfinck.de/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.573817,
+          48.1605851
+        ]
+      },
+      "properties": {
+        "id": 13231014615,
+        "type": "node",
+        "name": "Wüstenrot",
+        "category": "banks",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "90",
+        "addr:postcode": "80796",
+        "addr:street": "Hohenzollernstraße",
+        "amenity": "bank",
+        "contact:mobile": "+49 172 823 01 93",
+        "contact:phone": "+49 89 307 16 63",
+        "contact:website": "https://www.wuestenrot.de/aussendienst/thomas.ziselsberger",
+        "opening_hours": "Mo-Th 09:00-12:00, 14:00-18:00; Fr 09:00-14:00",
+        "operator": "Thomas Ziselsberger",
+        "wheelchair": "no",
+        "wheelchair:description": "Eine Stufe am Eingang"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.4073452,
+          48.1422055
+        ]
+      },
+      "properties": {
+        "id": 13243449096,
+        "type": "node",
+        "name": "Unnamed",
+        "category": "banks",
+        "amenity": "bank",
+        "construction": "True",
+        "operator": "Stadtsparkasse München"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.3648128,
+          48.1317177
+        ]
+      },
+      "properties": {
+        "id": 13245355387,
+        "type": "node",
+        "name": "Deutsche Bank",
+        "category": "banks",
+        "addr:city": "Germering",
+        "addr:country": "DE",
+        "addr:housenumber": "1",
+        "addr:postcode": "82110",
+        "addr:street": "Beethovenstraße",
+        "amenity": "bank",
+        "atm": "yes",
+        "brand": "Deutsche Bank",
+        "brand:wikidata": "Q66048",
+        "brand:wikipedia": "en:Deutsche Bank",
+        "check_date:opening_hours": "2025-09-30",
+        "opening_hours": "Mo,We,Th 08:30-12:30, Th 13:30-16:00",
+        "operator": "Deutsche Bank",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5304122,
+          48.2150525
+        ]
+      },
+      "properties": {
+        "id": 30899458,
+        "type": "way",
+        "name": "Raiffeisenbank München-Nord eG",
+        "category": "banks",
+        "addr:housename": "Raiffeisenbank München-Nord eG",
+        "addr:housenumber": "331",
+        "addr:postcode": "80995",
+        "addr:street": "Lerchenauer Straße",
+        "amenity": "bank",
+        "building": "yes",
+        "operator": "Raiffeisenbank München-Nord eG"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5733138,
+          48.1392778
+        ]
+      },
+      "properties": {
+        "id": 38484490,
+        "type": "way",
+        "name": "Hauck & Aufhäuser Privatbankiers",
+        "category": "banks",
+        "addr:city": "München",
+        "addr:housenumber": "18",
+        "addr:postcode": "80333",
+        "addr:street": "Löwengrube",
+        "amenity": "bank",
+        "building": "yes",
+        "building:levels": "5",
+        "operator": "Hauck & Aufhäuser Privatbankiers",
+        "wheelchair": "yes",
+        "wikidata": "Q41175746"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.4154671,
+          48.1601944
+        ]
+      },
+      "properties": {
+        "id": 52063102,
+        "type": "way",
+        "name": "Genossenschaftsbank München",
+        "category": "banks",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "184",
+        "addr:postcode": "81245",
+        "addr:street": "Bergsonstraße",
+        "amenity": "bank",
+        "building": "yes",
+        "opening_hours": "Mo-We,Fr 08:30-12:30,14:00-16:00; Th 08:30-12:30,14:00-17:30",
+        "operator": "Genossenschaftsbank München",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.3775851,
+          48.0709487
+        ]
+      },
+      "properties": {
+        "id": 123087178,
+        "type": "way",
+        "name": "VR Bank",
+        "category": "banks",
+        "addr:city": "Gauting",
+        "addr:country": "DE",
+        "addr:housenumber": "5",
+        "addr:postcode": "82131",
+        "addr:street": "Bahnhofplatz",
+        "amenity": "bank",
+        "atm": "yes",
+        "building": "yes",
+        "building:levels": "4",
+        "opening_hours": "Mo-We,Fr 08:00-12:00, Th 08:00-12:00; PH off, Mo,Tu,Fr 14:00-16:00, Th 14:00-18:00",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.3780326,
+          48.0679491
+        ]
+      },
+      "properties": {
+        "id": 124526641,
+        "type": "way",
+        "name": "Kreissparkasse",
+        "category": "banks",
+        "addr:city": "Gauting",
+        "addr:country": "DE",
+        "addr:housenumber": "13",
+        "addr:postcode": "82131",
+        "addr:street": "Bahnhofstraße",
+        "amenity": "bank",
+        "atm": "yes",
+        "brand": "Kreissparkasse München Starnberg Ebersberg",
+        "building": "yes",
+        "building:levels": "4",
+        "opening_hours": "Mo,Tu,We,Fr 08:45-12:30,13:30-16:00; Th 08:45-12:30,13:30-19:00; PH off",
+        "phone": "+49 89 238010",
+        "website": "https://www.kskmse.de/",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.4908057,
+          48.0853814
+        ]
+      },
+      "properties": {
+        "id": 151793114,
+        "type": "way",
+        "name": "Raiffeisenbank München Süd eG",
+        "category": "banks",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "28",
+        "addr:postcode": "81476",
+        "addr:street": "Liesl-Karlstadt-Straße",
+        "amenity": "bank",
+        "atm": "yes",
+        "building": "yes",
+        "building:levels": "2",
+        "contact:phone": "+4989759060",
+        "contact:website": "https://www.raiba-muc-sued.de/",
+        "opening_hours": "Mo-Fr 08:30-12:30,14:00-16:00, Th 14:00-18:00",
+        "roof:colour": "red",
+        "roof:levels": "2",
+        "roof:shape": "gabled",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6036766,
+          48.1274112
+        ]
+      },
+      "properties": {
+        "id": 279778152,
+        "type": "way",
+        "name": "Ria Moneytransfer",
+        "category": "banks",
+        "addr:housenumber": "10-12",
+        "addr:street": "Orleansplatz",
+        "amenity": "bank",
+        "check_date:opening_hours": "2024-09-18",
+        "level": "0",
+        "opening_hours": "Mo-Fr 08:00-20:00; Sa 08:00-19:00; Su 10:00-18:00",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5655962,
+          48.1392857
+        ]
+      },
+      "properties": {
+        "id": 334551271,
+        "type": "way",
+        "name": "Stadtsparkasse München",
+        "category": "banks",
+        "amenity": "bank",
+        "description": "Service-Center der Stadtsparkasse München",
+        "indoor": "room",
+        "layer": "-2",
+        "level": "-2",
+        "opening_hours": "24/7",
+        "operator": "Sparkasse",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6038403,
+          48.1273006
+        ]
+      },
+      "properties": {
+        "id": 392630962,
+        "type": "way",
+        "name": "Sparda-Bank",
+        "category": "banks",
+        "addr:city": "München",
+        "addr:housenumber": "11",
+        "addr:postcode": "81667",
+        "addr:street": "Orleansplatz",
+        "amenity": "bank",
+        "atm": "yes",
+        "brand": "Sparda-Bank",
+        "brand:wikidata": "Q2307136",
+        "brand:wikipedia": "de:Sparda-Bank (Deutschland)",
+        "check_date:opening_hours": "2025-11-05",
+        "currency:EUR": "yes",
+        "drive_through": "no",
+        "indoor": "room",
+        "internet_access": "wlan",
+        "layer": "-1",
+        "level": "-1",
+        "opening_hours": "Mo,Tu,Th,Fr 09:00-13:00, Mo,Th 14:00-18:00",
+        "operator": "Sparda-Bank München eG",
+        "website": "https://www.sparda-m.de/",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6060231,
+          48.1248956
+        ]
+      },
+      "properties": {
+        "id": 454650373,
+        "type": "way",
+        "name": "Sparkasse",
+        "category": "banks",
+        "access:covid19": "yes",
+        "amenity": "bank",
+        "atm": "yes",
+        "brand": "Sparkasse",
+        "check_date": "2025-11-16",
+        "indoor": "room",
+        "noaddress": "yes",
+        "opening_hours": "24/7",
+        "room": "yes",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5730193,
+          48.1395297
+        ]
+      },
+      "properties": {
+        "id": 16328001,
+        "type": "multipolygon",
+        "name": "Commerzbank",
+        "category": "banks",
+        "amenity": "bank",
+        "brand": "Commerzbank",
+        "brand:wikidata": "Q157617",
+        "brand:wikipedia": "de:Commerzbank",
+        "building": "yes"
+      }
+    }
+  ],
+  "metadata": {
+    "category": "banks",
+    "count": 263,
+    "generatedAt": "2025-11-22T19:55:41.863Z",
+    "bbox": {
+      "south": 48.061,
+      "west": 11.36,
+      "north": 48.248,
+      "east": 11.723
+    }
+  }
+}

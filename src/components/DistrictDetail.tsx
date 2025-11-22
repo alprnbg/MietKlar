@@ -63,19 +63,19 @@ export const DistrictDetail = ({ district, onClose }: DistrictDetailProps) => {
         </h3>
 
         <div style={{ marginBottom: '16px' }}>
+          <div style={{ display: 'flex', justifyContent: 'space-between', marginBottom: '12px', padding: '12px', background: 'rgba(255, 204, 0, 0.1)', borderRadius: '6px', border: '2px solid #FFCC00' }}>
+            <span style={{ color: '#333', fontWeight: '600' }}>{t('pricePerSqm')}</span>
+            <strong style={{ color: '#000', fontSize: '20px' }}>€{rentData.pricePerSqm}/m²</strong>
+          </div>
+
           <div style={{ display: 'flex', justifyContent: 'space-between', marginBottom: '8px' }}>
             <span style={{ color: '#666' }}>{t('averageRentLabel')}</span>
-            <strong style={{ color: '#d7191c' }}>€{rentData.averageRent}</strong>
+            <strong style={{ color: '#666' }}>€{rentData.averageRent}</strong>
           </div>
 
           <div style={{ display: 'flex', justifyContent: 'space-between', marginBottom: '8px' }}>
             <span style={{ color: '#666' }}>{t('fairRentLabel')}</span>
             <strong style={{ color: '#1a9641' }}>€{rentData.fairRent}</strong>
-          </div>
-
-          <div style={{ display: 'flex', justifyContent: 'space-between', marginBottom: '8px' }}>
-            <span style={{ color: '#666' }}>{t('pricePerSqm')}</span>
-            <strong>€{rentData.pricePerSqm}</strong>
           </div>
         </div>
 

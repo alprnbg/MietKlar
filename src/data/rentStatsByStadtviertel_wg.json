@@ -1,0 +1,4151 @@
+[
+  {
+    "stadtviertel": "22.2.6",
+    "entryCount": 8,
+    "avgRent": 621,
+    "minRent": 390,
+    "maxRent": 810,
+    "avgM2": 24,
+    "avgPricePerSqm": 26.21
+  },
+  {
+    "stadtviertel": "19.5.6",
+    "entryCount": 13,
+    "avgRent": 651,
+    "minRent": 330,
+    "maxRent": 1120,
+    "avgM2": 22,
+    "avgPricePerSqm": 28.39
+  },
+  {
+    "stadtviertel": "19.4.2",
+    "entryCount": 12,
+    "avgRent": 780,
+    "minRent": 390,
+    "maxRent": 1200,
+    "avgM2": 28,
+    "avgPricePerSqm": 28.12
+  },
+  {
+    "stadtviertel": "24.1.1",
+    "entryCount": 27,
+    "avgRent": 630,
+    "minRent": 320,
+    "maxRent": 910,
+    "avgM2": 24,
+    "avgPricePerSqm": 26.83
+  },
+  {
+    "stadtviertel": "11.2.5",
+    "entryCount": 25,
+    "avgRent": 614,
+    "minRent": 210,
+    "maxRent": 1080,
+    "avgM2": 22,
+    "avgPricePerSqm": 27.65
+  },
+  {
+    "stadtviertel": "22.4.2",
+    "entryCount": 29,
+    "avgRent": 642,
+    "minRent": 360,
+    "maxRent": 1190,
+    "avgM2": 23,
+    "avgPricePerSqm": 28.41
+  },
+  {
+    "stadtviertel": "02.7.4",
+    "entryCount": 5,
+    "avgRent": 466,
+    "minRent": 260,
+    "maxRent": 610,
+    "avgM2": 18,
+    "avgPricePerSqm": 25.76
+  },
+  {
+    "stadtviertel": "15.2.1",
+    "entryCount": 30,
+    "avgRent": 709,
+    "minRent": 250,
+    "maxRent": 1350,
+    "avgM2": 24,
+    "avgPricePerSqm": 28.62
+  },
+  {
+    "stadtviertel": "20.1.2",
+    "entryCount": 7,
+    "avgRent": 606,
+    "minRent": 270,
+    "maxRent": 980,
+    "avgM2": 23,
+    "avgPricePerSqm": 26.2
+  },
+  {
+    "stadtviertel": "19.4.3",
+    "entryCount": 14,
+    "avgRent": 621,
+    "minRent": 210,
+    "maxRent": 1000,
+    "avgM2": 25,
+    "avgPricePerSqm": 25.4
+  },
+  {
+    "stadtviertel": "09.2.3",
+    "entryCount": 45,
+    "avgRent": 652,
+    "minRent": 230,
+    "maxRent": 1100,
+    "avgM2": 23,
+    "avgPricePerSqm": 28.13
+  },
+  {
+    "stadtviertel": "21.4.1",
+    "entryCount": 25,
+    "avgRent": 622,
+    "minRent": 270,
+    "maxRent": 1100,
+    "avgM2": 23,
+    "avgPricePerSqm": 27.55
+  },
+  {
+    "stadtviertel": "16.3.4",
+    "entryCount": 18,
+    "avgRent": 504,
+    "minRent": 260,
+    "maxRent": 820,
+    "avgM2": 18,
+    "avgPricePerSqm": 28.8
+  },
+  {
+    "stadtviertel": "16.4.7",
+    "entryCount": 17,
+    "avgRent": 645,
+    "minRent": 310,
+    "maxRent": 1200,
+    "avgM2": 21,
+    "avgPricePerSqm": 29.7
+  },
+  {
+    "stadtviertel": "17.2.2",
+    "entryCount": 28,
+    "avgRent": 542,
+    "minRent": 210,
+    "maxRent": 1080,
+    "avgM2": 20,
+    "avgPricePerSqm": 26.78
+  },
+  {
+    "stadtviertel": "24.4.1",
+    "entryCount": 30,
+    "avgRent": 633,
+    "minRent": 230,
+    "maxRent": 1250,
+    "avgM2": 24,
+    "avgPricePerSqm": 26.4
+  },
+  {
+    "stadtviertel": "22.1.2",
+    "entryCount": 5,
+    "avgRent": 772,
+    "minRent": 300,
+    "maxRent": 1440,
+    "avgM2": 23,
+    "avgPricePerSqm": 30.48
+  },
+  {
+    "stadtviertel": "21.4.8",
+    "entryCount": 8,
+    "avgRent": 440,
+    "minRent": 260,
+    "maxRent": 800,
+    "avgM2": 20,
+    "avgPricePerSqm": 22.65
+  },
+  {
+    "stadtviertel": "10.2.9",
+    "entryCount": 17,
+    "avgRent": 751,
+    "minRent": 250,
+    "maxRent": 1270,
+    "avgM2": 27,
+    "avgPricePerSqm": 27.63
+  },
+  {
+    "stadtviertel": "13.3.3",
+    "entryCount": 5,
+    "avgRent": 780,
+    "minRent": 520,
+    "maxRent": 1090,
+    "avgM2": 25,
+    "avgPricePerSqm": 31.26
+  },
+  {
+    "stadtviertel": "19.2.2",
+    "entryCount": 8,
+    "avgRent": 664,
+    "minRent": 290,
+    "maxRent": 1070,
+    "avgM2": 23,
+    "avgPricePerSqm": 29.19
+  },
+  {
+    "stadtviertel": "11.2.1",
+    "entryCount": 23,
+    "avgRent": 660,
+    "minRent": 270,
+    "maxRent": 1220,
+    "avgM2": 23,
+    "avgPricePerSqm": 27.69
+  },
+  {
+    "stadtviertel": "17.1.6",
+    "entryCount": 6,
+    "avgRent": 702,
+    "minRent": 390,
+    "maxRent": 940,
+    "avgM2": 23,
+    "avgPricePerSqm": 30.76
+  },
+  {
+    "stadtviertel": "13.4.6",
+    "entryCount": 12,
+    "avgRent": 618,
+    "minRent": 240,
+    "maxRent": 1030,
+    "avgM2": 23,
+    "avgPricePerSqm": 26.66
+  },
+  {
+    "stadtviertel": "12.2.2",
+    "entryCount": 32,
+    "avgRent": 660,
+    "minRent": 310,
+    "maxRent": 1240,
+    "avgM2": 23,
+    "avgPricePerSqm": 28.47
+  },
+  {
+    "stadtviertel": "21.3.3",
+    "entryCount": 17,
+    "avgRent": 738,
+    "minRent": 290,
+    "maxRent": 1140,
+    "avgM2": 24,
+    "avgPricePerSqm": 30.71
+  },
+  {
+    "stadtviertel": "09.6.2",
+    "entryCount": 4,
+    "avgRent": 495,
+    "minRent": 310,
+    "maxRent": 800,
+    "avgM2": 19,
+    "avgPricePerSqm": 26.86
+  },
+  {
+    "stadtviertel": "21.4.2",
+    "entryCount": 18,
+    "avgRent": 563,
+    "minRent": 240,
+    "maxRent": 1130,
+    "avgM2": 21,
+    "avgPricePerSqm": 28.01
+  },
+  {
+    "stadtviertel": "25.1.1",
+    "entryCount": 5,
+    "avgRent": 640,
+    "minRent": 470,
+    "maxRent": 770,
+    "avgM2": 24,
+    "avgPricePerSqm": 27.05
+  },
+  {
+    "stadtviertel": "17.1.5",
+    "entryCount": 1,
+    "avgRent": 440,
+    "minRent": 440,
+    "maxRent": 440,
+    "avgM2": 13,
+    "avgPricePerSqm": 33.85
+  },
+  {
+    "stadtviertel": "24.3.1",
+    "entryCount": 17,
+    "avgRent": 584,
+    "minRent": 300,
+    "maxRent": 910,
+    "avgM2": 22,
+    "avgPricePerSqm": 26.92
+  },
+  {
+    "stadtviertel": "15.1.4",
+    "entryCount": 16,
+    "avgRent": 640,
+    "minRent": 260,
+    "maxRent": 1000,
+    "avgM2": 24,
+    "avgPricePerSqm": 27.93
+  },
+  {
+    "stadtviertel": "12.3.2",
+    "entryCount": 11,
+    "avgRent": 616,
+    "minRent": 330,
+    "maxRent": 1210,
+    "avgM2": 21,
+    "avgPricePerSqm": 29
+  },
+  {
+    "stadtviertel": "24.1.7",
+    "entryCount": 99,
+    "avgRent": 655,
+    "minRent": 210,
+    "maxRent": 1180,
+    "avgM2": 23,
+    "avgPricePerSqm": 28.25
+  },
+  {
+    "stadtviertel": "21.4.6",
+    "entryCount": 19,
+    "avgRent": 643,
+    "minRent": 300,
+    "maxRent": 1030,
+    "avgM2": 24,
+    "avgPricePerSqm": 27.76
+  },
+  {
+    "stadtviertel": "15.2.2",
+    "entryCount": 32,
+    "avgRent": 598,
+    "minRent": 230,
+    "maxRent": 1200,
+    "avgM2": 21,
+    "avgPricePerSqm": 28.26
+  },
+  {
+    "stadtviertel": "16.1.1",
+    "entryCount": 7,
+    "avgRent": 694,
+    "minRent": 360,
+    "maxRent": 1170,
+    "avgM2": 23,
+    "avgPricePerSqm": 29.87
+  },
+  {
+    "stadtviertel": "12.1.4",
+    "entryCount": 14,
+    "avgRent": 702,
+    "minRent": 350,
+    "maxRent": 1010,
+    "avgM2": 24,
+    "avgPricePerSqm": 29
+  },
+  {
+    "stadtviertel": "12.2.1",
+    "entryCount": 12,
+    "avgRent": 667,
+    "minRent": 200,
+    "maxRent": 1420,
+    "avgM2": 24,
+    "avgPricePerSqm": 26.83
+  },
+  {
+    "stadtviertel": "09.3.0",
+    "entryCount": 15,
+    "avgRent": 585,
+    "minRent": 260,
+    "maxRent": 1320,
+    "avgM2": 21,
+    "avgPricePerSqm": 27.85
+  },
+  {
+    "stadtviertel": "10.1.7",
+    "entryCount": 11,
+    "avgRent": 560,
+    "minRent": 290,
+    "maxRent": 1000,
+    "avgM2": 20,
+    "avgPricePerSqm": 27.42
+  },
+  {
+    "stadtviertel": "13.4.8",
+    "entryCount": 21,
+    "avgRent": 573,
+    "minRent": 310,
+    "maxRent": 1140,
+    "avgM2": 21,
+    "avgPricePerSqm": 27.02
+  },
+  {
+    "stadtviertel": "10.2.8",
+    "entryCount": 22,
+    "avgRent": 628,
+    "minRent": 220,
+    "maxRent": 1100,
+    "avgM2": 22,
+    "avgPricePerSqm": 29.22
+  },
+  {
+    "stadtviertel": "05.4.3",
+    "entryCount": 7,
+    "avgRent": 500,
+    "minRent": 260,
+    "maxRent": 730,
+    "avgM2": 18,
+    "avgPricePerSqm": 27.33
+  },
+  {
+    "stadtviertel": "23.2.3",
+    "entryCount": 15,
+    "avgRent": 669,
+    "minRent": 290,
+    "maxRent": 1430,
+    "avgM2": 24,
+    "avgPricePerSqm": 26.96
+  },
+  {
+    "stadtviertel": "11.3.1",
+    "entryCount": 10,
+    "avgRent": 560,
+    "minRent": 330,
+    "maxRent": 770,
+    "avgM2": 20,
+    "avgPricePerSqm": 29.15
+  },
+  {
+    "stadtviertel": "16.2.3",
+    "entryCount": 14,
+    "avgRent": 589,
+    "minRent": 250,
+    "maxRent": 1220,
+    "avgM2": 21,
+    "avgPricePerSqm": 26.92
+  },
+  {
+    "stadtviertel": "21.1.3",
+    "entryCount": 9,
+    "avgRent": 743,
+    "minRent": 380,
+    "maxRent": 1210,
+    "avgM2": 24,
+    "avgPricePerSqm": 31.15
+  },
+  {
+    "stadtviertel": "16.4.8",
+    "entryCount": 20,
+    "avgRent": 634,
+    "minRent": 260,
+    "maxRent": 980,
+    "avgM2": 23,
+    "avgPricePerSqm": 27.74
+  },
+  {
+    "stadtviertel": "10.1.4",
+    "entryCount": 15,
+    "avgRent": 613,
+    "minRent": 230,
+    "maxRent": 1120,
+    "avgM2": 22,
+    "avgPricePerSqm": 27.27
+  },
+  {
+    "stadtviertel": "25.2.8",
+    "entryCount": 10,
+    "avgRent": 645,
+    "minRent": 270,
+    "maxRent": 930,
+    "avgM2": 25,
+    "avgPricePerSqm": 26.59
+  },
+  {
+    "stadtviertel": "09.2.9",
+    "entryCount": 32,
+    "avgRent": 635,
+    "minRent": 230,
+    "maxRent": 1190,
+    "avgM2": 22,
+    "avgPricePerSqm": 28.74
+  },
+  {
+    "stadtviertel": "05.3.3",
+    "entryCount": 10,
+    "avgRent": 397,
+    "minRent": 290,
+    "maxRent": 460,
+    "avgM2": 16,
+    "avgPricePerSqm": 24.7
+  },
+  {
+    "stadtviertel": "15.4.3",
+    "entryCount": 27,
+    "avgRent": 633,
+    "minRent": 280,
+    "maxRent": 1050,
+    "avgM2": 23,
+    "avgPricePerSqm": 27.67
+  },
+  {
+    "stadtviertel": "22.1.3",
+    "entryCount": 19,
+    "avgRent": 609,
+    "minRent": 230,
+    "maxRent": 970,
+    "avgM2": 22,
+    "avgPricePerSqm": 27.8
+  },
+  {
+    "stadtviertel": "25.2.6",
+    "entryCount": 14,
+    "avgRent": 605,
+    "minRent": 290,
+    "maxRent": 960,
+    "avgM2": 22,
+    "avgPricePerSqm": 28.19
+  },
+  {
+    "stadtviertel": "21.4.4",
+    "entryCount": 20,
+    "avgRent": 642,
+    "minRent": 190,
+    "maxRent": 1340,
+    "avgM2": 24,
+    "avgPricePerSqm": 26.84
+  },
+  {
+    "stadtviertel": "11.1.4",
+    "entryCount": 16,
+    "avgRent": 629,
+    "minRent": 280,
+    "maxRent": 1190,
+    "avgM2": 23,
+    "avgPricePerSqm": 27.87
+  },
+  {
+    "stadtviertel": "22.1.4",
+    "entryCount": 57,
+    "avgRent": 654,
+    "minRent": 240,
+    "maxRent": 1340,
+    "avgM2": 23,
+    "avgPricePerSqm": 28.26
+  },
+  {
+    "stadtviertel": "24.1.5",
+    "entryCount": 32,
+    "avgRent": 628,
+    "minRent": 220,
+    "maxRent": 1160,
+    "avgM2": 23,
+    "avgPricePerSqm": 26.89
+  },
+  {
+    "stadtviertel": "15.2.4",
+    "entryCount": 29,
+    "avgRent": 626,
+    "minRent": 220,
+    "maxRent": 1160,
+    "avgM2": 22,
+    "avgPricePerSqm": 28.45
+  },
+  {
+    "stadtviertel": "16.1.7",
+    "entryCount": 9,
+    "avgRent": 662,
+    "minRent": 300,
+    "maxRent": 1100,
+    "avgM2": 23,
+    "avgPricePerSqm": 28.35
+  },
+  {
+    "stadtviertel": "06.2.2",
+    "entryCount": 9,
+    "avgRent": 621,
+    "minRent": 220,
+    "maxRent": 960,
+    "avgM2": 23,
+    "avgPricePerSqm": 26.83
+  },
+  {
+    "stadtviertel": "18.3.3",
+    "entryCount": 9,
+    "avgRent": 620,
+    "minRent": 320,
+    "maxRent": 960,
+    "avgM2": 23,
+    "avgPricePerSqm": 26.59
+  },
+  {
+    "stadtviertel": "21.4.5",
+    "entryCount": 15,
+    "avgRent": 619,
+    "minRent": 250,
+    "maxRent": 1070,
+    "avgM2": 21,
+    "avgPricePerSqm": 29.73
+  },
+  {
+    "stadtviertel": "11.1.6",
+    "entryCount": 9,
+    "avgRent": 442,
+    "minRent": 290,
+    "maxRent": 690,
+    "avgM2": 19,
+    "avgPricePerSqm": 23.78
+  },
+  {
+    "stadtviertel": "16.1.3",
+    "entryCount": 7,
+    "avgRent": 600,
+    "minRent": 370,
+    "maxRent": 890,
+    "avgM2": 21,
+    "avgPricePerSqm": 28.17
+  },
+  {
+    "stadtviertel": "22.4.3",
+    "entryCount": 49,
+    "avgRent": 623,
+    "minRent": 210,
+    "maxRent": 1390,
+    "avgM2": 22,
+    "avgPricePerSqm": 28.13
+  },
+  {
+    "stadtviertel": "18.2.2",
+    "entryCount": 9,
+    "avgRent": 663,
+    "minRent": 280,
+    "maxRent": 1080,
+    "avgM2": 23,
+    "avgPricePerSqm": 27.97
+  },
+  {
+    "stadtviertel": "13.2.2",
+    "entryCount": 16,
+    "avgRent": 571,
+    "minRent": 210,
+    "maxRent": 980,
+    "avgM2": 21,
+    "avgPricePerSqm": 26.5
+  },
+  {
+    "stadtviertel": "22.3.7",
+    "entryCount": 66,
+    "avgRent": 616,
+    "minRent": 260,
+    "maxRent": 1180,
+    "avgM2": 23,
+    "avgPricePerSqm": 27.41
+  },
+  {
+    "stadtviertel": "24.1.6",
+    "entryCount": 22,
+    "avgRent": 611,
+    "minRent": 240,
+    "maxRent": 1250,
+    "avgM2": 23,
+    "avgPricePerSqm": 26.62
+  },
+  {
+    "stadtviertel": "03.4.1",
+    "entryCount": 5,
+    "avgRent": 888,
+    "minRent": 590,
+    "maxRent": 1110,
+    "avgM2": 29,
+    "avgPricePerSqm": 31.1
+  },
+  {
+    "stadtviertel": "08.2.1",
+    "entryCount": 8,
+    "avgRent": 738,
+    "minRent": 340,
+    "maxRent": 1200,
+    "avgM2": 27,
+    "avgPricePerSqm": 27.32
+  },
+  {
+    "stadtviertel": "25.2.2",
+    "entryCount": 9,
+    "avgRent": 797,
+    "minRent": 310,
+    "maxRent": 1300,
+    "avgM2": 26,
+    "avgPricePerSqm": 30.16
+  },
+  {
+    "stadtviertel": "20.3.3",
+    "entryCount": 40,
+    "avgRent": 676,
+    "minRent": 240,
+    "maxRent": 1170,
+    "avgM2": 26,
+    "avgPricePerSqm": 26.19
+  },
+  {
+    "stadtviertel": "09.1.4",
+    "entryCount": 4,
+    "avgRent": 593,
+    "minRent": 360,
+    "maxRent": 1070,
+    "avgM2": 23,
+    "avgPricePerSqm": 24.79
+  },
+  {
+    "stadtviertel": "24.2.2",
+    "entryCount": 12,
+    "avgRent": 614,
+    "minRent": 350,
+    "maxRent": 900,
+    "avgM2": 23,
+    "avgPricePerSqm": 27.75
+  },
+  {
+    "stadtviertel": "04.2.3",
+    "entryCount": 11,
+    "avgRent": 606,
+    "minRent": 340,
+    "maxRent": 1010,
+    "avgM2": 23,
+    "avgPricePerSqm": 26.8
+  },
+  {
+    "stadtviertel": "09.1.5",
+    "entryCount": 8,
+    "avgRent": 843,
+    "minRent": 340,
+    "maxRent": 1110,
+    "avgM2": 29,
+    "avgPricePerSqm": 29.66
+  },
+  {
+    "stadtviertel": "24.1.3",
+    "entryCount": 24,
+    "avgRent": 688,
+    "minRent": 240,
+    "maxRent": 1430,
+    "avgM2": 23,
+    "avgPricePerSqm": 29.32
+  },
+  {
+    "stadtviertel": "18.2.1",
+    "entryCount": 8,
+    "avgRent": 660,
+    "minRent": 300,
+    "maxRent": 1370,
+    "avgM2": 25,
+    "avgPricePerSqm": 26.08
+  },
+  {
+    "stadtviertel": "13.1.3",
+    "entryCount": 18,
+    "avgRent": 568,
+    "minRent": 190,
+    "maxRent": 1030,
+    "avgM2": 20,
+    "avgPricePerSqm": 27.7
+  },
+  {
+    "stadtviertel": "12.6.1",
+    "entryCount": 7,
+    "avgRent": 580,
+    "minRent": 290,
+    "maxRent": 890,
+    "avgM2": 21,
+    "avgPricePerSqm": 27.02
+  },
+  {
+    "stadtviertel": "16.3.1",
+    "entryCount": 2,
+    "avgRent": 545,
+    "minRent": 420,
+    "maxRent": 670,
+    "avgM2": 24,
+    "avgPricePerSqm": 25.73
+  },
+  {
+    "stadtviertel": "13.7.1",
+    "entryCount": 10,
+    "avgRent": 577,
+    "minRent": 290,
+    "maxRent": 840,
+    "avgM2": 22,
+    "avgPricePerSqm": 26.77
+  },
+  {
+    "stadtviertel": "24.1.9",
+    "entryCount": 35,
+    "avgRent": 611,
+    "minRent": 250,
+    "maxRent": 1150,
+    "avgM2": 23,
+    "avgPricePerSqm": 27.34
+  },
+  {
+    "stadtviertel": "22.3.5",
+    "entryCount": 16,
+    "avgRent": 651,
+    "minRent": 210,
+    "maxRent": 1140,
+    "avgM2": 22,
+    "avgPricePerSqm": 29.05
+  },
+  {
+    "stadtviertel": "15.1.5",
+    "entryCount": 16,
+    "avgRent": 631,
+    "minRent": 350,
+    "maxRent": 1050,
+    "avgM2": 22,
+    "avgPricePerSqm": 28.09
+  },
+  {
+    "stadtviertel": "14.2.3",
+    "entryCount": 18,
+    "avgRent": 588,
+    "minRent": 210,
+    "maxRent": 1110,
+    "avgM2": 22,
+    "avgPricePerSqm": 26.81
+  },
+  {
+    "stadtviertel": "14.3.1",
+    "entryCount": 5,
+    "avgRent": 598,
+    "minRent": 220,
+    "maxRent": 940,
+    "avgM2": 23,
+    "avgPricePerSqm": 26.03
+  },
+  {
+    "stadtviertel": "13.6.3",
+    "entryCount": 11,
+    "avgRent": 613,
+    "minRent": 380,
+    "maxRent": 960,
+    "avgM2": 24,
+    "avgPricePerSqm": 26.33
+  },
+  {
+    "stadtviertel": "07.3.6",
+    "entryCount": 7,
+    "avgRent": 391,
+    "minRent": 270,
+    "maxRent": 560,
+    "avgM2": 15,
+    "avgPricePerSqm": 26.17
+  },
+  {
+    "stadtviertel": "22.2.5",
+    "entryCount": 11,
+    "avgRent": 696,
+    "minRent": 350,
+    "maxRent": 1270,
+    "avgM2": 24,
+    "avgPricePerSqm": 28.47
+  },
+  {
+    "stadtviertel": "14.3.2",
+    "entryCount": 13,
+    "avgRent": 637,
+    "minRent": 400,
+    "maxRent": 1120,
+    "avgM2": 22,
+    "avgPricePerSqm": 28.91
+  },
+  {
+    "stadtviertel": "13.2.4",
+    "entryCount": 59,
+    "avgRent": 585,
+    "minRent": 200,
+    "maxRent": 1270,
+    "avgM2": 22,
+    "avgPricePerSqm": 26.62
+  },
+  {
+    "stadtviertel": "01.5.2",
+    "entryCount": 1,
+    "avgRent": 500,
+    "minRent": 500,
+    "maxRent": 500,
+    "avgM2": 17,
+    "avgPricePerSqm": 29.41
+  },
+  {
+    "stadtviertel": "16.4.4",
+    "entryCount": 12,
+    "avgRent": 533,
+    "minRent": 290,
+    "maxRent": 1020,
+    "avgM2": 19,
+    "avgPricePerSqm": 27.48
+  },
+  {
+    "stadtviertel": "23.2.4",
+    "entryCount": 23,
+    "avgRent": 690,
+    "minRent": 330,
+    "maxRent": 1360,
+    "avgM2": 23,
+    "avgPricePerSqm": 30.14
+  },
+  {
+    "stadtviertel": "24.1.2",
+    "entryCount": 16,
+    "avgRent": 604,
+    "minRent": 240,
+    "maxRent": 950,
+    "avgM2": 22,
+    "avgPricePerSqm": 27.87
+  },
+  {
+    "stadtviertel": "10.2.2",
+    "entryCount": 17,
+    "avgRent": 658,
+    "minRent": 290,
+    "maxRent": 1160,
+    "avgM2": 24,
+    "avgPricePerSqm": 27.64
+  },
+  {
+    "stadtviertel": "09.2.8",
+    "entryCount": 4,
+    "avgRent": 600,
+    "minRent": 340,
+    "maxRent": 810,
+    "avgM2": 24,
+    "avgPricePerSqm": 25.56
+  },
+  {
+    "stadtviertel": "22.3.6",
+    "entryCount": 44,
+    "avgRent": 524,
+    "minRent": 200,
+    "maxRent": 1010,
+    "avgM2": 20,
+    "avgPricePerSqm": 26.75
+  },
+  {
+    "stadtviertel": "16.5.5",
+    "entryCount": 12,
+    "avgRent": 636,
+    "minRent": 300,
+    "maxRent": 940,
+    "avgM2": 23,
+    "avgPricePerSqm": 28.61
+  },
+  {
+    "stadtviertel": "11.1.1",
+    "entryCount": 49,
+    "avgRent": 633,
+    "minRent": 220,
+    "maxRent": 1180,
+    "avgM2": 23,
+    "avgPricePerSqm": 27.56
+  },
+  {
+    "stadtviertel": "12.3.3",
+    "entryCount": 12,
+    "avgRent": 671,
+    "minRent": 330,
+    "maxRent": 980,
+    "avgM2": 27,
+    "avgPricePerSqm": 25.3
+  },
+  {
+    "stadtviertel": "04.2.4",
+    "entryCount": 11,
+    "avgRent": 690,
+    "minRent": 360,
+    "maxRent": 1110,
+    "avgM2": 24,
+    "avgPricePerSqm": 28.39
+  },
+  {
+    "stadtviertel": "22.3.2",
+    "entryCount": 32,
+    "avgRent": 646,
+    "minRent": 200,
+    "maxRent": 1250,
+    "avgM2": 22,
+    "avgPricePerSqm": 29.08
+  },
+  {
+    "stadtviertel": "24.2.3",
+    "entryCount": 26,
+    "avgRent": 682,
+    "minRent": 290,
+    "maxRent": 1260,
+    "avgM2": 24,
+    "avgPricePerSqm": 27.66
+  },
+  {
+    "stadtviertel": "15.2.6",
+    "entryCount": 7,
+    "avgRent": 787,
+    "minRent": 330,
+    "maxRent": 1340,
+    "avgM2": 27,
+    "avgPricePerSqm": 29.48
+  },
+  {
+    "stadtviertel": "02.2.0",
+    "entryCount": 5,
+    "avgRent": 470,
+    "minRent": 210,
+    "maxRent": 930,
+    "avgM2": 19,
+    "avgPricePerSqm": 24.21
+  },
+  {
+    "stadtviertel": "13.7.4",
+    "entryCount": 8,
+    "avgRent": 653,
+    "minRent": 450,
+    "maxRent": 970,
+    "avgM2": 23,
+    "avgPricePerSqm": 28.37
+  },
+  {
+    "stadtviertel": "15.4.1",
+    "entryCount": 11,
+    "avgRent": 678,
+    "minRent": 350,
+    "maxRent": 1050,
+    "avgM2": 24,
+    "avgPricePerSqm": 28.87
+  },
+  {
+    "stadtviertel": "12.3.4",
+    "entryCount": 36,
+    "avgRent": 626,
+    "minRent": 200,
+    "maxRent": 1180,
+    "avgM2": 23,
+    "avgPricePerSqm": 27.62
+  },
+  {
+    "stadtviertel": "21.4.3",
+    "entryCount": 30,
+    "avgRent": 572,
+    "minRent": 270,
+    "maxRent": 1160,
+    "avgM2": 21,
+    "avgPricePerSqm": 27.14
+  },
+  {
+    "stadtviertel": "09.4.2",
+    "entryCount": 4,
+    "avgRent": 680,
+    "minRent": 280,
+    "maxRent": 1170,
+    "avgM2": 24,
+    "avgPricePerSqm": 28.34
+  },
+  {
+    "stadtviertel": "23.1.1",
+    "entryCount": 43,
+    "avgRent": 647,
+    "minRent": 240,
+    "maxRent": 1320,
+    "avgM2": 23,
+    "avgPricePerSqm": 27.74
+  },
+  {
+    "stadtviertel": "19.5.4",
+    "entryCount": 13,
+    "avgRent": 604,
+    "minRent": 290,
+    "maxRent": 1050,
+    "avgM2": 23,
+    "avgPricePerSqm": 25.74
+  },
+  {
+    "stadtviertel": "15.4.4",
+    "entryCount": 36,
+    "avgRent": 533,
+    "minRent": 290,
+    "maxRent": 890,
+    "avgM2": 20,
+    "avgPricePerSqm": 27.15
+  },
+  {
+    "stadtviertel": "19.2.7",
+    "entryCount": 5,
+    "avgRent": 804,
+    "minRent": 490,
+    "maxRent": 1130,
+    "avgM2": 25,
+    "avgPricePerSqm": 31.98
+  },
+  {
+    "stadtviertel": "19.5.1",
+    "entryCount": 18,
+    "avgRent": 572,
+    "minRent": 220,
+    "maxRent": 1220,
+    "avgM2": 20,
+    "avgPricePerSqm": 28.01
+  },
+  {
+    "stadtviertel": "03.4.2",
+    "entryCount": 17,
+    "avgRent": 542,
+    "minRent": 280,
+    "maxRent": 870,
+    "avgM2": 21,
+    "avgPricePerSqm": 27.04
+  },
+  {
+    "stadtviertel": "24.3.2",
+    "entryCount": 48,
+    "avgRent": 674,
+    "minRent": 180,
+    "maxRent": 1270,
+    "avgM2": 23,
+    "avgPricePerSqm": 28.42
+  },
+  {
+    "stadtviertel": "16.4.6",
+    "entryCount": 9,
+    "avgRent": 620,
+    "minRent": 360,
+    "maxRent": 930,
+    "avgM2": 25,
+    "avgPricePerSqm": 24.1
+  },
+  {
+    "stadtviertel": "19.5.2",
+    "entryCount": 14,
+    "avgRent": 601,
+    "minRent": 290,
+    "maxRent": 1260,
+    "avgM2": 22,
+    "avgPricePerSqm": 27.31
+  },
+  {
+    "stadtviertel": "23.2.6",
+    "entryCount": 13,
+    "avgRent": 542,
+    "minRent": 230,
+    "maxRent": 1090,
+    "avgM2": 20,
+    "avgPricePerSqm": 25.97
+  },
+  {
+    "stadtviertel": "23.1.2",
+    "entryCount": 21,
+    "avgRent": 604,
+    "minRent": 270,
+    "maxRent": 1000,
+    "avgM2": 23,
+    "avgPricePerSqm": 26.81
+  },
+  {
+    "stadtviertel": "14.2.4",
+    "entryCount": 13,
+    "avgRent": 601,
+    "minRent": 260,
+    "maxRent": 1020,
+    "avgM2": 21,
+    "avgPricePerSqm": 29
+  },
+  {
+    "stadtviertel": "21.2.2",
+    "entryCount": 18,
+    "avgRent": 576,
+    "minRent": 330,
+    "maxRent": 980,
+    "avgM2": 23,
+    "avgPricePerSqm": 25.3
+  },
+  {
+    "stadtviertel": "01.5.3",
+    "entryCount": 10,
+    "avgRent": 594,
+    "minRent": 340,
+    "maxRent": 880,
+    "avgM2": 22,
+    "avgPricePerSqm": 27.97
+  },
+  {
+    "stadtviertel": "07.3.1",
+    "entryCount": 10,
+    "avgRent": 643,
+    "minRent": 390,
+    "maxRent": 1010,
+    "avgM2": 25,
+    "avgPricePerSqm": 26.43
+  },
+  {
+    "stadtviertel": "20.2.6",
+    "entryCount": 7,
+    "avgRent": 529,
+    "minRent": 270,
+    "maxRent": 850,
+    "avgM2": 18,
+    "avgPricePerSqm": 29.72
+  },
+  {
+    "stadtviertel": "01.6.1",
+    "entryCount": 16,
+    "avgRent": 603,
+    "minRent": 220,
+    "maxRent": 950,
+    "avgM2": 21,
+    "avgPricePerSqm": 28.6
+  },
+  {
+    "stadtviertel": "23.2.1",
+    "entryCount": 30,
+    "avgRent": 626,
+    "minRent": 280,
+    "maxRent": 1150,
+    "avgM2": 23,
+    "avgPricePerSqm": 27.87
+  },
+  {
+    "stadtviertel": "15.4.5",
+    "entryCount": 42,
+    "avgRent": 584,
+    "minRent": 200,
+    "maxRent": 1170,
+    "avgM2": 22,
+    "avgPricePerSqm": 27.21
+  },
+  {
+    "stadtviertel": "23.1.3",
+    "entryCount": 13,
+    "avgRent": 621,
+    "minRent": 300,
+    "maxRent": 1200,
+    "avgM2": 22,
+    "avgPricePerSqm": 27.65
+  },
+  {
+    "stadtviertel": "14.2.1",
+    "entryCount": 9,
+    "avgRent": 582,
+    "minRent": 290,
+    "maxRent": 830,
+    "avgM2": 24,
+    "avgPricePerSqm": 24.75
+  },
+  {
+    "stadtviertel": "24.2.5",
+    "entryCount": 11,
+    "avgRent": 615,
+    "minRent": 190,
+    "maxRent": 980,
+    "avgM2": 21,
+    "avgPricePerSqm": 28.33
+  },
+  {
+    "stadtviertel": "10.1.5",
+    "entryCount": 9,
+    "avgRent": 648,
+    "minRent": 350,
+    "maxRent": 940,
+    "avgM2": 24,
+    "avgPricePerSqm": 26.24
+  },
+  {
+    "stadtviertel": "13.5.4",
+    "entryCount": 13,
+    "avgRent": 653,
+    "minRent": 270,
+    "maxRent": 1170,
+    "avgM2": 22,
+    "avgPricePerSqm": 28.98
+  },
+  {
+    "stadtviertel": "12.3.7",
+    "entryCount": 2,
+    "avgRent": 490,
+    "minRent": 240,
+    "maxRent": 740,
+    "avgM2": 22,
+    "avgPricePerSqm": 22.12
+  },
+  {
+    "stadtviertel": "16.3.2",
+    "entryCount": 12,
+    "avgRent": 654,
+    "minRent": 300,
+    "maxRent": 1200,
+    "avgM2": 22,
+    "avgPricePerSqm": 29.36
+  },
+  {
+    "stadtviertel": "10.2.5",
+    "entryCount": 15,
+    "avgRent": 647,
+    "minRent": 280,
+    "maxRent": 980,
+    "avgM2": 24,
+    "avgPricePerSqm": 27.57
+  },
+  {
+    "stadtviertel": "18.5.5",
+    "entryCount": 9,
+    "avgRent": 723,
+    "minRent": 470,
+    "maxRent": 1030,
+    "avgM2": 24,
+    "avgPricePerSqm": 30.27
+  },
+  {
+    "stadtviertel": "19.5.8",
+    "entryCount": 3,
+    "avgRent": 580,
+    "minRent": 280,
+    "maxRent": 1120,
+    "avgM2": 19,
+    "avgPricePerSqm": 29.77
+  },
+  {
+    "stadtviertel": "02.1.0",
+    "entryCount": 7,
+    "avgRent": 634,
+    "minRent": 380,
+    "maxRent": 1060,
+    "avgM2": 23,
+    "avgPricePerSqm": 26.99
+  },
+  {
+    "stadtviertel": "09.1.3",
+    "entryCount": 6,
+    "avgRent": 722,
+    "minRent": 390,
+    "maxRent": 1130,
+    "avgM2": 26,
+    "avgPricePerSqm": 27.11
+  },
+  {
+    "stadtviertel": "10.2.7",
+    "entryCount": 11,
+    "avgRent": 657,
+    "minRent": 420,
+    "maxRent": 980,
+    "avgM2": 23,
+    "avgPricePerSqm": 28.4
+  },
+  {
+    "stadtviertel": "12.2.3",
+    "entryCount": 25,
+    "avgRent": 632,
+    "minRent": 260,
+    "maxRent": 1160,
+    "avgM2": 23,
+    "avgPricePerSqm": 27.77
+  },
+  {
+    "stadtviertel": "13.1.2",
+    "entryCount": 11,
+    "avgRent": 667,
+    "minRent": 350,
+    "maxRent": 1210,
+    "avgM2": 23,
+    "avgPricePerSqm": 29.01
+  },
+  {
+    "stadtviertel": "15.2.5",
+    "entryCount": 13,
+    "avgRent": 534,
+    "minRent": 190,
+    "maxRent": 860,
+    "avgM2": 21,
+    "avgPricePerSqm": 25.79
+  },
+  {
+    "stadtviertel": "12.4.1",
+    "entryCount": 5,
+    "avgRent": 734,
+    "minRent": 430,
+    "maxRent": 1050,
+    "avgM2": 22,
+    "avgPricePerSqm": 33.24
+  },
+  {
+    "stadtviertel": "18.3.2",
+    "entryCount": 5,
+    "avgRent": 544,
+    "minRent": 260,
+    "maxRent": 880,
+    "avgM2": 20,
+    "avgPricePerSqm": 26.55
+  },
+  {
+    "stadtviertel": "24.4.2",
+    "entryCount": 14,
+    "avgRent": 601,
+    "minRent": 230,
+    "maxRent": 860,
+    "avgM2": 22,
+    "avgPricePerSqm": 27.66
+  },
+  {
+    "stadtviertel": "15.1.3",
+    "entryCount": 12,
+    "avgRent": 712,
+    "minRent": 370,
+    "maxRent": 1210,
+    "avgM2": 25,
+    "avgPricePerSqm": 27.81
+  },
+  {
+    "stadtviertel": "14.1.1",
+    "entryCount": 25,
+    "avgRent": 616,
+    "minRent": 250,
+    "maxRent": 980,
+    "avgM2": 23,
+    "avgPricePerSqm": 27.54
+  },
+  {
+    "stadtviertel": "15.1.6",
+    "entryCount": 14,
+    "avgRent": 560,
+    "minRent": 230,
+    "maxRent": 950,
+    "avgM2": 20,
+    "avgPricePerSqm": 28.28
+  },
+  {
+    "stadtviertel": "22.2.1",
+    "entryCount": 21,
+    "avgRent": 667,
+    "minRent": 270,
+    "maxRent": 1220,
+    "avgM2": 25,
+    "avgPricePerSqm": 26.26
+  },
+  {
+    "stadtviertel": "02.8.3",
+    "entryCount": 7,
+    "avgRent": 480,
+    "minRent": 270,
+    "maxRent": 690,
+    "avgM2": 20,
+    "avgPricePerSqm": 24.78
+  },
+  {
+    "stadtviertel": "21.1.2",
+    "entryCount": 4,
+    "avgRent": 473,
+    "minRent": 360,
+    "maxRent": 680,
+    "avgM2": 21,
+    "avgPricePerSqm": 23.1
+  },
+  {
+    "stadtviertel": "12.8.2",
+    "entryCount": 7,
+    "avgRent": 579,
+    "minRent": 220,
+    "maxRent": 1030,
+    "avgM2": 20,
+    "avgPricePerSqm": 28.42
+  },
+  {
+    "stadtviertel": "21.4.7",
+    "entryCount": 3,
+    "avgRent": 600,
+    "minRent": 380,
+    "maxRent": 850,
+    "avgM2": 18,
+    "avgPricePerSqm": 32.54
+  },
+  {
+    "stadtviertel": "22.4.1",
+    "entryCount": 61,
+    "avgRent": 675,
+    "minRent": 290,
+    "maxRent": 1180,
+    "avgM2": 24,
+    "avgPricePerSqm": 28.28
+  },
+  {
+    "stadtviertel": "18.1.2",
+    "entryCount": 13,
+    "avgRent": 708,
+    "minRent": 330,
+    "maxRent": 1050,
+    "avgM2": 27,
+    "avgPricePerSqm": 26.22
+  },
+  {
+    "stadtviertel": "09.2.5",
+    "entryCount": 7,
+    "avgRent": 684,
+    "minRent": 260,
+    "maxRent": 1450,
+    "avgM2": 22,
+    "avgPricePerSqm": 30.69
+  },
+  {
+    "stadtviertel": "20.1.1",
+    "entryCount": 13,
+    "avgRent": 500,
+    "minRent": 270,
+    "maxRent": 800,
+    "avgM2": 18,
+    "avgPricePerSqm": 28.76
+  },
+  {
+    "stadtviertel": "21.3.5",
+    "entryCount": 11,
+    "avgRent": 642,
+    "minRent": 410,
+    "maxRent": 880,
+    "avgM2": 23,
+    "avgPricePerSqm": 28.42
+  },
+  {
+    "stadtviertel": "23.1.5",
+    "entryCount": 18,
+    "avgRent": 582,
+    "minRent": 240,
+    "maxRent": 1340,
+    "avgM2": 20,
+    "avgPricePerSqm": 28.04
+  },
+  {
+    "stadtviertel": "18.5.4",
+    "entryCount": 20,
+    "avgRent": 722,
+    "minRent": 270,
+    "maxRent": 1140,
+    "avgM2": 25,
+    "avgPricePerSqm": 28.92
+  },
+  {
+    "stadtviertel": "14.1.2",
+    "entryCount": 10,
+    "avgRent": 667,
+    "minRent": 330,
+    "maxRent": 950,
+    "avgM2": 23,
+    "avgPricePerSqm": 29.97
+  },
+  {
+    "stadtviertel": "22.3.4",
+    "entryCount": 35,
+    "avgRent": 648,
+    "minRent": 230,
+    "maxRent": 1250,
+    "avgM2": 23,
+    "avgPricePerSqm": 28.03
+  },
+  {
+    "stadtviertel": "25.2.3",
+    "entryCount": 3,
+    "avgRent": 457,
+    "minRent": 340,
+    "maxRent": 560,
+    "avgM2": 21,
+    "avgPricePerSqm": 21.67
+  },
+  {
+    "stadtviertel": "03.4.3",
+    "entryCount": 6,
+    "avgRent": 630,
+    "minRent": 360,
+    "maxRent": 960,
+    "avgM2": 22,
+    "avgPricePerSqm": 28.81
+  },
+  {
+    "stadtviertel": "12.3.5",
+    "entryCount": 8,
+    "avgRent": 599,
+    "minRent": 460,
+    "maxRent": 730,
+    "avgM2": 23,
+    "avgPricePerSqm": 26.98
+  },
+  {
+    "stadtviertel": "13.4.2",
+    "entryCount": 11,
+    "avgRent": 599,
+    "minRent": 210,
+    "maxRent": 1010,
+    "avgM2": 20,
+    "avgPricePerSqm": 29.24
+  },
+  {
+    "stadtviertel": "25.2.5",
+    "entryCount": 9,
+    "avgRent": 599,
+    "minRent": 400,
+    "maxRent": 900,
+    "avgM2": 21,
+    "avgPricePerSqm": 29.05
+  },
+  {
+    "stadtviertel": "18.4.2",
+    "entryCount": 12,
+    "avgRent": 566,
+    "minRent": 340,
+    "maxRent": 930,
+    "avgM2": 23,
+    "avgPricePerSqm": 26.25
+  },
+  {
+    "stadtviertel": "09.6.4",
+    "entryCount": 4,
+    "avgRent": 478,
+    "minRent": 290,
+    "maxRent": 670,
+    "avgM2": 17,
+    "avgPricePerSqm": 29.43
+  },
+  {
+    "stadtviertel": "07.3.4",
+    "entryCount": 9,
+    "avgRent": 564,
+    "minRent": 310,
+    "maxRent": 760,
+    "avgM2": 21,
+    "avgPricePerSqm": 27.59
+  },
+  {
+    "stadtviertel": "13.5.6",
+    "entryCount": 17,
+    "avgRent": 596,
+    "minRent": 270,
+    "maxRent": 1080,
+    "avgM2": 21,
+    "avgPricePerSqm": 28.88
+  },
+  {
+    "stadtviertel": "22.3.1",
+    "entryCount": 17,
+    "avgRent": 620,
+    "minRent": 220,
+    "maxRent": 1050,
+    "avgM2": 23,
+    "avgPricePerSqm": 27.01
+  },
+  {
+    "stadtviertel": "19.3.5",
+    "entryCount": 11,
+    "avgRent": 667,
+    "minRent": 300,
+    "maxRent": 910,
+    "avgM2": 22,
+    "avgPricePerSqm": 29.97
+  },
+  {
+    "stadtviertel": "12.2.5",
+    "entryCount": 14,
+    "avgRent": 631,
+    "minRent": 440,
+    "maxRent": 1050,
+    "avgM2": 24,
+    "avgPricePerSqm": 27.3
+  },
+  {
+    "stadtviertel": "24.1.4",
+    "entryCount": 9,
+    "avgRent": 584,
+    "minRent": 310,
+    "maxRent": 880,
+    "avgM2": 23,
+    "avgPricePerSqm": 25.66
+  },
+  {
+    "stadtviertel": "13.4.3",
+    "entryCount": 9,
+    "avgRent": 630,
+    "minRent": 320,
+    "maxRent": 1120,
+    "avgM2": 21,
+    "avgPricePerSqm": 29.53
+  },
+  {
+    "stadtviertel": "11.1.2",
+    "entryCount": 8,
+    "avgRent": 643,
+    "minRent": 380,
+    "maxRent": 950,
+    "avgM2": 21,
+    "avgPricePerSqm": 31.7
+  },
+  {
+    "stadtviertel": "18.3.1",
+    "entryCount": 7,
+    "avgRent": 587,
+    "minRent": 380,
+    "maxRent": 730,
+    "avgM2": 21,
+    "avgPricePerSqm": 28.78
+  },
+  {
+    "stadtviertel": "15.3.1",
+    "entryCount": 18,
+    "avgRent": 648,
+    "minRent": 250,
+    "maxRent": 1170,
+    "avgM2": 23,
+    "avgPricePerSqm": 27.75
+  },
+  {
+    "stadtviertel": "15.1.2",
+    "entryCount": 12,
+    "avgRent": 622,
+    "minRent": 220,
+    "maxRent": 860,
+    "avgM2": 23,
+    "avgPricePerSqm": 26.73
+  },
+  {
+    "stadtviertel": "12.1.6",
+    "entryCount": 26,
+    "avgRent": 630,
+    "minRent": 310,
+    "maxRent": 1040,
+    "avgM2": 23,
+    "avgPricePerSqm": 28.02
+  },
+  {
+    "stadtviertel": "13.3.1",
+    "entryCount": 18,
+    "avgRent": 663,
+    "minRent": 240,
+    "maxRent": 1250,
+    "avgM2": 24,
+    "avgPricePerSqm": 28.4
+  },
+  {
+    "stadtviertel": "12.1.1",
+    "entryCount": 21,
+    "avgRent": 635,
+    "minRent": 190,
+    "maxRent": 1090,
+    "avgM2": 23,
+    "avgPricePerSqm": 27.19
+  },
+  {
+    "stadtviertel": "07.1.4",
+    "entryCount": 12,
+    "avgRent": 535,
+    "minRent": 200,
+    "maxRent": 1000,
+    "avgM2": 18,
+    "avgPricePerSqm": 29.48
+  },
+  {
+    "stadtviertel": "20.2.4",
+    "entryCount": 13,
+    "avgRent": 445,
+    "minRent": 240,
+    "maxRent": 830,
+    "avgM2": 16,
+    "avgPricePerSqm": 28.03
+  },
+  {
+    "stadtviertel": "05.2.1",
+    "entryCount": 4,
+    "avgRent": 725,
+    "minRent": 350,
+    "maxRent": 990,
+    "avgM2": 24,
+    "avgPricePerSqm": 29.72
+  },
+  {
+    "stadtviertel": "11.1.5",
+    "entryCount": 9,
+    "avgRent": 547,
+    "minRent": 300,
+    "maxRent": 870,
+    "avgM2": 18,
+    "avgPricePerSqm": 31.11
+  },
+  {
+    "stadtviertel": "09.2.7",
+    "entryCount": 5,
+    "avgRent": 480,
+    "minRent": 330,
+    "maxRent": 690,
+    "avgM2": 17,
+    "avgPricePerSqm": 28.16
+  },
+  {
+    "stadtviertel": "10.2.1",
+    "entryCount": 5,
+    "avgRent": 398,
+    "minRent": 270,
+    "maxRent": 580,
+    "avgM2": 17,
+    "avgPricePerSqm": 24.17
+  },
+  {
+    "stadtviertel": "19.1.2",
+    "entryCount": 4,
+    "avgRent": 615,
+    "minRent": 420,
+    "maxRent": 800,
+    "avgM2": 23,
+    "avgPricePerSqm": 27.07
+  },
+  {
+    "stadtviertel": "21.3.2",
+    "entryCount": 14,
+    "avgRent": 546,
+    "minRent": 260,
+    "maxRent": 1150,
+    "avgM2": 19,
+    "avgPricePerSqm": 27.95
+  },
+  {
+    "stadtviertel": "24.2.6",
+    "entryCount": 13,
+    "avgRent": 555,
+    "minRent": 260,
+    "maxRent": 1070,
+    "avgM2": 20,
+    "avgPricePerSqm": 27.68
+  },
+  {
+    "stadtviertel": "19.5.5",
+    "entryCount": 11,
+    "avgRent": 601,
+    "minRent": 360,
+    "maxRent": 1140,
+    "avgM2": 23,
+    "avgPricePerSqm": 26.23
+  },
+  {
+    "stadtviertel": "20.3.1",
+    "entryCount": 11,
+    "avgRent": 769,
+    "minRent": 350,
+    "maxRent": 1220,
+    "avgM2": 26,
+    "avgPricePerSqm": 28.87
+  },
+  {
+    "stadtviertel": "12.3.6",
+    "entryCount": 2,
+    "avgRent": 440,
+    "minRent": 430,
+    "maxRent": 450,
+    "avgM2": 16,
+    "avgPricePerSqm": 28.71
+  },
+  {
+    "stadtviertel": "05.5.3",
+    "entryCount": 5,
+    "avgRent": 454,
+    "minRent": 270,
+    "maxRent": 760,
+    "avgM2": 17,
+    "avgPricePerSqm": 26.84
+  },
+  {
+    "stadtviertel": "12.1.2",
+    "entryCount": 49,
+    "avgRent": 654,
+    "minRent": 220,
+    "maxRent": 1330,
+    "avgM2": 23,
+    "avgPricePerSqm": 28.73
+  },
+  {
+    "stadtviertel": "04.1.1",
+    "entryCount": 7,
+    "avgRent": 664,
+    "minRent": 410,
+    "maxRent": 1170,
+    "avgM2": 21,
+    "avgPricePerSqm": 31.64
+  },
+  {
+    "stadtviertel": "23.2.7",
+    "entryCount": 14,
+    "avgRent": 651,
+    "minRent": 350,
+    "maxRent": 930,
+    "avgM2": 23,
+    "avgPricePerSqm": 29.07
+  },
+  {
+    "stadtviertel": "13.4.7",
+    "entryCount": 13,
+    "avgRent": 613,
+    "minRent": 270,
+    "maxRent": 860,
+    "avgM2": 23,
+    "avgPricePerSqm": 26.36
+  },
+  {
+    "stadtviertel": "13.4.5",
+    "entryCount": 10,
+    "avgRent": 678,
+    "minRent": 420,
+    "maxRent": 1120,
+    "avgM2": 26,
+    "avgPricePerSqm": 25.9
+  },
+  {
+    "stadtviertel": "15.3.2",
+    "entryCount": 9,
+    "avgRent": 606,
+    "minRent": 230,
+    "maxRent": 920,
+    "avgM2": 23,
+    "avgPricePerSqm": 26.67
+  },
+  {
+    "stadtviertel": "12.5.0",
+    "entryCount": 6,
+    "avgRent": 465,
+    "minRent": 290,
+    "maxRent": 670,
+    "avgM2": 15,
+    "avgPricePerSqm": 30.13
+  },
+  {
+    "stadtviertel": "05.4.1",
+    "entryCount": 2,
+    "avgRent": 1015,
+    "minRent": 810,
+    "maxRent": 1220,
+    "avgM2": 29,
+    "avgPricePerSqm": 35.36
+  },
+  {
+    "stadtviertel": "15.1.1",
+    "entryCount": 23,
+    "avgRent": 656,
+    "minRent": 220,
+    "maxRent": 1230,
+    "avgM2": 23,
+    "avgPricePerSqm": 28.05
+  },
+  {
+    "stadtviertel": "12.1.7",
+    "entryCount": 11,
+    "avgRent": 724,
+    "minRent": 320,
+    "maxRent": 1100,
+    "avgM2": 25,
+    "avgPricePerSqm": 28.43
+  },
+  {
+    "stadtviertel": "17.2.3",
+    "entryCount": 6,
+    "avgRent": 557,
+    "minRent": 370,
+    "maxRent": 680,
+    "avgM2": 25,
+    "avgPricePerSqm": 22.78
+  },
+  {
+    "stadtviertel": "05.1.2",
+    "entryCount": 4,
+    "avgRent": 558,
+    "minRent": 350,
+    "maxRent": 970,
+    "avgM2": 19,
+    "avgPricePerSqm": 28.82
+  },
+  {
+    "stadtviertel": "19.2.6",
+    "entryCount": 3,
+    "avgRent": 560,
+    "minRent": 350,
+    "maxRent": 720,
+    "avgM2": 20,
+    "avgPricePerSqm": 29.34
+  },
+  {
+    "stadtviertel": "21.4.9",
+    "entryCount": 6,
+    "avgRent": 572,
+    "minRent": 390,
+    "maxRent": 810,
+    "avgM2": 18,
+    "avgPricePerSqm": 31.39
+  },
+  {
+    "stadtviertel": "08.1.1",
+    "entryCount": 7,
+    "avgRent": 664,
+    "minRent": 420,
+    "maxRent": 910,
+    "avgM2": 23,
+    "avgPricePerSqm": 30.08
+  },
+  {
+    "stadtviertel": "05.4.4",
+    "entryCount": 7,
+    "avgRent": 714,
+    "minRent": 220,
+    "maxRent": 1170,
+    "avgM2": 25,
+    "avgPricePerSqm": 26.81
+  },
+  {
+    "stadtviertel": "03.8.3",
+    "entryCount": 4,
+    "avgRent": 505,
+    "minRent": 250,
+    "maxRent": 830,
+    "avgM2": 22,
+    "avgPricePerSqm": 22.57
+  },
+  {
+    "stadtviertel": "03.9.0",
+    "entryCount": 4,
+    "avgRent": 655,
+    "minRent": 590,
+    "maxRent": 770,
+    "avgM2": 26,
+    "avgPricePerSqm": 26.92
+  },
+  {
+    "stadtviertel": "07.1.3",
+    "entryCount": 7,
+    "avgRent": 641,
+    "minRent": 230,
+    "maxRent": 830,
+    "avgM2": 21,
+    "avgPricePerSqm": 29.79
+  },
+  {
+    "stadtviertel": "19.2.5",
+    "entryCount": 5,
+    "avgRent": 756,
+    "minRent": 390,
+    "maxRent": 1110,
+    "avgM2": 27,
+    "avgPricePerSqm": 28.08
+  },
+  {
+    "stadtviertel": "20.3.4",
+    "entryCount": 6,
+    "avgRent": 653,
+    "minRent": 370,
+    "maxRent": 1040,
+    "avgM2": 24,
+    "avgPricePerSqm": 27.48
+  },
+  {
+    "stadtviertel": "11.2.3",
+    "entryCount": 3,
+    "avgRent": 640,
+    "minRent": 500,
+    "maxRent": 900,
+    "avgM2": 23,
+    "avgPricePerSqm": 27.97
+  },
+  {
+    "stadtviertel": "18.1.1",
+    "entryCount": 9,
+    "avgRent": 586,
+    "minRent": 300,
+    "maxRent": 1140,
+    "avgM2": 21,
+    "avgPricePerSqm": 27.05
+  },
+  {
+    "stadtviertel": "04.1.3",
+    "entryCount": 5,
+    "avgRent": 620,
+    "minRent": 240,
+    "maxRent": 830,
+    "avgM2": 23,
+    "avgPricePerSqm": 26.57
+  },
+  {
+    "stadtviertel": "09.2.4",
+    "entryCount": 4,
+    "avgRent": 490,
+    "minRent": 220,
+    "maxRent": 860,
+    "avgM2": 20,
+    "avgPricePerSqm": 23.52
+  },
+  {
+    "stadtviertel": "19.2.4",
+    "entryCount": 8,
+    "avgRent": 543,
+    "minRent": 270,
+    "maxRent": 900,
+    "avgM2": 20,
+    "avgPricePerSqm": 27.61
+  },
+  {
+    "stadtviertel": "25.2.7",
+    "entryCount": 5,
+    "avgRent": 654,
+    "minRent": 470,
+    "maxRent": 750,
+    "avgM2": 22,
+    "avgPricePerSqm": 30.25
+  },
+  {
+    "stadtviertel": "19.2.8",
+    "entryCount": 9,
+    "avgRent": 599,
+    "minRent": 350,
+    "maxRent": 920,
+    "avgM2": 23,
+    "avgPricePerSqm": 26.42
+  },
+  {
+    "stadtviertel": "18.5.1",
+    "entryCount": 8,
+    "avgRent": 558,
+    "minRent": 210,
+    "maxRent": 1110,
+    "avgM2": 19,
+    "avgPricePerSqm": 29.26
+  },
+  {
+    "stadtviertel": "07.3.3",
+    "entryCount": 7,
+    "avgRent": 539,
+    "minRent": 280,
+    "maxRent": 970,
+    "avgM2": 22,
+    "avgPricePerSqm": 24.36
+  },
+  {
+    "stadtviertel": "06.1.2",
+    "entryCount": 7,
+    "avgRent": 736,
+    "minRent": 440,
+    "maxRent": 1160,
+    "avgM2": 23,
+    "avgPricePerSqm": 31.71
+  },
+  {
+    "stadtviertel": "19.3.3",
+    "entryCount": 8,
+    "avgRent": 628,
+    "minRent": 360,
+    "maxRent": 980,
+    "avgM2": 23,
+    "avgPricePerSqm": 27.1
+  },
+  {
+    "stadtviertel": "04.1.4",
+    "entryCount": 3,
+    "avgRent": 540,
+    "minRent": 320,
+    "maxRent": 930,
+    "avgM2": 19,
+    "avgPricePerSqm": 27.92
+  },
+  {
+    "stadtviertel": "22.1.1",
+    "entryCount": 29,
+    "avgRent": 588,
+    "minRent": 200,
+    "maxRent": 1120,
+    "avgM2": 20,
+    "avgPricePerSqm": 28.99
+  },
+  {
+    "stadtviertel": "15.4.2",
+    "entryCount": 7,
+    "avgRent": 760,
+    "minRent": 210,
+    "maxRent": 1130,
+    "avgM2": 25,
+    "avgPricePerSqm": 28.8
+  },
+  {
+    "stadtviertel": "05.6.5",
+    "entryCount": 2,
+    "avgRent": 685,
+    "minRent": 530,
+    "maxRent": 840,
+    "avgM2": 22,
+    "avgPricePerSqm": 30.75
+  },
+  {
+    "stadtviertel": "16.1.5",
+    "entryCount": 12,
+    "avgRent": 673,
+    "minRent": 310,
+    "maxRent": 1190,
+    "avgM2": 23,
+    "avgPricePerSqm": 29.3
+  },
+  {
+    "stadtviertel": "21.1.1",
+    "entryCount": 4,
+    "avgRent": 470,
+    "minRent": 290,
+    "maxRent": 570,
+    "avgM2": 16,
+    "avgPricePerSqm": 31.78
+  },
+  {
+    "stadtviertel": "02.8.2",
+    "entryCount": 3,
+    "avgRent": 710,
+    "minRent": 470,
+    "maxRent": 970,
+    "avgM2": 24,
+    "avgPricePerSqm": 29.92
+  },
+  {
+    "stadtviertel": "08.1.3",
+    "entryCount": 2,
+    "avgRent": 465,
+    "minRent": 460,
+    "maxRent": 470,
+    "avgM2": 20,
+    "avgPricePerSqm": 25.83
+  },
+  {
+    "stadtviertel": "19.1.6",
+    "entryCount": 5,
+    "avgRent": 652,
+    "minRent": 330,
+    "maxRent": 1080,
+    "avgM2": 22,
+    "avgPricePerSqm": 28.27
+  },
+  {
+    "stadtviertel": "22.2.2",
+    "entryCount": 6,
+    "avgRent": 668,
+    "minRent": 390,
+    "maxRent": 1100,
+    "avgM2": 24,
+    "avgPricePerSqm": 27.71
+  },
+  {
+    "stadtviertel": "01.4.1",
+    "entryCount": 5,
+    "avgRent": 628,
+    "minRent": 330,
+    "maxRent": 790,
+    "avgM2": 25,
+    "avgPricePerSqm": 24.96
+  },
+  {
+    "stadtviertel": "20.2.1",
+    "entryCount": 10,
+    "avgRent": 446,
+    "minRent": 260,
+    "maxRent": 840,
+    "avgM2": 17,
+    "avgPricePerSqm": 26.05
+  },
+  {
+    "stadtviertel": "16.1.2",
+    "entryCount": 8,
+    "avgRent": 514,
+    "minRent": 330,
+    "maxRent": 760,
+    "avgM2": 21,
+    "avgPricePerSqm": 25.83
+  },
+  {
+    "stadtviertel": "05.6.3",
+    "entryCount": 4,
+    "avgRent": 808,
+    "minRent": 680,
+    "maxRent": 940,
+    "avgM2": 30,
+    "avgPricePerSqm": 26.67
+  },
+  {
+    "stadtviertel": "19.4.4",
+    "entryCount": 5,
+    "avgRent": 612,
+    "minRent": 250,
+    "maxRent": 1090,
+    "avgM2": 24,
+    "avgPricePerSqm": 25.5
+  },
+  {
+    "stadtviertel": "07.2.4",
+    "entryCount": 5,
+    "avgRent": 668,
+    "minRent": 240,
+    "maxRent": 930,
+    "avgM2": 22,
+    "avgPricePerSqm": 30.15
+  },
+  {
+    "stadtviertel": "01.3.3",
+    "entryCount": 1,
+    "avgRent": 760,
+    "minRent": 760,
+    "maxRent": 760,
+    "avgM2": 25,
+    "avgPricePerSqm": 30.4
+  },
+  {
+    "stadtviertel": "21.1.4",
+    "entryCount": 12,
+    "avgRent": 683,
+    "minRent": 390,
+    "maxRent": 1330,
+    "avgM2": 22,
+    "avgPricePerSqm": 30.48
+  },
+  {
+    "stadtviertel": "19.1.1",
+    "entryCount": 11,
+    "avgRent": 653,
+    "minRent": 350,
+    "maxRent": 970,
+    "avgM2": 24,
+    "avgPricePerSqm": 27.58
+  },
+  {
+    "stadtviertel": "19.3.1",
+    "entryCount": 6,
+    "avgRent": 617,
+    "minRent": 200,
+    "maxRent": 930,
+    "avgM2": 20,
+    "avgPricePerSqm": 29.78
+  },
+  {
+    "stadtviertel": "14.1.3",
+    "entryCount": 6,
+    "avgRent": 528,
+    "minRent": 290,
+    "maxRent": 890,
+    "avgM2": 18,
+    "avgPricePerSqm": 28.33
+  },
+  {
+    "stadtviertel": "20.2.5",
+    "entryCount": 4,
+    "avgRent": 568,
+    "minRent": 330,
+    "maxRent": 710,
+    "avgM2": 21,
+    "avgPricePerSqm": 28.29
+  },
+  {
+    "stadtviertel": "11.1.3",
+    "entryCount": 22,
+    "avgRent": 599,
+    "minRent": 310,
+    "maxRent": 1090,
+    "avgM2": 21,
+    "avgPricePerSqm": 28.99
+  },
+  {
+    "stadtviertel": "06.2.5",
+    "entryCount": 8,
+    "avgRent": 566,
+    "minRent": 240,
+    "maxRent": 1120,
+    "avgM2": 20,
+    "avgPricePerSqm": 27.67
+  },
+  {
+    "stadtviertel": "07.2.3",
+    "entryCount": 13,
+    "avgRent": 573,
+    "minRent": 220,
+    "maxRent": 1060,
+    "avgM2": 22,
+    "avgPricePerSqm": 25.62
+  },
+  {
+    "stadtviertel": "13.5.2",
+    "entryCount": 10,
+    "avgRent": 601,
+    "minRent": 240,
+    "maxRent": 900,
+    "avgM2": 23,
+    "avgPricePerSqm": 26.06
+  },
+  {
+    "stadtviertel": "19.1.3",
+    "entryCount": 26,
+    "avgRent": 579,
+    "minRent": 320,
+    "maxRent": 920,
+    "avgM2": 21,
+    "avgPricePerSqm": 27.7
+  },
+  {
+    "stadtviertel": "16.5.1",
+    "entryCount": 23,
+    "avgRent": 589,
+    "minRent": 320,
+    "maxRent": 940,
+    "avgM2": 22,
+    "avgPricePerSqm": 26.84
+  },
+  {
+    "stadtviertel": "04.2.5",
+    "entryCount": 7,
+    "avgRent": 693,
+    "minRent": 400,
+    "maxRent": 980,
+    "avgM2": 26,
+    "avgPricePerSqm": 26.7
+  },
+  {
+    "stadtviertel": "19.3.2",
+    "entryCount": 5,
+    "avgRent": 648,
+    "minRent": 520,
+    "maxRent": 760,
+    "avgM2": 22,
+    "avgPricePerSqm": 30.72
+  },
+  {
+    "stadtviertel": "17.1.2",
+    "entryCount": 4,
+    "avgRent": 375,
+    "minRent": 240,
+    "maxRent": 470,
+    "avgM2": 15,
+    "avgPricePerSqm": 27.11
+  },
+  {
+    "stadtviertel": "09.2.2",
+    "entryCount": 7,
+    "avgRent": 727,
+    "minRent": 350,
+    "maxRent": 1120,
+    "avgM2": 25,
+    "avgPricePerSqm": 27.6
+  },
+  {
+    "stadtviertel": "16.2.1",
+    "entryCount": 3,
+    "avgRent": 953,
+    "minRent": 560,
+    "maxRent": 1180,
+    "avgM2": 29,
+    "avgPricePerSqm": 33.22
+  },
+  {
+    "stadtviertel": "09.1.6",
+    "entryCount": 10,
+    "avgRent": 587,
+    "minRent": 210,
+    "maxRent": 1050,
+    "avgM2": 22,
+    "avgPricePerSqm": 27.35
+  },
+  {
+    "stadtviertel": "09.2.6",
+    "entryCount": 3,
+    "avgRent": 667,
+    "minRent": 430,
+    "maxRent": 980,
+    "avgM2": 22,
+    "avgPricePerSqm": 31.14
+  },
+  {
+    "stadtviertel": "16.4.1",
+    "entryCount": 25,
+    "avgRent": 725,
+    "minRent": 350,
+    "maxRent": 1180,
+    "avgM2": 25,
+    "avgPricePerSqm": 29.52
+  },
+  {
+    "stadtviertel": "22.2.3",
+    "entryCount": 14,
+    "avgRent": 599,
+    "minRent": 220,
+    "maxRent": 1420,
+    "avgM2": 20,
+    "avgPricePerSqm": 28.77
+  },
+  {
+    "stadtviertel": "24.4.3",
+    "entryCount": 11,
+    "avgRent": 668,
+    "minRent": 210,
+    "maxRent": 1050,
+    "avgM2": 22,
+    "avgPricePerSqm": 29.41
+  },
+  {
+    "stadtviertel": "09.5.1",
+    "entryCount": 10,
+    "avgRent": 576,
+    "minRent": 240,
+    "maxRent": 850,
+    "avgM2": 22,
+    "avgPricePerSqm": 26.4
+  },
+  {
+    "stadtviertel": "07.1.5",
+    "entryCount": 7,
+    "avgRent": 474,
+    "minRent": 210,
+    "maxRent": 950,
+    "avgM2": 20,
+    "avgPricePerSqm": 23.45
+  },
+  {
+    "stadtviertel": "12.6.3",
+    "entryCount": 5,
+    "avgRent": 718,
+    "minRent": 480,
+    "maxRent": 1010,
+    "avgM2": 26,
+    "avgPricePerSqm": 27.27
+  },
+  {
+    "stadtviertel": "13.2.3",
+    "entryCount": 31,
+    "avgRent": 564,
+    "minRent": 190,
+    "maxRent": 1240,
+    "avgM2": 20,
+    "avgPricePerSqm": 27.09
+  },
+  {
+    "stadtviertel": "08.1.2",
+    "entryCount": 9,
+    "avgRent": 692,
+    "minRent": 410,
+    "maxRent": 990,
+    "avgM2": 26,
+    "avgPricePerSqm": 27.12
+  },
+  {
+    "stadtviertel": "11.2.4",
+    "entryCount": 3,
+    "avgRent": 257,
+    "minRent": 210,
+    "maxRent": 290,
+    "avgM2": 12,
+    "avgPricePerSqm": 21.41
+  },
+  {
+    "stadtviertel": "20.2.2",
+    "entryCount": 12,
+    "avgRent": 733,
+    "minRent": 400,
+    "maxRent": 1190,
+    "avgM2": 25,
+    "avgPricePerSqm": 29.47
+  },
+  {
+    "stadtviertel": "10.1.2",
+    "entryCount": 26,
+    "avgRent": 542,
+    "minRent": 210,
+    "maxRent": 870,
+    "avgM2": 21,
+    "avgPricePerSqm": 26.61
+  },
+  {
+    "stadtviertel": "01.3.1",
+    "entryCount": 1,
+    "avgRent": 580,
+    "minRent": 580,
+    "maxRent": 580,
+    "avgM2": 24,
+    "avgPricePerSqm": 24.17
+  },
+  {
+    "stadtviertel": "05.1.1",
+    "entryCount": 7,
+    "avgRent": 543,
+    "minRent": 190,
+    "maxRent": 770,
+    "avgM2": 22,
+    "avgPricePerSqm": 23.91
+  },
+  {
+    "stadtviertel": "19.1.4",
+    "entryCount": 8,
+    "avgRent": 655,
+    "minRent": 420,
+    "maxRent": 890,
+    "avgM2": 22,
+    "avgPricePerSqm": 29.78
+  },
+  {
+    "stadtviertel": "15.2.3",
+    "entryCount": 6,
+    "avgRent": 683,
+    "minRent": 440,
+    "maxRent": 820,
+    "avgM2": 27,
+    "avgPricePerSqm": 26.14
+  },
+  {
+    "stadtviertel": "16.1.6",
+    "entryCount": 9,
+    "avgRent": 712,
+    "minRent": 480,
+    "maxRent": 1100,
+    "avgM2": 28,
+    "avgPricePerSqm": 24.9
+  },
+  {
+    "stadtviertel": "16.5.2",
+    "entryCount": 9,
+    "avgRent": 564,
+    "minRent": 210,
+    "maxRent": 820,
+    "avgM2": 23,
+    "avgPricePerSqm": 24.02
+  },
+  {
+    "stadtviertel": "03.1.3",
+    "entryCount": 2,
+    "avgRent": 820,
+    "minRent": 670,
+    "maxRent": 970,
+    "avgM2": 30,
+    "avgPricePerSqm": 27.71
+  },
+  {
+    "stadtviertel": "09.4.4",
+    "entryCount": 6,
+    "avgRent": 593,
+    "minRent": 310,
+    "maxRent": 820,
+    "avgM2": 20,
+    "avgPricePerSqm": 29.95
+  },
+  {
+    "stadtviertel": "07.2.1",
+    "entryCount": 10,
+    "avgRent": 631,
+    "minRent": 280,
+    "maxRent": 1270,
+    "avgM2": 22,
+    "avgPricePerSqm": 28.05
+  },
+  {
+    "stadtviertel": "25.1.5",
+    "entryCount": 3,
+    "avgRent": 517,
+    "minRent": 310,
+    "maxRent": 730,
+    "avgM2": 17,
+    "avgPricePerSqm": 29.01
+  },
+  {
+    "stadtviertel": "12.4.4",
+    "entryCount": 2,
+    "avgRent": 935,
+    "minRent": 810,
+    "maxRent": 1060,
+    "avgM2": 29,
+    "avgPricePerSqm": 33.2
+  },
+  {
+    "stadtviertel": "12.1.5",
+    "entryCount": 5,
+    "avgRent": 710,
+    "minRent": 410,
+    "maxRent": 1060,
+    "avgM2": 23,
+    "avgPricePerSqm": 30.56
+  },
+  {
+    "stadtviertel": "20.2.7",
+    "entryCount": 8,
+    "avgRent": 491,
+    "minRent": 300,
+    "maxRent": 810,
+    "avgM2": 18,
+    "avgPricePerSqm": 28.35
+  },
+  {
+    "stadtviertel": "05.5.2",
+    "entryCount": 7,
+    "avgRent": 616,
+    "minRent": 450,
+    "maxRent": 670,
+    "avgM2": 22,
+    "avgPricePerSqm": 28.3
+  },
+  {
+    "stadtviertel": "02.3.3",
+    "entryCount": 4,
+    "avgRent": 808,
+    "minRent": 360,
+    "maxRent": 1050,
+    "avgM2": 26,
+    "avgPricePerSqm": 30.89
+  },
+  {
+    "stadtviertel": "11.3.4",
+    "entryCount": 5,
+    "avgRent": 646,
+    "minRent": 360,
+    "maxRent": 1090,
+    "avgM2": 20,
+    "avgPricePerSqm": 31.57
+  },
+  {
+    "stadtviertel": "03.3.2",
+    "entryCount": 2,
+    "avgRent": 445,
+    "minRent": 380,
+    "maxRent": 510,
+    "avgM2": 17,
+    "avgPricePerSqm": 26.76
+  },
+  {
+    "stadtviertel": "08.1.6",
+    "entryCount": 2,
+    "avgRent": 575,
+    "minRent": 550,
+    "maxRent": 600,
+    "avgM2": 25,
+    "avgPricePerSqm": 23.61
+  },
+  {
+    "stadtviertel": "01.1.3",
+    "entryCount": 4,
+    "avgRent": 460,
+    "minRent": 300,
+    "maxRent": 630,
+    "avgM2": 19,
+    "avgPricePerSqm": 24.16
+  },
+  {
+    "stadtviertel": "13.3.4",
+    "entryCount": 13,
+    "avgRent": 528,
+    "minRent": 340,
+    "maxRent": 990,
+    "avgM2": 20,
+    "avgPricePerSqm": 27
+  },
+  {
+    "stadtviertel": "19.5.9",
+    "entryCount": 15,
+    "avgRent": 640,
+    "minRent": 310,
+    "maxRent": 1150,
+    "avgM2": 23,
+    "avgPricePerSqm": 27.58
+  },
+  {
+    "stadtviertel": "01.4.4",
+    "entryCount": 1,
+    "avgRent": 900,
+    "minRent": 900,
+    "maxRent": 900,
+    "avgM2": 28,
+    "avgPricePerSqm": 32.14
+  },
+  {
+    "stadtviertel": "22.3.3",
+    "entryCount": 18,
+    "avgRent": 564,
+    "minRent": 230,
+    "maxRent": 950,
+    "avgM2": 21,
+    "avgPricePerSqm": 27.52
+  },
+  {
+    "stadtviertel": "23.2.2",
+    "entryCount": 9,
+    "avgRent": 639,
+    "minRent": 380,
+    "maxRent": 1040,
+    "avgM2": 23,
+    "avgPricePerSqm": 27.33
+  },
+  {
+    "stadtviertel": "20.2.3",
+    "entryCount": 1,
+    "avgRent": 540,
+    "minRent": 540,
+    "maxRent": 540,
+    "avgM2": 21,
+    "avgPricePerSqm": 25.71
+  },
+  {
+    "stadtviertel": "16.5.6",
+    "entryCount": 17,
+    "avgRent": 558,
+    "minRent": 270,
+    "maxRent": 830,
+    "avgM2": 22,
+    "avgPricePerSqm": 26.23
+  },
+  {
+    "stadtviertel": "15.3.3",
+    "entryCount": 4,
+    "avgRent": 668,
+    "minRent": 500,
+    "maxRent": 860,
+    "avgM2": 24,
+    "avgPricePerSqm": 28.23
+  },
+  {
+    "stadtviertel": "12.1.3",
+    "entryCount": 6,
+    "avgRent": 627,
+    "minRent": 190,
+    "maxRent": 940,
+    "avgM2": 23,
+    "avgPricePerSqm": 26.54
+  },
+  {
+    "stadtviertel": "12.2.4",
+    "entryCount": 34,
+    "avgRent": 622,
+    "minRent": 240,
+    "maxRent": 1160,
+    "avgM2": 23,
+    "avgPricePerSqm": 27.97
+  },
+  {
+    "stadtviertel": "07.2.2",
+    "entryCount": 4,
+    "avgRent": 523,
+    "minRent": 400,
+    "maxRent": 720,
+    "avgM2": 17,
+    "avgPricePerSqm": 31.22
+  },
+  {
+    "stadtviertel": "10.2.4",
+    "entryCount": 13,
+    "avgRent": 636,
+    "minRent": 290,
+    "maxRent": 1180,
+    "avgM2": 23,
+    "avgPricePerSqm": 27.79
+  },
+  {
+    "stadtviertel": "16.5.3",
+    "entryCount": 9,
+    "avgRent": 540,
+    "minRent": 320,
+    "maxRent": 720,
+    "avgM2": 22,
+    "avgPricePerSqm": 25.25
+  },
+  {
+    "stadtviertel": "17.1.1",
+    "entryCount": 11,
+    "avgRent": 583,
+    "minRent": 250,
+    "maxRent": 960,
+    "avgM2": 22,
+    "avgPricePerSqm": 27.22
+  },
+  {
+    "stadtviertel": "04.3.1",
+    "entryCount": 5,
+    "avgRent": 756,
+    "minRent": 650,
+    "maxRent": 970,
+    "avgM2": 28,
+    "avgPricePerSqm": 27.77
+  },
+  {
+    "stadtviertel": "07.3.2",
+    "entryCount": 9,
+    "avgRent": 412,
+    "minRent": 260,
+    "maxRent": 820,
+    "avgM2": 17,
+    "avgPricePerSqm": 24.2
+  },
+  {
+    "stadtviertel": "10.1.6",
+    "entryCount": 8,
+    "avgRent": 635,
+    "minRent": 250,
+    "maxRent": 950,
+    "avgM2": 21,
+    "avgPricePerSqm": 29.1
+  },
+  {
+    "stadtviertel": "05.5.1",
+    "entryCount": 2,
+    "avgRent": 765,
+    "minRent": 560,
+    "maxRent": 970,
+    "avgM2": 24,
+    "avgPricePerSqm": 32.28
+  },
+  {
+    "stadtviertel": "13.5.5",
+    "entryCount": 4,
+    "avgRent": 1033,
+    "minRent": 750,
+    "maxRent": 1220,
+    "avgM2": 28,
+    "avgPricePerSqm": 36.59
+  },
+  {
+    "stadtviertel": "18.5.2",
+    "entryCount": 8,
+    "avgRent": 756,
+    "minRent": 490,
+    "maxRent": 1410,
+    "avgM2": 25,
+    "avgPricePerSqm": 30.3
+  },
+  {
+    "stadtviertel": "18.4.1",
+    "entryCount": 10,
+    "avgRent": 675,
+    "minRent": 410,
+    "maxRent": 960,
+    "avgM2": 23,
+    "avgPricePerSqm": 29.75
+  },
+  {
+    "stadtviertel": "04.1.2",
+    "entryCount": 6,
+    "avgRent": 715,
+    "minRent": 390,
+    "maxRent": 1110,
+    "avgM2": 27,
+    "avgPricePerSqm": 26.95
+  },
+  {
+    "stadtviertel": "12.4.3",
+    "entryCount": 4,
+    "avgRent": 518,
+    "minRent": 350,
+    "maxRent": 730,
+    "avgM2": 21,
+    "avgPricePerSqm": 25.2
+  },
+  {
+    "stadtviertel": "07.3.5",
+    "entryCount": 7,
+    "avgRent": 444,
+    "minRent": 230,
+    "maxRent": 1150,
+    "avgM2": 18,
+    "avgPricePerSqm": 23.49
+  },
+  {
+    "stadtviertel": "13.4.1",
+    "entryCount": 11,
+    "avgRent": 580,
+    "minRent": 380,
+    "maxRent": 830,
+    "avgM2": 21,
+    "avgPricePerSqm": 28.46
+  },
+  {
+    "stadtviertel": "21.3.1",
+    "entryCount": 22,
+    "avgRent": 748,
+    "minRent": 240,
+    "maxRent": 1220,
+    "avgM2": 25,
+    "avgPricePerSqm": 29.89
+  },
+  {
+    "stadtviertel": "13.2.1",
+    "entryCount": 10,
+    "avgRent": 494,
+    "minRent": 270,
+    "maxRent": 700,
+    "avgM2": 18,
+    "avgPricePerSqm": 27.61
+  },
+  {
+    "stadtviertel": "13.3.5",
+    "entryCount": 6,
+    "avgRent": 565,
+    "minRent": 320,
+    "maxRent": 860,
+    "avgM2": 24,
+    "avgPricePerSqm": 23.61
+  },
+  {
+    "stadtviertel": "16.2.4",
+    "entryCount": 14,
+    "avgRent": 599,
+    "minRent": 290,
+    "maxRent": 1380,
+    "avgM2": 22,
+    "avgPricePerSqm": 25.88
+  },
+  {
+    "stadtviertel": "25.2.4",
+    "entryCount": 10,
+    "avgRent": 494,
+    "minRent": 180,
+    "maxRent": 850,
+    "avgM2": 20,
+    "avgPricePerSqm": 25.5
+  },
+  {
+    "stadtviertel": "13.1.1",
+    "entryCount": 3,
+    "avgRent": 577,
+    "minRent": 330,
+    "maxRent": 930,
+    "avgM2": 20,
+    "avgPricePerSqm": 28.72
+  },
+  {
+    "stadtviertel": "03.7.2",
+    "entryCount": 7,
+    "avgRent": 631,
+    "minRent": 410,
+    "maxRent": 850,
+    "avgM2": 24,
+    "avgPricePerSqm": 27.28
+  },
+  {
+    "stadtviertel": "23.1.4",
+    "entryCount": 8,
+    "avgRent": 653,
+    "minRent": 300,
+    "maxRent": 990,
+    "avgM2": 22,
+    "avgPricePerSqm": 29.84
+  },
+  {
+    "stadtviertel": "19.2.3",
+    "entryCount": 9,
+    "avgRent": 599,
+    "minRent": 270,
+    "maxRent": 940,
+    "avgM2": 22,
+    "avgPricePerSqm": 27.59
+  },
+  {
+    "stadtviertel": "02.8.1",
+    "entryCount": 4,
+    "avgRent": 480,
+    "minRent": 370,
+    "maxRent": 610,
+    "avgM2": 20,
+    "avgPricePerSqm": 24.89
+  },
+  {
+    "stadtviertel": "16.4.5",
+    "entryCount": 8,
+    "avgRent": 544,
+    "minRent": 240,
+    "maxRent": 870,
+    "avgM2": 19,
+    "avgPricePerSqm": 28.01
+  },
+  {
+    "stadtviertel": "09.6.1",
+    "entryCount": 5,
+    "avgRent": 590,
+    "minRent": 370,
+    "maxRent": 970,
+    "avgM2": 22,
+    "avgPricePerSqm": 27.64
+  },
+  {
+    "stadtviertel": "11.2.2",
+    "entryCount": 10,
+    "avgRent": 808,
+    "minRent": 310,
+    "maxRent": 1320,
+    "avgM2": 28,
+    "avgPricePerSqm": 29.07
+  },
+  {
+    "stadtviertel": "21.2.1",
+    "entryCount": 4,
+    "avgRent": 535,
+    "minRent": 300,
+    "maxRent": 720,
+    "avgM2": 21,
+    "avgPricePerSqm": 26.88
+  },
+  {
+    "stadtviertel": "25.2.1",
+    "entryCount": 1,
+    "avgRent": 610,
+    "minRent": 610,
+    "maxRent": 610,
+    "avgM2": 22,
+    "avgPricePerSqm": 27.73
+  },
+  {
+    "stadtviertel": "13.6.2",
+    "entryCount": 3,
+    "avgRent": 857,
+    "minRent": 380,
+    "maxRent": 1180,
+    "avgM2": 29,
+    "avgPricePerSqm": 28.64
+  },
+  {
+    "stadtviertel": "23.2.5",
+    "entryCount": 20,
+    "avgRent": 669,
+    "minRent": 290,
+    "maxRent": 1210,
+    "avgM2": 24,
+    "avgPricePerSqm": 28.21
+  },
+  {
+    "stadtviertel": "11.3.3",
+    "entryCount": 10,
+    "avgRent": 560,
+    "minRent": 290,
+    "maxRent": 930,
+    "avgM2": 20,
+    "avgPricePerSqm": 27.89
+  },
+  {
+    "stadtviertel": "24.2.4",
+    "entryCount": 3,
+    "avgRent": 860,
+    "minRent": 710,
+    "maxRent": 1110,
+    "avgM2": 26,
+    "avgPricePerSqm": 33.49
+  },
+  {
+    "stadtviertel": "06.2.4",
+    "entryCount": 7,
+    "avgRent": 621,
+    "minRent": 340,
+    "maxRent": 900,
+    "avgM2": 23,
+    "avgPricePerSqm": 27.84
+  },
+  {
+    "stadtviertel": "22.2.4",
+    "entryCount": 4,
+    "avgRent": 715,
+    "minRent": 550,
+    "maxRent": 970,
+    "avgM2": 24,
+    "avgPricePerSqm": 30.18
+  },
+  {
+    "stadtviertel": "02.4.1",
+    "entryCount": 5,
+    "avgRent": 522,
+    "minRent": 290,
+    "maxRent": 620,
+    "avgM2": 24,
+    "avgPricePerSqm": 22.13
+  },
+  {
+    "stadtviertel": "02.7.2",
+    "entryCount": 2,
+    "avgRent": 380,
+    "minRent": 310,
+    "maxRent": 450,
+    "avgM2": 16,
+    "avgPricePerSqm": 24.4
+  },
+  {
+    "stadtviertel": "10.2.3",
+    "entryCount": 7,
+    "avgRent": 530,
+    "minRent": 300,
+    "maxRent": 750,
+    "avgM2": 19,
+    "avgPricePerSqm": 27.42
+  },
+  {
+    "stadtviertel": "20.3.6",
+    "entryCount": 3,
+    "avgRent": 553,
+    "minRent": 330,
+    "maxRent": 860,
+    "avgM2": 22,
+    "avgPricePerSqm": 25.56
+  },
+  {
+    "stadtviertel": "24.1.8",
+    "entryCount": 21,
+    "avgRent": 585,
+    "minRent": 200,
+    "maxRent": 1090,
+    "avgM2": 23,
+    "avgPricePerSqm": 25.88
+  },
+  {
+    "stadtviertel": "13.5.1",
+    "entryCount": 12,
+    "avgRent": 664,
+    "minRent": 250,
+    "maxRent": 1100,
+    "avgM2": 22,
+    "avgPricePerSqm": 29.65
+  },
+  {
+    "stadtviertel": "03.5.0",
+    "entryCount": 6,
+    "avgRent": 773,
+    "minRent": 390,
+    "maxRent": 1020,
+    "avgM2": 26,
+    "avgPricePerSqm": 29.14
+  },
+  {
+    "stadtviertel": "12.7.0",
+    "entryCount": 17,
+    "avgRent": 659,
+    "minRent": 280,
+    "maxRent": 1230,
+    "avgM2": 24,
+    "avgPricePerSqm": 28.38
+  },
+  {
+    "stadtviertel": "06.2.1",
+    "entryCount": 1,
+    "avgRent": 420,
+    "minRent": 420,
+    "maxRent": 420,
+    "avgM2": 17,
+    "avgPricePerSqm": 24.71
+  },
+  {
+    "stadtviertel": "13.4.4",
+    "entryCount": 6,
+    "avgRent": 603,
+    "minRent": 370,
+    "maxRent": 820,
+    "avgM2": 24,
+    "avgPricePerSqm": 26.33
+  },
+  {
+    "stadtviertel": "16.3.5",
+    "entryCount": 5,
+    "avgRent": 652,
+    "minRent": 370,
+    "maxRent": 1020,
+    "avgM2": 21,
+    "avgPricePerSqm": 31.97
+  },
+  {
+    "stadtviertel": "09.2.1",
+    "entryCount": 4,
+    "avgRent": 435,
+    "minRent": 240,
+    "maxRent": 720,
+    "avgM2": 17,
+    "avgPricePerSqm": 26.01
+  },
+  {
+    "stadtviertel": "02.7.1",
+    "entryCount": 2,
+    "avgRent": 805,
+    "minRent": 620,
+    "maxRent": 990,
+    "avgM2": 22,
+    "avgPricePerSqm": 36.57
+  },
+  {
+    "stadtviertel": "09.1.2",
+    "entryCount": 3,
+    "avgRent": 497,
+    "minRent": 410,
+    "maxRent": 620,
+    "avgM2": 17,
+    "avgPricePerSqm": 29.96
+  },
+  {
+    "stadtviertel": "15.3.4",
+    "entryCount": 8,
+    "avgRent": 736,
+    "minRent": 380,
+    "maxRent": 990,
+    "avgM2": 28,
+    "avgPricePerSqm": 26.49
+  },
+  {
+    "stadtviertel": "16.1.4",
+    "entryCount": 4,
+    "avgRent": 803,
+    "minRent": 360,
+    "maxRent": 1110,
+    "avgM2": 24,
+    "avgPricePerSqm": 34.87
+  },
+  {
+    "stadtviertel": "16.4.2",
+    "entryCount": 19,
+    "avgRent": 636,
+    "minRent": 210,
+    "maxRent": 1150,
+    "avgM2": 23,
+    "avgPricePerSqm": 28.43
+  },
+  {
+    "stadtviertel": "11.3.2",
+    "entryCount": 3,
+    "avgRent": 597,
+    "minRent": 390,
+    "maxRent": 910,
+    "avgM2": 19,
+    "avgPricePerSqm": 30.5
+  },
+  {
+    "stadtviertel": "02.5.2",
+    "entryCount": 4,
+    "avgRent": 573,
+    "minRent": 230,
+    "maxRent": 1070,
+    "avgM2": 22,
+    "avgPricePerSqm": 25.23
+  },
+  {
+    "stadtviertel": "09.6.3",
+    "entryCount": 3,
+    "avgRent": 557,
+    "minRent": 220,
+    "maxRent": 1010,
+    "avgM2": 19,
+    "avgPricePerSqm": 26.7
+  },
+  {
+    "stadtviertel": "03.3.1",
+    "entryCount": 4,
+    "avgRent": 725,
+    "minRent": 550,
+    "maxRent": 980,
+    "avgM2": 29,
+    "avgPricePerSqm": 25.04
+  },
+  {
+    "stadtviertel": "08.2.2",
+    "entryCount": 4,
+    "avgRent": 575,
+    "minRent": 290,
+    "maxRent": 720,
+    "avgM2": 24,
+    "avgPricePerSqm": 24.05
+  },
+  {
+    "stadtviertel": "12.4.2",
+    "entryCount": 6,
+    "avgRent": 565,
+    "minRent": 460,
+    "maxRent": 750,
+    "avgM2": 20,
+    "avgPricePerSqm": 29.58
+  },
+  {
+    "stadtviertel": "17.1.3",
+    "entryCount": 4,
+    "avgRent": 630,
+    "minRent": 340,
+    "maxRent": 980,
+    "avgM2": 21,
+    "avgPricePerSqm": 30.13
+  },
+  {
+    "stadtviertel": "17.2.1",
+    "entryCount": 11,
+    "avgRent": 639,
+    "minRent": 200,
+    "maxRent": 1030,
+    "avgM2": 21,
+    "avgPricePerSqm": 29.89
+  },
+  {
+    "stadtviertel": "02.3.2",
+    "entryCount": 5,
+    "avgRent": 684,
+    "minRent": 350,
+    "maxRent": 900,
+    "avgM2": 23,
+    "avgPricePerSqm": 29.27
+  },
+  {
+    "stadtviertel": "13.6.1",
+    "entryCount": 11,
+    "avgRent": 432,
+    "minRent": 230,
+    "maxRent": 570,
+    "avgM2": 16,
+    "avgPricePerSqm": 28.09
+  },
+  {
+    "stadtviertel": "21.3.4",
+    "entryCount": 5,
+    "avgRent": 488,
+    "minRent": 290,
+    "maxRent": 630,
+    "avgM2": 19,
+    "avgPricePerSqm": 26.27
+  },
+  {
+    "stadtviertel": "02.6.1",
+    "entryCount": 5,
+    "avgRent": 612,
+    "minRent": 320,
+    "maxRent": 1080,
+    "avgM2": 20,
+    "avgPricePerSqm": 29.81
+  },
+  {
+    "stadtviertel": "04.2.2",
+    "entryCount": 4,
+    "avgRent": 498,
+    "minRent": 190,
+    "maxRent": 850,
+    "avgM2": 19,
+    "avgPricePerSqm": 26.97
+  },
+  {
+    "stadtviertel": "09.4.3",
+    "entryCount": 5,
+    "avgRent": 602,
+    "minRent": 430,
+    "maxRent": 760,
+    "avgM2": 24,
+    "avgPricePerSqm": 24.86
+  },
+  {
+    "stadtviertel": "06.2.6",
+    "entryCount": 7,
+    "avgRent": 560,
+    "minRent": 360,
+    "maxRent": 840,
+    "avgM2": 24,
+    "avgPricePerSqm": 22.83
+  },
+  {
+    "stadtviertel": "12.3.8",
+    "entryCount": 3,
+    "avgRent": 593,
+    "minRent": 370,
+    "maxRent": 730,
+    "avgM2": 20,
+    "avgPricePerSqm": 29.5
+  },
+  {
+    "stadtviertel": "13.7.2",
+    "entryCount": 3,
+    "avgRent": 863,
+    "minRent": 710,
+    "maxRent": 960,
+    "avgM2": 31,
+    "avgPricePerSqm": 28.11
+  },
+  {
+    "stadtviertel": "16.2.2",
+    "entryCount": 7,
+    "avgRent": 523,
+    "minRent": 250,
+    "maxRent": 920,
+    "avgM2": 18,
+    "avgPricePerSqm": 29.35
+  },
+  {
+    "stadtviertel": "01.4.2",
+    "entryCount": 3,
+    "avgRent": 520,
+    "minRent": 440,
+    "maxRent": 590,
+    "avgM2": 20,
+    "avgPricePerSqm": 27.25
+  },
+  {
+    "stadtviertel": "07.1.1",
+    "entryCount": 7,
+    "avgRent": 451,
+    "minRent": 310,
+    "maxRent": 670,
+    "avgM2": 16,
+    "avgPricePerSqm": 29.11
+  },
+  {
+    "stadtviertel": "25.1.4",
+    "entryCount": 7,
+    "avgRent": 704,
+    "minRent": 490,
+    "maxRent": 960,
+    "avgM2": 26,
+    "avgPricePerSqm": 27.49
+  },
+  {
+    "stadtviertel": "12.3.9",
+    "entryCount": 3,
+    "avgRent": 470,
+    "minRent": 360,
+    "maxRent": 630,
+    "avgM2": 23,
+    "avgPricePerSqm": 20.14
+  },
+  {
+    "stadtviertel": "13.7.5",
+    "entryCount": 8,
+    "avgRent": 529,
+    "minRent": 290,
+    "maxRent": 930,
+    "avgM2": 19,
+    "avgPricePerSqm": 26.81
+  },
+  {
+    "stadtviertel": "12.3.1",
+    "entryCount": 6,
+    "avgRent": 708,
+    "minRent": 390,
+    "maxRent": 1220,
+    "avgM2": 26,
+    "avgPricePerSqm": 27.23
+  },
+  {
+    "stadtviertel": "04.3.2",
+    "entryCount": 5,
+    "avgRent": 968,
+    "minRent": 660,
+    "maxRent": 1240,
+    "avgM2": 32,
+    "avgPricePerSqm": 29.79
+  },
+  {
+    "stadtviertel": "05.6.2",
+    "entryCount": 4,
+    "avgRent": 710,
+    "minRent": 340,
+    "maxRent": 1140,
+    "avgM2": 26,
+    "avgPricePerSqm": 27.22
+  },
+  {
+    "stadtviertel": "04.2.1",
+    "entryCount": 5,
+    "avgRent": 698,
+    "minRent": 260,
+    "maxRent": 1150,
+    "avgM2": 25,
+    "avgPricePerSqm": 27.59
+  },
+  {
+    "stadtviertel": "18.5.3",
+    "entryCount": 5,
+    "avgRent": 706,
+    "minRent": 390,
+    "maxRent": 1010,
+    "avgM2": 22,
+    "avgPricePerSqm": 31.59
+  },
+  {
+    "stadtviertel": "18.2.3",
+    "entryCount": 6,
+    "avgRent": 628,
+    "minRent": 350,
+    "maxRent": 1150,
+    "avgM2": 23,
+    "avgPricePerSqm": 26.23
+  },
+  {
+    "stadtviertel": "02.4.2",
+    "entryCount": 1,
+    "avgRent": 250,
+    "minRent": 250,
+    "maxRent": 250,
+    "avgM2": 13,
+    "avgPricePerSqm": 19.23
+  },
+  {
+    "stadtviertel": "24.2.7",
+    "entryCount": 11,
+    "avgRent": 652,
+    "minRent": 280,
+    "maxRent": 1180,
+    "avgM2": 25,
+    "avgPricePerSqm": 26.19
+  },
+  {
+    "stadtviertel": "02.8.4",
+    "entryCount": 2,
+    "avgRent": 1050,
+    "minRent": 1030,
+    "maxRent": 1070,
+    "avgM2": 30,
+    "avgPricePerSqm": 35.06
+  },
+  {
+    "stadtviertel": "01.4.3",
+    "entryCount": 2,
+    "avgRent": 415,
+    "minRent": 290,
+    "maxRent": 540,
+    "avgM2": 18,
+    "avgPricePerSqm": 25.3
+  },
+  {
+    "stadtviertel": "13.3.2",
+    "entryCount": 2,
+    "avgRent": 745,
+    "minRent": 710,
+    "maxRent": 780,
+    "avgM2": 27,
+    "avgPricePerSqm": 30.16
+  },
+  {
+    "stadtviertel": "21.2.3",
+    "entryCount": 2,
+    "avgRent": 760,
+    "minRent": 440,
+    "maxRent": 1080,
+    "avgM2": 22,
+    "avgPricePerSqm": 34.34
+  },
+  {
+    "stadtviertel": "03.1.2",
+    "entryCount": 2,
+    "avgRent": 505,
+    "minRent": 500,
+    "maxRent": 510,
+    "avgM2": 20,
+    "avgPricePerSqm": 26.86
+  },
+  {
+    "stadtviertel": "24.2.1",
+    "entryCount": 12,
+    "avgRent": 655,
+    "minRent": 240,
+    "maxRent": 1080,
+    "avgM2": 24,
+    "avgPricePerSqm": 26.35
+  },
+  {
+    "stadtviertel": "20.3.2",
+    "entryCount": 2,
+    "avgRent": 850,
+    "minRent": 680,
+    "maxRent": 1020,
+    "avgM2": 34,
+    "avgPricePerSqm": 25
+  },
+  {
+    "stadtviertel": "20.1.3",
+    "entryCount": 6,
+    "avgRent": 593,
+    "minRent": 280,
+    "maxRent": 840,
+    "avgM2": 24,
+    "avgPricePerSqm": 25.18
+  },
+  {
+    "stadtviertel": "16.4.3",
+    "entryCount": 5,
+    "avgRent": 596,
+    "minRent": 260,
+    "maxRent": 950,
+    "avgM2": 20,
+    "avgPricePerSqm": 28.61
+  },
+  {
+    "stadtviertel": "01.1.2",
+    "entryCount": 1,
+    "avgRent": 730,
+    "minRent": 730,
+    "maxRent": 730,
+    "avgM2": 34,
+    "avgPricePerSqm": 21.47
+  },
+  {
+    "stadtviertel": "06.2.7",
+    "entryCount": 7,
+    "avgRent": 600,
+    "minRent": 380,
+    "maxRent": 670,
+    "avgM2": 23,
+    "avgPricePerSqm": 26.88
+  },
+  {
+    "stadtviertel": "20.3.5",
+    "entryCount": 5,
+    "avgRent": 670,
+    "minRent": 380,
+    "maxRent": 1310,
+    "avgM2": 20,
+    "avgPricePerSqm": 33.21
+  },
+  {
+    "stadtviertel": "03.6.0",
+    "entryCount": 7,
+    "avgRent": 640,
+    "minRent": 340,
+    "maxRent": 1060,
+    "avgM2": 23,
+    "avgPricePerSqm": 28.49
+  },
+  {
+    "stadtviertel": "12.1.8",
+    "entryCount": 5,
+    "avgRent": 646,
+    "minRent": 420,
+    "maxRent": 960,
+    "avgM2": 21,
+    "avgPricePerSqm": 30.78
+  },
+  {
+    "stadtviertel": "19.5.7",
+    "entryCount": 5,
+    "avgRent": 756,
+    "minRent": 350,
+    "maxRent": 1060,
+    "avgM2": 26,
+    "avgPricePerSqm": 29.02
+  },
+  {
+    "stadtviertel": "08.1.5",
+    "entryCount": 1,
+    "avgRent": 930,
+    "minRent": 930,
+    "maxRent": 930,
+    "avgM2": 29,
+    "avgPricePerSqm": 32.07
+  },
+  {
+    "stadtviertel": "10.1.3",
+    "entryCount": 6,
+    "avgRent": 602,
+    "minRent": 230,
+    "maxRent": 1060,
+    "avgM2": 20,
+    "avgPricePerSqm": 28.42
+  },
+  {
+    "stadtviertel": "25.2.9",
+    "entryCount": 1,
+    "avgRent": 300,
+    "minRent": 300,
+    "maxRent": 300,
+    "avgM2": 11,
+    "avgPricePerSqm": 27.27
+  },
+  {
+    "stadtviertel": "17.1.4",
+    "entryCount": 4,
+    "avgRent": 675,
+    "minRent": 250,
+    "maxRent": 1040,
+    "avgM2": 23,
+    "avgPricePerSqm": 29.3
+  },
+  {
+    "stadtviertel": "19.5.3",
+    "entryCount": 5,
+    "avgRent": 614,
+    "minRent": 350,
+    "maxRent": 800,
+    "avgM2": 21,
+    "avgPricePerSqm": 29.14
+  },
+  {
+    "stadtviertel": "06.2.3",
+    "entryCount": 6,
+    "avgRent": 637,
+    "minRent": 320,
+    "maxRent": 1100,
+    "avgM2": 21,
+    "avgPricePerSqm": 30.41
+  },
+  {
+    "stadtviertel": "02.7.3",
+    "entryCount": 3,
+    "avgRent": 563,
+    "minRent": 400,
+    "maxRent": 690,
+    "avgM2": 21,
+    "avgPricePerSqm": 26.13
+  },
+  {
+    "stadtviertel": "09.5.2",
+    "entryCount": 4,
+    "avgRent": 428,
+    "minRent": 260,
+    "maxRent": 640,
+    "avgM2": 16,
+    "avgPricePerSqm": 27.34
+  },
+  {
+    "stadtviertel": "01.2.2",
+    "entryCount": 2,
+    "avgRent": 450,
+    "minRent": 450,
+    "maxRent": 450,
+    "avgM2": 17,
+    "avgPricePerSqm": 26.84
+  },
+  {
+    "stadtviertel": "04.2.6",
+    "entryCount": 1,
+    "avgRent": 550,
+    "minRent": 550,
+    "maxRent": 550,
+    "avgM2": 14,
+    "avgPricePerSqm": 39.29
+  },
+  {
+    "stadtviertel": "12.6.2",
+    "entryCount": 4,
+    "avgRent": 523,
+    "minRent": 350,
+    "maxRent": 890,
+    "avgM2": 18,
+    "avgPricePerSqm": 29.18
+  },
+  {
+    "stadtviertel": "19.3.4",
+    "entryCount": 6,
+    "avgRent": 628,
+    "minRent": 350,
+    "maxRent": 1110,
+    "avgM2": 23,
+    "avgPricePerSqm": 27.78
+  },
+  {
+    "stadtviertel": "06.1.1",
+    "entryCount": 6,
+    "avgRent": 513,
+    "minRent": 340,
+    "maxRent": 650,
+    "avgM2": 18,
+    "avgPricePerSqm": 29.01
+  },
+  {
+    "stadtviertel": "16.5.4",
+    "entryCount": 7,
+    "avgRent": 563,
+    "minRent": 350,
+    "maxRent": 730,
+    "avgM2": 23,
+    "avgPricePerSqm": 25.74
+  },
+  {
+    "stadtviertel": "02.6.2",
+    "entryCount": 3,
+    "avgRent": 353,
+    "minRent": 290,
+    "maxRent": 400,
+    "avgM2": 15,
+    "avgPricePerSqm": 23.46
+  },
+  {
+    "stadtviertel": "25.1.2",
+    "entryCount": 2,
+    "avgRent": 550,
+    "minRent": 530,
+    "maxRent": 570,
+    "avgM2": 23,
+    "avgPricePerSqm": 25.27
+  },
+  {
+    "stadtviertel": "03.7.1",
+    "entryCount": 2,
+    "avgRent": 460,
+    "minRent": 460,
+    "maxRent": 460,
+    "avgM2": 17,
+    "avgPricePerSqm": 27.06
+  },
+  {
+    "stadtviertel": "01.6.2",
+    "entryCount": 2,
+    "avgRent": 645,
+    "minRent": 510,
+    "maxRent": 780,
+    "avgM2": 23,
+    "avgPricePerSqm": 29.58
+  },
+  {
+    "stadtviertel": "19.4.1",
+    "entryCount": 1,
+    "avgRent": 360,
+    "minRent": 360,
+    "maxRent": 360,
+    "avgM2": 17,
+    "avgPricePerSqm": 21.18
+  },
+  {
+    "stadtviertel": "03.2.1",
+    "entryCount": 4,
+    "avgRent": 675,
+    "minRent": 360,
+    "maxRent": 1050,
+    "avgM2": 24,
+    "avgPricePerSqm": 29.36
+  },
+  {
+    "stadtviertel": "25.1.3",
+    "entryCount": 8,
+    "avgRent": 579,
+    "minRent": 330,
+    "maxRent": 750,
+    "avgM2": 21,
+    "avgPricePerSqm": 27.68
+  },
+  {
+    "stadtviertel": "03.2.3",
+    "entryCount": 1,
+    "avgRent": 300,
+    "minRent": 300,
+    "maxRent": 300,
+    "avgM2": 12,
+    "avgPricePerSqm": 25
+  },
+  {
+    "stadtviertel": "05.3.1",
+    "entryCount": 3,
+    "avgRent": 610,
+    "minRent": 430,
+    "maxRent": 810,
+    "avgM2": 18,
+    "avgPricePerSqm": 33.34
+  },
+  {
+    "stadtviertel": "05.2.2",
+    "entryCount": 2,
+    "avgRent": 830,
+    "minRent": 540,
+    "maxRent": 1120,
+    "avgM2": 30,
+    "avgPricePerSqm": 27.38
+  },
+  {
+    "stadtviertel": "09.1.7",
+    "entryCount": 3,
+    "avgRent": 930,
+    "minRent": 560,
+    "maxRent": 1300,
+    "avgM2": 31,
+    "avgPricePerSqm": 29.84
+  },
+  {
+    "stadtviertel": "07.1.6",
+    "entryCount": 2,
+    "avgRent": 725,
+    "minRent": 360,
+    "maxRent": 1090,
+    "avgM2": 26,
+    "avgPricePerSqm": 26.62
+  },
+  {
+    "stadtviertel": "03.7.4",
+    "entryCount": 2,
+    "avgRent": 565,
+    "minRent": 540,
+    "maxRent": 590,
+    "avgM2": 21,
+    "avgPricePerSqm": 28.17
+  },
+  {
+    "stadtviertel": "13.7.3",
+    "entryCount": 2,
+    "avgRent": 600,
+    "minRent": 480,
+    "maxRent": 720,
+    "avgM2": 18,
+    "avgPricePerSqm": 33.34
+  },
+  {
+    "stadtviertel": "05.6.4",
+    "entryCount": 3,
+    "avgRent": 927,
+    "minRent": 400,
+    "maxRent": 1430,
+    "avgM2": 27,
+    "avgPricePerSqm": 32.17
+  },
+  {
+    "stadtviertel": "03.8.1",
+    "entryCount": 4,
+    "avgRent": 480,
+    "minRent": 210,
+    "maxRent": 730,
+    "avgM2": 19,
+    "avgPricePerSqm": 25.63
+  },
+  {
+    "stadtviertel": "05.3.2",
+    "entryCount": 4,
+    "avgRent": 623,
+    "minRent": 240,
+    "maxRent": 1130,
+    "avgM2": 21,
+    "avgPricePerSqm": 28.56
+  },
+  {
+    "stadtviertel": "09.1.1",
+    "entryCount": 3,
+    "avgRent": 533,
+    "minRent": 420,
+    "maxRent": 680,
+    "avgM2": 21,
+    "avgPricePerSqm": 26.11
+  },
+  {
+    "stadtviertel": "03.1.1",
+    "entryCount": 1,
+    "avgRent": 960,
+    "minRent": 960,
+    "maxRent": 960,
+    "avgM2": 31,
+    "avgPricePerSqm": 30.97
+  },
+  {
+    "stadtviertel": "01.3.2",
+    "entryCount": 1,
+    "avgRent": 200,
+    "minRent": 200,
+    "maxRent": 200,
+    "avgM2": 10,
+    "avgPricePerSqm": 20
+  },
+  {
+    "stadtviertel": "05.6.1",
+    "entryCount": 1,
+    "avgRent": 490,
+    "minRent": 490,
+    "maxRent": 490,
+    "avgM2": 27,
+    "avgPricePerSqm": 18.15
+  },
+  {
+    "stadtviertel": "13.5.3",
+    "entryCount": 4,
+    "avgRent": 485,
+    "minRent": 230,
+    "maxRent": 740,
+    "avgM2": 16,
+    "avgPricePerSqm": 30.95
+  },
+  {
+    "stadtviertel": "02.5.3",
+    "entryCount": 1,
+    "avgRent": 410,
+    "minRent": 410,
+    "maxRent": 410,
+    "avgM2": 21,
+    "avgPricePerSqm": 19.52
+  },
+  {
+    "stadtviertel": "02.3.1",
+    "entryCount": 1,
+    "avgRent": 760,
+    "minRent": 760,
+    "maxRent": 760,
+    "avgM2": 24,
+    "avgPricePerSqm": 31.67
+  },
+  {
+    "stadtviertel": "01.2.5",
+    "entryCount": 1,
+    "avgRent": 680,
+    "minRent": 680,
+    "maxRent": 680,
+    "avgM2": 35,
+    "avgPricePerSqm": 19.43
+  },
+  {
+    "stadtviertel": "01.6.3",
+    "entryCount": 1,
+    "avgRent": 640,
+    "minRent": 640,
+    "maxRent": 640,
+    "avgM2": 22,
+    "avgPricePerSqm": 29.09
+  },
+  {
+    "stadtviertel": "10.1.1",
+    "entryCount": 1,
+    "avgRent": 1000,
+    "minRent": 1000,
+    "maxRent": 1000,
+    "avgM2": 30,
+    "avgPricePerSqm": 33.33
+  },
+  {
+    "stadtviertel": "05.4.2",
+    "entryCount": 1,
+    "avgRent": 320,
+    "minRent": 320,
+    "maxRent": 320,
+    "avgM2": 10,
+    "avgPricePerSqm": 32
+  },
+  {
+    "stadtviertel": "16.3.3",
+    "entryCount": 2,
+    "avgRent": 565,
+    "minRent": 390,
+    "maxRent": 740,
+    "avgM2": 19,
+    "avgPricePerSqm": 30.48
+  },
+  {
+    "stadtviertel": "01.1.1",
+    "entryCount": 1,
+    "avgRent": 600,
+    "minRent": 600,
+    "maxRent": 600,
+    "avgM2": 18,
+    "avgPricePerSqm": 33.33
+  },
+  {
+    "stadtviertel": "19.2.1",
+    "entryCount": 2,
+    "avgRent": 380,
+    "minRent": 220,
+    "maxRent": 540,
+    "avgM2": 16,
+    "avgPricePerSqm": 23.5
+  },
+  {
+    "stadtviertel": "04.1.5",
+    "entryCount": 1,
+    "avgRent": 520,
+    "minRent": 520,
+    "maxRent": 520,
+    "avgM2": 16,
+    "avgPricePerSqm": 32.5
+  },
+  {
+    "stadtviertel": "02.5.1",
+    "entryCount": 1,
+    "avgRent": 300,
+    "minRent": 300,
+    "maxRent": 300,
+    "avgM2": 15,
+    "avgPricePerSqm": 20
+  },
+  {
+    "stadtviertel": "03.3.3",
+    "entryCount": 2,
+    "avgRent": 480,
+    "minRent": 470,
+    "maxRent": 490,
+    "avgM2": 20,
+    "avgPricePerSqm": 24.9
+  },
+  {
+    "stadtviertel": "01.5.1",
+    "entryCount": 1,
+    "avgRent": 380,
+    "minRent": 380,
+    "maxRent": 380,
+    "avgM2": 12,
+    "avgPricePerSqm": 31.67
+  },
+  {
+    "stadtviertel": "01.2.3",
+    "entryCount": 1,
+    "avgRent": 770,
+    "minRent": 770,
+    "maxRent": 770,
+    "avgM2": 26,
+    "avgPricePerSqm": 29.62
+  }
+]

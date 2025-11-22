@@ -1,23 +1,37 @@
-export const getApartmentRentColor = (averageRent: number): string => {
-  if (averageRent >= 1700) return '#d7191c';  // Red - very expensive
-  if (averageRent >= 1500) return '#fdae61';  // Orange - expensive
-  if (averageRent >= 1350) return '#ffffbf';  // Yellow - medium
-  if (averageRent >= 1200) return '#a6d96a';  // Light green - moderate
-  return '#1a9641';                            // Green - affordable
+// Color scale based on rent unfairness (percentage above fair rent)
+// Negative values = below fair rent (good for tenants)
+// Positive values = above fair rent (unfair to tenants)
+export const getUnfairnessColor = (unfairnessPercentage: number): string => {
+  if (unfairnessPercentage >= 20) return '#d7191c';  // Dark red - very unfair (>20% above)
+  if (unfairnessPercentage >= 15) return '#f46d43';  // Red - highly unfair (15-20% above)
+  if (unfairnessPercentage >= 10) return '#fdae61';  // Orange - unfair (10-15% above)
+  if (unfairnessPercentage >= 5) return '#fee08b';   // Light orange - moderately unfair (5-10% above)
+  if (unfairnessPercentage >= 0) return '#d9ef8b';   // Yellow-green - slightly above fair (0-5% above)
+  if (unfairnessPercentage >= -5) return '#a6d96a';  // Light green - fair (0-5% below)
+  return '#66bd63';                                  // Green - very fair (<5% below)
 };
 
-export const getWGRentColor = (averageRent: number): string => {
-  if (averageRent >= 700) return '#d7191c';   // Red - very expensive (€700+)
-  if (averageRent >= 630) return '#fdae61';   // Orange - expensive (€630-700)
-  if (averageRent >= 570) return '#ffffbf';   // Yellow - medium (€570-630)
-  if (averageRent >= 510) return '#a6d96a';   // Light green - moderate (€510-570)
-  return '#1a9641';                            // Green - affordable (<€510)
+// Legacy color scales (kept for backward compatibility if needed elsewhere)
+export const getApartmentRentColor = (pricePerSqm: number): string => {
+  if (pricePerSqm >= 28) return '#d7191c';
+  if (pricePerSqm >= 24) return '#fdae61';
+  if (pricePerSqm >= 21) return '#ffffbf';
+  if (pricePerSqm >= 18) return '#a6d96a';
+  return '#1a9641';
 };
 
-export const getDormitoryRentColor = (averageRent: number): string => {
-  if (averageRent >= 400) return '#d7191c';   // Red - very expensive (€400+)
-  if (averageRent >= 370) return '#fdae61';   // Orange - expensive (€370-400)
-  if (averageRent >= 340) return '#ffffbf';   // Yellow - medium (€340-370)
-  if (averageRent >= 310) return '#a6d96a';   // Light green - moderate (€310-340)
-  return '#1a9641';                            // Green - affordable (<€310)
+export const getWGRentColor = (pricePerSqm: number): string => {
+  if (pricePerSqm >= 25) return '#d7191c';
+  if (pricePerSqm >= 22) return '#fdae61';
+  if (pricePerSqm >= 19) return '#ffffbf';
+  if (pricePerSqm >= 16) return '#a6d96a';
+  return '#1a9641';
+};
+
+export const getDormitoryRentColor = (pricePerSqm: number): string => {
+  if (pricePerSqm >= 22) return '#d7191c';
+  if (pricePerSqm >= 19) return '#fdae61';
+  if (pricePerSqm >= 17) return '#ffffbf';
+  if (pricePerSqm >= 15) return '#a6d96a';
+  return '#1a9641';
 };

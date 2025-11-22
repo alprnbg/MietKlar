@@ -1,0 +1,6938 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5743554,
+          48.1609495
+        ]
+      },
+      "properties": {
+        "id": 277971324,
+        "type": "node",
+        "name": "Kieser Training",
+        "category": "gyms",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "5a",
+        "addr:postcode": "80796",
+        "addr:street": "Belgradstraße",
+        "brand": "Kieser Training",
+        "brand:wikidata": "Q1112367",
+        "brand:wikipedia": "de:Kieser Training",
+        "check_date": "2023-10-20",
+        "contact:email": "muenchen2@kieser.com",
+        "contact:phone": "+49 89 30729455",
+        "contact:website": "https://www.kieser.com",
+        "leisure": "fitness_centre",
+        "opening_hours": "Mo-Fr 07:30-21:30; Sa,Su,PH 09:00-18:00",
+        "operator": "Kieser Training",
+        "sport": "fitness",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6084665,
+          48.1356766
+        ]
+      },
+      "properties": {
+        "id": 277972596,
+        "type": "node",
+        "name": "Kieser Training",
+        "category": "gyms",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "104",
+        "addr:postcode": "81675",
+        "addr:street": "Einsteinstraße",
+        "branch": "München Haidhausen",
+        "brand": "Kieser Training",
+        "brand:wikidata": "Q1112367",
+        "brand:wikipedia": "de:Kieser Training",
+        "email": "muenchen9@kieser-training.com",
+        "leisure": "fitness_centre",
+        "operator": "Kieser Training",
+        "phone": "+49 89 95085910",
+        "website": "https://www.kieser.com/",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6719447,
+          48.1234005
+        ]
+      },
+      "properties": {
+        "id": 277976227,
+        "type": "node",
+        "name": "Kieser Training",
+        "category": "gyms",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:floor": "1",
+        "addr:housenumber": "12b",
+        "addr:postcode": "81825",
+        "addr:street": "Bognerhofweg",
+        "brand": "Kieser Training",
+        "brand:wikidata": "Q1112367",
+        "email": "muenchen6@kieser-training.com",
+        "leisure": "fitness_centre",
+        "operator": "Kieser Training",
+        "phone": "+49 89 42045450",
+        "sport": "fitness",
+        "website": "https://www.kieser.com/de-de/studios/muenchen-trudering/",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5210859,
+          48.0968622
+        ]
+      },
+      "properties": {
+        "id": 277976228,
+        "type": "node",
+        "name": "Kieser Training",
+        "category": "gyms",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "15",
+        "addr:postcode": "81379",
+        "addr:street": "Geisenhausenerstraße",
+        "brand": "Kieser Training",
+        "brand:wikidata": "Q1112367",
+        "brand:wikipedia": "de:Kieser Training",
+        "leisure": "fitness_centre",
+        "operator": "Kieser Training",
+        "phone": "+49 89 78064444",
+        "sport": "fitness",
+        "website": "https://www.kieser.com/",
+        "wheelchair": "limited",
+        "wheelchair:description": "Keine Angebote für Behinderte"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6365892,
+          48.1255673
+        ]
+      },
+      "properties": {
+        "id": 290528187,
+        "type": "node",
+        "name": "Twin Taekwondo - München Ost",
+        "category": "gyms",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "69",
+        "addr:postcode": "81673",
+        "addr:street": "Josephsburgstraße",
+        "amenity": "dojo",
+        "check_date:opening_hours": "2025-11-15",
+        "leisure": "fitness_centre",
+        "opening_hours": "Mo,We,Fr 17:00-18:00, Th,Fr 18:15-20:00, Mo-We 18:30-20:00, Th 19:30-20:30",
+        "sport": "taekwondo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5943265,
+          48.1464378
+        ]
+      },
+      "properties": {
+        "id": 298165414,
+        "type": "node",
+        "name": "Toemek Sport",
+        "category": "gyms",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "8",
+        "addr:postcode": "80538",
+        "addr:street": "Paradiesstraße",
+        "contact:phone": "+49 89 1212 8513",
+        "contact:website": "https://www.tomeksports.de",
+        "leisure": "fitness_centre",
+        "old_name": "Blue Projects"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.640393,
+          48.1498804
+        ]
+      },
+      "properties": {
+        "id": 307463748,
+        "type": "node",
+        "name": "Bodystreet Denning",
+        "category": "gyms",
+        "addr:city": "München",
+        "addr:housenumber": "31",
+        "addr:postcode": "81927",
+        "addr:street": "Ostpreußenstraße",
+        "check_date:opening_hours": "2023-04-11",
+        "email": "denning@bodystreet.de",
+        "leisure": "fitness_centre",
+        "opening_hours": "Mo-Fr 08:00-20:30; Sa 10:00-14:00",
+        "phone": "+49 89 99981767",
+        "sport": "fitness",
+        "website": "https://www.bodystreet.com/de/studio/bodystreet-muenchen-denning/",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5955585,
+          48.1244341
+        ]
+      },
+      "properties": {
+        "id": 312788989,
+        "type": "node",
+        "name": "Sweat & Tears Crossfit",
+        "category": "gyms",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "34",
+        "addr:postcode": "81669",
+        "addr:street": "Balanstraße",
+        "check_date": "2023-04-15",
+        "contact:website": "https://sweat-tears-crossfit.com/",
+        "email": "info@sweat-tears-crossfit.com",
+        "leisure": "fitness_centre",
+        "operator": "J & J Elite Fitness GmbH",
+        "sport": "fitness"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6051272,
+          48.1084562
+        ]
+      },
+      "properties": {
+        "id": 316917704,
+        "type": "node",
+        "name": "Clever fit",
+        "category": "gyms",
+        "addr:housenumber": "148",
+        "addr:postcode": "81549",
+        "addr:street": "Chiemgaustraße",
+        "branch": "München Giesing",
+        "brand": "Clever fit",
+        "brand:wikidata": "Q27909675",
+        "brand:wikipedia": "de:Clever fit",
+        "check_date": "2023-01-20",
+        "email": "studio@muenchen-giesing.clever-fit.com",
+        "leisure": "fitness_centre",
+        "opening_hours": "Mo-Fr 06:00-24:00; PH,Sa,Su 09:00-22:00",
+        "phone": "+49 89 23024800",
+        "sport": "fitness",
+        "website": "https://www.clever-fit.com/de/fitnessstudio/muenchen-giesing/",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6106202,
+          48.1366986
+        ]
+      },
+      "properties": {
+        "id": 318708859,
+        "type": "node",
+        "name": "Pilates am Platz",
+        "category": "gyms",
+        "leisure": "fitness_centre",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5883663,
+          48.1422819
+        ]
+      },
+      "properties": {
+        "id": 331579779,
+        "type": "node",
+        "name": "Kale & Cake",
+        "category": "gyms",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "21",
+        "addr:postcode": "80538",
+        "addr:street": "Wagmüllerstraße",
+        "leisure": "fitness_centre",
+        "opening_hours": "\"tägluch variierender Stundenplan: https://eversports.de/scl/kaleandcake\"",
+        "sport": "yoga",
+        "website": "https://www.kaleandcake.de/",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5910897,
+          48.1397211
+        ]
+      },
+      "properties": {
+        "id": 332289963,
+        "type": "node",
+        "name": "Happy Body",
+        "category": "gyms",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "20",
+        "addr:postcode": "80538",
+        "addr:street": "Sternstraße",
+        "check_date": "2022-11-19",
+        "contact:website": "https://happy-body.com/",
+        "leisure": "fitness_centre"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.360466,
+          48.1752629
+        ]
+      },
+      "properties": {
+        "id": 333723058,
+        "type": "node",
+        "name": "Body Street",
+        "category": "gyms",
+        "leisure": "fitness_centre"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5714218,
+          48.1377095
+        ]
+      },
+      "properties": {
+        "id": 344966243,
+        "type": "node",
+        "name": "Fitness First",
+        "category": "gyms",
+        "brand": "Fitness First",
+        "brand:wikidata": "Q127120",
+        "brand:wikipedia": "en:Fitness First",
+        "leisure": "fitness_centre",
+        "toilets:wheelchair": "no",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5645755,
+          48.1689975
+        ]
+      },
+      "properties": {
+        "id": 366128513,
+        "type": "node",
+        "name": "Leroy's EMS Fitness",
+        "category": "gyms",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "189",
+        "addr:postcode": "80797",
+        "addr:street": "Schleißheimer Straße",
+        "check_date": "2025-08-10",
+        "contact:email": "info@leroys.club",
+        "contact:facebook": "https://fb.com/leroys.official",
+        "contact:instagram": "https://instagram.com/leroys.official",
+        "contact:phone": "+49 89 2459 7876",
+        "contact:website": "https://www.leroys.club/",
+        "leisure": "fitness_centre",
+        "note": "Schild: \"zu verkaufen\".",
+        "opening_hours": "Mo-Fr 08:00-20:00; Sa 09:00-15:00",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5600859,
+          48.1471058
+        ]
+      },
+      "properties": {
+        "id": 391677074,
+        "type": "node",
+        "name": "evo fitness",
+        "category": "gyms",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "55",
+        "addr:postcode": "80333",
+        "addr:street": "Brienner Straße",
+        "leisure": "fitness_centre",
+        "website": "https://evofitness.de"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.4742122,
+          48.1646715
+        ]
+      },
+      "properties": {
+        "id": 415003260,
+        "type": "node",
+        "name": "BJJ Europe",
+        "category": "gyms",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "58",
+        "addr:postcode": "81247",
+        "addr:street": "Verdistraße",
+        "leisure": "fitness_centre",
+        "note": "Nicht in Liste der Stadt München; kein blaues Hausnummernschild, Adresse von der Webseite. #Adressenabgleich",
+        "sport": "jiu-jitsu",
+        "website": "https://www.bjjeurope.com/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5799532,
+          48.1084944
+        ]
+      },
+      "properties": {
+        "id": 477534465,
+        "type": "node",
+        "name": "McFit",
+        "category": "gyms",
+        "brand": "McFit",
+        "brand:wikidata": "Q871302",
+        "brand:wikipedia": "en:McFit",
+        "check_date": "2025-11-16",
+        "contact:phone": "+49 89 62030453",
+        "leisure": "fitness_centre",
+        "opening_hours": "24/7",
+        "operator": "McFit",
+        "sport": "multi",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5738326,
+          48.1199523
+        ]
+      },
+      "properties": {
+        "id": 522196093,
+        "type": "node",
+        "name": "Ambitional Training",
+        "category": "gyms",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "22",
+        "addr:postcode": "81543",
+        "addr:street": "Humboldtstraße",
+        "contact:website": "https://ambitionaltraining.de/training/kontakt/",
+        "leisure": "fitness_centre"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6204459,
+          48.0732215
+        ]
+      },
+      "properties": {
+        "id": 541415120,
+        "type": "node",
+        "name": "all inclusive Fitness",
+        "category": "gyms",
+        "addr:city": "Unterhaching",
+        "addr:country": "DE",
+        "addr:housenumber": "91",
+        "addr:postcode": "82008",
+        "addr:street": "Biberger Straße",
+        "check_date:opening_hours": "2024-01-30",
+        "leisure": "fitness_centre",
+        "opening_hours": "Mo-Fr 06:00-24:00; PH,Sa,Su 07:00-22:00",
+        "sport": "fitness",
+        "website": "https://www.ai-fitness.de/studios/muenchen-unterhaching",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5362991,
+          48.1386082
+        ]
+      },
+      "properties": {
+        "id": 813835000,
+        "type": "node",
+        "name": "The Bodyworkers",
+        "category": "gyms",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "100",
+        "addr:postcode": "80339",
+        "addr:street": "Westendstraße",
+        "check_date:opening_hours": "2023-09-18",
+        "leisure": "fitness_centre",
+        "opening_hours:signed": "no",
+        "website": "https://www.the-bodyworkers.de/",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6794458,
+          48.2338561
+        ]
+      },
+      "properties": {
+        "id": 1004469767,
+        "type": "node",
+        "name": "Clever fit",
+        "category": "gyms",
+        "addr:city": "Ismaning",
+        "addr:country": "DE",
+        "addr:housenumber": "25",
+        "addr:postcode": "85737",
+        "addr:street": "Oskar-Messter-Straße",
+        "brand": "Clever fit",
+        "brand:wikidata": "Q27909675",
+        "brand:wikipedia": "de:Clever fit",
+        "contact:email": "ismaning@clever-fit.com",
+        "contact:phone": "+49 89 379 434 04",
+        "contact:website": "https://www.clever-fit.com/",
+        "leisure": "fitness_centre",
+        "opening_hours": "Mo-Fr 06:00-24:00; Sa,Su,PH 09:00-21:00",
+        "operator": "clever fit"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5448166,
+          48.1225793
+        ]
+      },
+      "properties": {
+        "id": 1135836173,
+        "type": "node",
+        "name": "Sports and Health",
+        "category": "gyms",
+        "check_date:opening_hours": "2022-04-03",
+        "leisure": "fitness_centre",
+        "opening_hours": "Mo-Fr 06:00-23:00; PH,Sa,Su 08:00-21:00",
+        "phone": "+498974747190",
+        "website": "https://www.sports-and-health.de/",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5255459,
+          48.139121
+        ]
+      },
+      "properties": {
+        "id": 1201293072,
+        "type": "node",
+        "name": "McFit",
+        "category": "gyms",
+        "addr:city": "München",
+        "addr:housenumber": "163",
+        "addr:postcode": "80687",
+        "addr:street": "Landsberger Straße",
+        "brand": "McFit",
+        "brand:wikidata": "Q871302",
+        "brand:wikipedia": "en:McFit",
+        "check_date": "2023-05-02",
+        "leisure": "fitness_centre",
+        "opening_hours": "24/7",
+        "sport": "multi",
+        "website": "https://www.mcfit.com/",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.545694,
+          48.1217853
+        ]
+      },
+      "properties": {
+        "id": 1218371215,
+        "type": "node",
+        "name": "Kali & Friends",
+        "category": "gyms",
+        "disused:addr:city": "München",
+        "disused:addr:country": "DE",
+        "disused:addr:housenumber": "9",
+        "disused:addr:postcode": "81371",
+        "disused:addr:street": "Aberlestraße",
+        "leisure": "fitness_centre",
+        "level": "0",
+        "sport": "yoga",
+        "website": "https://www.kaliandfriends.de/",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5721444,
+          48.1434352
+        ]
+      },
+      "properties": {
+        "id": 1226149327,
+        "type": "node",
+        "name": "Therapie & Training Krajak",
+        "category": "gyms",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "21",
+        "addr:postcode": "80333",
+        "addr:street": "Ottostraße",
+        "contact:email": "info@krajak.com",
+        "contact:fax": "+49 89 53 88 604-29",
+        "contact:phone": "+49 89 53 88 604-0",
+        "contact:website": "https://krajak.de/",
+        "leisure": "fitness_centre",
+        "opening_hours": "Mo-Th 07:30-22:00; Fr 07:30-20:00; Sa 10:00-18:00; Su 10:00-18:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5994967,
+          48.1281128
+        ]
+      },
+      "properties": {
+        "id": 1303938665,
+        "type": "node",
+        "name": "trainingsraum",
+        "category": "gyms",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "29a",
+        "addr:postcode": "81667",
+        "addr:street": "Pariser Straße",
+        "check_date": "2025-04-08",
+        "leisure": "fitness_centre",
+        "old_name": "Grosz EMS Training",
+        "opening_hours": "nach Vereinbarung",
+        "operator": "Trainingsraum GmbH",
+        "phone": "+49 89 48058931",
+        "website": "https://www.dertrainingsraum.de/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5237991,
+          48.0953998
+        ]
+      },
+      "properties": {
+        "id": 1343656095,
+        "type": "node",
+        "name": "Fit Star (FirStar)",
+        "category": "gyms",
+        "addr:housenumber": "70",
+        "addr:postcode": "81379",
+        "addr:street": "Kistlerhofstraße",
+        "brand:wikidata": "Q131467323",
+        "check_date": "2023-04-25",
+        "leisure": "fitness_centre",
+        "opening_hours": "24/7",
+        "sport": "fitness",
+        "website": "https://www.fit-star.de/fitnessstudio/muenchen-sendling/",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.3823392,
+          48.0658628
+        ]
+      },
+      "properties": {
+        "id": 1361188176,
+        "type": "node",
+        "name": "Earnie's Gym",
+        "category": "gyms",
+        "addr:city": "Gauting",
+        "addr:housenumber": "8",
+        "addr:postcode": "82131",
+        "addr:street": "Münchener Straße",
+        "check_date": "2025-07-24",
+        "check_date:opening_hours": "2025-07-24",
+        "leisure": "fitness_centre",
+        "opening_hours": "24/7"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6033641,
+          48.1398556
+        ]
+      },
+      "properties": {
+        "id": 1365672155,
+        "type": "node",
+        "name": "Yoga am Engel",
+        "category": "gyms",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "78b",
+        "addr:postcode": "81675",
+        "addr:street": "Prinzregentenstraße",
+        "contact:website": "https://engel.yoga/",
+        "fixme": "Existiert das Jogastudio hier noch?",
+        "leisure": "fitness_centre",
+        "sport": "yoga"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.3771059,
+          48.0702099
+        ]
+      },
+      "properties": {
+        "id": 1373489397,
+        "type": "node",
+        "name": "Body Street",
+        "category": "gyms",
+        "leisure": "fitness_centre",
+        "opening_hours": "Mo-Fr 09:00-20:00; Sa 09:00-15:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5892788,
+          48.1624573
+        ]
+      },
+      "properties": {
+        "id": 1411410852,
+        "type": "node",
+        "name": "Yoga for Friends",
+        "category": "gyms",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "11",
+        "addr:postcode": "80802",
+        "addr:street": "Haimhauserstraße",
+        "cuisine": "regional",
+        "leisure": "fitness_centre",
+        "operator": "A. Veselsky",
+        "sport": "yoga",
+        "wheelchair": "no",
+        "wheelchair:description": "Stufe deutlich höher als 7 cm"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5737868,
+          48.1654905
+        ]
+      },
+      "properties": {
+        "id": 1487549142,
+        "type": "node",
+        "name": "mind body concept",
+        "category": "gyms",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "47",
+        "addr:postcode": "80796",
+        "addr:street": "Belgradstraße",
+        "check_date": "2025-07-09",
+        "contact:email": "info@mindbodyconcept.com",
+        "contact:website": "https://www.mindbodyconcept.info/",
+        "leisure": "fitness_centre",
+        "old_name": "Sushi Express",
+        "opening_hours": "Mo-Fr 11:00-15:00, 17:00-22:00; Sa-Su 17:00-22:00",
+        "phone": "+49 176 55385340",
+        "sport": "yoga",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5579419,
+          48.151391
+        ]
+      },
+      "properties": {
+        "id": 1508656893,
+        "type": "node",
+        "name": "Fit Star (FitStar)",
+        "category": "gyms",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "92",
+        "addr:postcode": "80335",
+        "addr:street": "Dachauer Straße",
+        "brand:wikidata": "Q131467323",
+        "check_date": "2025-08-07",
+        "internet_access": "wlan",
+        "leisure": "fitness_centre",
+        "opening_hours": "24/7",
+        "payment:cash": "no",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "phone": "+49 89 547 266 06",
+        "sport": "fitness",
+        "website": "https://www.fit-star.de/fitnessstudio/muenchen-neuhausen",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6022051,
+          48.1786274
+        ]
+      },
+      "properties": {
+        "id": 1508744172,
+        "type": "node",
+        "name": "Body & Soul Englischer Garten",
+        "category": "gyms",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "175",
+        "addr:postcode": "80805",
+        "addr:street": "Ungererstraße",
+        "check_date:opening_hours": "2022-03-15",
+        "leisure": "fitness_centre",
+        "opening_hours": "Mo-Fr 06:00-24:00; Sa,Su,PH 09:00-22:00",
+        "sport": "swimming;gymnastics;fitness;yoga",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.669911,
+          48.0610074
+        ]
+      },
+      "properties": {
+        "id": 1562845222,
+        "type": "node",
+        "name": "impact fitnesstraining",
+        "category": "gyms",
+        "addr:city": "Ottobrunn",
+        "addr:country": "DE",
+        "addr:housenumber": "29",
+        "addr:postcode": "85521",
+        "addr:street": "Ottostraße",
+        "leisure": "fitness_centre",
+        "opening_hours": "Mo-Th 07:00-20:00; Fr 07:00-17:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.4902542,
+          48.1448606
+        ]
+      },
+      "properties": {
+        "id": 1572583841,
+        "type": "node",
+        "name": "Fitness First",
+        "category": "gyms",
+        "brand": "Fitness First",
+        "brand:wikidata": "Q127120",
+        "brand:wikipedia": "en:Fitness First",
+        "leisure": "fitness_centre",
+        "website": "https://www.fitnessfirst.de/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6348665,
+          48.1256398
+        ]
+      },
+      "properties": {
+        "id": 1600299276,
+        "type": "node",
+        "name": "FreiRäume PEKiP",
+        "category": "gyms",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "56",
+        "addr:postcode": "81673",
+        "addr:street": "Josephsburgstraße",
+        "check_date:opening_hours": "2025-11-15",
+        "leisure": "fitness_centre",
+        "opening_hours:signed": "no",
+        "operator": "Grit Scheffler",
+        "sport": "yoga",
+        "website": "https://www.gritscheffler-beratung.de/freiraeume-muenchen-ost-termine-kurse/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5938083,
+          48.1828325
+        ]
+      },
+      "properties": {
+        "id": 1702562366,
+        "type": "node",
+        "name": "Pro Health Club",
+        "category": "gyms",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "1",
+        "addr:postcode": "80807",
+        "addr:street": "Alfred-Arndt-Straße",
+        "leisure": "fitness_centre",
+        "level": "2",
+        "opening_hours": "Mo-Th 06:30-22:30; Fr 06:30-21:30; Sa,Su 09:00-21:00; PH 10:00-18:00",
+        "personal_trainer": "yes",
+        "sauna": "yes",
+        "sport": "gymnastics",
+        "swimming_pool": "no",
+        "website": "https://phc-muenchen.de/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5779659,
+          48.1304457
+        ]
+      },
+      "properties": {
+        "id": 1717776859,
+        "type": "node",
+        "name": "Bodystreet",
+        "category": "gyms",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "31",
+        "addr:postcode": "80469",
+        "addr:street": "Corneliusstraße",
+        "brand": "Bodystreet",
+        "brand:wikidata": "Q117880186",
+        "contact:phone": "+49 89 99013770",
+        "contact:website": "https://www.bodystreet.com/de/studio/bodystreet-muenchen-gaertnerplatz",
+        "leisure": "fitness_centre",
+        "opening_hours": "Mo-Fr 10:00-19:00; Sa 10:00-14:00; Su off",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5799128,
+          48.1253082
+        ]
+      },
+      "properties": {
+        "id": 1725815497,
+        "type": "node",
+        "name": "Om und Company",
+        "category": "gyms",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "19",
+        "addr:postcode": "81541",
+        "addr:street": "Ohlmüllerstraße",
+        "leisure": "fitness_centre",
+        "sport": "yoga"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6144492,
+          48.13621
+        ]
+      },
+      "properties": {
+        "id": 1768136091,
+        "type": "node",
+        "name": "Fitness First",
+        "category": "gyms",
+        "addr:city": "München",
+        "addr:housenumber": "130",
+        "addr:postcode": "81675",
+        "addr:street": "Einsteinstraße",
+        "brand": "Fitness First",
+        "brand:wikidata": "Q127120",
+        "brand:wikipedia": "en:Fitness First",
+        "check_date:opening_hours": "2024-02-10",
+        "internet_access": "wlan",
+        "internet_access:fee": "customers",
+        "internet_access:ssid": "FF - WiFi",
+        "leisure": "fitness_centre",
+        "level": "6",
+        "opening_hours": "Mo-Fr 06:00-23:00; Sa,Su,PH 07:00-22:00",
+        "phone": "+49 89 41109800",
+        "sport": "fitness;swimming;yoga",
+        "website": "https://www.fitnessfirst.de/clubs/muenchen-haidhausen",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5749722,
+          48.1621524
+        ]
+      },
+      "properties": {
+        "id": 1788354381,
+        "type": "node",
+        "name": "Yoga women",
+        "category": "gyms",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "14",
+        "addr:postcode": "80796",
+        "addr:street": "Belgradstraße",
+        "check_date": "2025-05-01",
+        "contact:email": "info@yogawoman.de",
+        "contact:instagram": "https://www.instagram.com/studioyogawoman/",
+        "contact:phone": "+49 89 3791 1012",
+        "contact:website": "https://www.yogawoman.de/",
+        "leisure": "fitness_centre",
+        "opening_hours:signed": "no",
+        "sport": "yoga",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5316268,
+          48.099766
+        ]
+      },
+      "properties": {
+        "id": 1788533482,
+        "type": "node",
+        "name": "Bodystreet",
+        "category": "gyms",
+        "brand": "Bodystreet",
+        "brand:wikidata": "Q117880186",
+        "check_date:opening_hours": "2023-01-15",
+        "leisure": "fitness_centre",
+        "opening_hours": "Mo-Fr 09:00-21:00; Sa 09:00-16:00",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.453537,
+          48.1467767
+        ]
+      },
+      "properties": {
+        "id": 1828415600,
+        "type": "node",
+        "name": "Fitness First",
+        "category": "gyms",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "29",
+        "addr:postcode": "81241",
+        "addr:street": "Bodenseestraße",
+        "brand": "Fitness First",
+        "brand:wikidata": "Q127120",
+        "brand:wikipedia": "en:Fitness First",
+        "contact:email": "pasing@skyfit-women.de",
+        "female": "only",
+        "leisure": "fitness_centre",
+        "opening_hours": "Mo-Fr 07:00-22:00; Sa,Su,PH 10:00-20:00",
+        "phone": "+49 89 889498280",
+        "website": "https://www.skyfit-fitness.de/skyfit-women/",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.7155992,
+          48.1102451
+        ]
+      },
+      "properties": {
+        "id": 2203072662,
+        "type": "node",
+        "name": "all inclusive Fitness",
+        "category": "gyms",
+        "addr:housenumber": "1",
+        "addr:street": "Hans-Pinsel-Straße",
+        "leisure": "fitness_centre",
+        "opening_hours": "Mo-Fr 06:00-24:00; Sa,Su,PH 07:00-22:00",
+        "sport": "gymnastics;fitness",
+        "website": "https://www.ai-fitness.de/studios/muenchen-haar"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.3672685,
+          48.1731725
+        ]
+      },
+      "properties": {
+        "id": 2231917510,
+        "type": "node",
+        "name": "Fitnesspark Puchheim",
+        "category": "gyms",
+        "addr:city": "Puchheim",
+        "addr:country": "DE",
+        "addr:housenumber": "36",
+        "addr:postcode": "82178",
+        "addr:street": "Benzstraße",
+        "leisure": "fitness_centre",
+        "sport": "fitness;yoga",
+        "website": "https://www.fitnesspark-puchheim.de/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5686605,
+          48.1308048
+        ]
+      },
+      "properties": {
+        "id": 2477021406,
+        "type": "node",
+        "name": "Frau Shanti IM @Peace",
+        "category": "gyms",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "4",
+        "addr:postcode": "80469",
+        "addr:street": "Holzstraße",
+        "leisure": "fitness_centre",
+        "opening_hours": "\"Mietstudio - nach Vereinbarung\"",
+        "sport": "yoga"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5298852,
+          48.2153348
+        ]
+      },
+      "properties": {
+        "id": 2567043030,
+        "type": "node",
+        "name": "Bodystreet",
+        "category": "gyms",
+        "addr:housenumber": "51",
+        "addr:postcode": "80995",
+        "addr:street": "Josef-Frankl-Straße",
+        "brand": "Bodystreet",
+        "brand:wikidata": "Q117880186",
+        "leisure": "fitness_centre",
+        "opening_hours": "Mo-Fr 10:00-20:00; Sa 10:00-15:00",
+        "website": "https://www.bodystreet.com/standorte/emstraining-muenchen-feldmoching.html",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.3731056,
+          48.1384054
+        ]
+      },
+      "properties": {
+        "id": 2585127703,
+        "type": "node",
+        "name": "HARDY's Germering",
+        "category": "gyms",
+        "addr:city": "Germering",
+        "addr:country": "DE",
+        "addr:housenumber": "1",
+        "addr:postcode": "82110",
+        "addr:street": "Münchener Straße",
+        "check_date": "2024-04-17",
+        "email": "hallo@hardys-freizeit.de",
+        "internet_access": "wlan",
+        "leisure": "fitness_centre",
+        "level": "1",
+        "not:name": "Fitmax",
+        "opening_hours": "Mo-Su 06:00-00:00",
+        "phone": "+49 89 8944150",
+        "sport": "fitness",
+        "website": "https://www.hardys-freizeit.de/hardys-fitness-germering",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.498751,
+          48.1467382
+        ]
+      },
+      "properties": {
+        "id": 2595512177,
+        "type": "node",
+        "name": "Base",
+        "category": "gyms",
+        "leisure": "fitness_centre",
+        "opening_hours": "Mo-Fr 06:00-23:00; Sa-Su 10:00-16:00",
+        "phone": "+49 89 12711022",
+        "sport": "fitness",
+        "website": "https://esv-muenchen.com/",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6446391,
+          48.0908084
+        ]
+      },
+      "properties": {
+        "id": 2704347733,
+        "type": "node",
+        "name": "PhysioFitness München",
+        "category": "gyms",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "26",
+        "addr:postcode": "81739",
+        "addr:street": "Carl-Wery-Straße",
+        "leisure": "fitness_centre",
+        "sport": "multi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5070245,
+          48.0924983
+        ]
+      },
+      "properties": {
+        "id": 2752494991,
+        "type": "node",
+        "name": "McFit",
+        "category": "gyms",
+        "addr:city": "München",
+        "addr:housenumber": "19",
+        "addr:postcode": "81477",
+        "addr:street": "Meglingerstraße",
+        "brand": "McFit",
+        "brand:wikidata": "Q871302",
+        "brand:wikipedia": "en:McFit",
+        "leisure": "fitness_centre",
+        "opening_hours": "24/7",
+        "phone": "+49 89 7801 8667",
+        "website": "https://www.mcfit.com/studio/muenchen-forstenried"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5752024,
+          48.1424592
+        ]
+      },
+      "properties": {
+        "id": 2810110366,
+        "type": "node",
+        "name": "Patrick Broome Studio City",
+        "category": "gyms",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "3",
+        "addr:postcode": "80333",
+        "addr:street": "Amiraplatz",
+        "leisure": "fitness_centre",
+        "sport": "yoga",
+        "website": "https://www.patrickbroome.de/index.php"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5786584,
+          48.1364059
+        ]
+      },
+      "properties": {
+        "id": 2810123429,
+        "type": "node",
+        "name": "Bikram Hot Yoga",
+        "category": "gyms",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "9",
+        "addr:postcode": "80331",
+        "addr:street": "Tal",
+        "leisure": "fitness_centre",
+        "phone": "+49 177 4019232",
+        "sport": "yoga",
+        "website": "https://hotyogamuenchen.de/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5641634,
+          48.1505578
+        ]
+      },
+      "properties": {
+        "id": 2832438336,
+        "type": "node",
+        "name": "the stretching tiger",
+        "category": "gyms",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "80",
+        "addr:postcode": "80333",
+        "addr:street": "Augustenstraße",
+        "leisure": "fitness_centre",
+        "phone": "+49 160 98096636",
+        "sport": "yoga",
+        "website": "https://thestretchingtiger.com/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5416981,
+          48.138173
+        ]
+      },
+      "properties": {
+        "id": 2896279683,
+        "type": "node",
+        "name": "formkurve",
+        "category": "gyms",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "81",
+        "addr:postcode": "80339",
+        "addr:street": "Westendstraße",
+        "email": "info@formkurve.de",
+        "leisure": "fitness_centre",
+        "opening_hours": "\"nach Vereinbarung\"",
+        "personal_trainer": "yes",
+        "phone": "+49176 9604 3505",
+        "website": "https://www.formkurve.de/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.561854,
+          48.1212103
+        ]
+      },
+      "properties": {
+        "id": 3357907603,
+        "type": "node",
+        "name": "Reformer",
+        "category": "gyms",
+        "addr:city": "München",
+        "addr:housenumber": "25",
+        "addr:postcode": "80469",
+        "addr:street": "Ehrengutstraße",
+        "description": "Pilates Studio",
+        "leisure": "fitness_centre",
+        "sport": "pilates"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5765889,
+          48.1112233
+        ]
+      },
+      "properties": {
+        "id": 3446355726,
+        "type": "node",
+        "name": "Kieser Training",
+        "category": "gyms",
+        "addr:housenumber": "138",
+        "addr:street": "Tegernseer Landstraße",
+        "brand": "Kieser Training",
+        "brand:wikidata": "Q1112367",
+        "brand:wikipedia": "de:Kieser Training",
+        "check_date": "2025-06-01",
+        "check_date:opening_hours": "2025-06-01",
+        "email": "muenchen7@kieser-training.com",
+        "leisure": "fitness_centre",
+        "level": "0",
+        "opening_hours": "Mo-Fr 07:30-21:00; Sa,Su,PH 09:00-18:00",
+        "operator": "Kieser Training",
+        "phone": "+49 89 64947900",
+        "postal_code": "81539",
+        "website": "https://www.kieser.com/",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.575349,
+          48.128342
+        ]
+      },
+      "properties": {
+        "id": 3844231557,
+        "type": "node",
+        "name": "EVO Fitness Glockenbach",
+        "category": "gyms",
+        "addr:city": "München",
+        "addr:housenumber": "80",
+        "addr:postcode": "80469",
+        "addr:street": "Baaderstraße",
+        "leisure": "fitness_centre",
+        "opening_hours": "Mo-Su,PH 06:00-22:00",
+        "opening_hours:reception": "Mo 07:30-16:00; Tu 09:00-13:00,16:00-20:00; We 09:00-17:30; Th 09:30-13:30,16:00-20:00; Fr 10:00-18:30; PH off",
+        "sport": "fitness",
+        "website": "https://evofitness.de/clubs/muenchen-glockenbach"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5777487,
+          48.1628612
+        ]
+      },
+      "properties": {
+        "id": 3912825982,
+        "type": "node",
+        "name": "The Sanctuary",
+        "category": "gyms",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "2",
+        "addr:postcode": "80803",
+        "addr:street": "Pündterplatz",
+        "contact:email": "welcome@thesanctuary.me",
+        "contact:website": "https://thesanctuary.me/",
+        "leisure": "fitness_centre",
+        "old_name": "Spielplatzk!nd",
+        "opening_hours:signed": "no",
+        "shop": "vacant",
+        "sport": "yoga",
+        "wheelchair": "no",
+        "wheelchair:description": "Eine Stufe am Eingang"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6350643,
+          48.1774822
+        ]
+      },
+      "properties": {
+        "id": 4018198324,
+        "type": "node",
+        "name": "Clever fit",
+        "category": "gyms",
+        "addr:city": "Unterföhring",
+        "addr:country": "DE",
+        "addr:housenumber": "14",
+        "addr:postcode": "85774",
+        "addr:street": "Feringastraße",
+        "brand": "Clever fit",
+        "brand:wikidata": "Q27909675",
+        "brand:wikipedia": "de:Clever fit",
+        "check_date:opening_hours": "2024-06-19",
+        "leisure": "fitness_centre",
+        "level": "1",
+        "opening_hours": "Mo-Fr 06:00-24:00; Sa-Su 08:00-22:00",
+        "phone": "+498992929812",
+        "sport": "fitness",
+        "website": "https://www.clever-fit.com/de/fitnessstudio/unterfoehring/",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.4302993,
+          48.1182827
+        ]
+      },
+      "properties": {
+        "id": 4028589592,
+        "type": "node",
+        "name": "Musado Dojang & Fightclub Gräfelfing",
+        "category": "gyms",
+        "contact:website": "http://www.musado-muenchen.de",
+        "leisure": "fitness_centre"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.4591055,
+          48.1498268
+        ]
+      },
+      "properties": {
+        "id": 4165425849,
+        "type": "node",
+        "name": "Fit Star München-Pasing (FitStar)",
+        "category": "gyms",
+        "addr:city": "München",
+        "addr:housenumber": "12",
+        "addr:postcode": "81241",
+        "addr:street": "Kaflerstraße",
+        "brand:wikidata": "Q131467323",
+        "leisure": "fitness_centre",
+        "level": "3",
+        "opening_hours": "24/7",
+        "sport": "fitness"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5375006,
+          48.1783154
+        ]
+      },
+      "properties": {
+        "id": 4248934698,
+        "type": "node",
+        "name": "body + soul",
+        "category": "gyms",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "16",
+        "addr:postcode": "80992",
+        "addr:street": "Riesstraße",
+        "brand": "body + soul",
+        "leisure": "fitness_centre",
+        "official_name": "body + soul Center München Nord",
+        "opening_hours": "Mo-Fr 06:00-00:00; Sa,Su,PH 09:00-22:00",
+        "personal_trainer": "yes",
+        "phone": "+49 89 18933560",
+        "sauna": "yes",
+        "website": "https://www.bodyandsoul.de/standorte/muenchen-nord/das-center-im-ueberblick",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.4774119,
+          48.1641075
+        ]
+      },
+      "properties": {
+        "id": 4344917150,
+        "type": "node",
+        "name": "Bodystreet",
+        "category": "gyms",
+        "addr:housenumber": "45",
+        "addr:postcode": "81247",
+        "addr:street": "Verdistraße",
+        "brand": "Bodystreet",
+        "brand:wikidata": "Q117880186",
+        "email": "obermenzing@bodystreet.com",
+        "leisure": "fitness_centre",
+        "opening_hours": "Mo-Th 09:00-21:00; Fr 09:00-20:30; Sa 09:00-14:00",
+        "phone": "+49 89 89555956",
+        "website": "https://www.bodystreet.com/de/studio/bodystreet-muenchen-obermenzing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5794398,
+          48.1321012
+        ]
+      },
+      "properties": {
+        "id": 4362365447,
+        "type": "node",
+        "name": "MY100",
+        "category": "gyms",
+        "addr:housenumber": "21",
+        "addr:street": "Buttermelcherstraße",
+        "check_date": "2025-05-10",
+        "leisure": "fitness_centre",
+        "opening_hours": "\"by appointment\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5076636,
+          48.0782082
+        ]
+      },
+      "properties": {
+        "id": 4407143897,
+        "type": "node",
+        "name": "Mrs. Sporty",
+        "category": "gyms",
+        "addr:housenumber": "101",
+        "addr:street": "Herterichstraße",
+        "branch": "München Solln",
+        "brand": "Mrs. Sporty",
+        "brand:wikidata": "Q100718953",
+        "check_date": "2025-02-08",
+        "email": "club748@club.mrssporty.de",
+        "female": "yes",
+        "leisure": "fitness_centre",
+        "male": "no",
+        "opening_hours": "Mo-Su 06:00-22:00",
+        "phone": "+49 89 96993630",
+        "website": "https://www.mrssporty.de/club/muenchen-solln/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5606758,
+          48.1638803
+        ]
+      },
+      "properties": {
+        "id": 4445937170,
+        "type": "node",
+        "name": "ars movendi",
+        "category": "gyms",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "47d",
+        "addr:postcode": "80797",
+        "addr:street": "Winzererstraße",
+        "contact:phone": "+49 89 3065 9663",
+        "contact:website": "https://arsmovendi-fitness.de/",
+        "leisure": "fitness_centre",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5321275,
+          48.129797
+        ]
+      },
+      "properties": {
+        "id": 4453886932,
+        "type": "node",
+        "name": "FitX",
+        "category": "gyms",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "1",
+        "addr:postcode": "81373",
+        "addr:street": "Landaubogen",
+        "branch": "Sendling Westpark",
+        "brand": "FitX",
+        "brand:wikidata": "Q29031618",
+        "leisure": "fitness_centre",
+        "opening_hours": "24/7",
+        "operator": "FitX Deutschland GmbH",
+        "phone": "+49 89 72649469",
+        "website": "https://www.fitx.de/fitnessstudios/muenchen-sendling-westpark"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.4988239,
+          48.1437439
+        ]
+      },
+      "properties": {
+        "id": 4459615090,
+        "type": "node",
+        "name": "Fit Star (FitStar)",
+        "category": "gyms",
+        "addr:city": "München",
+        "addr:housenumber": "314",
+        "addr:postcode": "80687",
+        "addr:street": "Landsberger Straße",
+        "brand:wikidata": "Q131467323",
+        "check_date": "2025-03-04",
+        "internet_access": "wlan",
+        "leisure": "fitness_centre",
+        "opening_hours": "24/7",
+        "phone": "+49 89 546 391 04",
+        "sport": "fitness",
+        "website": "https://www.fit-star.de/fitnessstudio/muenchen-laim"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5243015,
+          48.0759072
+        ]
+      },
+      "properties": {
+        "id": 4484076053,
+        "type": "node",
+        "name": "trainingsraum",
+        "category": "gyms",
+        "addr:housenumber": "181",
+        "addr:street": "Wolfratshauser Straße",
+        "leisure": "fitness_centre",
+        "opening_hours": "\"nach Vereinbarung\"",
+        "website": "https://www.dertrainingsraum.de/studios/solln",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5578348,
+          48.1440029
+        ]
+      },
+      "properties": {
+        "id": 4488243993,
+        "type": "node",
+        "name": "Clever fit",
+        "category": "gyms",
+        "addr:housenumber": "20",
+        "addr:postcode": "80335",
+        "addr:street": "Marsstraße",
+        "branch": "München Mitte",
+        "brand": "Clever fit",
+        "brand:wikidata": "Q27909675",
+        "brand:wikipedia": "de:Clever fit",
+        "email": "studio@muenchen-mitte.clever-fit.com",
+        "leisure": "fitness_centre",
+        "opening_hours": "Mo-Fr 06:00-24:00, Sa-Su 08:00-23:00; PH 08:00-23:00",
+        "phone": "+49 89 54444960",
+        "website": "https://www.clever-fit.com/de/fitnessstudio/muenchen-mitte/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6459588,
+          48.0968407
+        ]
+      },
+      "properties": {
+        "id": 4509362364,
+        "type": "node",
+        "name": "FitX",
+        "category": "gyms",
+        "addr:city": "München",
+        "addr:housenumber": "73",
+        "addr:postcode": "81739",
+        "addr:street": "Putzbrunner Straße",
+        "branch": "München Neuperlach",
+        "brand": "FitX",
+        "brand:wikidata": "Q29031618",
+        "leisure": "fitness_centre",
+        "opening_hours": "24/7",
+        "operator": "FitX Deutschland GmbH",
+        "phone": "+49 89 63892383",
+        "website": "https://www.fitx.de/fitnessstudios/muenchen-neuperlach",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6627691,
+          48.1222828
+        ]
+      },
+      "properties": {
+        "id": 4690839372,
+        "type": "node",
+        "name": "Body & Soul",
+        "category": "gyms",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "215",
+        "addr:postcode": "81825",
+        "addr:street": "Kreillerstraße",
+        "check_date:opening_hours": "2022-11-02",
+        "email": "trudering@bodyandsoul.ag",
+        "leisure": "fitness_centre",
+        "opening_hours": "Mo-Fr 06:00-24:00; Sa-Su 09:00-22:00",
+        "personal_trainer": "yes",
+        "phone": "+49 89 18908740",
+        "sauna": "yes",
+        "website": "https://www.bodyandsoul.de/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5372902,
+          48.1337432
+        ]
+      },
+      "properties": {
+        "id": 4712211693,
+        "type": "node",
+        "name": "YogaBee",
+        "category": "gyms",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "49",
+        "addr:postcode": "80339",
+        "addr:street": "Heimeranstraße",
+        "contact:phone": "+49 89 4114 2650",
+        "contact:website": "https://www.yogabee.de/",
+        "leisure": "fitness_centre",
+        "opening_hours": "\"Termine nach Kurskalender\"",
+        "opening_hours:url": "http://www.yogabee.de/programm/",
+        "sport": "yoga",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5206882,
+          48.1495646
+        ]
+      },
+      "properties": {
+        "id": 4724803899,
+        "type": "node",
+        "name": "Kieser Training",
+        "category": "gyms",
+        "addr:city": "München",
+        "addr:housenumber": "205",
+        "addr:postcode": "80634",
+        "addr:street": "Arnulfstraße",
+        "brand": "Kieser Training",
+        "brand:wikidata": "Q1112367",
+        "brand:wikipedia": "de:Kieser Training",
+        "check_date": "2024-12-13",
+        "leisure": "fitness_centre",
+        "opening_hours": "Mo-Fr 07:30-21:30; Sa,Su,PH 09:00-18:00",
+        "website": "https://www.kieser.com/de-de/studios/muenchen-neuhausen/",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5227693,
+          48.0972318
+        ]
+      },
+      "properties": {
+        "id": 4728035415,
+        "type": "node",
+        "name": "Yogastudio Rolfing",
+        "category": "gyms",
+        "addr:city": "München",
+        "addr:housenumber": "52a",
+        "addr:postcode": "81379",
+        "addr:street": "Aidenbachstraße",
+        "leisure": "fitness_centre",
+        "sport": "yoga",
+        "website": "https://mattheus-els.com/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.7083138,
+          48.1215533
+        ]
+      },
+      "properties": {
+        "id": 4729557857,
+        "type": "node",
+        "name": "Yoga am Park",
+        "category": "gyms",
+        "addr:city": "Haar",
+        "addr:country": "DE",
+        "addr:housenumber": "4",
+        "addr:postcode": "85540",
+        "addr:street": "Peter-Wolfram-Straße",
+        "leisure": "fitness_centre",
+        "opening_hours": "\"nach Vereinbarung\"",
+        "sport": "yoga"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6112722,
+          48.1256735
+        ]
+      },
+      "properties": {
+        "id": 4831403099,
+        "type": "node",
+        "name": "Health Loft",
+        "category": "gyms",
+        "access": "private",
+        "leisure": "fitness_centre",
+        "sport": "multi"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5420434,
+          48.1335581
+        ]
+      },
+      "properties": {
+        "id": 4906068684,
+        "type": "node",
+        "name": "Körperformen",
+        "category": "gyms",
+        "brand": "Körperformen",
+        "brand:wikidata": "Q117455940",
+        "check_date": "2024-03-30",
+        "email": "muenchenwestend@kformen.com",
+        "leisure": "fitness_centre",
+        "opening_hours": "Mo 12:00-20:30; Tu 08:30-20:00; We 11:00-20:00; Th 10:00-20:00; Fr 10:00-19:00; Sa 10:00-15:00; Su,PH off",
+        "phone": "+49 89 51115999",
+        "website": "https://www.k%C3%B6rperformen.com/studios/ems-training-muenchen-westend/",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.565842,
+          48.1379884
+        ]
+      },
+      "properties": {
+        "id": 4915091156,
+        "type": "node",
+        "name": "Body & Soul München Mitte",
+        "category": "gyms",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "9",
+        "addr:postcode": "80331",
+        "addr:street": "Sonnenstraße",
+        "check_date:opening_hours": "2022-11-21",
+        "leisure": "fitness_centre",
+        "level": "-1;0;1",
+        "opening_hours": "Mo-Fr 06:00-24:00, Sa,Su 09:00-22:00",
+        "sport": "fitness;gymnastics;yoga",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5780552,
+          48.151693
+        ]
+      },
+      "properties": {
+        "id": 4978044322,
+        "type": "node",
+        "name": "The Good Gym",
+        "category": "gyms",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "87",
+        "addr:postcode": "80799",
+        "addr:street": "Amalienstraße",
+        "contact:email": "info@thegoodgym.de",
+        "contact:website": "https://www.thegoodgym.de/",
+        "description": "Boutique fitness studio for women with environmentally friendly equipment",
+        "leisure": "fitness_centre",
+        "old_name": "Jörg's Gym",
+        "opening_hours": "Mo-Fr 08:00-14:00, 15:00-21:30; Sa, Su 09:00-15:00",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5970627,
+          48.1841033
+        ]
+      },
+      "properties": {
+        "id": 5155384200,
+        "type": "node",
+        "name": "Domagkpark Yoga",
+        "category": "gyms",
+        "check_date": "2024-07-22",
+        "leisure": "fitness_centre",
+        "opening_hours": "\"nur bei Kursen geöffnet\"",
+        "sport": "yoga",
+        "website": "https://www.domagkpark-yoga.de"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.3757935,
+          48.1352259
+        ]
+      },
+      "properties": {
+        "id": 5169558924,
+        "type": "node",
+        "name": "Mrs. Sporty",
+        "category": "gyms",
+        "branch": "Club Germering",
+        "brand": "Mrs. Sporty",
+        "brand:wikidata": "Q100718953",
+        "leisure": "fitness_centre",
+        "opening_hours": "Mo-Sa 06:00-22:00",
+        "website": "https://www.mrssporty.de/club/germering/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.4106709,
+          48.1387259
+        ]
+      },
+      "properties": {
+        "id": 5211990866,
+        "type": "node",
+        "name": "Kolibri Ballettschule",
+        "category": "gyms",
+        "addr:city": "München",
+        "addr:housenumber": "10",
+        "addr:postcode": "81249",
+        "addr:street": "Clarita-Bernhard-Straße",
+        "dance:style": "ballet",
+        "dance:teaching": "yes",
+        "leisure": "fitness_centre",
+        "sport": "yoga;gymnastics;fitness"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5992861,
+          48.1072946
+        ]
+      },
+      "properties": {
+        "id": 5339199667,
+        "type": "node",
+        "name": "FIT STAR München-Giesing",
+        "category": "gyms",
+        "addr:housenumber": "116",
+        "addr:postcode": "81549",
+        "addr:street": "Chiemgaustraße",
+        "brand:wikidata": "Q131467323",
+        "check_date": "2023-09-02",
+        "leisure": "fitness_centre",
+        "opening_hours": "24/7"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.453517,
+          48.1364163
+        ]
+      },
+      "properties": {
+        "id": 5555121611,
+        "type": "node",
+        "name": "Mrs. Sporty",
+        "category": "gyms",
+        "branch": "München Pasing",
+        "brand": "Mrs. Sporty",
+        "brand:wikidata": "Q100718953",
+        "check_date:opening_hours": "2024-07-04",
+        "leisure": "fitness_centre",
+        "opening_hours": "Mo-Su 06:00-22:00 open \"Trainingszeiten\"; Mo-We 09:00-13:00,16:00-20:00 open \"Beratung/Anmeldung\";Th 09:00-13:00,16:00-19:00 open \"Beratung/Anmeldung\"; Fr 09:00-13:00,15:00-18:00 open \"Beratung/Anmeldung\"; Sa 10:00-15:00 open \"Beratung/Anmeldung\"",
+        "website": "https://www.mrssporty.de/club/muenchen-pasing/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.4589722,
+          48.1469986
+        ]
+      },
+      "properties": {
+        "id": 5609782092,
+        "type": "node",
+        "name": "Bodystreet",
+        "category": "gyms",
+        "addr:floor": "0",
+        "brand": "Bodystreet",
+        "brand:wikidata": "Q117880186",
+        "check_date": "2025-10-26",
+        "check_date:opening_hours": "2025-10-26",
+        "leisure": "fitness_centre",
+        "level": "0",
+        "name:de": "Bodystreet",
+        "opening_hours": "Mo-Fr 08:00-20:00; Sa 08:00-16:00",
+        "website": "https://www.bodystreet.com/de/studio/bodystreet-muenchen-pasing",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.4583426,
+          48.147352
+        ]
+      },
+      "properties": {
+        "id": 5609782094,
+        "type": "node",
+        "name": "Young-Well Studio",
+        "category": "gyms",
+        "check_date": "2018-05-10",
+        "leisure": "fitness_centre"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5871885,
+          48.2047053
+        ]
+      },
+      "properties": {
+        "id": 5678309328,
+        "type": "node",
+        "name": "FitX",
+        "category": "gyms",
+        "addr:housenumber": "172",
+        "addr:street": "Ingolstädter Straße",
+        "branch": "Fitnessstudio",
+        "brand": "FitX",
+        "brand:wikidata": "Q29031618",
+        "leisure": "fitness_centre",
+        "phone": "+49 89 31907393",
+        "website": "https://www.fitx.de/fitnessstudios/muenchen-schwabing-freimann"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.3707128,
+          48.1315701
+        ]
+      },
+      "properties": {
+        "id": 5728779994,
+        "type": "node",
+        "name": "healthformance",
+        "category": "gyms",
+        "addr:city": "Germering",
+        "addr:country": "DE",
+        "addr:housenumber": "23",
+        "addr:postcode": "82110",
+        "addr:street": "Landsberger Straße",
+        "email": "info@healthformance.de",
+        "leisure": "fitness_centre",
+        "level": "1",
+        "sport": "fitness",
+        "website": "https://www.healthformance.de/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5644672,
+          48.1504432
+        ]
+      },
+      "properties": {
+        "id": 5768809235,
+        "type": "node",
+        "name": "Samtosha Yoga",
+        "category": "gyms",
+        "leisure": "fitness_centre",
+        "sport": "yoga",
+        "website": "http://www.samtosha-yoga.com"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.550984,
+          48.2470873
+        ]
+      },
+      "properties": {
+        "id": 5846927170,
+        "type": "node",
+        "name": "Plus Fit Fitnessstudio",
+        "category": "gyms",
+        "addr:city": "Oberschleißheim",
+        "addr:housenumber": "7",
+        "addr:postcode": "85764",
+        "addr:street": "Sonnenstraße",
+        "description": "Plus Fit Fitnessstudio",
+        "leisure": "fitness_centre"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5493555,
+          48.149024
+        ]
+      },
+      "properties": {
+        "id": 6029453493,
+        "type": "node",
+        "name": "M&V Body",
+        "category": "gyms",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "49",
+        "addr:postcode": "80335",
+        "addr:street": "Nymphenburger Straße",
+        "check_date": "2023-11-03",
+        "leisure": "fitness_centre",
+        "personal_trainer": "only"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.4781802,
+          48.0884616
+        ]
+      },
+      "properties": {
+        "id": 6131005480,
+        "type": "node",
+        "name": "Bodystreet",
+        "category": "gyms",
+        "branch": "München Fürstenried West",
+        "brand": "Bodystreet",
+        "brand:wikidata": "Q117880186",
+        "email": "fuerstenried-west@bodystreet.com",
+        "leisure": "fitness_centre",
+        "opening_hours": "Mo-Tu, Th 10:00-20:00; We 14:00-21:00; Fr 10:00-19:00; Sa 10:00-14:00",
+        "phone": "+49 89 2093 7400",
+        "website": "https://www.bodystreet.com/de/studio/bodystreet-muenchen-fuerstenried-west"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6223664,
+          48.1301333
+        ]
+      },
+      "properties": {
+        "id": 6246183365,
+        "type": "node",
+        "name": "Clever fit",
+        "category": "gyms",
+        "addr:city": "München",
+        "addr:housenumber": "99",
+        "addr:postcode": "81673",
+        "addr:street": "Berg-am-Laim-Straße",
+        "branch": "München Berg am Laim",
+        "brand": "Clever fit",
+        "brand:wikidata": "Q27909675",
+        "brand:wikipedia": "de:Clever fit",
+        "check_date": "2025-10-27",
+        "check_date:opening_hours": "2025-10-27",
+        "leisure": "fitness_centre",
+        "opening_hours": "Mo-Fr 06:00-24:00, Sa-Su 09:00-22:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5949209,
+          48.1171382
+        ]
+      },
+      "properties": {
+        "id": 6282074173,
+        "type": "node",
+        "name": "Sunyard Pilates Club",
+        "category": "gyms",
+        "addr:housenumber": "68",
+        "addr:street": "Sankt-Martin-Straße",
+        "description": "Group and Personal Fitness",
+        "leisure": "fitness_centre",
+        "opening_hours:signed": "no",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.608731,
+          48.1867442
+        ]
+      },
+      "properties": {
+        "id": 6316875537,
+        "type": "node",
+        "name": "CrossFit",
+        "category": "gyms",
+        "addr:city": "München",
+        "addr:housenumber": "255",
+        "addr:postcode": "80807",
+        "addr:street": "Frankfurter Ring",
+        "branch": "Munich Main Site",
+        "brand": "CrossFit",
+        "brand:wikidata": "Q2072840",
+        "description": "CrossFit Munich Main Site",
+        "leisure": "fitness_centre",
+        "opening_hours": "Mo 06:00-21:30; Tu 05:30-21:30; We 06:00-22:00; Th 06:00-21:00; Fr 06:00-20:30; Sa 08:00-16:00; Su 09:00-19:30",
+        "sport": "crossfit",
+        "website": "https://www.crossfitmunich.com"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5609854,
+          48.1560994
+        ]
+      },
+      "properties": {
+        "id": 6387618531,
+        "type": "node",
+        "name": "Bi PHiT",
+        "category": "gyms",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "43",
+        "addr:street": "Görresstraße",
+        "check_date": "2023-09-14",
+        "email": "info@biphit.de",
+        "leisure": "fitness_centre",
+        "opening_hours": "Mo-Fr 07:00-13:00,17:00-21:00; Sa 08:00-14:00; Su off",
+        "phone": "+49 1520 2459168",
+        "source": "website",
+        "sport": "fitness",
+        "website": "https://muenchen-personal.training/studios/goerresstr-43"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6160312,
+          48.1325727
+        ]
+      },
+      "properties": {
+        "id": 6422638232,
+        "type": "node",
+        "name": "Fit Star (FitStar)",
+        "category": "gyms",
+        "addr:city": "München",
+        "addr:housenumber": "15",
+        "addr:postcode": "81673",
+        "addr:street": "Dingolfinger Straße",
+        "brand:wikidata": "Q131467323",
+        "email": "info@fit-star.de",
+        "leisure": "fitness_centre",
+        "opening_hours": "24/7",
+        "phone": "+49 89 78064477",
+        "sport": "fitness",
+        "website": "https://www.fit-star.de/",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.4187358,
+          48.1414424
+        ]
+      },
+      "properties": {
+        "id": 6430996265,
+        "type": "node",
+        "name": "Clever fit",
+        "category": "gyms",
+        "brand": "Clever fit",
+        "brand:wikidata": "Q27909675",
+        "brand:wikipedia": "de:Clever fit",
+        "leisure": "fitness_centre",
+        "level": "1",
+        "opening_hours": "Mo-Fr 06:00-24:00; Sa,Su 09:00-22:00",
+        "operator": "Marcus Müller",
+        "sport": "fitness",
+        "website": "https://www.clever-fit.com/de/fitnessstudio/muenchen-aubing/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.56696,
+          48.1245275
+        ]
+      },
+      "properties": {
+        "id": 6433211152,
+        "type": "node",
+        "name": "Fräulein Yogini",
+        "category": "gyms",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "15",
+        "addr:postcode": "80469",
+        "addr:street": "Baldestraße",
+        "contact:email": "mail@fraeuleinyogini.com",
+        "contact:facebook": "https://www.facebook.com/fraeuleinyogini",
+        "contact:phone": "+49 89 2375 0320",
+        "leisure": "fitness_centre",
+        "opening_hours": "\"Nach Stundenplan\"",
+        "sport": "yoga"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.4153931,
+          48.1050987
+        ]
+      },
+      "properties": {
+        "id": 6440108085,
+        "type": "node",
+        "name": "Fore U",
+        "category": "gyms",
+        "addr:city": "Planegg",
+        "addr:country": "DE",
+        "addr:housenumber": "42",
+        "addr:postcode": "82152",
+        "addr:street": "Bahnhofstraße",
+        "email": "info@foreu.de",
+        "leisure": "fitness_centre",
+        "opening_hours": "Mo-Su 06:00-23:00",
+        "phone": "+49 89 28938939",
+        "sport": "golf",
+        "website": "https://www.foreu.de"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.7218641,
+          48.1069909
+        ]
+      },
+      "properties": {
+        "id": 6566218421,
+        "type": "node",
+        "name": "Tendokan",
+        "category": "gyms",
+        "addr:city": "Haar",
+        "addr:country": "DE",
+        "addr:housenumber": "25",
+        "addr:postcode": "85540",
+        "addr:street": "Am See",
+        "check_date:opening_hours": "2025-01-26",
+        "contact:email": "info@kampfsportschule-sparta.de",
+        "contact:mobile": "+49 176 236 898 17",
+        "contact:phone": "+49 89 44 23 47 37",
+        "contact:website": "https://kampfsportschule-sparta.de/",
+        "leisure": "fitness_centre",
+        "opening_hours:signed": "no",
+        "operator": "Tendokan GmbH",
+        "start_date": "2019-05",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5730371,
+          48.1852501
+        ]
+      },
+      "properties": {
+        "id": 6636931976,
+        "type": "node",
+        "name": "Bodystreet",
+        "category": "gyms",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "66",
+        "addr:postcode": "80807",
+        "addr:street": "Knorrstraße",
+        "brand": "Bodystreet",
+        "brand:wikidata": "Q117880186",
+        "leisure": "fitness_centre",
+        "opening_hours": "Mo-Fr 10:00-19:30; Sa 10:00-14:00",
+        "website": "https://www.bodystreet.com/de/studio/bodystreet-muenchen-frankfurter-ring"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5805679,
+          48.1328132
+        ]
+      },
+      "properties": {
+        "id": 6651538419,
+        "type": "node",
+        "name": "Downtown Pilates Munich",
+        "category": "gyms",
+        "leisure": "fitness_centre",
+        "sport": "yoga"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5883084,
+          48.1605852
+        ]
+      },
+      "properties": {
+        "id": 6651563615,
+        "type": "node",
+        "name": "Drop Me Fit",
+        "category": "gyms",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "22a",
+        "addr:postcode": "80802",
+        "addr:street": "Siegesstraße",
+        "leisure": "fitness_centre"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5646598,
+          48.1242435
+        ]
+      },
+      "properties": {
+        "id": 6655296052,
+        "type": "node",
+        "name": "Pound for pound",
+        "category": "gyms",
+        "addr:city": "München",
+        "addr:housenumber": "35",
+        "addr:postcode": "80469",
+        "addr:street": "Kapuzinerstraße",
+        "leisure": "fitness_centre",
+        "level": "0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.4817737,
+          48.1452811
+        ]
+      },
+      "properties": {
+        "id": 6670118886,
+        "type": "node",
+        "name": "Kieser Training",
+        "category": "gyms",
+        "addr:housenumber": "404",
+        "addr:postcode": "81241",
+        "addr:street": "Landsberger Straße",
+        "branch": "München Pasing",
+        "brand": "Kieser Training",
+        "brand:wikidata": "Q1112367",
+        "brand:wikipedia": "de:Kieser Training",
+        "leisure": "fitness_centre",
+        "opening_hours": "Mo-Fr 07:00-21:30; Sa-Su 09:00-18:00",
+        "phone": "+49 89 820 879 30",
+        "website": "https://www.kieser.com/de-de/studios/muenchen-pasing/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6058569,
+          48.1241539
+        ]
+      },
+      "properties": {
+        "id": 6680038975,
+        "type": "node",
+        "name": "body + soul Center WERK12",
+        "category": "gyms",
+        "addr:city": "München",
+        "addr:housenumber": "20",
+        "addr:postcode": "81671",
+        "addr:street": "Speicherstraße",
+        "branch": "Center Werk12",
+        "brand": "body + soul",
+        "email": "werk12@bodyandsoul.de",
+        "fee": "yes",
+        "internet_access": "wlan",
+        "leisure": "fitness_centre",
+        "opening_hours": "Mo-Fr 06:00-24:00; Sa-Su,PH 09:00-22:00",
+        "phone": "+49 89 4019 200-00",
+        "sport": "Fitness;Swimming;Cycling;Sauna;Yoga",
+        "website": "https://www.bodyandsoul.de/standorte/werk12/das-center-im-ueberblick"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6623314,
+          48.1218232
+        ]
+      },
+      "properties": {
+        "id": 6689598809,
+        "type": "node",
+        "name": "Fit Star (FitStar)",
+        "category": "gyms",
+        "addr:city": "München",
+        "addr:housenumber": "210",
+        "addr:postcode": "81825",
+        "addr:street": "Kreillerstraße",
+        "brand:wikidata": "Q131467323",
+        "leisure": "fitness_centre",
+        "opening_hours": "24/7",
+        "phone": "+49 89 21262122",
+        "website": "https://www.fit-star.de/fitnessstudio/muenchen-trudering/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5146618,
+          48.073776
+        ]
+      },
+      "properties": {
+        "id": 6697922681,
+        "type": "node",
+        "name": "Yoga & Pilates in Solln",
+        "category": "gyms",
+        "addr:housenumber": "5",
+        "addr:street": "Wilhelm-Leibl-Platz",
+        "check_date": "2024-08-12",
+        "leisure": "fitness_centre",
+        "opening_hours:signed": "no",
+        "website": "https://www.yoga-pilates-solln.de/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5837614,
+          48.1568405
+        ]
+      },
+      "properties": {
+        "id": 6716493253,
+        "type": "node",
+        "name": "Cryosizer",
+        "category": "gyms",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "17",
+        "addr:postcode": "80802",
+        "addr:street": "Leopoldstraße",
+        "contact:website": "https://cryosizer.com/",
+        "leisure": "fitness_centre"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5304778,
+          48.0926382
+        ]
+      },
+      "properties": {
+        "id": 6733509302,
+        "type": "node",
+        "name": "ELEMENTS",
+        "category": "gyms",
+        "check_date:opening_hours": "2023-01-12",
+        "contact:website": "https://www.elements.com/siemensallee/fitnessstudio-sendling/",
+        "leisure": "fitness_centre",
+        "opening_hours": "Mo-Fr 06:00-23:00; PH,Sa,Su 09:00-22:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.3603395,
+          48.1300151
+        ]
+      },
+      "properties": {
+        "id": 7160313202,
+        "type": "node",
+        "name": "Polestarz",
+        "category": "gyms",
+        "leisure": "fitness_centre",
+        "sport": "pole_dance",
+        "website": "https://polestarz.de/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6834235,
+          48.1491143
+        ]
+      },
+      "properties": {
+        "id": 7314713566,
+        "type": "node",
+        "name": "Clever fit",
+        "category": "gyms",
+        "addr:city": "Aschheim",
+        "addr:country": "DE",
+        "addr:housenumber": "32",
+        "addr:postcode": "85609",
+        "addr:street": "Karl-Hammerschmidt-Straße",
+        "addr:suburb": "Dornach",
+        "brand": "Clever fit",
+        "brand:wikidata": "Q27909675",
+        "brand:wikipedia": "de:Clever fit",
+        "leisure": "fitness_centre",
+        "sport": "fitness",
+        "website": "https://www.clever-fit.com/de/fitnessstudio/aschheim/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.568342,
+          48.1414863
+        ]
+      },
+      "properties": {
+        "id": 7714834149,
+        "type": "node",
+        "name": "FitX",
+        "category": "gyms",
+        "addr:housenumber": "4",
+        "addr:street": "Lenbachplatz",
+        "brand": "FitX",
+        "brand:wikidata": "Q29031618",
+        "check_date": "2025-05-07",
+        "leisure": "fitness_centre",
+        "level": "-1",
+        "opening_hours": "24/7",
+        "operator": "FitX Deutschland GmbH",
+        "sport": "fitness",
+        "website": "https://www.fitx.de/fitnessstudios/muenchen-lenbachplatz",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5599672,
+          48.15117
+        ]
+      },
+      "properties": {
+        "id": 7721376072,
+        "type": "node",
+        "name": "Ronis Yogastudio",
+        "category": "gyms",
+        "addr:city": "München",
+        "addr:housenumber": "27",
+        "addr:postcode": "80333",
+        "addr:street": "Schleißheimer Straße",
+        "leisure": "fitness_centre",
+        "sport": "yoga",
+        "website": "https://thesanctuary.me/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5616546,
+          48.151963
+        ]
+      },
+      "properties": {
+        "id": 7721380196,
+        "type": "node",
+        "name": "Studio 148 - Ausatmen. Einatmen.",
+        "category": "gyms",
+        "addr:housenumber": "148",
+        "addr:street": "Theresienstraße",
+        "check_date": "2025-05-18",
+        "leisure": "fitness_centre",
+        "opening_hours": "nach Vereinbarung",
+        "sport": "yoga",
+        "website": "https://www.einsvieracht.de/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5401877,
+          48.1456062
+        ]
+      },
+      "properties": {
+        "id": 7733906453,
+        "type": "node",
+        "name": "Bodystreet",
+        "category": "gyms",
+        "addr:city": "München",
+        "addr:housenumber": "104a",
+        "addr:postcode": "80636",
+        "addr:street": "Arnulfstraße",
+        "brand": "Bodystreet",
+        "brand:wikidata": "Q117880186",
+        "check_date": "2025-09-29",
+        "leisure": "fitness_centre",
+        "opening_hours": "Mo-Fr 09:00-21:00; We 12:00-21:00; Sa 09:00-14:00",
+        "sport": "fitness",
+        "website": "https://www.bodystreet.com/de/studio/bodystreet-muenchen-arnulfpark"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5571497,
+          48.1274482
+        ]
+      },
+      "properties": {
+        "id": 7733946029,
+        "type": "node",
+        "name": "Bodystreet",
+        "category": "gyms",
+        "addr:city": "München",
+        "addr:housenumber": "11",
+        "addr:postcode": "80337",
+        "addr:street": "Kapuzinerstraße",
+        "branch": "Goetheplatz",
+        "brand": "Bodystreet",
+        "brand:wikidata": "Q117880186",
+        "leisure": "fitness_centre",
+        "opening_hours": "Mo-Fr 10:00-20:00; Sa 10:00-14:00",
+        "sport": "fitness"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5485808,
+          48.1178325
+        ]
+      },
+      "properties": {
+        "id": 7733950343,
+        "type": "node",
+        "name": "Bodystreet Implerstraße",
+        "category": "gyms",
+        "addr:housenumber": "59",
+        "addr:postcode": "81371",
+        "addr:street": "Implerstraße",
+        "leisure": "fitness_centre",
+        "level": "0",
+        "opening_hours": "Mo-Fr 10:00-20:00; Th 09:30-20:00; Sa 10:00-16:00",
+        "sport": "fitness",
+        "website": "https://www.bodystreet.com/de/studio/bodystreet-muenchen-implerstrasse"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5592108,
+          48.1469654
+        ]
+      },
+      "properties": {
+        "id": 7733962996,
+        "type": "node",
+        "name": "Bodystreet",
+        "category": "gyms",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "59",
+        "addr:postcode": "80333",
+        "addr:street": "Brienner Straße",
+        "branch": "Stiglmaierplatz",
+        "brand": "Bodystreet",
+        "brand:wikidata": "Q117880186",
+        "leisure": "fitness_centre",
+        "opening_hours": "Mo-Fr 09:00-20:00; Sa 10:00-16:00",
+        "sport": "fitness",
+        "website": "https://www.bodystreet.com/de/studio/bodystreet-muenchen-stiglmaierplatz"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5780233,
+          48.1135289
+        ]
+      },
+      "properties": {
+        "id": 7733970310,
+        "type": "node",
+        "name": "tenless",
+        "category": "gyms",
+        "addr:city": "München",
+        "addr:housenumber": "103",
+        "addr:postcode": "81539",
+        "addr:street": "Tegernseer Landstraße",
+        "branch": "Giesing",
+        "check_date": "2025-02-25",
+        "leisure": "fitness_centre",
+        "opening_hours": "Mo-Fr 08:00-21:00; Sa 09:00-15:00; Su off",
+        "phone": "+49 89 88568865",
+        "sport": "fitness",
+        "website": "https://tenless.de/standorte/",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.533463,
+          48.114295
+        ]
+      },
+      "properties": {
+        "id": 7733978144,
+        "type": "node",
+        "name": "Bodystreet",
+        "category": "gyms",
+        "addr:city": "München",
+        "addr:housenumber": "24",
+        "addr:postcode": "81369",
+        "addr:street": "Passauerstraße",
+        "branch": "Passauerstraße",
+        "brand": "Bodystreet",
+        "brand:wikidata": "Q117880186",
+        "leisure": "fitness_centre",
+        "opening_hours": "Mo 09:30-21:00; Tu-Fr 10:00-21:00; Th 07:00-21:00; Sa 10:00-16:00",
+        "sport": "fitness",
+        "website": "https://www.bodystreet.com/de/studio/bodystreet-muenchen-passauerstrasse"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5660786,
+          48.1549773
+        ]
+      },
+      "properties": {
+        "id": 7733979599,
+        "type": "node",
+        "name": "Bodystreet",
+        "category": "gyms",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "10",
+        "addr:postcode": "80798",
+        "addr:street": "Görresstraße",
+        "branch": "Josephsplatz",
+        "brand": "Bodystreet",
+        "brand:wikidata": "Q117880186",
+        "check_date": "2025-08-24",
+        "check_date:opening_hours": "2025-08-24",
+        "contact:website": "https://www.bodystreet.com/de/studio/bodystreet-muenchen-josephsplatz",
+        "leisure": "fitness_centre",
+        "opening_hours": "Mo-Fr 10:00-19:00; Sa 10:00-14:00",
+        "opening_hours:signed": "no",
+        "sport": "fitness"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6108111,
+          48.1515426
+        ]
+      },
+      "properties": {
+        "id": 7734014175,
+        "type": "node",
+        "name": "Bodystreet",
+        "category": "gyms",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "9",
+        "addr:postcode": "81679",
+        "addr:street": "Menzelstraße",
+        "branch": "Bogenhausen",
+        "brand": "Bodystreet",
+        "brand:wikidata": "Q117880186",
+        "check_date:opening_hours": "2025-09-08",
+        "leisure": "fitness_centre",
+        "opening_hours": "Mo 11:00-21:00; Tu-Th 09:00-21:00; Fr 09:00-20:00; Sa 09:00-14:00",
+        "opening_hours:signed": "no",
+        "sport": "fitness",
+        "website": "https://www.bodystreet.com/de/studio/bodystreet-muenchen-bogenhausen"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6007683,
+          48.1420072
+        ]
+      },
+      "properties": {
+        "id": 7734025694,
+        "type": "node",
+        "name": "Bodystreet",
+        "category": "gyms",
+        "addr:city": "München",
+        "addr:housenumber": "55",
+        "addr:postcode": "81675",
+        "addr:street": "Ismaninger Straße",
+        "branch": "Friedensengel",
+        "brand": "Bodystreet",
+        "brand:wikidata": "Q117880186",
+        "check_date": "2023-06-11",
+        "leisure": "fitness_centre",
+        "opening_hours": "Mo,Fr 10:00-19:00; Tu,Th 08:30-19:00; We 10:00-20:00; Sa 09:00-14:00",
+        "sport": "fitness",
+        "website": "https://www.bodystreet.com/de/studio/bodystreet-muenchen-friedensengel"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5844995,
+          48.1628269
+        ]
+      },
+      "properties": {
+        "id": 7734026028,
+        "type": "node",
+        "name": "Bodystreet",
+        "category": "gyms",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "9",
+        "addr:postcode": "80803",
+        "addr:street": "Siegfriedstraße",
+        "branch": "Münchner Freiheit",
+        "brand": "Bodystreet",
+        "brand:wikidata": "Q117880186",
+        "check_date": "2024-04-07",
+        "contact:website": "https://www.bodystreet.com/de/studio/bodystreet-muenchen-muenchner-freiheit",
+        "leisure": "fitness_centre",
+        "opening_hours": "Mo-Fr 09:00-20:00; Sa 10:00-16:00",
+        "sport": "fitness"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5030758,
+          48.1266692
+        ]
+      },
+      "properties": {
+        "id": 7734035485,
+        "type": "node",
+        "name": "Bodystreet",
+        "category": "gyms",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "149",
+        "addr:postcode": "80686",
+        "addr:street": "Fürstenrieder Straße",
+        "branch": "Laim",
+        "brand": "Bodystreet",
+        "brand:wikidata": "Q117880186",
+        "leisure": "fitness_centre",
+        "opening_hours": "Mo-Fr 08:00-22:00; Sa 08:00-18:00",
+        "sport": "fitness",
+        "website": "https://www.bodystreet.com/de/studio/bodystreet-muenchen-laim"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5081431,
+          48.1530999
+        ]
+      },
+      "properties": {
+        "id": 7734035912,
+        "type": "node",
+        "name": "Bodystreet",
+        "category": "gyms",
+        "addr:city": "München",
+        "addr:housenumber": "26a",
+        "addr:postcode": "80639",
+        "addr:street": "Hirschgartenallee",
+        "branch": "Nymphenburg",
+        "brand": "Bodystreet",
+        "brand:wikidata": "Q117880186",
+        "leisure": "fitness_centre",
+        "opening_hours": "Mo-Fr 08:00-22:00; Sa 08:00-16:00",
+        "sport": "fitness",
+        "website": "https://www.bodystreet.com/de/studio/bodystreet-muenchen-nymphenburg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.4768656,
+          48.115309
+        ]
+      },
+      "properties": {
+        "id": 7734066923,
+        "type": "node",
+        "name": "Bodystreet",
+        "category": "gyms",
+        "addr:city": "München",
+        "addr:housenumber": "2",
+        "addr:postcode": "81377",
+        "addr:street": "Sauerbruchstraße",
+        "branch": "Großhadern",
+        "brand": "Bodystreet",
+        "brand:wikidata": "Q117880186",
+        "check_date": "2024-05-04",
+        "leisure": "fitness_centre",
+        "opening_hours": "Mo-Tu 08:00-21:00; We 09:00-21:00; Th 12:00-21:00; Fr 09:00-20:00",
+        "operator": "Martin Schamberger",
+        "phone": "+49 89 80997772",
+        "sport": "fitness",
+        "website": "https://www.bodystreet.com/de/studio/bodystreet-muenchen-grosshadern"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5270746,
+          48.1735121
+        ]
+      },
+      "properties": {
+        "id": 7734067077,
+        "type": "node",
+        "name": "Bodystreet",
+        "category": "gyms",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "180",
+        "addr:postcode": "80992",
+        "addr:street": "Dachauer Straße",
+        "branch": "Moosach",
+        "brand": "Bodystreet",
+        "brand:wikidata": "Q117880186",
+        "leisure": "fitness_centre",
+        "opening_hours": "Mo-Fr 08:30-20:30; Sa 09:30-13:30",
+        "sport": "fitness",
+        "website": "https://www.bodystreet.com/de/studio/bodystreet-muenchen-moosach"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.64143,
+          48.1262276
+        ]
+      },
+      "properties": {
+        "id": 7734074327,
+        "type": "node",
+        "name": "Bodystreet",
+        "category": "gyms",
+        "addr:city": "München",
+        "addr:housenumber": "64",
+        "addr:postcode": "81673",
+        "addr:street": "Kreillerstraße",
+        "branch": "Kreillerstraße",
+        "brand": "Bodystreet",
+        "brand:wikidata": "Q117880186",
+        "leisure": "fitness_centre",
+        "opening_hours": "Mo-Fr 09:00-20:00; Sa 09:00-15:00",
+        "sport": "fitness",
+        "website": "https://www.bodystreet.com/de/studio/bodystreet-muenchen-kreillerstrasse",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5209845,
+          48.0732818
+        ]
+      },
+      "properties": {
+        "id": 7734082147,
+        "type": "node",
+        "name": "Bodystreet",
+        "category": "gyms",
+        "addr:housenumber": "207",
+        "addr:street": "Wolfratshauser Straße",
+        "branch": "Solln",
+        "brand": "Bodystreet",
+        "brand:wikidata": "Q117880186",
+        "leisure": "fitness_centre",
+        "opening_hours": "Mo,We 10:00-19:00; Th 08:00-12:00,16:00-20:00; Fr 09:00-18:00; Sa 09:00-12:00",
+        "sport": "fitness",
+        "website": "https://www.bodystreet.com/de/studio/bodystreet-muenchen-solln",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.7072834,
+          48.1120721
+        ]
+      },
+      "properties": {
+        "id": 7734131829,
+        "type": "node",
+        "name": "Body Street",
+        "category": "gyms",
+        "addr:city": "München",
+        "addr:housenumber": "245",
+        "addr:postcode": "81827",
+        "addr:street": "Wasserburger Landstraße",
+        "branch": "Trudering",
+        "brand": "Bodystreet",
+        "brand:wikidata": "Q117880186",
+        "check_date": "2025-08-30",
+        "leisure": "fitness_centre",
+        "opening_hours": "Mo-Tu,Th-Fr 10:00-20:00; We 15:00-20:00; Sa 10:00-13:00",
+        "phone": "+49 89 81304849",
+        "sport": "fitness",
+        "website": "https://www.bodystreet.com/de/studio/bodystreet-muenchen-trudering"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.529599,
+          48.2154351
+        ]
+      },
+      "properties": {
+        "id": 7734139788,
+        "type": "node",
+        "name": "Bodystreet",
+        "category": "gyms",
+        "addr:city": "München",
+        "addr:housenumber": "51",
+        "addr:postcode": "80995",
+        "addr:street": "Josef-Frankl-Straße",
+        "branch": "Feldmoching",
+        "brand": "Bodystreet",
+        "brand:wikidata": "Q117880186",
+        "leisure": "fitness_centre",
+        "opening_hours": "Mo-Fr 10:00-20:00; Sa 10:00-15:00",
+        "sport": "fitness",
+        "website": "https://www.bodystreet.com/de/studio/bodystreet-muenchen-feldmoching"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5335696,
+          48.1512148
+        ]
+      },
+      "properties": {
+        "id": 7796317263,
+        "type": "node",
+        "name": "Pilates now",
+        "category": "gyms",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "8",
+        "addr:postcode": "80634",
+        "addr:street": "Donnersbergerstraße",
+        "leisure": "fitness_centre",
+        "sport": "fitness;pilates"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5688897,
+          48.1271928
+        ]
+      },
+      "properties": {
+        "id": 7847019402,
+        "type": "node",
+        "name": "Yogaraum",
+        "category": "gyms",
+        "addr:city": "München",
+        "addr:housenumber": "46",
+        "addr:postcode": "80469",
+        "addr:street": "Jahnstraße",
+        "leisure": "fitness_centre",
+        "sport": "yoga"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5930684,
+          48.1331584
+        ]
+      },
+      "properties": {
+        "id": 7847019403,
+        "type": "node",
+        "name": "Yoga Nebenan",
+        "category": "gyms",
+        "addr:city": "München",
+        "addr:housenumber": "18",
+        "addr:postcode": "81667",
+        "addr:street": "Innere Wiener Straße",
+        "leisure": "fitness_centre",
+        "sport": "yoga",
+        "website": "https://www.yoganebenan.de"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5753119,
+          48.1331282
+        ]
+      },
+      "properties": {
+        "id": 7847019404,
+        "type": "node",
+        "name": "Il Giardino Yoga",
+        "category": "gyms",
+        "addr:city": "München",
+        "addr:housenumber": "4",
+        "addr:postcode": "80469",
+        "addr:street": "Rumfordstraße",
+        "leisure": "fitness_centre",
+        "sport": "yoga",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5830222,
+          48.1456548
+        ]
+      },
+      "properties": {
+        "id": 7847019406,
+        "type": "node",
+        "name": "OM One",
+        "category": "gyms",
+        "addr:city": "München",
+        "addr:housenumber": "17",
+        "addr:postcode": "80539",
+        "addr:street": "Schönfeldstraße",
+        "leisure": "fitness_centre",
+        "opening_hours": "\"opening hours depend in classes: sf17-studio.de\"",
+        "phone": "+4915170159249",
+        "sport": "yoga"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5916247,
+          48.1391318
+        ]
+      },
+      "properties": {
+        "id": 7847019407,
+        "type": "node",
+        "name": "Jivamukti Yoga",
+        "category": "gyms",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "13",
+        "addr:postcode": "80538",
+        "addr:street": "Robert-Koch-Straße",
+        "contact:email": "info@jivamuktimunich.com",
+        "contact:phone": "+49 89 9396 1937",
+        "contact:website": "https://engel.yoga/",
+        "leisure": "fitness_centre",
+        "sport": "yoga"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5616186,
+          48.1492639
+        ]
+      },
+      "properties": {
+        "id": 7847019408,
+        "type": "node",
+        "name": "The Sanctuary",
+        "category": "gyms",
+        "addr:city": "München",
+        "addr:housenumber": "77",
+        "addr:postcode": "80333",
+        "addr:street": "Gabelsbergerstraße",
+        "check_date:opening_hours": "2025-05-14",
+        "leisure": "fitness_centre",
+        "opening_hours:signed": "no",
+        "phone": "+498954846569",
+        "sport": "yoga",
+        "website": "https://thesanctuary.me/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5649383,
+          48.1323915
+        ]
+      },
+      "properties": {
+        "id": 7847019409,
+        "type": "node",
+        "name": "Masachis°YOGA @ Svaira Yoga",
+        "category": "gyms",
+        "addr:city": "München",
+        "addr:housenumber": "7",
+        "addr:postcode": "80337",
+        "addr:street": "Lindwurmstraße",
+        "leisure": "fitness_centre",
+        "sport": "yoga",
+        "website": "https://www.lauravonostrowski.de/svairayoga"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5687293,
+          48.1528679
+        ]
+      },
+      "properties": {
+        "id": 7847019411,
+        "type": "node",
+        "name": "MBSR - 8samer",
+        "category": "gyms",
+        "addr:city": "München",
+        "addr:housenumber": "72",
+        "addr:postcode": "80798",
+        "addr:street": "Luisenstraße",
+        "leisure": "fitness_centre",
+        "sport": "yoga",
+        "website": "https://mindful-minds.com/live/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5583577,
+          48.1352659
+        ]
+      },
+      "properties": {
+        "id": 7847019413,
+        "type": "node",
+        "name": "Shiva Shiva Yoga",
+        "category": "gyms",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "40",
+        "addr:postcode": "80336",
+        "addr:street": "Goethestraße",
+        "contact:mobile": "+49 175 236 67 19",
+        "contact:website": "https://shivashiva.de/",
+        "leisure": "fitness_centre",
+        "sport": "yoga"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5552692,
+          48.144468
+        ]
+      },
+      "properties": {
+        "id": 7847019414,
+        "type": "node",
+        "name": "Simon Vincent @ International Ballet School",
+        "category": "gyms",
+        "addr:city": "München",
+        "addr:housenumber": "40",
+        "addr:postcode": "80335",
+        "addr:street": "Marsstraße",
+        "leisure": "fitness_centre",
+        "sport": "yoga",
+        "website": "https://simonvincent.de/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5354323,
+          48.1543631
+        ]
+      },
+      "properties": {
+        "id": 7847019415,
+        "type": "node",
+        "name": "Yoga im Studio Ygia",
+        "category": "gyms",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "16",
+        "addr:postcode": "80634",
+        "addr:street": "Ysenburgstraße",
+        "check_date:opening_hours": "2024-08-24",
+        "contact:mobile": "+49 178 1396 383",
+        "contact:website": "https://ygia-muenchen.de/",
+        "leisure": "fitness_centre",
+        "opening_hours:signed": "no",
+        "sport": "yoga"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5741603,
+          48.1675984
+        ]
+      },
+      "properties": {
+        "id": 7847019417,
+        "type": "node",
+        "name": "The Munich Collective",
+        "category": "gyms",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "66",
+        "addr:postcode": "80804",
+        "addr:street": "Belgradstraße",
+        "check_date": "2025-11-03",
+        "contact:mobile": "+49 160 909 091 25",
+        "contact:website": "https://themunichcollective.de/",
+        "leisure": "fitness_centre",
+        "sport": "yoga",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5441893,
+          48.1214164
+        ]
+      },
+      "properties": {
+        "id": 7847019418,
+        "type": "node",
+        "name": "Kundalini Yoga Sendling",
+        "category": "gyms",
+        "addr:city": "München",
+        "addr:housenumber": "5",
+        "addr:postcode": "81371",
+        "addr:street": "Daiserstraße",
+        "leisure": "fitness_centre",
+        "phone": "+49170 489 53 44",
+        "sport": "yoga",
+        "website": "https://www.kundalini-yoga-sendling.de/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6581979,
+          48.1315827
+        ]
+      },
+      "properties": {
+        "id": 7872535701,
+        "type": "node",
+        "name": "Groupfit",
+        "category": "gyms",
+        "addr:city": "München",
+        "addr:housenumber": "62",
+        "addr:postcode": "81829",
+        "addr:street": "Schatzbogen",
+        "leisure": "fitness_centre",
+        "level": "-1",
+        "sport": "yoga",
+        "website": "https://groupfit.de/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5774135,
+          48.1500094
+        ]
+      },
+      "properties": {
+        "id": 7872535703,
+        "type": "node",
+        "name": "Happy Body Institute",
+        "category": "gyms",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "20",
+        "addr:postcode": "80799",
+        "addr:street": "Schellingstraße",
+        "leisure": "fitness_centre",
+        "sport": "yoga"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5354814,
+          48.1536081
+        ]
+      },
+      "properties": {
+        "id": 7872535704,
+        "type": "node",
+        "name": "Hatha-Yoga-Muenchen",
+        "category": "gyms",
+        "addr:city": "München",
+        "addr:housenumber": "19",
+        "addr:postcode": "80634",
+        "addr:street": "Leonrodstraße",
+        "addr:unit": "Rückgebäude",
+        "contact:email": "yoga.muenchen.hatha@gmail.com",
+        "contact:mobile": "+49 176 2426 1246",
+        "contact:website": "https://hatha-yoga-muenchen.de/",
+        "description": "Die Kurse finden im WERKHAUS human-kreative Gemeinschaft e.V. im 1. OG statt.",
+        "leisure": "fitness_centre",
+        "sport": "yoga"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5338636,
+          48.1503949
+        ]
+      },
+      "properties": {
+        "id": 7872535708,
+        "type": "node",
+        "name": "Kris Oak Yoga & Meditation",
+        "category": "gyms",
+        "addr:city": "München",
+        "addr:housenumber": "18",
+        "addr:postcode": "80634",
+        "addr:street": "Donnersbergerstraße",
+        "fixme": "Ladengeschäft: Yoga wurde durch die Physiotherapie ersetzt. Webseite https://www.happymindyoga-muenchen.de/ führt die Adresse nicht mehr. Löschen?",
+        "leisure": "fitness_centre",
+        "sport": "yoga"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5839306,
+          48.1606375
+        ]
+      },
+      "properties": {
+        "id": 7872535709,
+        "type": "node",
+        "name": "Kundalini Yoga Zentrum",
+        "category": "gyms",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "13",
+        "addr:postcode": "80801",
+        "addr:street": "Kaiserstraße",
+        "leisure": "fitness_centre",
+        "sport": "yoga"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.588912,
+          48.1312655
+        ]
+      },
+      "properties": {
+        "id": 7872535710,
+        "type": "node",
+        "name": "Sahaja Yoga Zentrum",
+        "category": "gyms",
+        "addr:city": "München",
+        "addr:housenumber": "2",
+        "addr:postcode": "81669",
+        "addr:street": "Am Lilienberg",
+        "email": "anmeldung@meditatiomuenchen.org",
+        "leisure": "fitness_centre",
+        "mobile": "+49 176 94169665",
+        "old_name": "Lovely Spirit Yoga",
+        "sport": "yoga",
+        "website": "https://www.meditationmuenchen.org/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5890759,
+          48.1634034
+        ]
+      },
+      "properties": {
+        "id": 7872535711,
+        "type": "node",
+        "name": "Luisa Harisch Yoga",
+        "category": "gyms",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "8",
+        "addr:postcode": "80802",
+        "addr:street": "Marschallstraße",
+        "leisure": "fitness_centre",
+        "sport": "yoga"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5770861,
+          48.1195027
+        ]
+      },
+      "properties": {
+        "id": 7872535713,
+        "type": "node",
+        "name": "Nadine Rothfuss",
+        "category": "gyms",
+        "addr:city": "München",
+        "addr:housenumber": "33",
+        "addr:postcode": "81543",
+        "addr:street": "Kolumbusstraße",
+        "leisure": "fitness_centre",
+        "sport": "yoga"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6007903,
+          48.1297131
+        ]
+      },
+      "properties": {
+        "id": 7872535714,
+        "type": "node",
+        "name": "PAPUSA - Pilates & Yoga",
+        "category": "gyms",
+        "addr:city": "München",
+        "addr:housenumber": "30",
+        "addr:postcode": "81667",
+        "addr:street": "Wörthstraße",
+        "leisure": "fitness_centre",
+        "sport": "yoga"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5776733,
+          48.1205967
+        ]
+      },
+      "properties": {
+        "id": 7872705424,
+        "type": "node",
+        "name": "Samasti Yoga",
+        "category": "gyms",
+        "addr:city": "München",
+        "addr:housenumber": "2",
+        "addr:postcode": "81541",
+        "addr:street": "Dollmannstraße",
+        "check_date:opening_hours": "2025-08-28",
+        "leisure": "fitness_centre",
+        "opening_hours:signed": "no",
+        "sport": "yoga"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.578127,
+          48.1605069
+        ]
+      },
+      "properties": {
+        "id": 7872705425,
+        "type": "node",
+        "name": "Sue Coaching",
+        "category": "gyms",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "60",
+        "addr:postcode": "80801",
+        "addr:street": "Hohenzollernstraße",
+        "contact:email": "mail@sue-coaching.de",
+        "contact:mobile": "+49 176 28635253",
+        "contact:website": "https://sue-coaching.de/",
+        "leisure": "fitness_centre",
+        "opening_hours:signed": "no",
+        "operator": "Susanne Hermann",
+        "sport": "yoga"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.4158994,
+          48.1529738
+        ]
+      },
+      "properties": {
+        "id": 7872705426,
+        "type": "node",
+        "name": "TA.MI Yogaraum",
+        "category": "gyms",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "2c",
+        "addr:postcode": "81249",
+        "addr:street": "Weißensteinstraße",
+        "leisure": "fitness_centre",
+        "sport": "yoga"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5745295,
+          48.1520239
+        ]
+      },
+      "properties": {
+        "id": 7872705427,
+        "type": "node",
+        "name": "Tara Gupta @ Yoga Atelier",
+        "category": "gyms",
+        "addr:city": "München",
+        "addr:housenumber": "23",
+        "addr:postcode": "80799",
+        "addr:street": "Blütenstraße",
+        "leisure": "fitness_centre",
+        "sport": "yoga"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5843939,
+          48.1596285
+        ]
+      },
+      "properties": {
+        "id": 7872705428,
+        "type": "node",
+        "name": "The Studio - Schwabing",
+        "category": "gyms",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "10",
+        "addr:postcode": "80801",
+        "addr:street": "Hohenzollernstraße",
+        "leisure": "fitness_centre",
+        "sport": "yoga"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5727633,
+          48.1552213
+        ]
+      },
+      "properties": {
+        "id": 7872705434,
+        "type": "node",
+        "name": "Salon de Shakti",
+        "category": "gyms",
+        "addr:city": "München",
+        "addr:housenumber": "55",
+        "addr:postcode": "80799",
+        "addr:street": "Arcisstraße",
+        "contact:website": "https://salondeshakti.de/kontakt-impressum/",
+        "leisure": "fitness_centre",
+        "sport": "yoga"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5803638,
+          48.1174233
+        ]
+      },
+      "properties": {
+        "id": 7872705436,
+        "type": "node",
+        "name": "Yoga mit Angelika Wenzel in Giesing",
+        "category": "gyms",
+        "addr:city": "München",
+        "addr:housenumber": "9",
+        "addr:postcode": "81541",
+        "addr:street": "Untere Grasstraße",
+        "leisure": "fitness_centre",
+        "sport": "yoga"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5694857,
+          48.1309471
+        ]
+      },
+      "properties": {
+        "id": 7872705437,
+        "type": "node",
+        "name": "Yoga und Klang mit Shantala",
+        "category": "gyms",
+        "addr:city": "München",
+        "addr:housenumber": "35",
+        "addr:postcode": "80469",
+        "addr:street": "Müllerstraße",
+        "leisure": "fitness_centre",
+        "sport": "yoga"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5854207,
+          48.1498301
+        ]
+      },
+      "properties": {
+        "id": 7872705439,
+        "type": "node",
+        "name": "YogicLoveAffair-SummerLoveYoga",
+        "category": "gyms",
+        "addr:city": "München",
+        "addr:housenumber": "18",
+        "addr:postcode": "80539",
+        "addr:street": "Veterinärstraße",
+        "check_date": "2024-10-14",
+        "contact:email": "info@yogicloveaffair.com",
+        "contact:mobile": "+49 176 648 723 10",
+        "contact:website": "https://www.yogicloveaffair.com/deutsch/summerloveyoga/",
+        "leisure": "fitness_centre",
+        "opening_hours": "\"Termine über WhatsApp, Website und Newsletter\"",
+        "operator": "Annette Kuhlmann",
+        "sport": "yoga"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5679671,
+          48.1519534
+        ]
+      },
+      "properties": {
+        "id": 7938863229,
+        "type": "node",
+        "name": "Pilates Plus",
+        "category": "gyms",
+        "addr:housenumber": "62",
+        "addr:street": "Luisenstraße",
+        "leisure": "fitness_centre",
+        "sport": "yoga"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5990299,
+          48.1264582
+        ]
+      },
+      "properties": {
+        "id": 7945680359,
+        "type": "node",
+        "name": "Shanti Om",
+        "category": "gyms",
+        "addr:city": "München",
+        "addr:housenumber": "26",
+        "addr:postcode": "81667",
+        "addr:street": "Lothringer Straße",
+        "leisure": "fitness_centre",
+        "opening_hours:signed": "no",
+        "sport": "yoga"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5568171,
+          48.1307053
+        ]
+      },
+      "properties": {
+        "id": 8084015999,
+        "type": "node",
+        "name": "iYoga",
+        "category": "gyms",
+        "addr:city": "München",
+        "addr:housenumber": "7",
+        "addr:postcode": "80337",
+        "addr:street": "Haydnstraße",
+        "email": "info@iyoga.de",
+        "fax": "+49 89 54379042",
+        "leisure": "fitness_centre",
+        "opening_hours": "Mo-Fr 10:00-13:00",
+        "phone": "+49 89 537170",
+        "sport": "yoga",
+        "toilets": "yes",
+        "website": "https://iyoga.de",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6505265,
+          48.2474948
+        ]
+      },
+      "properties": {
+        "id": 8423406828,
+        "type": "node",
+        "name": "FIT MIT MIR",
+        "category": "gyms",
+        "addr:city": "Garching bei München",
+        "addr:country": "DE",
+        "addr:housenumber": "27",
+        "addr:postcode": "85748",
+        "addr:street": "Münchener Straße",
+        "description": "Personal Trainer, kein vollwertiges Fitness-Studio.",
+        "leisure": "fitness_centre",
+        "opening_hours": "Mo-Sa 09:00-18:00",
+        "personal_trainer": "yes",
+        "sport": "fitness",
+        "website": "https://fit-mit-mir.de/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6710061,
+          48.1198248
+        ]
+      },
+      "properties": {
+        "id": 8586839363,
+        "type": "node",
+        "name": "Pilates mal anders",
+        "category": "gyms",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "123",
+        "addr:postcode": "81825",
+        "addr:street": "Feldbergstraße",
+        "contact:phone": "+49 157 33230705",
+        "leisure": "fitness_centre",
+        "opening_hours:signed": "no",
+        "sport": "pilates",
+        "website": "https://www.pilates-mal-anders.de/",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5234559,
+          48.0750418
+        ]
+      },
+      "properties": {
+        "id": 8623667491,
+        "type": "node",
+        "name": "BoXFit",
+        "category": "gyms",
+        "leisure": "fitness_centre"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.3827196,
+          48.1869797
+        ]
+      },
+      "properties": {
+        "id": 8796047520,
+        "type": "node",
+        "name": "fitness zone Gröbenzell",
+        "category": "gyms",
+        "leisure": "fitness_centre",
+        "opening_hours": "Mo-Fr 06:00-23:00; Sa,Su,PH 09:00-21:00",
+        "sport": "fitness",
+        "website": "https://www.fitnesszone-gz.de/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.610546,
+          48.0664409
+        ]
+      },
+      "properties": {
+        "id": 8822039779,
+        "type": "node",
+        "name": "EMS-Sportstudio",
+        "category": "gyms",
+        "addr:city": "Unterhaching",
+        "addr:country": "DE",
+        "addr:housenumber": "10",
+        "addr:postcode": "82008",
+        "addr:street": "Rathausplatz",
+        "check_date:opening_hours": "2025-05-25",
+        "leisure": "fitness_centre",
+        "opening_hours": "Mo-Fr 10:00-20:00; Sa 10:00-14:00",
+        "website": "https://www.ems-sportstudio.de",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6162048,
+          48.0730292
+        ]
+      },
+      "properties": {
+        "id": 8842348214,
+        "type": "node",
+        "name": "Bodyclub",
+        "category": "gyms",
+        "check_date:opening_hours": "2024-01-23",
+        "leisure": "fitness_centre",
+        "opening_hours:signed": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5780524,
+          48.1502138
+        ]
+      },
+      "properties": {
+        "id": 8907328848,
+        "type": "node",
+        "name": "Traum München - Yoga Studio",
+        "category": "gyms",
+        "addr:city": "München",
+        "addr:housenumber": "65",
+        "addr:postcode": "80799",
+        "addr:street": "Amalienstraße",
+        "contact:email": "info@traum-muenchen.de",
+        "contact:phone": "+49 89 5404 3810",
+        "contact:website": "https://www.traum-muenchen.de/yoga-studio-muenchen-maxvorstadt",
+        "leisure": "fitness_centre",
+        "sport": "yoga"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6634947,
+          48.06404
+        ]
+      },
+      "properties": {
+        "id": 8951491687,
+        "type": "node",
+        "name": "Pilates Motion Ursula Bastian",
+        "category": "gyms",
+        "addr:city": "Ottobrunn",
+        "addr:country": "DE",
+        "addr:housenumber": "2",
+        "addr:postcode": "85521",
+        "addr:street": "Laurinweg",
+        "leisure": "fitness_centre",
+        "opening_hours:signed": "no",
+        "sport": "pilates",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6657112,
+          48.0640463
+        ]
+      },
+      "properties": {
+        "id": 8963877002,
+        "type": "node",
+        "name": "YoChi-studio (Yoga u. Chi Gong)",
+        "category": "gyms",
+        "addr:city": "Ottobrunn",
+        "addr:country": "DE",
+        "addr:housenumber": "18",
+        "addr:postcode": "85521",
+        "addr:street": "Am Bogen",
+        "leisure": "fitness_centre",
+        "sport": "yoga"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.7213026,
+          48.1715253
+        ]
+      },
+      "properties": {
+        "id": 8989626463,
+        "type": "node",
+        "name": "Unnamed",
+        "category": "gyms",
+        "leisure": "fitness_centre"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5555404,
+          48.1524815
+        ]
+      },
+      "properties": {
+        "id": 9130122770,
+        "type": "node",
+        "name": "Studio Equilibrium",
+        "category": "gyms",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "48",
+        "addr:postcode": "80335",
+        "addr:street": "Erzgießereistraße",
+        "check_date": "2024-08-17",
+        "leisure": "fitness_centre",
+        "sport": "fitness"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5841762,
+          48.159425
+        ]
+      },
+      "properties": {
+        "id": 9130200807,
+        "type": "node",
+        "name": "Eternity Health",
+        "category": "gyms",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "5",
+        "addr:postcode": "80801",
+        "addr:street": "Hohenzollernstraße",
+        "contact:instagram": "https://www.instagram.com/eternity.healthclub/",
+        "contact:website": "https://www.eternity-healthclub.com/",
+        "leisure": "fitness_centre",
+        "old_name": "Gorillas",
+        "opening_hours:signed": "no",
+        "sport": "fitness",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5303034,
+          48.1015838
+        ]
+      },
+      "properties": {
+        "id": 9164189166,
+        "type": "node",
+        "name": "CrossFit Munich SOUTH",
+        "category": "gyms",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "7",
+        "addr:postcode": "81379",
+        "addr:street": "Hofmannstraße",
+        "check_date:opening_hours": "2024-05-21",
+        "contact:mobile": "+49 173 9045 196",
+        "contact:website": "https://crossfitmunich.com/standorte/munich-south/",
+        "leisure": "fitness_centre",
+        "opening_hours:signed": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5711781,
+          48.1363145
+        ]
+      },
+      "properties": {
+        "id": 9254773458,
+        "type": "node",
+        "name": "ELBGYM",
+        "category": "gyms",
+        "internet_access": "wlan",
+        "leisure": "fitness_centre",
+        "opening_hours": "Mo-Fr 06:00-22:30; Sa,Su 08:00-20:00",
+        "sport": "gymnastics",
+        "website": "https://elbgym.de/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5309375,
+          48.1823101
+        ]
+      },
+      "properties": {
+        "id": 9672088551,
+        "type": "node",
+        "name": "Fit One",
+        "category": "gyms",
+        "addr:city": "München",
+        "addr:housenumber": "143-147",
+        "addr:street": "Pelkovenstraße",
+        "leisure": "fitness_centre",
+        "level": "4",
+        "website": "https://www.fit-one.de/standorte/muenchen"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.624993,
+          48.1296596
+        ]
+      },
+      "properties": {
+        "id": 9733407820,
+        "type": "node",
+        "name": "Gold's Gym Fitnessstudio",
+        "category": "gyms",
+        "addr:city": "München",
+        "addr:housenumber": "111",
+        "addr:postcode": "81673",
+        "addr:street": "Berg-am-Laim-Straße",
+        "check_date": "2024-08-25",
+        "leisure": "fitness_centre",
+        "opening_hours": "Mo-Su 06:00-24:00",
+        "phone": "+49 1512 3146336",
+        "sport": "fitness",
+        "website": "https://golds-gym.de/studio/muenchen",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6578443,
+          48.1233797
+        ]
+      },
+      "properties": {
+        "id": 9789353267,
+        "type": "node",
+        "name": "Körperformen",
+        "category": "gyms",
+        "addr:city": "München",
+        "addr:housenumber": "172",
+        "addr:postcode": "81825",
+        "addr:street": "Kreillerstraße",
+        "brand": "Körperformen",
+        "brand:wikidata": "Q117455940",
+        "check_date": "2025-04-18",
+        "leisure": "fitness_centre",
+        "opening_hours": "Mo-Fr 10:00-19:00; Sa 10:00-16:00 || \"nach Vereinbarung\"",
+        "phone": "+49 89 92657231",
+        "website": "https://www.körperformen.com/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5472653,
+          48.1512942
+        ]
+      },
+      "properties": {
+        "id": 9952042117,
+        "type": "node",
+        "name": "Ashtanga Yoga Institut München",
+        "category": "gyms",
+        "addr:housenumber": "29",
+        "addr:postcode": "80335",
+        "addr:street": "Thorwaldsenstraße",
+        "email": "Info@ashtangamuc.de",
+        "leisure": "fitness_centre",
+        "name:en": "Ashtanga Yoga Institute Munich",
+        "opening_hours": "24/7",
+        "phone": "+49 176 30349801",
+        "website": "https://www.ashtangayoga-institut-muenchen.de/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5817799,
+          48.1880388
+        ]
+      },
+      "properties": {
+        "id": 9992312039,
+        "type": "node",
+        "name": "Steko's",
+        "category": "gyms",
+        "leisure": "fitness_centre",
+        "level": "-1",
+        "sport": "fitness;boxing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5203818,
+          48.1447289
+        ]
+      },
+      "properties": {
+        "id": 10068607771,
+        "type": "node",
+        "name": "body + soul Hirschgarten",
+        "category": "gyms",
+        "addr:city": "München",
+        "addr:housenumber": "16",
+        "addr:postcode": "80639",
+        "addr:street": "Friedenheimer Brücke",
+        "check_date": "2025-10-07",
+        "check_date:opening_hours": "2024-05-13",
+        "internet_access": "wlan",
+        "leisure": "fitness_centre",
+        "opening_hours": "Mo-Fr 06:00-24:00; Sa-Su 09:00-22:00; PH 09:00-22:00",
+        "phone": "+49 89 502 005 0",
+        "sport": "fitness;swimming;climbing",
+        "website": "https://www.bodyandsoul.de/standorte/hirschgarten/das-center-im-ueberblick"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5642497,
+          48.17088
+        ]
+      },
+      "properties": {
+        "id": 10083874360,
+        "type": "node",
+        "name": "Bodystreet",
+        "category": "gyms",
+        "addr:city": "München",
+        "addr:housenumber": "201",
+        "addr:postcode": "80809",
+        "addr:street": "Schleißheimer Straße",
+        "branch": "München Luitpoldpark",
+        "brand": "Bodystreet",
+        "brand:wikidata": "Q117880186",
+        "check_date": "2025-08-10",
+        "contact:email": "muenchen-luitpoldpark@bodystreet.de",
+        "contact:phone": "+49 89 330 390 08",
+        "contact:website": "https://www.bodystreet.com/de/studio/bodystreet-muenchen-am-luitpoldpark",
+        "leisure": "fitness_centre",
+        "level": "0",
+        "opening_hours": "Tu-Th 10:00-20:00; Fr 10:00-19:00; Sa 10:00-13:00",
+        "sport": "ems"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5411031,
+          48.1230008
+        ]
+      },
+      "properties": {
+        "id": 10090279770,
+        "type": "node",
+        "name": "Skyfit",
+        "category": "gyms",
+        "female": "yes",
+        "leisure": "fitness_centre",
+        "level": "0",
+        "male": "no",
+        "opening_hours": "Mo-Fr 08:30-21:00; Sa,Su,PH 10:00-20:00",
+        "website": "https://www.skyfit-women.de/sendling/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5773582,
+          48.1343143
+        ]
+      },
+      "properties": {
+        "id": 10109163828,
+        "type": "node",
+        "name": "Prime Time Fitness",
+        "category": "gyms",
+        "addr:housenumber": "12",
+        "addr:street": "Frauenstraße",
+        "check_date": "2025-02-25",
+        "leisure": "fitness_centre",
+        "opening_hours": "Mo-Sa 10:00-20:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.464224,
+          48.1499518
+        ]
+      },
+      "properties": {
+        "id": 10152477251,
+        "type": "node",
+        "name": "Ambiance Sports & Spa",
+        "category": "gyms",
+        "check_date": "2022-11-09",
+        "contact:email": "info@ambiance-sport.de",
+        "contact:phone": "+49 89 82079080",
+        "contact:website": "https://ambiance-sport.de/",
+        "internet_access": "wlan",
+        "internet_access:fee": "customers",
+        "leisure": "fitness_centre",
+        "level": "-1;0",
+        "opening_hours": "Mo-Th 07:00-23:00; Fr 08:00-22:00; Sa-Su 09:00-21:00",
+        "operator": "Ambiance Fitness GmbH",
+        "personal_trainer": "yes",
+        "sauna": "yes",
+        "source": "local knowledge",
+        "sport": "fitness;swimming;athletics;gymnastics;yoga",
+        "swimming_pool": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5780264,
+          48.1138757
+        ]
+      },
+      "properties": {
+        "id": 10228716387,
+        "type": "node",
+        "name": "Santosa Yoga",
+        "category": "gyms",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "98",
+        "addr:postcode": "81539",
+        "addr:street": "Tegernseer Landstraße",
+        "check_date": "2023-05-07",
+        "contact:email": "info@santosayoga.de",
+        "contact:mobile": "+49 163 5739165",
+        "contact:website": "https://www.santosayoga.de",
+        "leisure": "fitness_centre",
+        "sport": "yoga",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.4702496,
+          48.0895162
+        ]
+      },
+      "properties": {
+        "id": 10554823510,
+        "type": "node",
+        "name": "FIT STAR München-Neuried",
+        "category": "gyms",
+        "addr:city": "Neuried",
+        "addr:country": "DE",
+        "addr:housenumber": "10",
+        "addr:postcode": "82061",
+        "addr:street": "Anna-Sigmund-Straße",
+        "brand:wikidata": "Q131467323",
+        "leisure": "fitness_centre",
+        "opening_hours": "24/7",
+        "operator": "FIT STAR Holding GmbH & Co. KG",
+        "phone": "+49 89 24213660",
+        "sport": "fitness",
+        "website": "https://www.fit-star.de/fitnessstudio/muenchen-neuried"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5477652,
+          48.1361463
+        ]
+      },
+      "properties": {
+        "id": 10562993428,
+        "type": "node",
+        "name": "body + soul",
+        "category": "gyms",
+        "addr:city": "München",
+        "addr:housenumber": "7",
+        "addr:postcode": "80339",
+        "addr:street": "Theresienhöhe",
+        "brand": "body + soul",
+        "leisure": "fitness_centre",
+        "level": "0",
+        "official_name": "body + soul Center Theresienhöhe",
+        "opening_hours": "Mo-Fr 06:00-24:00; Sa,Su,PH 09:00-22:00",
+        "phone": "+49 89 401929070",
+        "website": "https://www.bodyandsoul.de/standorte/theresienhoehe/das-center-im-ueberblick",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5757932,
+          48.1579969
+        ]
+      },
+      "properties": {
+        "id": 10575307355,
+        "type": "node",
+        "name": "Pilates Boutique",
+        "category": "gyms",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "46",
+        "addr:postcode": "80801",
+        "addr:street": "Franz-Joseph-Straße",
+        "contact:mobile": "+49 152 56570360",
+        "contact:website": "https://www.pilatesboutique.de/",
+        "leisure": "fitness_centre",
+        "opening_hours:signed": "no",
+        "sport": "pilates",
+        "wheelchair": "no",
+        "wheelchair:description": "Stufe"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6458553,
+          48.0993559
+        ]
+      },
+      "properties": {
+        "id": 10579044629,
+        "type": "node",
+        "name": "Fit Star (FitStar)",
+        "category": "gyms",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "15",
+        "addr:postcode": "81737",
+        "addr:street": "Thomas-Dehler-Straße",
+        "brand:wikidata": "Q131467323",
+        "leisure": "fitness_centre",
+        "opening_hours": "24/7",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6640209,
+          48.0646168
+        ]
+      },
+      "properties": {
+        "id": 10688120276,
+        "type": "node",
+        "name": "trainingsraum",
+        "category": "gyms",
+        "addr:city": "Ottobrunn",
+        "addr:country": "DE",
+        "addr:housenumber": "20",
+        "addr:postcode": "85521",
+        "addr:street": "Naupliaallee",
+        "contact:email": "tr5@dertrainingsraum.de",
+        "contact:website": "https://dertrainingsraum.de",
+        "leisure": "fitness_centre",
+        "start_date": "2023-02-06",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5692866,
+          48.1600469
+        ]
+      },
+      "properties": {
+        "id": 10748938096,
+        "type": "node",
+        "name": "Stadtsport München",
+        "category": "gyms",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "36",
+        "addr:postcode": "80796",
+        "addr:street": "Tengstraße",
+        "check_date": "2025-08-24",
+        "check_date:opening_hours": "2025-08-24",
+        "contact:email": "infi@stadtsport-muenchen.de",
+        "contact:mobile": "+49 176 630 359 86",
+        "contact:website": "https://www.stadtsport-muenchen.de/",
+        "description": "Gym & Sportmassagen",
+        "leisure": "fitness_centre",
+        "opening_hours": "\"Termine nach Vereinbarung\""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.534081,
+          48.1497031
+        ]
+      },
+      "properties": {
+        "id": 10780536361,
+        "type": "node",
+        "name": "HAPPY MIND YOGA MÜNCHEN",
+        "category": "gyms",
+        "check_date:opening_hours": "2024-05-07",
+        "leisure": "fitness_centre",
+        "opening_hours:signed": "no",
+        "sport": "yoga",
+        "website": "https://www.happymindyoga-muenchen.de/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5369454,
+          48.1432943
+        ]
+      },
+      "properties": {
+        "id": 10871758970,
+        "type": "node",
+        "name": "Elements",
+        "category": "gyms",
+        "addr:floor": "0",
+        "check_date": "2025-09-18",
+        "check_date:opening_hours": "2024-11-05",
+        "leisure": "fitness_centre",
+        "level": "0",
+        "opening_hours": "Mo-Fr 06:00-23:00; Sa-Su 09:00-22:00",
+        "sport": "fitness",
+        "website": "https://www.elements.com/donnersbergerbruecke/fitnessstudio-neuhausen/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6277707,
+          48.1408692
+        ]
+      },
+      "properties": {
+        "id": 10875855072,
+        "type": "node",
+        "name": "eo GYM – Kaiser & Petrik GbR",
+        "category": "gyms",
+        "addr:city": "München",
+        "addr:housenumber": "6b",
+        "addr:postcode": "81677",
+        "addr:street": "Weltenburger Straße",
+        "contact:facebook": "https://www.facebook.com/CrossFiteo",
+        "currency:XBT": "yes",
+        "email": "info@eo-gym.de",
+        "leisure": "fitness_centre",
+        "not:brand:wikidata": "Q2072840",
+        "payment:lightning": "yes",
+        "phone": "+49 89 45667845",
+        "sport": "fitness",
+        "survey:date": "2025-10-27",
+        "website": "https://eo-gym.de/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5359897,
+          48.1489835
+        ]
+      },
+      "properties": {
+        "id": 11023456202,
+        "type": "node",
+        "name": "Simone Klatt",
+        "category": "gyms",
+        "leisure": "fitness_centre",
+        "opening_hours": "\"nach Vereinbarung\"",
+        "sport": "yoga",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.373506,
+          48.1967785
+        ]
+      },
+      "properties": {
+        "id": 11038231319,
+        "type": "node",
+        "name": "Bodyvital",
+        "category": "gyms",
+        "leisure": "fitness_centre"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5640682,
+          48.1601191
+        ]
+      },
+      "properties": {
+        "id": 11056487608,
+        "type": "node",
+        "name": "M-Fitnesscenter Nordbad",
+        "category": "gyms",
+        "addr:city": "München",
+        "addr:housenumber": "142",
+        "addr:postcode": "80797",
+        "addr:street": "Schleißheimer Straße",
+        "check_date:opening_hours": "2025-03-01",
+        "fixme": "Position unbekannt",
+        "leisure": "fitness_centre",
+        "opening_hours": "Mo-Fr 07:30-23:00; Sa-Su,PH 09:00-23:00",
+        "sport": "fitness;swimming",
+        "website": "https://www.swm.de/baeder/fitness"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5737083,
+          48.1664836
+        ]
+      },
+      "properties": {
+        "id": 11063740899,
+        "type": "node",
+        "name": "Mrs. Sporty",
+        "category": "gyms",
+        "brand": "Mrs. Sporty",
+        "brand:wikidata": "Q100718953",
+        "check_date": "2025-07-20",
+        "leisure": "fitness_centre",
+        "opening_hours": "Mo-Th 08:30-13:00,16:00-20:00; Fr 09:00-13:00,15:00-19:00; Sa 09:00-13:00",
+        "phone": "+49 89 32462814;+49 1516 7573223",
+        "website": "https://www.mrssporty.de/club/muenchen-schwabing/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.534868,
+          48.1532444
+        ]
+      },
+      "properties": {
+        "id": 11096692439,
+        "type": "node",
+        "name": "Bikram Yoga München",
+        "category": "gyms",
+        "addr:housenumber": "6",
+        "addr:street": "Leonrodstraße",
+        "leisure": "fitness_centre",
+        "phone": "+49 89 13011218",
+        "sport": "yoga",
+        "website": "https://www.bikramyogamuenchen.de/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.4239537,
+          48.2468798
+        ]
+      },
+      "properties": {
+        "id": 11160792457,
+        "type": "node",
+        "name": "Yogaraum Dachau",
+        "category": "gyms",
+        "addr:city": "Dachau",
+        "addr:housenumber": "1",
+        "addr:postcode": "85221",
+        "addr:street": "Wilhelm-Maigatter-Weg",
+        "leisure": "fitness_centre",
+        "office": "company",
+        "phone": "+49 151 1520 7283",
+        "sport": "yoga",
+        "website": "https://yogaraum-dachau.de/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.450371,
+          48.2428991
+        ]
+      },
+      "properties": {
+        "id": 11192720951,
+        "type": "node",
+        "name": "anima FINEST SPORTS & SPA",
+        "category": "gyms",
+        "addr:housenumber": "16",
+        "addr:street": "Wettersteinring",
+        "building:levels": "3",
+        "leisure": "fitness_centre",
+        "opening_hours": "Mo-Fr 07:30-22:30; Sa-Su 08:30-20:30; PH 08:30-20:30",
+        "phone": "+49 8131 3133555",
+        "roof:levels": "0",
+        "website": "https://www.anima-dachau.de",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5406071,
+          48.1174715
+        ]
+      },
+      "properties": {
+        "id": 11210779586,
+        "type": "node",
+        "name": "Beat81",
+        "category": "gyms",
+        "brand": "Beat81",
+        "brand:wikidata": "Q129168256",
+        "leisure": "fitness_centre",
+        "level": "-1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5641092,
+          48.1643713
+        ]
+      },
+      "properties": {
+        "id": 11255603421,
+        "type": "node",
+        "name": "Beat81",
+        "category": "gyms",
+        "brand": "Beat81",
+        "brand:wikidata": "Q129168256",
+        "check_date": "2025-08-04",
+        "leisure": "fitness_centre",
+        "note": "Indoor Cycling"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6023225,
+          48.1284379
+        ]
+      },
+      "properties": {
+        "id": 11375072587,
+        "type": "node",
+        "name": "Body Up Diva",
+        "category": "gyms",
+        "email": "ostbf@bodyup.de",
+        "fax": "+49 89 484441",
+        "female": "yes",
+        "leisure": "fitness_centre",
+        "level": "5",
+        "male": "no",
+        "phone": "+49 89 4470000",
+        "website": "https://www.bodyup.de/studios/fitnessstudio-ostbahnhof/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5859148,
+          48.1755486
+        ]
+      },
+      "properties": {
+        "id": 11405501144,
+        "type": "node",
+        "name": "Fit Star (FitStar)",
+        "category": "gyms",
+        "alt_name": "FitStar",
+        "brand:wikidata": "Q131467323",
+        "check_date": "2024-07-27",
+        "leisure": "fitness_centre",
+        "opening_hours": "24/7",
+        "sauna": "no",
+        "sport": "fitness",
+        "start_date": "2024-02-01",
+        "swimming_pool": "no",
+        "toilets": "yes",
+        "toilets:access": "customers",
+        "toilets:wheelchair": "yes",
+        "website": "https://www.fit-star.de/fitnessstudio/muenchen-schwabing",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5442103,
+          48.1628844
+        ]
+      },
+      "properties": {
+        "id": 11456226040,
+        "type": "node",
+        "name": "pilatesbee – bodywork & more",
+        "category": "gyms",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "11",
+        "addr:postcode": "80637",
+        "addr:street": "Helene-Weber-Allee",
+        "contact:mobile": "+49 172 8802 023",
+        "contact:website": "https://pilatesbee.de",
+        "leisure": "fitness_centre",
+        "opening_hours": "Mo-Su open; PH off",
+        "sport": "pilates;yoga"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5260313,
+          48.1560066
+        ]
+      },
+      "properties": {
+        "id": 11463181358,
+        "type": "node",
+        "name": "Unnamed",
+        "category": "gyms",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "14",
+        "addr:postcode": "80639",
+        "addr:street": "Romanstraße",
+        "contact:mobile": "+49 171 3834 171",
+        "contact:website": "https://rs14.de",
+        "leisure": "fitness_centre",
+        "operator": "Dipl.-Inf. med. Jürgen Degenhardt",
+        "sport": "yoga;qigong"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6115435,
+          48.1818197
+        ]
+      },
+      "properties": {
+        "id": 11570676699,
+        "type": "node",
+        "name": "StuSta Gym",
+        "category": "gyms",
+        "access": "private",
+        "addr:city": "München",
+        "addr:housenumber": "23",
+        "addr:postcode": "80805",
+        "addr:street": "Grasmeierstraße",
+        "leisure": "fitness_centre",
+        "level": "0",
+        "opening_hours": "Mo-Su 07:00-09:00,17:00-23:00",
+        "operator": "Studentische Selbstverwaltung \"StuSta\" e.V.",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.4674349,
+          48.1839271
+        ]
+      },
+      "properties": {
+        "id": 11652766151,
+        "type": "node",
+        "name": "Crossfit F2",
+        "category": "gyms",
+        "leisure": "fitness_centre",
+        "sport": "crossfit",
+        "website": "https://www.crossfitf2.de"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5656648,
+          48.1565423
+        ]
+      },
+      "properties": {
+        "id": 11663466601,
+        "type": "node",
+        "name": "Pilates Now",
+        "category": "gyms",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "15",
+        "addr:postcode": "80798",
+        "addr:street": "Hiltenspergerstraße",
+        "check_date": "2024-12-28",
+        "contact:website": "https://pilatesnow.de/",
+        "leisure": "fitness_centre",
+        "sport": "fitness",
+        "wheelchair": "limited",
+        "wheelchair:description": "Eine hohe Stufe am Eingang"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5979469,
+          48.1366302
+        ]
+      },
+      "properties": {
+        "id": 11839317549,
+        "type": "node",
+        "name": "WNDRLND",
+        "category": "gyms",
+        "leisure": "fitness_centre",
+        "opening_hours": "Mo-Fr 08:00-20:00; Sa 09:00-14:00",
+        "sport": "fitness",
+        "website": "https://www.wndrlnd-fitness.com"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5742745,
+          48.1553542
+        ]
+      },
+      "properties": {
+        "id": 11860617964,
+        "type": "node",
+        "name": "MePower",
+        "category": "gyms",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "45a",
+        "addr:postcode": "80799",
+        "addr:street": "Georgenstraße",
+        "contact:email": "info@mepower-training.de",
+        "contact:facebook": "https://www.facebook.com/mepowertraining/",
+        "contact:phone": "+49 89 901 620 78",
+        "contact:website": "https://mepower-training.de/",
+        "leisure": "fitness_centre",
+        "operator": "Jörg Siller",
+        "sport": "fitness"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5933228,
+          48.126812
+        ]
+      },
+      "properties": {
+        "id": 11876082777,
+        "type": "node",
+        "name": "KörperLot",
+        "category": "gyms",
+        "addr:housenumber": "36",
+        "addr:street": "Rablstraße",
+        "description": "Pilates, Barre, Yoga, functional training, ...",
+        "leisure": "fitness_centre",
+        "opening_hours": "Mo-Th 08:00-21:00; Fr 08:00-19:00; Su 10:00-14:00",
+        "owner": "Daniela Thoms",
+        "phone": "+4917664864409",
+        "website": "https://www.koerperlot.de/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6039315,
+          48.1190028
+        ]
+      },
+      "properties": {
+        "id": 11884852284,
+        "type": "node",
+        "name": "Unnamed",
+        "category": "gyms",
+        "leisure": "fitness_centre"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5453605,
+          48.1504239
+        ]
+      },
+      "properties": {
+        "id": 11904428046,
+        "type": "node",
+        "name": "Orange Room",
+        "category": "gyms",
+        "addr:city": "München",
+        "addr:housenumber": "92",
+        "addr:postcode": "80636",
+        "addr:street": "Nymphenburger Straße",
+        "leisure": "fitness_centre",
+        "level": "3",
+        "sport": "yoga"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5244319,
+          48.1750024
+        ]
+      },
+      "properties": {
+        "id": 11940282733,
+        "type": "node",
+        "name": "MOVEMENT Fitness & Wellness Club",
+        "category": "gyms",
+        "addr:city": "München",
+        "addr:housenumber": "192",
+        "addr:postcode": "80992",
+        "addr:street": "Dachauer Straße",
+        "email": "info@movement-fitness.de",
+        "leisure": "fitness_centre",
+        "opening_hours": "Mo-Fr 07:00-22:00, Sa-So 08:00-20:00",
+        "phone": "+49 89 14903314",
+        "website": "https://movement-fitness.de/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5032081,
+          48.1321581
+        ]
+      },
+      "properties": {
+        "id": 11973254451,
+        "type": "node",
+        "name": "Miss Sporty",
+        "category": "gyms",
+        "leisure": "fitness_centre"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5317219,
+          48.1021564
+        ]
+      },
+      "properties": {
+        "id": 12195538698,
+        "type": "node",
+        "name": "body + soul Sendling",
+        "category": "gyms",
+        "leisure": "fitness_centre",
+        "level": "3-4",
+        "opening_hours": "Mo-Fr 06:00-24:00 Sa-Su 09:00-22:00",
+        "phone": "+498989081700",
+        "sauna": "yes",
+        "sport": "fitness;swimming;multi",
+        "website": "https://www.bodyandsoul.de/standorte/sendling/das-center-im-ueberblick"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5764703,
+          48.1542872
+        ]
+      },
+      "properties": {
+        "id": 12216103716,
+        "type": "node",
+        "name": "Beat81",
+        "category": "gyms",
+        "addr:city": "München",
+        "addr:housenumber": "8",
+        "addr:postcode": "80799",
+        "addr:street": "Kurfürstenstraße",
+        "branch": "Kurfürstenstraße Indoor Workout",
+        "brand": "Beat81",
+        "brand:wikidata": "Q129168256",
+        "leisure": "fitness_centre"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.3654339,
+          48.1285585
+        ]
+      },
+      "properties": {
+        "id": 12218877961,
+        "type": "node",
+        "name": "Bodystreet",
+        "category": "gyms",
+        "brand": "Bodystreet",
+        "brand:wikidata": "Q117880186",
+        "leisure": "fitness_centre",
+        "level": "1",
+        "opening_hours": "Mo-We,Fr 08:30-21:00; Sa 08:30-14:00",
+        "sport": "fitness",
+        "website": "https://www.bodystreet.com/de/studio/bodystreet-germering-untere-bahnhofstrasse"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5402321,
+          48.1030137
+        ]
+      },
+      "properties": {
+        "id": 12307162823,
+        "type": "node",
+        "name": "My Private Gym",
+        "category": "gyms",
+        "addr:city": "München",
+        "addr:housenumber": "132",
+        "addr:postcode": "81369",
+        "addr:street": "Plinganserstraße",
+        "contact:instagram": "myprivategym.me",
+        "leisure": "fitness_centre",
+        "level": "-1",
+        "sport": "fitness",
+        "website": "https://www.myprivategym.me/standort-obersendling"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5658219,
+          48.1533162
+        ]
+      },
+      "properties": {
+        "id": 12346091676,
+        "type": "node",
+        "name": "Reformer For Her",
+        "category": "gyms",
+        "leisure": "fitness_centre"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6579305,
+          48.1181912
+        ]
+      },
+      "properties": {
+        "id": 12346175346,
+        "type": "node",
+        "name": "Freya Health&Fitness",
+        "category": "gyms",
+        "addr:city": "München",
+        "addr:housenumber": "61",
+        "addr:postcode": "81825",
+        "addr:street": "Bajuwarenstraße",
+        "leisure": "fitness_centre",
+        "personal_trainer": "yes",
+        "phone": "+49 151 19481977",
+        "website": "https://www.freyahealth.de/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5489751,
+          48.1237752
+        ]
+      },
+      "properties": {
+        "id": 12382388975,
+        "type": "node",
+        "name": "Beat81",
+        "category": "gyms",
+        "addr:city": "München",
+        "addr:housenumber": "7",
+        "addr:postcode": "81371",
+        "addr:street": "Implerstraße",
+        "branch": "HIIT Fitness Classes Poccistraße",
+        "brand": "Beat81",
+        "brand:wikidata": "Q129168256",
+        "leisure": "fitness_centre"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5455341,
+          48.1429789
+        ]
+      },
+      "properties": {
+        "id": 12382406788,
+        "type": "node",
+        "name": "Beat81",
+        "category": "gyms",
+        "addr:city": "München",
+        "addr:housenumber": "1",
+        "addr:postcode": "80636",
+        "addr:street": "Klaus-Mann-Platz",
+        "brand": "Beat81",
+        "brand:wikidata": "Q129168256",
+        "leisure": "fitness_centre"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5338419,
+          48.1298465
+        ]
+      },
+      "properties": {
+        "id": 12382415300,
+        "type": "node",
+        "name": "Beat81",
+        "category": "gyms",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "9",
+        "addr:postcode": "81373",
+        "addr:street": "Adi-Maislinger-Straße",
+        "branch": "HIIT Fitness Classes Heimeranplatz",
+        "brand": "Beat81",
+        "brand:wikidata": "Q129168256",
+        "leisure": "fitness_centre"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.4808437,
+          48.1226325
+        ]
+      },
+      "properties": {
+        "id": 12386110247,
+        "type": "node",
+        "name": "Fit Star Großhadern (FitStar)",
+        "category": "gyms",
+        "brand:wikidata": "Q131467323",
+        "leisure": "fitness_centre",
+        "opening_hours": "24/7",
+        "website": "https://www.fit-star.de/fitnessstudio/muenchen-grosshadern"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6204185,
+          48.1389943
+        ]
+      },
+      "properties": {
+        "id": 12449540880,
+        "type": "node",
+        "name": "Elbgym",
+        "category": "gyms",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "159",
+        "addr:postcode": "81677",
+        "addr:street": "Prinzregentenstraße",
+        "leisure": "fitness_centre",
+        "phone": "+49 89 24 88 32 463",
+        "sport": "fitness",
+        "website": "https://www.elbgym.de/clubs/muenchen"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6016285,
+          48.1499062
+        ]
+      },
+      "properties": {
+        "id": 12468587953,
+        "type": "node",
+        "name": "Casa Corpo",
+        "category": "gyms",
+        "leisure": "fitness_centre"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.57102,
+          48.1187834
+        ]
+      },
+      "properties": {
+        "id": 12560116801,
+        "type": "node",
+        "name": "Urban Yoga Munich",
+        "category": "gyms",
+        "email": "info@urbanyogamunich.de",
+        "leisure": "fitness_centre",
+        "sport": "yoga",
+        "website": "https://urbanyogamunich.de/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5750182,
+          48.1561495
+        ]
+      },
+      "properties": {
+        "id": 12582388852,
+        "type": "node",
+        "name": "Unnamed",
+        "category": "gyms",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "29",
+        "addr:postcode": "80801",
+        "addr:street": "Nordendstraße",
+        "contact:email": "muc@josef-p.de",
+        "contact:instagram": "https://www.instagram.com/its.josefp/",
+        "contact:website": "https://josef-p.de/",
+        "description": "Pilatesstudio",
+        "leisure": "fitness_centre",
+        "opening_hours": "\"Wird geradej eingerichtet. Eröffnung angekündigt für Frühjahr 2025. Stand 2025-03-19\"",
+        "sport": "pilates"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5412117,
+          48.1497672
+        ]
+      },
+      "properties": {
+        "id": 12634088801,
+        "type": "node",
+        "name": "Praxis84",
+        "category": "gyms",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "84",
+        "addr:postcode": "80636",
+        "addr:street": "Blutenburgstraße",
+        "contact:email": "mail@praxis84.de",
+        "contact:phone": "+49 89 3846 8293",
+        "contact:website": "https://praxis84.de/",
+        "description": "Yoga, sowie Akkupunktur, Schmerztherapie, Manuelle Faszientherapie, Coaching ...",
+        "leisure": "fitness_centre",
+        "sport": "yoga"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5673731,
+          48.1514625
+        ]
+      },
+      "properties": {
+        "id": 12638681229,
+        "type": "node",
+        "name": "SOLID PEOPLE",
+        "category": "gyms",
+        "addr:city": "München",
+        "addr:housenumber": "67c",
+        "addr:postcode": "80798",
+        "addr:street": "Luisenstraße",
+        "contact:facebook": "https://www.instagram.com/solidmunich",
+        "email": "info@solidpeople.de",
+        "leisure": "fitness_centre",
+        "level": "0",
+        "opening_hours": "Mo-Su 07:00-21:00",
+        "sport": "fitness;boxing",
+        "website": "https://solidpeople.de/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5745726,
+          48.1306801
+        ]
+      },
+      "properties": {
+        "id": 12645212630,
+        "type": "node",
+        "name": "Freeform Pilates Studio",
+        "category": "gyms",
+        "addr:housenumber": "39",
+        "addr:street": "Klenzestraße",
+        "leisure": "fitness_centre",
+        "sport": "gymnastics",
+        "website": "https://www.freeformpilates.de/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5611986,
+          48.1447146
+        ]
+      },
+      "properties": {
+        "id": 12656892600,
+        "type": "node",
+        "name": "Her Space",
+        "category": "gyms",
+        "addr:housenumber": "44",
+        "addr:street": "Karlstraße",
+        "check_date": "2025-03-12",
+        "leisure": "fitness_centre"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5649892,
+          48.200734
+        ]
+      },
+      "properties": {
+        "id": 12670802040,
+        "type": "node",
+        "name": "BMW Fitnesscenter",
+        "category": "gyms",
+        "leisure": "fitness_centre",
+        "sport": "fitness"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5627294,
+          48.1291805
+        ]
+      },
+      "properties": {
+        "id": 12690257801,
+        "type": "node",
+        "name": "Patrick Broome Yoga Studio",
+        "category": "gyms",
+        "addr:housenumber": "31",
+        "addr:street": "Maistraße",
+        "leisure": "fitness_centre",
+        "sport": "yoga",
+        "website": "https://patrickbroome.de/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5445843,
+          48.2010901
+        ]
+      },
+      "properties": {
+        "id": 12730737268,
+        "type": "node",
+        "name": "Lucky Yoga",
+        "category": "gyms",
+        "email": "kontakt@lucky-yoga.de",
+        "leisure": "fitness_centre",
+        "sport": "yoga",
+        "website": "https://www.lucky-yoga.de/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5707362,
+          48.1296534
+        ]
+      },
+      "properties": {
+        "id": 12752156201,
+        "type": "node",
+        "name": "Studio Numi Glockenbach",
+        "category": "gyms",
+        "addr:housenumber": "2b",
+        "addr:street": "Ickstattstraße",
+        "email": "post@numi-yoga.de",
+        "leisure": "fitness_centre",
+        "sport": "yoga;pilates",
+        "website": "https://numi-yoga.de/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6296297,
+          48.1289187
+        ]
+      },
+      "properties": {
+        "id": 12798234701,
+        "type": "node",
+        "name": "Yogic Life",
+        "category": "gyms",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "143",
+        "addr:postcode": "81673",
+        "addr:street": "Berg-am-Laim-Straße",
+        "contact:email": "gustavo.casal@t-online.de",
+        "contact:website": "https://www.ayogiclife.de",
+        "description": "To enter the yoga studio on 5th floor, ring the doorbell for Garcia Casal",
+        "leisure": "fitness_centre",
+        "level": "5"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.4151552,
+          48.1048276
+        ]
+      },
+      "properties": {
+        "id": 12805589201,
+        "type": "node",
+        "name": "6weex",
+        "category": "gyms",
+        "addr:housenumber": "47",
+        "addr:postcode": "82152",
+        "addr:street": "Bahnhofstraße",
+        "leisure": "fitness_centre",
+        "website": "https://6weex.com"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5025518,
+          48.1427287
+        ]
+      },
+      "properties": {
+        "id": 13092787763,
+        "type": "node",
+        "name": "EMS-Lounge München-Laim",
+        "category": "gyms",
+        "addr:housenumber": "295",
+        "addr:street": "Landsberger Straße",
+        "check_date": "2025-08-22",
+        "email": "muenchen-laim@ems-lounge.de",
+        "leisure": "fitness_centre",
+        "opening_hours": "Mo-Fr 08:00-14:00,16:00-20:00",
+        "phone": "+49 89 97322536",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5744612,
+          48.1281248
+        ]
+      },
+      "properties": {
+        "id": 13159544101,
+        "type": "node",
+        "name": "Female Cycling Force - Club House",
+        "category": "gyms",
+        "addr:housenumber": "84",
+        "addr:street": "Baaderstraße",
+        "contact:instagram": "femalecyclingforce",
+        "leisure": "fitness_centre"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5745457,
+          48.1281354
+        ]
+      },
+      "properties": {
+        "id": 13159544201,
+        "type": "node",
+        "name": "Food Energy Club - Rare Form",
+        "category": "gyms",
+        "addr:housenumber": "84",
+        "addr:street": "Baaderstraße",
+        "contact:instagram": "rareformstudios",
+        "leisure": "fitness_centre"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5753417,
+          48.1475861
+        ]
+      },
+      "properties": {
+        "id": 13159560002,
+        "type": "node",
+        "name": "Drops Barre",
+        "category": "gyms",
+        "addr:housenumber": "31",
+        "addr:street": "Theresienstraße",
+        "leisure": "fitness_centre",
+        "level": "0",
+        "website": "https://drops-barre.de/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.633709,
+          48.1573022
+        ]
+      },
+      "properties": {
+        "id": 13234032701,
+        "type": "node",
+        "name": "EKA-Yoga",
+        "category": "gyms",
+        "addr:housenumber": "28a",
+        "addr:street": "Evastraße",
+        "email": "namaste@ekayoga.de",
+        "leisure": "fitness_centre",
+        "level": "0",
+        "opening_hours": "We off",
+        "sport": "yoga",
+        "website": "https://ekayoga.de/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.4739873,
+          48.1649203
+        ]
+      },
+      "properties": {
+        "id": 13236296773,
+        "type": "node",
+        "name": "Anse Yoga",
+        "category": "gyms",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "3",
+        "addr:postcode": "81247",
+        "addr:street": "Gebhardweg",
+        "leisure": "fitness_centre",
+        "sport": "yoga",
+        "website": "https://anse-yoga.de"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5405572,
+          48.1214221
+        ]
+      },
+      "properties": {
+        "id": 13243082565,
+        "type": "node",
+        "name": "Yoga Schule München",
+        "category": "gyms",
+        "addr:housenumber": "8",
+        "addr:street": "Plinganserstraße",
+        "check_date": "2025-10-19",
+        "leisure": "fitness_centre",
+        "sport": "yoga",
+        "website": "https://yogaschule-muenchen.de"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.3706111,
+          48.131543
+        ]
+      },
+      "properties": {
+        "id": 13246443601,
+        "type": "node",
+        "name": "Kickbox-Institut Germering",
+        "category": "gyms",
+        "addr:housenumber": "23",
+        "addr:postcode": "82110",
+        "addr:street": "Landsberger Straße",
+        "email": "germering@kickbox-institut.de",
+        "leisure": "fitness_centre",
+        "phone": "+49 89 55272688",
+        "website": "https://kickboxen-institut.de"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5026296,
+          48.135635
+        ]
+      },
+      "properties": {
+        "id": 13281262301,
+        "type": "node",
+        "name": "Prime Time Fitness Laim",
+        "category": "gyms",
+        "addr:housenumber": "68",
+        "addr:postcode": "80689",
+        "addr:street": "Fürstenrieder Straße",
+        "leisure": "fitness_centre",
+        "opening_hours": "Mo-Fr 06:00-00:00; Sa-Su 08:00-22:00",
+        "phone": "+49 151 44939975",
+        "website": "https://primetime-fitness.de/fitnessstudios/muenchen/laim/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5325871,
+          48.1455489
+        ]
+      },
+      "properties": {
+        "id": 13302414146,
+        "type": "node",
+        "name": "Raum für Yoga",
+        "category": "gyms",
+        "addr:housenumber": "16",
+        "addr:street": "Richelstraße",
+        "leisure": "fitness_centre",
+        "website": "https://rfy-muc.de/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5554347,
+          48.1245975
+        ]
+      },
+      "properties": {
+        "id": 13302475877,
+        "type": "node",
+        "name": "Studio numi",
+        "category": "gyms",
+        "addr:city": "München",
+        "addr:housenumber": "1",
+        "addr:postcode": "80337",
+        "addr:street": "Zenettiplatz",
+        "leisure": "fitness_centre",
+        "sport": "yoga",
+        "website": "https://numi-yoga.de/stundenplan-zenettiplatz/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.59255,
+          48.1930872
+        ]
+      },
+      "properties": {
+        "id": 10479601,
+        "type": "way",
+        "name": "McFit",
+        "category": "gyms",
+        "addr:city": "München",
+        "addr:housenumber": "17",
+        "addr:postcode": "80939",
+        "addr:street": "Maria-Probst-Straße",
+        "branch": "München Schwabing",
+        "brand": "McFit",
+        "brand:wikidata": "Q871302",
+        "brand:wikipedia": "en:McFit",
+        "building": "commercial",
+        "building:levels": "2",
+        "leisure": "fitness_centre",
+        "opening_hours": "24/7",
+        "operator": "McFIT",
+        "phone": "+49 89 37067960",
+        "roof:colour": "darkgrey",
+        "roof:levels": "0",
+        "roof:shape": "flat"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6470284,
+          48.0880554
+        ]
+      },
+      "properties": {
+        "id": 32207044,
+        "type": "way",
+        "name": "90 / Siemens Active",
+        "category": "gyms",
+        "building": "yes",
+        "building:levels": "2",
+        "leisure": "fitness_centre"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.3970267,
+          48.0826568
+        ]
+      },
+      "properties": {
+        "id": 83338297,
+        "type": "way",
+        "name": "Life Gym",
+        "category": "gyms",
+        "addr:city": "Gauting",
+        "addr:country": "DE",
+        "addr:housenumber": "14",
+        "addr:postcode": "82131",
+        "addr:street": "Grubmühl",
+        "addr:suburb": "Stockdorf",
+        "building": "yes",
+        "building:levels": "2",
+        "contact:email": "stockdorf@lifegym.de",
+        "contact:fax": "+49 89 75080282",
+        "contact:phone": "+49 89 75079750",
+        "contact:website": "https://lifegym.de/stockdorf1/",
+        "leisure": "fitness_centre",
+        "opening_hours": "Mo-Fr 06:30-22:30; Sa-Su 09:00-20:00",
+        "operator": "Fitnessmacher GmbH",
+        "sport": "multi",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.4307526,
+          48.1082785
+        ]
+      },
+      "properties": {
+        "id": 94544714,
+        "type": "way",
+        "name": "Life Gym",
+        "category": "gyms",
+        "addr:housenumber": "12",
+        "addr:postcode": "82152",
+        "addr:street": "Behringstraße",
+        "alt_name": "Lifegym",
+        "building": "yes",
+        "check_date": "2019-02-04",
+        "contact:phone": "+49 89 75080281",
+        "leisure": "fitness_centre",
+        "old_name": "Sixpack Fitness Club",
+        "opening_hours": "Mo-Fr 09:00-12:00,16:00-22:00;Sa-Su 10:00-12:00,16:00-18:00",
+        "website": "https://lifegym.de/stockdorf1/#!/100"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5604806,
+          48.2196518
+        ]
+      },
+      "properties": {
+        "id": 125406765,
+        "type": "way",
+        "name": "Fitnesspoint München",
+        "category": "gyms",
+        "addr:housenumber": "523",
+        "addr:postcode": "80933",
+        "addr:street": "Schleißheimer Straße",
+        "building": "yes",
+        "leisure": "fitness_centre",
+        "opening_hours": "Mo-Su 07:00-22:30",
+        "phone": "+49 89 3190420",
+        "website": "https://fitnesspoint-studios.de/",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.4637525,
+          48.1948635
+        ]
+      },
+      "properties": {
+        "id": 204838027,
+        "type": "way",
+        "name": "CrossFit MUC",
+        "category": "gyms",
+        "building": "yes",
+        "leisure": "fitness_centre",
+        "operator": "CrossFit MUC"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6306703,
+          48.1110779
+        ]
+      },
+      "properties": {
+        "id": 285595014,
+        "type": "way",
+        "name": "SVN Fitness Studio",
+        "category": "gyms",
+        "addr:city": "München",
+        "addr:housenumber": "20",
+        "addr:postcode": "81735",
+        "addr:street": "Staudingerstraße",
+        "building": "yes",
+        "contact:email": "info@svn-muenchen.de",
+        "contact:fax": "+49 89 6709059",
+        "contact:phone": "+49 89 6702300",
+        "contact:website": "https://www.svn-muenchen.de/fitness",
+        "leisure": "fitness_centre",
+        "opening_hours": "Mo-Fr 08:00-23:00; Sa-Su,PH 08:00-22:00",
+        "operator": "SVN München e.V."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.4205123,
+          48.1203177
+        ]
+      },
+      "properties": {
+        "id": 330222472,
+        "type": "way",
+        "name": "Yoga Studio Marleen",
+        "category": "gyms",
+        "addr:city": "Gräfelfing",
+        "addr:housenumber": "71",
+        "addr:postcode": "82166",
+        "addr:street": "Maria-Eich-Straße",
+        "building": "house",
+        "building:levels": "3",
+        "leisure": "fitness_centre",
+        "sport": "yoga"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5076712,
+          48.1047208
+        ]
+      },
+      "properties": {
+        "id": 529255392,
+        "type": "way",
+        "name": "Unnamed",
+        "category": "gyms",
+        "brand": "4Fcircle",
+        "brand:wikidata": "Q134549775",
+        "leisure": "fitness_centre",
+        "lit": "no",
+        "manufacturer": "Playparc GmbH",
+        "manufacturer:wikidata": "Q134550663",
+        "opening_hours": "24/7",
+        "sport": "fitness",
+        "wikidata": "Q107315788"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.402364,
+          48.1735331
+        ]
+      },
+      "properties": {
+        "id": 681397441,
+        "type": "way",
+        "name": "Unnamed",
+        "category": "gyms",
+        "brand": "4FCIRCLE",
+        "brand:wikidata": "Q134549775",
+        "fee": "no",
+        "leisure": "fitness_centre",
+        "manufacturer": "PLAYPARC GmbH",
+        "manufacturer:wikidata": "Q134550663",
+        "sport": "fitness"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.4494262,
+          48.2415896
+        ]
+      },
+      "properties": {
+        "id": 706189153,
+        "type": "way",
+        "name": "Clever fit",
+        "category": "gyms",
+        "addr:city": "Dachau",
+        "addr:housenumber": "12",
+        "addr:postcode": "85221",
+        "addr:street": "Wettersteinring",
+        "brand": "Clever fit",
+        "brand:wikidata": "Q27909675",
+        "brand:wikipedia": "de:Clever fit",
+        "building": "yes",
+        "building:colour": "#8490A1",
+        "building:levels": "2",
+        "contact:website": "https://www.clever-fit.com/de/fitnessstudio/dachau/",
+        "height": "7",
+        "leisure": "fitness_centre",
+        "opening_hours": "Mo-Fr 06:00-22:00; Sa,Su,PH 08:00-21:00",
+        "phone": "+49 8131 9081031",
+        "roof:colour": "#ECECEC",
+        "roof:height": "1",
+        "roof:orientation": "along",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6053527,
+          48.1172715
+        ]
+      },
+      "properties": {
+        "id": 1280360388,
+        "type": "way",
+        "name": "Unnamed",
+        "category": "gyms",
+        "building": "yes",
+        "leisure": "fitness_centre"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5463517,
+          48.1791776
+        ]
+      },
+      "properties": {
+        "id": 1331998130,
+        "type": "way",
+        "name": "Unnamed",
+        "category": "gyms",
+        "access": "permit",
+        "indoor": "room",
+        "leisure": "fitness_centre",
+        "level": "0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5071884,
+          48.1369488
+        ]
+      },
+      "properties": {
+        "id": 1389179553,
+        "type": "way",
+        "name": "Unnamed",
+        "category": "gyms",
+        "brand": "4FCIRCLE",
+        "brand:wikidata": "Q134549775",
+        "leisure": "fitness_centre",
+        "manufacturer": "PLAYPARC GmbH",
+        "manufacturer:wikidata": "Q134550663",
+        "sport": "fitness"
+      }
+    }
+  ],
+  "metadata": {
+    "category": "gyms",
+    "count": 279,
+    "generatedAt": "2025-11-22T19:56:05.511Z",
+    "bbox": {
+      "south": 48.061,
+      "west": 11.36,
+      "north": 48.248,
+      "east": 11.723
+    }
+  }
+}

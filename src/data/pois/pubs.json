@@ -1,0 +1,6925 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.663959,
+          48.0614999
+        ]
+      },
+      "properties": {
+        "id": 71433451,
+        "type": "node",
+        "name": "KÅDU",
+        "category": "pubs",
+        "addr:city": "Ottobrunn",
+        "addr:country": "DE",
+        "addr:housenumber": "1",
+        "addr:postcode": "85521",
+        "addr:street": "Nimrodstraße",
+        "amenity": "pub",
+        "contact:email": "hey@das-kadu.de",
+        "contact:facebook": "https://fb.com/kaduottobrunn",
+        "contact:instagram": "https://instagram.com/das_kadu",
+        "contact:phone": "+49 89 245 896 29",
+        "contact:website": "https://www.das-kadu.de/",
+        "opening_hours": "Mo off; Tu-Th 09:30-14:30,17:30-23:00; Fr,Sa 09:00-24:00; Su 09:00-22:00",
+        "operator": "Lass dir schmecken GmbH",
+        "outdoor_seating": "yes",
+        "smoking": "outside",
+        "takeaway": "yes",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5747755,
+          48.1572364
+        ]
+      },
+      "properties": {
+        "id": 181328634,
+        "type": "node",
+        "name": "Wintergarten",
+        "category": "pubs",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "37",
+        "addr:postcode": "80796",
+        "addr:street": "Nordendstraße",
+        "amenity": "pub",
+        "brewery": "Augustiner Bräu München",
+        "check_date": "2024-11-09",
+        "contact:phone": "+49 89 27373134",
+        "contact:website": "https://www.wintergarten-schwabing.de/",
+        "cuisine": "bavarian",
+        "full_name": "Wintergarten am Elisabethmarkt",
+        "indoor_seating": "yes",
+        "opening_hours": "Mo-Sa 10:00-24:00; Su 10:00-23:00",
+        "outdoor_seating": "yes",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.4609367,
+          48.1510867
+        ]
+      },
+      "properties": {
+        "id": 209147341,
+        "type": "node",
+        "name": "Cantina",
+        "category": "pubs",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "1",
+        "addr:postcode": "81245",
+        "addr:street": "August-Exter-Straße",
+        "amenity": "pub",
+        "contact:phone": "+49 89 55060365",
+        "contact:website": "https://www.cantina-pasing.de/",
+        "indoor_seating": "yes",
+        "opening_hours": "Su-We 10:00-23:30; Th-Sa 10:00-01:00",
+        "operator": "Cantina in der Pasinger Fabrik OHG",
+        "outdoor_seating": "yes",
+        "toilets:wheelchair": "yes",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6628919,
+          48.0762294
+        ]
+      },
+      "properties": {
+        "id": 243876780,
+        "type": "node",
+        "name": "Die 2",
+        "category": "pubs",
+        "addr:city": "Neubiberg",
+        "addr:country": "DE",
+        "addr:housenumber": "15",
+        "addr:postcode": "85579",
+        "addr:street": "Hauptstraße",
+        "amenity": "pub",
+        "contact:email": "info@die2bar.de",
+        "contact:phone": "+49 89 6010165",
+        "contact:website": "https://www.die2bar.de/",
+        "indoor_seating": "yes",
+        "internet_access": "wlan",
+        "opening_hours": "Mo-Th 17:00-24:00; Fr 17:00-25:00; Sa 18:00-25:00; Su,PH 10:00-22:00",
+        "opening_hours:kitchen": "Mo-Fr 17:00-22:00; Sa 18:00-22:00; Su,PH 10:00-14:30,17:00-21:00",
+        "opening_hours:signed": "yes",
+        "outdoor_seating": "yes",
+        "smoking": "no",
+        "smoking:cannabis": "no",
+        "source": "survey",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5626993,
+          48.1514568
+        ]
+      },
+      "properties": {
+        "id": 243934064,
+        "type": "node",
+        "name": "Shaxe Bar",
+        "category": "pubs",
+        "amenity": "pub",
+        "check_date:opening_hours": "2023-01-25",
+        "indoor_seating": "yes",
+        "opening_hours": "Mo-Su 17:00-05:00",
+        "outdoor_seating": "no",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5443578,
+          48.1992353
+        ]
+      },
+      "properties": {
+        "id": 254951783,
+        "type": "node",
+        "name": "Pils-Pub Royal",
+        "category": "pubs",
+        "amenity": "pub",
+        "brewery": "Augustiner Bräu München",
+        "gambling": "slot_machines",
+        "mobile": "+49 163 153 24 50",
+        "opening_hours": "Mo 11:30-21:30; Tu,We 11:30-22:00; Th off; Fr 11:30-22:00; Sa 11:00-22:00; Su 11:30-18:00",
+        "outdoor_seating": "yes",
+        "phone": "+49 89 35 7472 32",
+        "smoking": "outside",
+        "takeaway": "Mo-Su 11:30-14:30,17:00-19:30; Th off",
+        "website": "https://pilspubroyal.eatbu.com/?lang=de",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5836996,
+          48.1976286
+        ]
+      },
+      "properties": {
+        "id": 257005663,
+        "type": "node",
+        "name": "Pizza Manufaktur",
+        "category": "pubs",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "2",
+        "addr:postcode": "80937",
+        "addr:street": "Wenzelstraße",
+        "amenity": "pub",
+        "check_date": "2023-06-03"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5630091,
+          48.2071109
+        ]
+      },
+      "properties": {
+        "id": 258189053,
+        "type": "node",
+        "name": "Caracciolastüberl",
+        "category": "pubs",
+        "amenity": "pub",
+        "opening_hours": "Mo 10:00-00:00; Tu-Sa 10:00-01:00; Su 11:00-23:00",
+        "outdoor_seating": "yes",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5519269,
+          48.2081308
+        ]
+      },
+      "properties": {
+        "id": 258189085,
+        "type": "node",
+        "name": "Zum Kuckuck Nochmal",
+        "category": "pubs",
+        "addr:housenumber": "115",
+        "addr:street": "Weitlstraße",
+        "amenity": "pub",
+        "check_date": "2024-12-24",
+        "cuisine": "regional;german;bavarian",
+        "gambling": "slot_machines",
+        "opening_hours": "Mo-Sa 10:00-24:00; Su 10:00-22:00",
+        "outdoor_seating": "yes",
+        "smoking": "outside",
+        "sport": "billiards",
+        "website": "https://zumkuckuck-nochmal.de/",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5736357,
+          48.0949781
+        ]
+      },
+      "properties": {
+        "id": 260431779,
+        "type": "node",
+        "name": "Zum Dachs",
+        "category": "pubs",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "173",
+        "addr:postcode": "81547",
+        "addr:street": "Säbener Straße",
+        "amenity": "pub",
+        "brewery": "Spatenbräu",
+        "check_date": "2024-09-15",
+        "indoor_seating": "yes",
+        "opening_hours": "Tu-Sa 11:00-21:00; Su 11:00-19:00",
+        "outdoor_seating": "yes",
+        "wheelchair": "limited",
+        "wheelchair:description": "Kein Rollstuhl-WC vorhanden."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5962999,
+          48.12387
+        ]
+      },
+      "properties": {
+        "id": 261052322,
+        "type": "node",
+        "name": "Buon Gusto",
+        "category": "pubs",
+        "amenity": "pub",
+        "check_date": "2024-05-30",
+        "check_date:opening_hours": "2023-03-02",
+        "opening_hours": "Mo-Su 09:30-02:00",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5960401,
+          48.1238125
+        ]
+      },
+      "properties": {
+        "id": 261052433,
+        "type": "Raucherclub",
+        "name": "Auerfeld",
+        "category": "pubs",
+        "amenity": "pub",
+        "check_date": "2024-05-30",
+        "indoor_seating": "yes",
+        "outdoor_seating": "yes",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5966737,
+          48.1290691
+        ]
+      },
+      "properties": {
+        "id": 263879617,
+        "type": "node",
+        "name": "Metz 7",
+        "category": "pubs",
+        "addr:housenumber": "7",
+        "addr:street": "Metzstraße",
+        "amenity": "pub",
+        "check_date:opening_hours": "2023-12-23",
+        "indoor_seating": "yes",
+        "opening_hours": "Mo-Fr 11:30-23:00; Sa 17:00-24:00; Su off",
+        "outdoor_seating": "no",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5954148,
+          48.1265126
+        ]
+      },
+      "properties": {
+        "id": 263895499,
+        "type": "node",
+        "name": "Bar Tapas Teatro",
+        "category": "pubs",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "23",
+        "addr:postcode": "81669",
+        "addr:street": "Balanstraße",
+        "amenity": "pub",
+        "check_date:opening_hours": "2024-08-07",
+        "cuisine": "tapas",
+        "indoor_seating": "yes",
+        "opening_hours": "Mo-Sa 17:00-01:00",
+        "outdoor_seating": "yes",
+        "website": "https://www.teatro-bar-tapas.de/",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6267297,
+          48.1270157
+        ]
+      },
+      "properties": {
+        "id": 264010830,
+        "type": "node",
+        "name": "Echardinger Gartenlaube",
+        "category": "pubs",
+        "addr:city": "München",
+        "addr:housenumber": "10",
+        "addr:postcode": "81673",
+        "addr:street": "Echardinger Straße",
+        "amenity": "pub",
+        "check_date": "2024-12-05",
+        "opening_hours": "Tu-Su,PH 11:30-22:00; Mo off",
+        "outdoor_seating": "yes",
+        "phone": "+49 89 45344311",
+        "takeaway": "yes",
+        "website": "https://echardingergartenlaube.de/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6048328,
+          48.1306142
+        ]
+      },
+      "properties": {
+        "id": 264680687,
+        "type": "node",
+        "name": "EscoBar",
+        "category": "pubs",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "19",
+        "addr:postcode": "81667",
+        "addr:street": "Breisacher Straße",
+        "amenity": "pub",
+        "cuisine": "mexican",
+        "email": "info@escobar-muenchen.de",
+        "fax": "+49 89 4480274",
+        "happy_hours": "Su-Mo 17:00-01:00; Tu-Th 17:00-21:00,23:00-01:00; Fr-Sa 17:00-21:00,23:00-03:00",
+        "indoor_seating": "yes",
+        "opening_hours": "Su-Fr 17:00-01:00, Sa 17:00-03:00",
+        "outdoor_seating": "yes",
+        "phone": "+49 89 485137",
+        "website": "https://escobar-muenchen.de/",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6024805,
+          48.1334777
+        ]
+      },
+      "properties": {
+        "id": 264680692,
+        "type": "node",
+        "name": "Ortakahve",
+        "category": "pubs",
+        "amenity": "pub",
+        "brewery": "Hofbräu",
+        "cuisine": "turkish",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5945035,
+          48.1308709
+        ]
+      },
+      "properties": {
+        "id": 264745310,
+        "type": "node",
+        "name": "Molly Malone's",
+        "category": "pubs",
+        "addr:housenumber": "21",
+        "addr:street": "Kellerstraße",
+        "amenity": "pub",
+        "opening_hours": "Mo-Fr 17:00-01:00; Sa-Su 12:00-01:00",
+        "theme": "irish",
+        "website": "http://www.molly-malones.org/",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5973613,
+          48.1325427
+        ]
+      },
+      "properties": {
+        "id": 266698138,
+        "type": "node",
+        "name": "La Bodeguita",
+        "category": "pubs",
+        "amenity": "pub",
+        "cuisine": "caribbean",
+        "indoor_seating": "yes",
+        "opening_hours": "Mo-Th 14:00-24:00; Fr-Su 14:00-02:00",
+        "outdoor_seating": "no",
+        "phone": "+49 1521 4643271",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5650463,
+          48.1540973
+        ]
+      },
+      "properties": {
+        "id": 269945556,
+        "type": "node",
+        "name": "Alter Ofen",
+        "category": "pubs",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "41",
+        "addr:postcode": "80798",
+        "addr:street": "Zieblandstraße",
+        "amenity": "pub",
+        "brewery": "Spaten-Franziskaner München",
+        "check_date": "2023-04-06",
+        "contact:email": "info@alter-ofen.de",
+        "contact:phone": "+49 89 527527",
+        "contact:website": "http://www.alter-ofen.de",
+        "cuisine": "german",
+        "food": "yes",
+        "opening_hours": "18:00-01:00",
+        "operator": "Susanne Iglesias",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6168978,
+          48.122001
+        ]
+      },
+      "properties": {
+        "id": 277253196,
+        "type": "node",
+        "name": "Isarflimmern",
+        "category": "pubs",
+        "amenity": "pub",
+        "check_date": "2024-07-04",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5786175,
+          48.1439332
+        ]
+      },
+      "properties": {
+        "id": 280151630,
+        "type": "node",
+        "name": "Schumann's",
+        "category": "pubs",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "7",
+        "addr:postcode": "80539",
+        "addr:street": "Odeonsplatz",
+        "amenity": "pub",
+        "check_date:opening_hours": "2022-03-24",
+        "contact:phone": "+49 89 229 060",
+        "contact:website": "https://schumanns.de/de/index.html",
+        "indoor_seating": "yes",
+        "opening_hours": "Mo-Fr 08:00-24:00, Sa-Su 18:00-24:00, Mo-Su 00:00-03:00; PH off",
+        "outdoor_seating": "yes",
+        "wheelchair": "limited",
+        "wheelchair:description": "KEINE TOILETTEN am Abend auch im Umkreis nicht"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5599871,
+          48.1424485
+        ]
+      },
+      "properties": {
+        "id": 283103746,
+        "type": "node",
+        "name": "Café Kosmos",
+        "category": "pubs",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "7",
+        "addr:postcode": "80335",
+        "addr:street": "Dachauer Straße",
+        "air_conditioning": "no",
+        "alt_name": "Cafe Kosmos",
+        "amenity": "pub",
+        "brewery": "Astra",
+        "check_date": "2024-01-06",
+        "cuisine": "coffee_shop",
+        "internet_access": "no",
+        "level": "0",
+        "opening_hours": "Mo-Fr 12:00-01:00, Sa-Su 18:00-03:00",
+        "outdoor_seating": "yes",
+        "phone": "+49 175 3748 756",
+        "smoking": "outside",
+        "toilets": "yes",
+        "toilets:wheelchair": "no",
+        "website": "https://www.cafe-kosmos.de/",
+        "wheelchair": "limited",
+        "yelp": "http://www.yelp.de/biz/cafe-kosmos-münchen"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6406369,
+          48.1186573
+        ]
+      },
+      "properties": {
+        "id": 290528084,
+        "type": "node",
+        "name": "Lucky",
+        "category": "pubs",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "68",
+        "addr:postcode": "81673",
+        "addr:street": "Sankt-Veit-Straße",
+        "amenity": "pub",
+        "email": "mail@lucky-bar.de",
+        "opening_hours": "Tu-Su 11:00-00:00",
+        "outdoor_seating": "no",
+        "phone": "+49 89 18910347",
+        "website": "https://www.lucky-bar.de/home/home_main.php"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5850195,
+          48.1411669
+        ]
+      },
+      "properties": {
+        "id": 291103862,
+        "type": "node",
+        "name": "s'Zwölferl",
+        "category": "pubs",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "12",
+        "addr:postcode": "80538",
+        "addr:street": "Seitzstraße",
+        "amenity": "pub",
+        "check_date:opening_hours": "2023-11-12",
+        "opening_hours": "Mo-Sa 11:00-23:00+",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5186853,
+          48.1397078
+        ]
+      },
+      "properties": {
+        "id": 291436154,
+        "type": "node",
+        "name": "Cafe San",
+        "category": "pubs",
+        "amenity": "pub",
+        "indoor_seating": "yes",
+        "outdoor_seating": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5838598,
+          48.1340553
+        ]
+      },
+      "properties": {
+        "id": 297922632,
+        "type": "node",
+        "name": "Graf Arco Stub'n",
+        "category": "pubs",
+        "amenity": "pub",
+        "check_date:opening_hours": "2025-09-17",
+        "indoor_seating": "yes",
+        "opening_hours": "Mo-Fr 11:00-03:00, Sa,Su 18:00-03:00",
+        "outdoor_seating": "yes",
+        "phone": "+49 89 29160770",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5834724,
+          48.1388979
+        ]
+      },
+      "properties": {
+        "id": 299100564,
+        "type": "node",
+        "name": "Cohibar City",
+        "category": "pubs",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "2",
+        "addr:postcode": "80539",
+        "addr:street": "Herzog-Rudolf-Straße",
+        "amenity": "pub",
+        "indoor_seating": "yes",
+        "note": "Cigras",
+        "opening_hours": "We-Th 20:00-02:00; Fr-Sa 20:00-04:00",
+        "outdoor_seating": "no",
+        "phone": "+49 89 22880289",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5886783,
+          48.1007643
+        ]
+      },
+      "properties": {
+        "id": 305258382,
+        "type": "node",
+        "name": "Kulisse",
+        "category": "pubs",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:street": "Stadelheimer Straße",
+        "amenity": "pub",
+        "check_date": "2023-10-29",
+        "opening_hours": "Mo-Fr 11:00-14:00,17:00-22:00; Sa 16:00-22:00; PH,Su 13:00-22:00",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.594499,
+          48.1258974
+        ]
+      },
+      "properties": {
+        "id": 306130881,
+        "type": "node",
+        "name": "Stüberl",
+        "category": "pubs",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "8b",
+        "addr:street": "Sankt-Wolfgangs-Platz",
+        "air_conditioning": "no",
+        "amenity": "pub",
+        "check_date": "2025-04-21",
+        "indoor_seating": "yes",
+        "opening_hours": "\"Kirchliche Einrichtung, Private Veranstaltungen\"",
+        "operator": "Pfarrgemeinde St. Wolfgang",
+        "outdoor_seating": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5291425,
+          48.2180463
+        ]
+      },
+      "properties": {
+        "id": 307757483,
+        "type": "node",
+        "name": "Strobl's Bierstuben",
+        "category": "pubs",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "10",
+        "addr:postcode": "80995",
+        "addr:street": "Pflaumstraße",
+        "amenity": "pub"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5461062,
+          48.1968899
+        ]
+      },
+      "properties": {
+        "id": 309254674,
+        "type": "node",
+        "name": "ReMo's",
+        "category": "pubs",
+        "addr:housenumber": "1",
+        "addr:postcode": "80935",
+        "addr:street": "Irisstraße",
+        "amenity": "pub",
+        "opening_hours": "Mo-Sa 11:00-22:00; Su 11:00-21:00",
+        "outdoor_seating": "yes",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5748379,
+          48.1331791
+        ]
+      },
+      "properties": {
+        "id": 313924815,
+        "type": "node",
+        "name": "Paradiso Tanzbar",
+        "category": "pubs",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "2",
+        "addr:postcode": "80469",
+        "addr:street": "Rumfordstraße",
+        "amenity": "pub",
+        "check_date": "2024-05-30",
+        "check_date:opening_hours": "2023-03-11",
+        "indoor_seating": "yes",
+        "opening_hours": "Fr-Sa 22:00-05:00",
+        "outdoor_seating": "no",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5785894,
+          48.143851
+        ]
+      },
+      "properties": {
+        "id": 315915047,
+        "type": "node",
+        "name": "Filmcasino",
+        "category": "pubs",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "8",
+        "addr:postcode": "80539",
+        "addr:street": "Odeonsplatz",
+        "amenity": "pub",
+        "diet:vegan": "yes",
+        "diet:vegetarian": "yes",
+        "food": "yes",
+        "indoor_seating": "yes",
+        "opening_hours": "Tu-Th 12:00-01:00; Fr-Sa 12:00-05:00; Su 13:00-01:00",
+        "outdoor_seating": "yes",
+        "website": "https://filmcasino.net/",
+        "wheelchair": "yes",
+        "wikidata": "Q50843552"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6287356,
+          48.1623976
+        ]
+      },
+      "properties": {
+        "id": 315978292,
+        "type": "node",
+        "name": "Lohengrin's",
+        "category": "pubs",
+        "addr:city": "München",
+        "addr:housenumber": "97",
+        "addr:postcode": "81925",
+        "addr:street": "Cosimastraße",
+        "air_conditioning": "no",
+        "alt_name": "Lohengrins",
+        "amenity": "pub",
+        "check_date:opening_hours": "2025-05-28",
+        "contact:email": "info@lohengrins.de",
+        "contact:fax": "+49 89 95927490",
+        "contact:phone": "+49 89 95927424",
+        "contact:website": "https://www.lohengrins.de/",
+        "internet_access": "wlan",
+        "name:de": "Lohengrin's",
+        "opening_hours": "Mo-Su 11:30-23:00",
+        "operator": "Ch. Ertl, A. Ertl & J. Schlenc GbR",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "smoking": "outside",
+        "wheelchair": "limited",
+        "wheelchair:description": "Der Gastraum und die Toiletten sind ebenerdig erreichbar. Allerdings gibt es keine Toilette mit breiter Tür und die Toilettenräume sind für Rollstuhlfahrer viel zu eng. Das Personal ist freundlich und den Umgang mit rollstuhlfahrenden Gästen gewohnt."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5391369,
+          48.1073534
+        ]
+      },
+      "properties": {
+        "id": 317361638,
+        "type": "node",
+        "name": "Caffe AS",
+        "category": "pubs",
+        "addr:city": "München",
+        "addr:housenumber": "38",
+        "addr:postcode": "81369",
+        "addr:street": "Fallstraße",
+        "amenity": "pub",
+        "level": "0",
+        "source": "survey"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5481478,
+          48.1207482
+        ]
+      },
+      "properties": {
+        "id": 318294286,
+        "type": "node",
+        "name": "Bei Dagmars Herbi",
+        "category": "pubs",
+        "amenity": "pub",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.717937,
+          48.1718608
+        ]
+      },
+      "properties": {
+        "id": 320924968,
+        "type": "node",
+        "name": "Sonnenstüberl",
+        "category": "pubs",
+        "addr:city": "Aschheim",
+        "addr:country": "DE",
+        "addr:housenumber": "5",
+        "addr:postcode": "85609",
+        "addr:street": "Sonnenstraße",
+        "amenity": "pub"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5731678,
+          48.1512061
+        ]
+      },
+      "properties": {
+        "id": 329092753,
+        "type": "node",
+        "name": "Schelling-Salon",
+        "category": "pubs",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "54",
+        "addr:postcode": "80799",
+        "addr:street": "Schellingstraße",
+        "amenity": "pub",
+        "brewery": "various;Schneider_Weisse,_Augustiner",
+        "contact:phone": "+49 89 2720 788",
+        "contact:website": "https://www.schelling-salon.de/",
+        "indoor_seating": "yes",
+        "opening_hours": "Mo 10:00-00:30; Th-Sa 10:00-01:00, Su 10:00-24:00; Jul 17-Sep 03 off \"Sommerpause\"",
+        "outdoor_seating": "yes",
+        "smoking": "outside",
+        "sport": "table_soccer;billiards;table_tennis",
+        "wheelchair": "limited",
+        "wheelchair:description": "Stufe",
+        "wikidata": "Q569803",
+        "wikipedia": "de:Schelling-Salon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6358716,
+          48.1733465
+        ]
+      },
+      "properties": {
+        "id": 329278863,
+        "type": "node",
+        "name": "Pils-Pub",
+        "category": "pubs",
+        "amenity": "pub",
+        "check_date:opening_hours": "2024-03-22",
+        "opening_hours": "Mo-Su 09:00-01:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6358151,
+          48.1733779
+        ]
+      },
+      "properties": {
+        "id": 329278871,
+        "type": "node",
+        "name": "La Cantina",
+        "category": "pubs",
+        "amenity": "pub",
+        "check_date:opening_hours": "2024-03-22",
+        "contact:phone": "+49 89 9570111",
+        "opening_hours": "Mo-Su 09:00-01:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6217246,
+          48.1302436
+        ]
+      },
+      "properties": {
+        "id": 331359817,
+        "type": "node",
+        "name": "Juicy Shisha Lounge",
+        "category": "pubs",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "91",
+        "addr:street": "Berg-am-Laim-Straße",
+        "amenity": "pub",
+        "check_date": "2024-05-08"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5745419,
+          48.1337507
+        ]
+      },
+      "properties": {
+        "id": 331907823,
+        "type": "node",
+        "name": "Buena Vista",
+        "category": "pubs",
+        "amenity": "pub",
+        "check_date": "2023-11-20",
+        "opening_hours": "Tu-Th 18:00-01:00; Fr-Sa 18:00-03:00",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5721372,
+          48.1490085
+        ]
+      },
+      "properties": {
+        "id": 332790691,
+        "type": "node",
+        "name": "Die Kneipe 80",
+        "category": "pubs",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "72",
+        "addr:postcode": "80333",
+        "addr:street": "Theresienstraße",
+        "amenity": "pub",
+        "changing_table": "no",
+        "contact:instagram": "https://www.instagram.com/kneipe.80/",
+        "contact:phone": "+49 89 282349",
+        "indoor_seating": "yes",
+        "old_name": "Brasserie Tresznjewski",
+        "opening_hours": "Mo-Fr 16:00-00:00; Sa 10:00-01:00; Su 10:00-00:00",
+        "outdoor_seating": "yes",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5896343,
+          48.1312996
+        ]
+      },
+      "properties": {
+        "id": 332797650,
+        "type": "node",
+        "name": "Ver o Peso",
+        "category": "pubs",
+        "amenity": "pub",
+        "cuisine": "brazilian",
+        "indoor_seating": "yes",
+        "opening_hours": "Tu-Sa 18:00+",
+        "outdoor_seating": "yes",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5852064,
+          48.1621608
+        ]
+      },
+      "properties": {
+        "id": 336583082,
+        "type": "node",
+        "name": "Mocca",
+        "category": "pubs",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "2",
+        "addr:postcode": "80803",
+        "addr:street": "Herzogstraße",
+        "amenity": "pub",
+        "check_date": "2024-04-07",
+        "internet_access": "yes",
+        "opening_hours": "Su-Th 14:00-02:00; Fr-Sa 14:00-03:00",
+        "outdoor_seating": "yes",
+        "wheelchair": "no",
+        "wheelchair:description": "Treppe"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5401487,
+          48.1344458
+        ]
+      },
+      "properties": {
+        "id": 337484404,
+        "type": "node",
+        "name": "Giesinger Stehausschank",
+        "category": "pubs",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "23",
+        "addr:postcode": "80339",
+        "addr:street": "Ganghoferstraße",
+        "amenity": "pub",
+        "indoor_seating": "yes",
+        "opening_hours": "Mo-Sa 16:00-22:00",
+        "outdoor_seating": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5107656,
+          48.1297085
+        ]
+      },
+      "properties": {
+        "id": 344718970,
+        "type": "node",
+        "name": "Burgkmairstüberl",
+        "category": "pubs",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "60",
+        "addr:postcode": "80686",
+        "addr:street": "Burgkmairstraße",
+        "amenity": "pub",
+        "opening_hours": "Mo-Su 16:00-22:00",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5761839,
+          48.150869
+        ]
+      },
+      "properties": {
+        "id": 348146579,
+        "type": "node",
+        "name": "Alter Simpl",
+        "category": "pubs",
+        "addr:city": "München",
+        "addr:housenumber": "57",
+        "addr:postcode": "80799",
+        "addr:street": "Türkenstraße",
+        "amenity": "pub",
+        "contact:phone": "+49 89 2723083",
+        "contact:website": "https://www.alter-simpl.de/",
+        "indoor_seating": "yes",
+        "opening_hours": "Mo-We 11:00-00:00; Th-Sa 11:00-01:00; Su 11:00-22:00",
+        "outdoor_seating": "yes",
+        "toilets:wheelchair": "no",
+        "wheelchair": "yes",
+        "wikidata": "Q1602508",
+        "wikipedia": "de:Simpl (München)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.438017,
+          48.1172491
+        ]
+      },
+      "properties": {
+        "id": 364096679,
+        "type": "node",
+        "name": "Wilder Hirsch",
+        "category": "pubs",
+        "addr:city": "Gräfelfing",
+        "addr:country": "DE",
+        "addr:housenumber": "1b",
+        "addr:postcode": "82166",
+        "addr:street": "Pasinger Straße",
+        "amenity": "pub",
+        "brewery": "Augustiner Bräu München",
+        "check_date": "2025-08-17",
+        "contact:phone": "+49 89 8589 6598",
+        "contact:website": "https://www.wilderhirsch.de/",
+        "cuisine": "german",
+        "indoor_seating": "yes",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "opening_hours": "Tu-Th 11:00-14:00,18:00-01:00, Fr 11:00-01:00, Sa 15:00-01:00, Su 10:00-24:00",
+        "outdoor_seating": "yes",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5660534,
+          48.1779938
+        ]
+      },
+      "properties": {
+        "id": 364113254,
+        "type": "node",
+        "name": "Wirtshaus zum lustigen Bauern",
+        "category": "pubs",
+        "amenity": "pub",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5641984,
+          48.179298
+        ]
+      },
+      "properties": {
+        "id": 365949572,
+        "type": "node",
+        "name": "Schoppenhauer",
+        "category": "pubs",
+        "amenity": "pub",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5650688,
+          48.1774661
+        ]
+      },
+      "properties": {
+        "id": 365949573,
+        "type": "node",
+        "name": "Sport Cafe",
+        "category": "pubs",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "14",
+        "addr:postcode": "80809",
+        "addr:street": "Riesenfeldstraße",
+        "amenity": "pub"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5645201,
+          48.1786776
+        ]
+      },
+      "properties": {
+        "id": 365949581,
+        "type": "node",
+        "name": "Bistro Playhouse Treff",
+        "category": "pubs",
+        "amenity": "pub",
+        "opening_hours": "Mo-Sa 09:00-03:00, Su,PH 11:00-03:00",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.4833179,
+          48.1803992
+        ]
+      },
+      "properties": {
+        "id": 366569243,
+        "type": "node",
+        "name": "Herrnbräu-Stüberl",
+        "category": "pubs",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "150",
+        "addr:postcode": "80997",
+        "addr:street": "Allacher Straße",
+        "amenity": "pub",
+        "opening_hours": "Tu-Sa 16:00-01:00, Su 14:00-22:00, PH 16:00-01:00; Mo off",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6292765,
+          48.1121987
+        ]
+      },
+      "properties": {
+        "id": 369504330,
+        "type": "node",
+        "name": "Hofangerstüberl",
+        "category": "pubs",
+        "amenity": "pub",
+        "opening_hours": "Tu-Sa 16:00-22:00",
+        "outdoor_seating": "yes",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.4726497,
+          48.1825822
+        ]
+      },
+      "properties": {
+        "id": 369736079,
+        "type": "node",
+        "name": "Gambrinus Stüberl",
+        "category": "pubs",
+        "amenity": "pub",
+        "operator": "Monika"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5868247,
+          48.159871
+        ]
+      },
+      "properties": {
+        "id": 370745022,
+        "type": "node",
+        "name": "Fendstüberl",
+        "category": "pubs",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "4",
+        "addr:postcode": "80802",
+        "addr:street": "Fendstraße",
+        "amenity": "pub",
+        "wheelchair": "no",
+        "wheelchair:description": "Treppe"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5870522,
+          48.1608264
+        ]
+      },
+      "properties": {
+        "id": 370745152,
+        "type": "node",
+        "name": "Barschwein",
+        "category": "pubs",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "3",
+        "addr:postcode": "80802",
+        "addr:street": "Franzstraße",
+        "amenity": "pub",
+        "check_date:opening_hours": "2023-03-15",
+        "opening_hours": "Mo-Su 19:00-01:00",
+        "outdoor_seating": "no",
+        "smoking": "separated",
+        "website": "https://www.barschwein.de/",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5093217,
+          48.17923
+        ]
+      },
+      "properties": {
+        "id": 374133430,
+        "type": "node",
+        "name": "Abseits Cafe-Bar",
+        "category": "pubs",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "19",
+        "addr:postcode": "80992",
+        "addr:street": "Baubergerstraße",
+        "amenity": "pub"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5746454,
+          48.1387771
+        ]
+      },
+      "properties": {
+        "id": 377752587,
+        "type": "node",
+        "name": "Kilians",
+        "category": "pubs",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "11",
+        "addr:postcode": "80331",
+        "addr:street": "Frauenplatz",
+        "amenity": "pub",
+        "brewery": "Guinness",
+        "contact:phone": "+49 89 2421 9899",
+        "contact:website": "https://kiliansirishpub.de/",
+        "cuisine": "irish",
+        "description": "Irish Pub",
+        "indoor_seating": "yes",
+        "level": "-1",
+        "live_music": "yes",
+        "opening_hours": "Mo-Th 11:00-01:00, Fr,Sa 11:00-02:00, Su,PH 12:00-01:00",
+        "outdoor_seating": "yes",
+        "ref:vatin": "DE 353255102",
+        "smoking": "outside",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.574839,
+          48.107593
+        ]
+      },
+      "properties": {
+        "id": 387472999,
+        "type": "node",
+        "name": "Gmiatliches Eck",
+        "category": "pubs",
+        "addr:city": "München",
+        "addr:housenumber": "7",
+        "addr:postcode": "81547",
+        "addr:street": "Säbener Straße",
+        "amenity": "pub",
+        "check_date": "2022-10-13",
+        "check_date:opening_hours": "2022-08-11",
+        "opening_hours": "Mo-Sa 10:00-22:00",
+        "outdoor_seating": "yes",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.575426,
+          48.1064656
+        ]
+      },
+      "properties": {
+        "id": 387487629,
+        "type": "node",
+        "name": "Barley Bar & Grill",
+        "category": "pubs",
+        "addr:housenumber": "34",
+        "addr:street": "Otkerstraße",
+        "amenity": "pub",
+        "check_date": "2025-10-08",
+        "contact:phone": "+49 89 61574582",
+        "cuisine": "burger",
+        "internet_access": "no",
+        "level": "0",
+        "opening_hours": "Mo off; Tu-Fr 16:00-24:00; Sa 15:00-24:00; Su 15:00-23:00",
+        "outdoor_seating": "yes",
+        "payment:cards": "no",
+        "payment:cash": "yes",
+        "payment:credit_cards": "no",
+        "payment:debit_cards": "no",
+        "source": "survey",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5882386,
+          48.1615512
+        ]
+      },
+      "properties": {
+        "id": 388183268,
+        "type": "node",
+        "name": "Zum neuen Hut",
+        "category": "pubs",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "11",
+        "addr:postcode": "80802",
+        "addr:street": "Feilitzschstraße",
+        "amenity": "pub",
+        "brewery": "Herzoglich Bayerisches Brauhaus Tegernsee",
+        "brewery:Pils": "Warsteiner",
+        "brewery:Weizen": "Franziskaner",
+        "check_date": "2024-04-07",
+        "contact:email": "info@zumneuenhut.de",
+        "contact:mobile": "+49 179 5664975",
+        "contact:website": "https://zumneuenhut.de/",
+        "note": "heißt jetzt wirklich neuer Hut (eigenlich schon seit 2010), jetzt auch aussen, obwohl der Rechteinhaber vom \"Alten Hut\" inzwischen gestorben und der Name jetzt wieder frei wäre",
+        "opening_hours": "Tu-Th 18:00-01:00; Fr,Sa 20:00-03:00",
+        "operator": "Balwinder Singh"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5898587,
+          48.1611023
+        ]
+      },
+      "properties": {
+        "id": 388183926,
+        "type": "node",
+        "name": "Este Bar",
+        "category": "pubs",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "19",
+        "addr:postcode": "80802",
+        "addr:street": "Feilitzschstraße",
+        "amenity": "pub",
+        "brewery": "Ayinger",
+        "check_date": "2025-06-09"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5895241,
+          48.1611664
+        ]
+      },
+      "properties": {
+        "id": 388184154,
+        "type": "node",
+        "name": "Schwabinger 7",
+        "category": "pubs",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "15",
+        "addr:postcode": "80802",
+        "addr:street": "Feilitzschstraße",
+        "amenity": "pub",
+        "check_date": "2023-09-10",
+        "contact:email": "info@schwabinger7.de",
+        "contact:facebook": "https://www.facebook.com/Schwabinger7/",
+        "contact:phone": "+49 89 348 470",
+        "opening_hours": "Mo-Su 20:00-04:00",
+        "payment:cash": "yes",
+        "payment:credit_cards": "no",
+        "payment:debit_cards": "no",
+        "wheelchair": "no",
+        "wheelchair:description": "Stufe deutlich höher als 7 cm",
+        "wikidata": "Q1384868",
+        "wikipedia": "en:Schwabinger 7"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5890367,
+          48.1611448
+        ]
+      },
+      "properties": {
+        "id": 388184279,
+        "type": "node",
+        "name": "Rennbahn",
+        "category": "pubs",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "12",
+        "addr:postcode": "80802",
+        "addr:street": "Feilitzschstraße",
+        "amenity": "pub",
+        "check_date": "2025-06-09",
+        "contact:website": "https://www.bar-rennbahn-schwabing.de/",
+        "level": "0",
+        "microbrewery": "no",
+        "opening_hours": "Tu-We 19:00-01:00, Th 19:00-2:00, Fr-Sa 19:00-04:00",
+        "smoking": "no",
+        "wheelchair": "no",
+        "wheelchair:description": "Stufe deutlich höher als 7 cm"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5893484,
+          48.1618305
+        ]
+      },
+      "properties": {
+        "id": 403754448,
+        "type": "node",
+        "name": "Helene",
+        "category": "pubs",
+        "amenity": "pub",
+        "outdoor_seating": "yes",
+        "wheelchair": "no",
+        "wheelchair:description": "Stufe deutlich höher als 7 cm"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5897691,
+          48.1619384
+        ]
+      },
+      "properties": {
+        "id": 403756479,
+        "type": "node",
+        "name": "Vereinsheim",
+        "category": "pubs",
+        "amenity": "pub",
+        "contact:email": "info@vereinsheim.net",
+        "contact:phone": "+49 89 344974",
+        "contact:website": "https://www.vereinsheim.net/",
+        "indoor_seating": "yes",
+        "opening_hours": "Mo-Su 18:00+",
+        "operator": "Till Hofmann GmbH",
+        "outdoor_seating": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "wheelchair": "no",
+        "wheelchair:description": "2 Stufen"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5916592,
+          48.1602691
+        ]
+      },
+      "properties": {
+        "id": 403756662,
+        "type": "node",
+        "name": "Fräulein Müller Kiosk",
+        "category": "pubs",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "6",
+        "addr:postcode": "80802",
+        "addr:street": "Gunezrainerstraße",
+        "amenity": "pub",
+        "check_date": "2025-06-09",
+        "contact:facebook": "https://www.facebook.com/fraeuleinmuellerkiosk/",
+        "contact:phone": "+49 89 3883 2424",
+        "opening_hours": "Tu-Su 09:00-18:00",
+        "shop": "kiosk",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5894638,
+          48.1622585
+        ]
+      },
+      "properties": {
+        "id": 403757349,
+        "type": "node",
+        "name": "The Potting Shed",
+        "category": "pubs",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "11",
+        "addr:postcode": "80802",
+        "addr:street": "Occamstraße",
+        "amenity": "pub",
+        "contact:website": "https://www.the-potting-shed.de/",
+        "opening_hours": "Tu-Sa 18:00-00:00",
+        "wheelchair": "no",
+        "wheelchair:description": "Stufe deutlich höher als 7 cm.- Straßenbereich erreichbar"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5704389,
+          48.1301349
+        ]
+      },
+      "properties": {
+        "id": 409497606,
+        "type": "node",
+        "name": "Sax",
+        "category": "pubs",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "5",
+        "addr:postcode": "80469",
+        "addr:street": "Hans-Sachs-Straße",
+        "amenity": "pub",
+        "check_date": "2025-10-05",
+        "check_date:opening_hours": "2023-04-11",
+        "contact:fax": "+49 89 2606378",
+        "contact:phone": "+49 89 268835",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "lgbtq": "primary",
+        "opening_hours": "Su-Th 10:00-01:00, Fr-Sa 10:00-03:00",
+        "outdoor_area": "yes",
+        "outdoor_seating": "yes",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "smoking": "no",
+        "sport": "9pin",
+        "terrace": "yes",
+        "toilets:wheelchair": "no",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5678276,
+          48.1301414
+        ]
+      },
+      "properties": {
+        "id": 409497629,
+        "type": "node",
+        "name": "München '72",
+        "category": "pubs",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "14",
+        "addr:postcode": "80469",
+        "addr:street": "Holzstraße",
+        "amenity": "pub",
+        "check_date": "2025-10-05",
+        "description": "Die Räumlichkeiten gehören zum links benachbarten \"München '72\".",
+        "email": "buero@muenchen72.de",
+        "old_name": "Jenny was a friend of mine",
+        "opening_hours": "Mo-Th 17:00-01:00; Fr 17:00-02:00; Sa 09:00-02:00; Su 09:00-22:00",
+        "operator": "Thomas Zufall",
+        "outdoor_seating": "yes",
+        "payment:cash": "no",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "phone": "+49 89 97343785",
+        "smoking": "outside",
+        "toilets": "yes",
+        "website": "https://muenchen72.de/",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5601005,
+          48.1213832
+        ]
+      },
+      "properties": {
+        "id": 410141502,
+        "type": "node",
+        "name": "Valentin stüberl",
+        "category": "pubs",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "28",
+        "addr:postcode": "80469",
+        "addr:street": "Dreimühlenstraße",
+        "amenity": "pub",
+        "contact:email": "post@valentinstueberl.com",
+        "contact:phone": "+49 89 7675 7058",
+        "contact:website": "https://www.valentinstueberl.com/",
+        "indoor_seating": "yes",
+        "opening_hours": "Mo-Th 17:00-01:00; Fr,Sa 17:00-02:00; Su 17:00-23:00",
+        "outdoor_seating": "yes",
+        "payment:credit_cards": "no",
+        "payment:debit_cards": "no",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5757628,
+          48.1102882
+        ]
+      },
+      "properties": {
+        "id": 413494629,
+        "type": "node",
+        "name": "Cafe23",
+        "category": "pubs",
+        "addr:housenumber": "9",
+        "addr:street": "Grünwalder Straße",
+        "amenity": "pub",
+        "check_date": "2025-11-15",
+        "check_date:opening_hours": "2025-11-15",
+        "opening_hours": "Mo-Fr 11:00-18:00+, Sa,Su,PH 12:00-18:00+",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5611944,
+          48.1539415
+        ]
+      },
+      "properties": {
+        "id": 416821870,
+        "type": "node",
+        "name": "Stadion an der Schleißheimer Straße",
+        "category": "pubs",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "82",
+        "addr:postcode": "80797",
+        "addr:street": "Schleißheimer Straße",
+        "amenity": "pub",
+        "check_date": "2024-07-24",
+        "opening_hours": "Mo,We 19:00+; Tu \"Keine freien Plätze\"; Th 18:30+; Fr 18:00+; Sa 12:30+; Su 13:00+",
+        "website": "http://www.stadionanderschleissheimerstrasse.de",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5757743,
+          48.1565094
+        ]
+      },
+      "properties": {
+        "id": 432654033,
+        "type": "node",
+        "name": "Rheinpfalz",
+        "category": "pubs",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "35",
+        "addr:postcode": "80801",
+        "addr:street": "Kurfürstenstraße",
+        "amenity": "pub",
+        "contact:email": "rheinpfalz71@web.de",
+        "contact:phone": "+49 89 271 06 98",
+        "contact:website": "https://rheinpfalz-schwabing.de/",
+        "opening_hours": "Mo-Sa 18:00+; Su,Ph off",
+        "opening_hours:kitchen": "18:00-23:30",
+        "wheelchair": "no",
+        "wheelchair:description": "Stufe"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5703844,
+          48.1556705
+        ]
+      },
+      "properties": {
+        "id": 433909594,
+        "type": "node",
+        "name": "Salon Irkutsk",
+        "category": "pubs",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "4",
+        "addr:postcode": "80798",
+        "addr:street": "Isabellastraße",
+        "amenity": "pub",
+        "contact:website": "https://www.salonirkutsk.com/",
+        "cuisine": "russian",
+        "note": "2020 erweiterte Freischankfläche",
+        "opening_hours": "Mo-Su 17:00-01:00; Sa 17:00-03:00",
+        "operator": "Daniel Richter",
+        "outdoor_seating": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5623355,
+          48.1615731
+        ]
+      },
+      "properties": {
+        "id": 433909640,
+        "type": "node",
+        "name": "Winz Bar",
+        "category": "pubs",
+        "amenity": "pub",
+        "check_date": "2025-08-04",
+        "indoor_seating": "yes",
+        "opening_hours": "Mo-Sa 15:00-01:00; Su,PH off",
+        "outdoor_seating": "yes",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5623292,
+          48.1614563
+        ]
+      },
+      "properties": {
+        "id": 433909642,
+        "type": "node",
+        "name": "Soleto",
+        "category": "pubs",
+        "amenity": "pub",
+        "brewery": "Hofbräu",
+        "check_date": "2025-10-17",
+        "opening_hours": "Mo-Fr 16:00-01:00, Sa,Su 13:00-02:00",
+        "outdoor_seating": "yes",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5615746,
+          48.1572131
+        ]
+      },
+      "properties": {
+        "id": 433909665,
+        "type": "node",
+        "name": "Schorsch Bar",
+        "category": "pubs",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "119",
+        "addr:postcode": "80797",
+        "addr:street": "Georgenstraße",
+        "amenity": "pub",
+        "contact:website": "https://www.schorschbar.de/",
+        "opening_hours": "We,Th 20:00+; Fr,Sa 21:00+",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5759951,
+          48.1551479
+        ]
+      },
+      "properties": {
+        "id": 442683436,
+        "type": "node",
+        "name": "Le Florida",
+        "category": "pubs",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "48",
+        "addr:postcode": "80799",
+        "addr:street": "Georgenstraße",
+        "amenity": "pub",
+        "contact:phone": "+49 89 444 29 555",
+        "contact:website": "https://www.leflorida.de/",
+        "indoor_seating": "yes",
+        "opening_hours": "Mo-Su 18:00-01:00",
+        "outdoor_seating": "yes",
+        "smoking": "no",
+        "wheelchair": "no",
+        "wheelchair:description": "Stufe.- Straßenbereich erreichbar"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5772852,
+          48.1504201
+        ]
+      },
+      "properties": {
+        "id": 442683448,
+        "type": "node",
+        "name": "Horses, Cars & Stars",
+        "category": "pubs",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "24c",
+        "addr:postcode": "80799",
+        "addr:street": "Schellingstraße",
+        "amenity": "pub",
+        "brewery": "yes",
+        "outdoor_seating": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5729024,
+          48.1807842
+        ]
+      },
+      "properties": {
+        "id": 445638988,
+        "type": "node",
+        "name": "Tony's EssBar",
+        "category": "pubs",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "42",
+        "addr:postcode": "80807",
+        "addr:street": "Georgenschwaigstraße",
+        "amenity": "pub",
+        "check_date": "2024-06-23",
+        "indoor_seating": "yes",
+        "opening_hours": "Su-Th 11:00-23:00; Fr-Sa 11:00-00:00",
+        "outdoor_seating": "yes",
+        "phone": "+49 89 85677896",
+        "website": "https://www.tonys-essbar.de",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5727738,
+          48.1831741
+        ]
+      },
+      "properties": {
+        "id": 445639013,
+        "type": "node",
+        "name": "Bogarts",
+        "category": "pubs",
+        "amenity": "pub",
+        "check_date": "2024-06-23",
+        "check_date:opening_hours": "2022-11-22",
+        "indoor_seating": "yes",
+        "opening_hours": "PH,Mo-Su 11:00-18:00+",
+        "outdoor_seating": "no",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5756549,
+          48.1381636
+        ]
+      },
+      "properties": {
+        "id": 447786247,
+        "type": "node",
+        "name": "Ratskeller Weinstube",
+        "category": "pubs",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "amenity": "pub",
+        "indoor_seating": "yes",
+        "opening_hours": "Mo-Sa 10:00-01:00; Su 10:00-00:00",
+        "outdoor_seating": "yes",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5778239,
+          48.1360172
+        ]
+      },
+      "properties": {
+        "id": 447786266,
+        "type": "node",
+        "name": "Le Clou",
+        "category": "pubs",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "1",
+        "addr:postcode": "80331",
+        "addr:street": "Heiliggeiststraße",
+        "amenity": "pub",
+        "check_date:opening_hours": "2023-03-17",
+        "indoor_seating": "yes",
+        "opening_hours": "Mo-Su 10:00-13:00",
+        "outdoor_seating": "yes",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5776633,
+          48.1358496
+        ]
+      },
+      "properties": {
+        "id": 447786271,
+        "type": "node",
+        "name": "Heiliggeist 1 Bar",
+        "category": "pubs",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "1",
+        "addr:postcode": "80331",
+        "addr:street": "Heiliggeiststraße",
+        "amenity": "pub",
+        "check_date:opening_hours": "2023-06-25",
+        "indoor_seating": "yes",
+        "opening_hours": "Mo-Su 11:00-22:00",
+        "operator": "Korbinian Schweiger",
+        "outdoor_seating": "yes",
+        "website": "https://heiliggeist1.de/",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5738172,
+          48.1302069
+        ]
+      },
+      "properties": {
+        "id": 450064799,
+        "type": "node",
+        "name": "Stehausschank Gärtnerplatz",
+        "category": "pubs",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "47",
+        "addr:street": "Klenzestraße",
+        "amenity": "pub",
+        "brewery": "Giesinger",
+        "indoor_seating": "yes",
+        "opening_hours": "Mo-Th 16:00-01:00, Fr,Sa 14:00-02:00, Su 14:00-23:00",
+        "operator": "Giesinger Bräu",
+        "outdoor_seating": "yes",
+        "smoking": "outside",
+        "start_date": "2025-07",
+        "toilets": "yes",
+        "website": "https://www.giesinger-braeu.de/",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5708348,
+          48.1846312
+        ]
+      },
+      "properties": {
+        "id": 485905491,
+        "type": "node",
+        "name": "Irmgard Stüberl",
+        "category": "pubs",
+        "addr:city": "München",
+        "addr:housenumber": "29",
+        "addr:street": "Milbertshofener Straße",
+        "amenity": "pub"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5393235,
+          48.1559648
+        ]
+      },
+      "properties": {
+        "id": 492756684,
+        "type": "node",
+        "name": "Zur Glocke",
+        "category": "pubs",
+        "amenity": "pub",
+        "indoor_seating": "yes",
+        "opening_hours": "PH,Mo-Su 14:00-22:00",
+        "outdoor_seating": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5385416,
+          48.1088586
+        ]
+      },
+      "properties": {
+        "id": 508830396,
+        "type": "node",
+        "name": "Isarflimmern",
+        "category": "pubs",
+        "addr:city": "München",
+        "addr:housenumber": "24",
+        "addr:postcode": "81369",
+        "addr:street": "Fallstraße",
+        "amenity": "pub",
+        "level": "0",
+        "opening_hours": "PH,Tu-Su 14:00-01:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5714785,
+          48.1191977
+        ]
+      },
+      "properties": {
+        "id": 523279142,
+        "type": "node",
+        "name": "Brandner Kaspar",
+        "category": "pubs",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "39",
+        "addr:postcode": "81543",
+        "addr:street": "Sommerstraße",
+        "amenity": "pub",
+        "check_date:opening_hours": "2025-08-28",
+        "opening_hours": "Fr,Sa 20:00-24:00+",
+        "opening_hours:signed": "no",
+        "phone": "+49 89 65 29 22",
+        "source": "survey",
+        "website": "http://www.brandnerkaspar.de/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5773798,
+          48.1326484
+        ]
+      },
+      "properties": {
+        "id": 597752677,
+        "type": "node",
+        "name": "Niederlassung",
+        "category": "pubs",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "6",
+        "addr:postcode": "80469",
+        "addr:street": "Buttermelcherstraße",
+        "amenity": "pub",
+        "brewery": "Astra;Tannenzäpfle;Tegernseer",
+        "check_date": "2024-01-22",
+        "currency:EUR": "yes",
+        "currency:XBT": "yes",
+        "description": "You can pay at this merchant with Bitcoin via a Lightning POS",
+        "drink:club-mate": "served",
+        "email": "info@niederlassung.org",
+        "indoor_seating": "yes",
+        "opening_hours": "Te-Th 19:00-01:00, Fr-Sa 19:00-03:00",
+        "outdoor_seating": "yes",
+        "payment:cards": "yes",
+        "payment:cash": "yes",
+        "payment:lightning": "yes",
+        "payment:lightning_contactless": "yes",
+        "payment:onchain": "no",
+        "phone": "+49 89 32600307",
+        "smoking": "no",
+        "smoking:outside": "yes",
+        "website": "https://niederlassung.org/",
+        "wheelchair": "no",
+        "yelp": "http://www.yelp.com/biz/niederlassung-m%C3%BCnchen"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5371982,
+          48.108427
+        ]
+      },
+      "properties": {
+        "id": 624233275,
+        "type": "node",
+        "name": "Gaststätte Mittersendling",
+        "category": "pubs",
+        "amenity": "pub",
+        "indoor_seating": "yes",
+        "level": "0",
+        "opening_hours": "Mo-Sa 07:00-24:00, Su 09:00-24:00",
+        "outdoor_seating": "yes",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5505178,
+          48.1248115
+        ]
+      },
+      "properties": {
+        "id": 633177917,
+        "type": "node",
+        "name": "bei Vaia",
+        "category": "pubs",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "30",
+        "addr:postcode": "80337",
+        "addr:street": "Ruppertstraße",
+        "amenity": "pub",
+        "indoor_seating": "yes",
+        "opening_hours": "Mo-Fr 10:00-22:00+; Sa 11:00-22:00+; Su,PH 12:00-22:00+",
+        "outdoor_seating": "yes",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.585895,
+          48.155381
+        ]
+      },
+      "properties": {
+        "id": 639133117,
+        "type": "node",
+        "name": "The Old Irish",
+        "category": "pubs",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "11",
+        "addr:postcode": "80802",
+        "addr:street": "Giselastraße",
+        "amenity": "pub",
+        "contact:email": "oldirish@irish-folk-pub.de",
+        "contact:phone": "+49 89 342446",
+        "contact:website": "https://www.irish-folk-pub.de/index.php/de/",
+        "opening_hours": "We-Su 18:00+",
+        "theme": "irish",
+        "wheelchair": "no",
+        "wheelchair:description": "Stufe.- Hinweis: Tische im Straßenbereich zugänglich"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5764904,
+          48.1354354
+        ]
+      },
+      "properties": {
+        "id": 648549093,
+        "type": "node",
+        "name": "Münchner Bier",
+        "category": "pubs",
+        "amenity": "pub",
+        "brewery": "various, every 5-6 weeks changing",
+        "description": "There is only beer here ! Reine Bierschankbetrieb, keine Speisen, kein Restaurant. every 5-6 weeks beer is changing !; Augustiner, Hacker-Pschorr, Hofbräuhaus, Löwenbräu, Paulaner, Spaten",
+        "indoor_seating": "yes",
+        "outdoor_seating": "yes",
+        "toilets": "yes",
+        "toilets:wheelchair": "no",
+        "website": "https://www.viktualienmarkt-muenchen.de/biergarten/",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6881066,
+          48.1177088
+        ]
+      },
+      "properties": {
+        "id": 650021965,
+        "type": "node",
+        "name": "Kathi's Quelle",
+        "category": "pubs",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "108",
+        "addr:postcode": "81827",
+        "addr:street": "Wasserburger Landstraße",
+        "amenity": "pub",
+        "check_date": "2023-06-27",
+        "indoor_seating": "yes",
+        "opening_hours": "Mo-Sa 10:00-01:00; Su 11:00-20:00",
+        "outdoor_seating": "yes",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5092069,
+          48.1543797
+        ]
+      },
+      "properties": {
+        "id": 652857103,
+        "type": "node",
+        "name": "Kleine Rose",
+        "category": "pubs",
+        "addr:country": "DE",
+        "addr:housenumber": "3",
+        "addr:street": "Gaßnerstraße",
+        "amenity": "pub",
+        "contact:facebook": "https://www.facebook.com/people/Kleine-Rose/100054400185842/",
+        "opening_hours": "18:00-24:00",
+        "outdoor_seating": "yes",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.4657465,
+          48.2287697
+        ]
+      },
+      "properties": {
+        "id": 653959676,
+        "type": "node",
+        "name": "O Vlachos",
+        "category": "pubs",
+        "addr:city": "Karlsfeld",
+        "addr:country": "DE",
+        "addr:housenumber": "3",
+        "addr:postcode": "85757",
+        "addr:street": "Rathausstraße",
+        "amenity": "pub",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5752379,
+          48.1481328
+        ]
+      },
+      "properties": {
+        "id": 663545951,
+        "type": "node",
+        "name": "Cabane",
+        "category": "pubs",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "40",
+        "addr:postcode": "80333",
+        "addr:street": "Theresienstraße",
+        "amenity": "pub",
+        "brewery": "Augustiner Bräu München",
+        "contact:phone": "+49 89 283 134",
+        "contact:website": "http://www.cabanebar.de/",
+        "opening_hours": "Mo-Su 19:00-03:00",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.4667018,
+          48.2308764
+        ]
+      },
+      "properties": {
+        "id": 670704958,
+        "type": "node",
+        "name": "Bei Niko",
+        "category": "pubs",
+        "amenity": "pub",
+        "cuisine": "greek",
+        "opening_hours": "Mo-We, Fr, Sa 12:00-22:00; Su 11:00-20:00",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5727243,
+          48.1204119
+        ]
+      },
+      "properties": {
+        "id": 673851010,
+        "type": "node",
+        "name": "Giasinga Schlümpfe",
+        "category": "pubs",
+        "addr:housenumber": "12",
+        "addr:street": "Humboldtstraße",
+        "amenity": "pub",
+        "check_date": "2023-05-22",
+        "opening_hours": "Mo-Sa 13:00-22:00",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5295972,
+          48.215469
+        ]
+      },
+      "properties": {
+        "id": 678060290,
+        "type": "node",
+        "name": "Route 51",
+        "category": "pubs",
+        "amenity": "pub"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5338207,
+          48.1108895
+        ]
+      },
+      "properties": {
+        "id": 692760021,
+        "type": "node",
+        "name": "Orange",
+        "category": "pubs",
+        "amenity": "pub",
+        "check_date:opening_hours": "2023-04-16",
+        "opening_hours": "Mo-Su 12:00-05:00",
+        "smoking": "no",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5746472,
+          48.1387972
+        ]
+      },
+      "properties": {
+        "id": 699797368,
+        "type": "node",
+        "name": "Ned Kelly's",
+        "category": "pubs",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "11",
+        "addr:postcode": "80331",
+        "addr:street": "Frauenplatz",
+        "amenity": "pub",
+        "brewery": "Guinness",
+        "check_date:opening_hours": "2024-08-25",
+        "contact:phone": "+49 89 2421 9899",
+        "contact:website": "https://nedkellysbar.de/",
+        "description": "Australian Bar",
+        "level": "-1",
+        "opening_hours": "Su,PH 12:00-01:00, Mo-Fr 11:00-01:00, Sa 11:00-02:00",
+        "ref:vatin": "DE 353255102",
+        "smoking": "no",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5668731,
+          48.1339833
+        ]
+      },
+      "properties": {
+        "id": 700042712,
+        "type": "node",
+        "name": "Giesinger Stehausschank",
+        "category": "pubs",
+        "addr:city": "München",
+        "addr:housenumber": "10",
+        "addr:postcode": "80336",
+        "addr:street": "Sendlinger-Tor-Platz",
+        "amenity": "pub",
+        "cuisine": "burger",
+        "opening_hours": "Mo-Th 17:00-23:00+; Fr-Su,PH 15:00-23:00+",
+        "outdoor_seating": "pedestrian_zone",
+        "payment:cash": "no",
+        "phone": "+498959946908",
+        "unsigned": "opening_hours",
+        "website": "https://www.lieferando.de/speisekarte/burger-house-sendlinger-tor",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5784013,
+          48.1345532
+        ]
+      },
+      "properties": {
+        "id": 703979503,
+        "type": "node",
+        "name": "Tini's",
+        "category": "pubs",
+        "amenity": "pub",
+        "check_date:opening_hours": "2023-03-21",
+        "opening_hours": "Tu-Sa 19:00-03:00",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5386139,
+          48.1284271
+        ]
+      },
+      "properties": {
+        "id": 705581658,
+        "type": "node",
+        "name": "Cafe Bar Dalas",
+        "category": "pubs",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "74",
+        "addr:postcode": "81373",
+        "addr:street": "Ganghoferstraße",
+        "amenity": "pub",
+        "check_date": "2024-04-07",
+        "check_date:opening_hours": "2024-03-14",
+        "level": "0",
+        "opening_hours": "Mo-Su 10:00-02:00",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5345836,
+          48.1705481
+        ]
+      },
+      "properties": {
+        "id": 719808969,
+        "type": "node",
+        "name": "Pils- & Cocktailbar HappyCorner",
+        "category": "pubs",
+        "addr:city": "München",
+        "addr:housenumber": "10",
+        "addr:postcode": "80637",
+        "addr:street": "Franz-Marc-Straße",
+        "amenity": "pub",
+        "contact:mobile": "+49 1785515000",
+        "contact:phone": "+49 89 155500",
+        "indoor_seating": "yes",
+        "opening_hours": "Mo-Fr 16:30+; Sa 18:30+",
+        "outdoor_seating": "yes",
+        "toilets": "yes",
+        "toilets:wheelchair": "no",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5608681,
+          48.1237094
+        ]
+      },
+      "properties": {
+        "id": 729311202,
+        "type": "node",
+        "name": "Südstadt",
+        "category": "pubs",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "29",
+        "addr:postcode": "80337",
+        "addr:street": "Thalkirchner Straße",
+        "amenity": "pub",
+        "contact:email": "suedstadt-muc@gmx.de",
+        "contact:instagram": "https://www.instagram.com/suedstadt_muenchen/",
+        "contact:phone": "+49 89 7250152",
+        "diet:vegan": "yes",
+        "music_genre": "independent",
+        "opening_hours": "Mo-Sa 18:00-22:00",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.579681,
+          48.1363662
+        ]
+      },
+      "properties": {
+        "id": 733568802,
+        "type": "node",
+        "name": "Late Nights",
+        "category": "pubs",
+        "amenity": "pub",
+        "check_date": "2025-10-28",
+        "opening_hours": "Mo-Su 20:00-05:00",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.4150341,
+          48.1583895
+        ]
+      },
+      "properties": {
+        "id": 768669326,
+        "type": "node",
+        "name": "Sir John",
+        "category": "pubs",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "13",
+        "addr:postcode": "81245",
+        "addr:street": "Altostraße",
+        "amenity": "pub",
+        "indoor_seating": "yes",
+        "opening_hours": "Mo 16:00+; Tu-Sa 11:00+",
+        "operator": "Torsten John",
+        "outdoor_seating": "yes",
+        "phone": "+49 89 8974 4975",
+        "start_date": "2017-09",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5284791,
+          48.0977643
+        ]
+      },
+      "properties": {
+        "id": 773013666,
+        "type": "node",
+        "name": "Harry's",
+        "category": "pubs",
+        "addr:housenumber": "43",
+        "addr:street": "Hofmannstraße",
+        "amenity": "pub",
+        "indoor_seating": "yes",
+        "opening_hours": "Mo-Th 16:00-02:00, Fr 16:00-04:00, Sa 15:00-04:00, Su 12:00-02:00",
+        "outdoor_seating": "yes",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5169749,
+          48.1184444
+        ]
+      },
+      "properties": {
+        "id": 822815495,
+        "type": "node",
+        "name": "Romina´s",
+        "category": "pubs",
+        "addr:city": "München",
+        "addr:housenumber": "236",
+        "addr:postcode": "81377",
+        "addr:street": "Garmischer Straße",
+        "amenity": "pub",
+        "check_date": "2025-11-10",
+        "check_date:opening_hours": "2023-10-31",
+        "contact:phone": "+49 89 718234",
+        "currency:XBT": "yes",
+        "email": "rominas@web.de",
+        "indoor_seating": "yes",
+        "opening_hours": "Mo-Fr 16:00-01:00, PH,Sa 18:00-01:00",
+        "outdoor_seating": "yes",
+        "payment:lightning": "yes",
+        "payment:lightning_contactless": "no",
+        "payment:onchain": "no",
+        "website": "https://www.rominas.de/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5039485,
+          48.1425136
+        ]
+      },
+      "properties": {
+        "id": 822997869,
+        "type": "node",
+        "name": "Bistro No.2",
+        "category": "pubs",
+        "addr:city": "München",
+        "addr:housenumber": "5",
+        "addr:postcode": "80687",
+        "addr:street": "Fürstenrieder Straße",
+        "amenity": "pub",
+        "email": "reservierung@bistro-no2.de",
+        "indoor_seating": "yes",
+        "opening_hours": "Su-Th 18:00-01:00, Fr,Sa,PH 18:00-05:00",
+        "operator": "Bistro No. 2 GmbH, Andreas Pietsch und Sonja Sixt",
+        "outdoor_seating": "yes",
+        "phone": "+49 89 5806677",
+        "start_date": "1981",
+        "website": "https://www.bistro-no2.de/",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.3764892,
+          48.1323064
+        ]
+      },
+      "properties": {
+        "id": 843236822,
+        "type": "node",
+        "name": "Clash Billard + Darts",
+        "category": "pubs",
+        "amenity": "pub",
+        "contact:fax": "+49 89 8403838-5",
+        "contact:phone": "+49 89 8403838-4",
+        "contact:website": "http://www.clash-billard.com/",
+        "note": "name ist 'billard' indeed, see homepage...",
+        "opening_hours": "Mo-Fr 00:00-02:00,17:00-24:00; Sa,Su 00:00-03:00,17:00-24:00",
+        "sport": "billiards;darts",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5611265,
+          48.1295075
+        ]
+      },
+      "properties": {
+        "id": 845394050,
+        "type": "node",
+        "name": "Flex",
+        "category": "pubs",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "11a",
+        "addr:postcode": "80337",
+        "addr:street": "Ringseisstraße",
+        "amenity": "pub",
+        "brewery": "Augustiner Bräu München;Tegernseer;Holzar;Beck's;Astra",
+        "check_date:opening_hours": "2023-03-19",
+        "email": "info@flex-muenchen.de",
+        "fax": "+49 89 99016788",
+        "level": "-1",
+        "opening_hours": "Su-Tu 20:00-01:00, Fr-Sa 20:00-03:00",
+        "payment:cash": "yes",
+        "phone": "+49 89 99016788",
+        "sport": "table_soccer;billiards;darts;pinball",
+        "toilets": "yes",
+        "website": "https://www.flex-muenchen.de/",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5790046,
+          48.1836427
+        ]
+      },
+      "properties": {
+        "id": 893397453,
+        "type": "node",
+        "name": "Riva Bar (Augustiner Bräu Stub'n)",
+        "category": "pubs",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "94",
+        "addr:postcode": "80807",
+        "addr:street": "Milbertshofener Straße",
+        "amenity": "pub",
+        "check_date": "2023-06-04",
+        "opening_hours": "Tu-Sa 11:30-14:30,16:30-21:30"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5791651,
+          48.1834915
+        ]
+      },
+      "properties": {
+        "id": 893397454,
+        "type": "node",
+        "name": "Allstar",
+        "category": "pubs",
+        "amenity": "pub",
+        "internet": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5977303,
+          48.1275912
+        ]
+      },
+      "properties": {
+        "id": 903668883,
+        "type": "node",
+        "name": "Vivo!",
+        "category": "pubs",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "11",
+        "addr:postcode": "81667",
+        "addr:street": "Lothringer Straße",
+        "amenity": "pub",
+        "brewery": "Augustiner Bräu München",
+        "contact:phone": "+49 89 4485035",
+        "contact:website": "https://www.vivo-muenchen.de",
+        "indoor_seating": "yes",
+        "note": "An Samstagen mit Bundesliga bereits ab 15 Uhr geöffnet",
+        "opening_hours": "Su-We 18:00-01:00; Th-Sa 18:00-02:00",
+        "outdoor_seating": "no",
+        "payment:credit_cards": "no",
+        "payment:debit_cards": "no",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5005158,
+          48.1332548
+        ]
+      },
+      "properties": {
+        "id": 939517977,
+        "type": "node",
+        "name": "Bierbauch",
+        "category": "pubs",
+        "amenity": "pub",
+        "opening_hours": "Mo-Sa 11:00-22:00+",
+        "phone": "+49 89 3504050",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.4661045,
+          48.2285458
+        ]
+      },
+      "properties": {
+        "id": 1001016422,
+        "type": "node",
+        "name": "City Pub",
+        "category": "pubs",
+        "addr:city": "Karlsfeld",
+        "addr:country": "DE",
+        "addr:housenumber": "9",
+        "addr:postcode": "85757",
+        "addr:street": "Rathausstraße",
+        "amenity": "pub"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.4658658,
+          48.2286951
+        ]
+      },
+      "properties": {
+        "id": 1001016423,
+        "type": "node",
+        "name": "Sowieso",
+        "category": "pubs",
+        "addr:city": "Karlsfeld",
+        "addr:country": "DE",
+        "addr:housenumber": "5",
+        "addr:postcode": "85757",
+        "addr:street": "Rathausstraße",
+        "amenity": "pub"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6624138,
+          48.0628768
+        ]
+      },
+      "properties": {
+        "id": 1008177078,
+        "type": "node",
+        "name": "Niko's Cafe & Bar",
+        "category": "pubs",
+        "addr:city": "Ottobrunn",
+        "addr:country": "DE",
+        "addr:housenumber": "60",
+        "addr:postcode": "85521",
+        "addr:street": "Rosenheimer Landstraße",
+        "amenity": "pub",
+        "opening_hours": "Su-Th 17:00-01:00, Fr,Sa 17:00-03:00",
+        "source": "survey",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5334798,
+          48.1142527
+        ]
+      },
+      "properties": {
+        "id": 1054372529,
+        "type": "node",
+        "name": "Passauer Stüberl",
+        "category": "pubs",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "24",
+        "addr:postcode": "81369",
+        "addr:street": "Passauerstraße",
+        "amenity": "pub",
+        "indoor_seating": "yes",
+        "opening_hours": "Mo-We 13:00-23:00, Fr 13:00-01:00, Sa,Su 11:00-23:00; Th off",
+        "outdoor_seating": "yes",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5317092,
+          48.1399697
+        ]
+      },
+      "properties": {
+        "id": 1077024233,
+        "type": "node",
+        "name": "Café Inbar",
+        "category": "pubs",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "123",
+        "addr:postcode": "80339",
+        "addr:street": "Landsberger Straße",
+        "amenity": "pub",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5311012,
+          48.1397794
+        ]
+      },
+      "properties": {
+        "id": 1077024237,
+        "type": "node",
+        "name": "Cafe BALU",
+        "category": "pubs",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "2",
+        "addr:postcode": "80339",
+        "addr:street": "Astallerstraße",
+        "amenity": "pub",
+        "check_date": "2025-10-28",
+        "opening_hours:signed": "no",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6193097,
+          48.1375354
+        ]
+      },
+      "properties": {
+        "id": 1080040387,
+        "type": "node",
+        "name": "Insider",
+        "category": "pubs",
+        "amenity": "pub",
+        "check_date": "2025-02-09"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5565113,
+          48.1277561
+        ]
+      },
+      "properties": {
+        "id": 1091830676,
+        "type": "node",
+        "name": "Aroma",
+        "category": "pubs",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "4",
+        "addr:postcode": "80337",
+        "addr:street": "Kapuzinerstraße",
+        "amenity": "pub",
+        "indoor_seating": "yes",
+        "outdoor_seating": "yes",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5641158,
+          48.1824941
+        ]
+      },
+      "properties": {
+        "id": 1092617225,
+        "type": "node",
+        "name": "Graf Konrad Stüberl",
+        "category": "pubs",
+        "addr:city": "München",
+        "addr:housenumber": "20",
+        "addr:street": "Graf-Konrad-Straße",
+        "amenity": "pub"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6018037,
+          48.1270662
+        ]
+      },
+      "properties": {
+        "id": 1126123144,
+        "type": "node",
+        "name": "Bar Lounge 360",
+        "category": "pubs",
+        "amenity": "pub",
+        "check_date": "2025-11-05",
+        "check_date:opening_hours": "2025-11-05",
+        "indoor_seating": "yes",
+        "old_name": "Red-Sky",
+        "opening_hours": "Su-Th 14:00-03:00, Fr,Sa 14:00-05:00",
+        "outdoor_seating": "no",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6010328,
+          48.1275907
+        ]
+      },
+      "properties": {
+        "id": 1126123160,
+        "type": "node",
+        "name": "P. Bar - Das Provisorium",
+        "category": "pubs",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "7",
+        "addr:postcode": "81667",
+        "addr:street": "Gravelottestraße",
+        "amenity": "pub",
+        "check_date:opening_hours": "2023-03-02",
+        "opening_hours": "Mo-Fr 12:00-14:00, Mo-Th 18:00-01:00, Fr 18:00-02:00, Fr-Sa 18:00-03:00",
+        "outdoor_seating": "no",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.4789624,
+          48.1858972
+        ]
+      },
+      "properties": {
+        "id": 1139267395,
+        "type": "node",
+        "name": "Zur Angerlohe",
+        "category": "pubs",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "2",
+        "addr:postcode": "80997",
+        "addr:street": "Wiebekingstraße",
+        "amenity": "pub",
+        "opening_hours": "We 14:00-22:00; Fr,Sa 10:00-24:00; Th,Su-Tu 10:00-22:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5423794,
+          48.1373142
+        ]
+      },
+      "properties": {
+        "id": 1144035806,
+        "type": "node",
+        "name": "Bei Kula",
+        "category": "pubs",
+        "amenity": "pub",
+        "check_date:opening_hours": "2023-04-22",
+        "opening_hours": "Mo-Sa 14:00-22:00, Su,PH 15:00-22:00",
+        "operator": "Kneipe"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5423694,
+          48.1373708
+        ]
+      },
+      "properties": {
+        "id": 1144035833,
+        "type": "node",
+        "name": "Die kleine Kneipe",
+        "category": "pubs",
+        "amenity": "pub",
+        "operator": "Kneipe",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.4950612,
+          48.141083
+        ]
+      },
+      "properties": {
+        "id": 1144618770,
+        "type": "node",
+        "name": "Torbogenstüberl",
+        "category": "pubs",
+        "amenity": "pub",
+        "outdoor_seating": "yes",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5738219,
+          48.1402042
+        ]
+      },
+      "properties": {
+        "id": 1144741796,
+        "type": "node",
+        "name": "Palais-Keller",
+        "category": "pubs",
+        "amenity": "pub",
+        "check_date:opening_hours": "2022-03-24",
+        "opening_hours": "Su-Sa 11:00-01:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5861613,
+          48.1576336
+        ]
+      },
+      "properties": {
+        "id": 1160565499,
+        "type": "node",
+        "name": "Shamrock",
+        "category": "pubs",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "6",
+        "addr:postcode": "80802",
+        "addr:street": "Trautenwolfstraße",
+        "amenity": "pub",
+        "brewery": "various",
+        "check_date:opening_hours": "2024-01-02",
+        "opening_hours": "Mo 19:30-01:00, Tu 19:00-02:00, We 19:00-01:00, Th 19:00-01:00, Fr 18:00-03:00, Sa 18:00-03:00",
+        "outdoor_seating": "yes",
+        "wheelchair": "no",
+        "wheelchair:description": "Treppe"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5317051,
+          48.1379474
+        ]
+      },
+      "properties": {
+        "id": 1189028534,
+        "type": "node",
+        "name": "Bruno's",
+        "category": "pubs",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "138",
+        "addr:postcode": "80339",
+        "addr:street": "Westendstraße",
+        "amenity": "pub",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5752,
+          48.1287506
+        ]
+      },
+      "properties": {
+        "id": 1193046539,
+        "type": "node",
+        "name": "Flaschenöffner",
+        "category": "pubs",
+        "amenity": "pub",
+        "check_date": "2023-11-19",
+        "level": "0",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5952272,
+          48.126713
+        ]
+      },
+      "properties": {
+        "id": 1242139183,
+        "type": "node",
+        "name": "Balan",
+        "category": "pubs",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "21",
+        "addr:postcode": "81669",
+        "addr:street": "Balanstraße",
+        "amenity": "pub",
+        "brewery": "Maierbräu Altomünster",
+        "check_date:opening_hours": "2024-01-29",
+        "contact:phone": "+49 89 55288342",
+        "contact:website": "https://das-balan.de/",
+        "indoor_seating": "yes",
+        "opening_hours": "Tu-Th 18:00-24:00; Fr-Sa 19:00-01:00",
+        "operator": "Jak Ermann",
+        "outdoor_seating": "no",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6011597,
+          48.1272553
+        ]
+      },
+      "properties": {
+        "id": 1303825973,
+        "type": "node",
+        "name": "Taverna Omonoia",
+        "category": "pubs",
+        "amenity": "pub",
+        "brewery": "Spaten",
+        "check_date:opening_hours": "2023-03-02",
+        "cuisine": "greek",
+        "opening_hours": "Mo-Su 10:00-02:00",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6033076,
+          48.1297772
+        ]
+      },
+      "properties": {
+        "id": 1304149223,
+        "type": "node",
+        "name": "Belfort 7",
+        "category": "pubs",
+        "amenity": "pub",
+        "check_date": "2025-02-08",
+        "contact:facebook": "https://www.facebook.com/profile.php?id=100057661789701",
+        "description": "Musik-Cafe-Bar",
+        "email": "info@belfort7.com",
+        "phone": "+49 89 326 542 73",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6019467,
+          48.1335941
+        ]
+      },
+      "properties": {
+        "id": 1334088643,
+        "type": "node",
+        "name": "WunderBar",
+        "category": "pubs",
+        "addr:city": "München",
+        "addr:housenumber": "28",
+        "addr:street": "Kirchenstraße",
+        "amenity": "pub",
+        "brewery": "Augustiner Bräu München",
+        "check_date:opening_hours": "2023-03-06",
+        "opening_hours": "Mo-Sa 12:00-24:00",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5865452,
+          48.1664602
+        ]
+      },
+      "properties": {
+        "id": 1343582414,
+        "type": "node",
+        "name": "Bierbatterie",
+        "category": "pubs",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "118",
+        "addr:postcode": "80802",
+        "addr:street": "Leopoldstraße",
+        "amenity": "pub"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5648003,
+          48.1310458
+        ]
+      },
+      "properties": {
+        "id": 1346916279,
+        "type": "node",
+        "name": "Camp",
+        "category": "pubs",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "15",
+        "addr:postcode": "80337",
+        "addr:street": "Reisingerstraße",
+        "amenity": "pub",
+        "check_date": "2023-12-18",
+        "contact:facebook": "https://www.facebook.com/profile.php?id=61573710458584",
+        "contact:instagram": "https://www.instagram.com/camp_munich/",
+        "contact:phone": "+49 89 2323 0830",
+        "contact:website": "https://camp-munich.de/",
+        "cruising": "yes",
+        "indoor_seating": "yes",
+        "lgbtq": "primary",
+        "lgbtq:men": "only",
+        "opening_hours": "Su-Th 20:00-02:00, Fr-Sa 20:00-03:00",
+        "outdoor_seating": "no",
+        "website": "https://camp-munich.de/",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5793167,
+          48.1216225
+        ]
+      },
+      "properties": {
+        "id": 1357982129,
+        "type": "node",
+        "name": "Brewsli",
+        "category": "pubs",
+        "addr:housenumber": "2",
+        "addr:postcode": "81541",
+        "addr:street": "Taubenstraße",
+        "amenity": "pub",
+        "microbrewery": "yes",
+        "opening_hours": "Tu-Th 17:00-24:00, Fr 17:00-01:00, Sa 16:00-01:00, Su 16:00-24:00",
+        "outdoor_seating": "yes",
+        "website": "https://brewsli.de/",
+        "wheelchair": "no",
+        "wheelchair:description": "Kein Rollstuhl-WC vorhanden."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5595055,
+          48.1270441
+        ]
+      },
+      "properties": {
+        "id": 1398770956,
+        "type": "node",
+        "name": "Little Odessa",
+        "category": "pubs",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "16",
+        "addr:postcode": "80337",
+        "addr:street": "Tumblingerstraße",
+        "amenity": "pub",
+        "check_date:opening_hours": "2025-01-20",
+        "opening_hours:signed": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5758791,
+          48.1504033
+        ]
+      },
+      "properties": {
+        "id": 1573753304,
+        "type": "node",
+        "name": "Soda",
+        "category": "pubs",
+        "amenity": "pub",
+        "indoor_seating": "yes",
+        "opening_hours": "Mo-Su 07:45-03:00",
+        "outdoor_seating": "yes",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5705173,
+          48.1182671
+        ]
+      },
+      "properties": {
+        "id": 1575080557,
+        "type": "node",
+        "name": "Sonnen Stüberl",
+        "category": "pubs",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "1",
+        "addr:postcode": "81543",
+        "addr:street": "Obere Weidenstraße",
+        "amenity": "pub",
+        "check_date": "2025-09-13",
+        "disused:amenity": "pub"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5724479,
+          48.1975669
+        ]
+      },
+      "properties": {
+        "id": 1600591673,
+        "type": "node",
+        "name": "Galerie Stüberl",
+        "category": "pubs",
+        "addr:housenumber": "170",
+        "addr:street": "Knorrstraße",
+        "amenity": "pub"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5306387,
+          48.1400438
+        ]
+      },
+      "properties": {
+        "id": 1611045331,
+        "type": "node",
+        "name": "Infinity",
+        "category": "pubs",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "133",
+        "addr:postcode": "80339",
+        "addr:street": "Landsberger Straße",
+        "amenity": "pub",
+        "check_date:opening_hours": "2025-10-20",
+        "opening_hours:signed": "no",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5838154,
+          48.1976237
+        ]
+      },
+      "properties": {
+        "id": 1647739702,
+        "type": "node",
+        "name": "Rubin Cafe",
+        "category": "pubs",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "2",
+        "addr:postcode": "80937",
+        "addr:street": "Wenzelstraße",
+        "amenity": "pub",
+        "check_date": "2023-06-03"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5047652,
+          48.1123886
+        ]
+      },
+      "properties": {
+        "id": 1714858026,
+        "type": "node",
+        "name": "Zur Wald-Hütt'n",
+        "category": "pubs",
+        "amenity": "pub",
+        "opening_hours": "PH,Tu-Su 15:00-01:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5041752,
+          48.0825365
+        ]
+      },
+      "properties": {
+        "id": 1741402186,
+        "type": "node",
+        "name": "No-Limit",
+        "category": "pubs",
+        "addr:city": "München",
+        "addr:housenumber": "117",
+        "addr:street": "Drygalski-Allee",
+        "amenity": "pub",
+        "indoor_seating": "yes",
+        "opening_hours": "Mo-Fr 14:00-05:00, Sa-Su 10:00-05:00",
+        "outdoor_seating": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5283536,
+          48.0996236
+        ]
+      },
+      "properties": {
+        "id": 1765873868,
+        "type": "node",
+        "name": "Pinte",
+        "category": "pubs",
+        "addr:housenumber": "79",
+        "addr:postcode": "81379",
+        "addr:street": "Boschetsrieder Straße",
+        "amenity": "pub",
+        "opening_hours": "Mo-Su 10:00-23:00; PH 10:00-23:00",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6145094,
+          48.1394863
+        ]
+      },
+      "properties": {
+        "id": 1774804579,
+        "type": "node",
+        "name": "Spontan Cocktail-Bar",
+        "category": "pubs",
+        "amenity": "pub",
+        "indoor_seating": "yes",
+        "opening_hours": "Mo-Th 14:00-01:00, Fr,Sa 14:00-03:00, Su 14:00-24:00",
+        "outdoor_seating": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6193598,
+          48.1377201
+        ]
+      },
+      "properties": {
+        "id": 1781851351,
+        "type": "node",
+        "name": "Sailor's",
+        "category": "pubs",
+        "amenity": "pub",
+        "check_date": "2025-02-09",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6191425,
+          48.1374875
+        ]
+      },
+      "properties": {
+        "id": 1781851357,
+        "type": "node",
+        "name": "Soul",
+        "category": "pubs",
+        "amenity": "pub"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5310164,
+          48.099697
+        ]
+      },
+      "properties": {
+        "id": 1788450149,
+        "type": "node",
+        "name": "Pils pub B-fifty-Two",
+        "category": "pubs",
+        "addr:housenumber": "63",
+        "addr:street": "Boschetsrieder Straße",
+        "amenity": "pub",
+        "indoor_seating": "yes",
+        "opening_hours": "Mo-Sa 09:00-01:00, Su 09:00-01:00",
+        "outdoor_seating": "yes",
+        "wheelchair": "limited",
+        "wheelchair:description": "Toilettenstatus ungeklärt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5647217,
+          48.1516651
+        ]
+      },
+      "properties": {
+        "id": 1813638199,
+        "type": "node",
+        "name": "Giesinger Stehausschank",
+        "category": "pubs",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "90",
+        "addr:postcode": "80798",
+        "addr:street": "Augustenstraße",
+        "amenity": "pub",
+        "branch": "Maxvorstadt",
+        "brewery": "Giesinger",
+        "check_date": "2025-08-23",
+        "check_date:opening_hours": "2025-08-23",
+        "level": "0",
+        "opening_hours": "Tu-Sa 17:00-24:00",
+        "outdoor_seating": "yes",
+        "website": "https://www.giesinger-braeu.de/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5585446,
+          48.1286846
+        ]
+      },
+      "properties": {
+        "id": 1813638477,
+        "type": "node",
+        "name": "Zum Aloisius",
+        "category": "pubs",
+        "addr:city": "München",
+        "addr:housenumber": "3",
+        "addr:postcode": "80337",
+        "addr:street": "Häberlstraße",
+        "amenity": "pub",
+        "opening_hours": "Mo-Sa 10:00-22:00; Su 01:00-18:00+",
+        "wheelchair": "limited",
+        "wheelchair:description": "Kleine Eingangsstufe, Im hinteren Bereich weitere Stufen"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5347894,
+          48.1554136
+        ]
+      },
+      "properties": {
+        "id": 1813639167,
+        "type": "node",
+        "name": "Muffins 'n' More",
+        "category": "pubs",
+        "amenity": "pub",
+        "fixme": "removed website \"http://www.muffins-n-more.de/\" as domain is for sale. Is this pub still existing?",
+        "opening_hours": "We,Th 15:07-22:00; Fr,Sa 12:07-22:00; Su 12:07-20:00",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5757566,
+          48.1287598
+        ]
+      },
+      "properties": {
+        "id": 1813641328,
+        "type": "node",
+        "name": "Prince Pub",
+        "category": "pubs",
+        "amenity": "pub",
+        "indoor_seating": "yes",
+        "outdoor_seating": "yes",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6071296,
+          48.1305977
+        ]
+      },
+      "properties": {
+        "id": 1813652342,
+        "type": "node",
+        "name": "Meandros",
+        "category": "pubs",
+        "amenity": "pub",
+        "indoor_seating": "yes",
+        "outdoor_seating": "yes",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5763849,
+          48.1542917
+        ]
+      },
+      "properties": {
+        "id": 1823097248,
+        "type": "node",
+        "name": "Kurfürstenstüberl",
+        "category": "pubs",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "8",
+        "addr:postcode": "80799",
+        "addr:street": "Kurfürstenstraße",
+        "amenity": "pub",
+        "opening_hours": "Mo-Sa 10:00-02:00; Su 10:00-00:00",
+        "wheelchair": "limited",
+        "wheelchair:description": "kein Rolli-WC"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5077477,
+          48.1804048
+        ]
+      },
+      "properties": {
+        "id": 1840355398,
+        "type": "node",
+        "name": "Schnulli's Bierstüberl",
+        "category": "pubs",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "14",
+        "addr:postcode": "80992",
+        "addr:street": "Bunzlauer Straße",
+        "addr:suburb": "Moosach",
+        "amenity": "pub",
+        "brewery": "Löwenbräu",
+        "opening_hours": "Mo-Th 14:00-24:00; Fr 12:00-24:00; Sa 16:00-24:00; Su, PH off",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5087025,
+          48.1808033
+        ]
+      },
+      "properties": {
+        "id": 1840387243,
+        "type": "node",
+        "name": "Poststüberl",
+        "category": "pubs",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "22",
+        "addr:postcode": "80992",
+        "addr:street": "Bunzlauer Straße",
+        "addr:suburb": "Moosach",
+        "amenity": "pub",
+        "contact:phone": "+49 89 140 3376",
+        "operator": "Dragan Ramljak"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5672961,
+          48.1319845
+        ]
+      },
+      "properties": {
+        "id": 1871450743,
+        "type": "node",
+        "name": "Giesinger Stehausschank",
+        "category": "pubs",
+        "addr:city": "München",
+        "addr:housenumber": "51",
+        "addr:postcode": "80469",
+        "addr:street": "Müllerstraße",
+        "amenity": "pub",
+        "indoor_seating": "yes",
+        "opening_hours": "Tu-Sa 17:00-24:00+",
+        "outdoor_seating": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5820542,
+          48.1177349
+        ]
+      },
+      "properties": {
+        "id": 1906966303,
+        "type": "node",
+        "name": "70er",
+        "category": "pubs",
+        "addr:housenumber": "34",
+        "addr:street": "Tegernseer Landstraße",
+        "amenity": "pub",
+        "check_date": "2022-11-28",
+        "check_date:opening_hours": "2022-11-30",
+        "opening_hours:signed": "no",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5596347,
+          48.1495535
+        ]
+      },
+      "properties": {
+        "id": 1973760268,
+        "type": "node",
+        "name": "RAW",
+        "category": "pubs",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "28",
+        "addr:postcode": "80333",
+        "addr:street": "Schleißheimer Straße",
+        "amenity": "pub",
+        "check_date": "2025-10-10",
+        "contact:facebook": "https://www.facebook.com/RAW.Munich/",
+        "indoor_seating": "yes",
+        "opening_hours": "We-Sa 20:00-01:00",
+        "outdoor_seating": "yes",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5455629,
+          48.1201887
+        ]
+      },
+      "properties": {
+        "id": 2015833278,
+        "type": "node",
+        "name": "Kneipe A21",
+        "category": "pubs",
+        "addr:housenumber": "21",
+        "addr:street": "Aberlestraße",
+        "amenity": "pub",
+        "level": "0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5787343,
+          48.1152228
+        ]
+      },
+      "properties": {
+        "id": 2018137182,
+        "type": "node",
+        "name": "Die Kleine Kneipe",
+        "category": "pubs",
+        "addr:housenumber": "8",
+        "addr:street": "Silberhornstraße",
+        "amenity": "pub",
+        "check_date": "2022-11-19",
+        "opening_hours": "Mo,Su off; Tu-Th 13:00-22:00; Fr-Sa 11:00-22:00",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5810694,
+          48.135354
+        ]
+      },
+      "properties": {
+        "id": 2143172409,
+        "type": "node",
+        "name": "Riva Bar",
+        "category": "pubs",
+        "addr:city": "München",
+        "addr:housenumber": "44",
+        "addr:postcode": "80331",
+        "addr:street": "Tal",
+        "amenity": "pub",
+        "cuisine": "breakfast;italian",
+        "diet:vegan": "no",
+        "diet:vegetarian": "yes",
+        "email": "info@rivabar.de",
+        "indoor_seating": "yes",
+        "internet_access": "no",
+        "opening_hours": "Mo-We 08:00-00:00; Th-Fr 08:00-01:00; Sa 09:00-01:00",
+        "opening_hours:covid19": "off",
+        "operator": "Kull & Weinzierl",
+        "outdoor_seating": "yes",
+        "phone": "+49 89 220240",
+        "website": "https://www.rivabar.de/",
+        "wheelchair": "no",
+        "wifi": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5032066,
+          48.0826189
+        ]
+      },
+      "properties": {
+        "id": 2298170566,
+        "type": "node",
+        "name": "Bistro 118",
+        "category": "pubs",
+        "amenity": "pub",
+        "check_date": "2025-03-24",
+        "check_date:opening_hours": "2022-11-08",
+        "opening_hours:signed": "no",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5676829,
+          48.1301145
+        ]
+      },
+      "properties": {
+        "id": 2335083230,
+        "type": "node",
+        "name": "München '72",
+        "category": "pubs",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "16",
+        "addr:postcode": "80469",
+        "addr:street": "Holzstraße",
+        "amenity": "pub",
+        "check_date": "2025-10-05",
+        "contact:phone": "+49 89 97343785",
+        "contact:website": "https://muenchen72.de/",
+        "email": "buero@muenchen72.de",
+        "indoor_seating": "yes",
+        "opening_hours": "Mo-Th 17:00-01:00; Fr 17:00-02:00; Sa 09:00-02:00; Su 09:00-22:00",
+        "operator": "Thomas Zufall",
+        "outdoor_seating": "yes",
+        "payment:cash": "no",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "smoking": "outside",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5436663,
+          48.1039144
+        ]
+      },
+      "properties": {
+        "id": 2406260833,
+        "type": "node",
+        "name": "Stammtisch",
+        "category": "pubs",
+        "amenity": "pub",
+        "check_date:opening_hours": "2025-05-19",
+        "opening_hours:signed": "no",
+        "outdoor_seating": "yes",
+        "phone": "+49 89 7233301"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5609208,
+          48.141941
+        ]
+      },
+      "properties": {
+        "id": 2431281938,
+        "type": "node",
+        "name": "Cucurucu",
+        "category": "pubs",
+        "addr:housenumber": "5",
+        "addr:street": "Elisenstraße",
+        "amenity": "pub",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5455897,
+          48.1182604
+        ]
+      },
+      "properties": {
+        "id": 2431498613,
+        "type": "node",
+        "name": "Schwarzer Engel",
+        "category": "pubs",
+        "addr:city": "München",
+        "addr:housenumber": "9",
+        "addr:postcode": "81371",
+        "addr:street": "Lindenschmitstraße",
+        "amenity": "pub",
+        "check_date:opening_hours": "2025-10-18",
+        "opening_hours": "Su-Th 12:00-01:00, Fr,Sa 12:00-03:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.4836647,
+          48.1191685
+        ]
+      },
+      "properties": {
+        "id": 2446475787,
+        "type": "node",
+        "name": "Pavillon",
+        "category": "pubs",
+        "amenity": "pub"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5665959,
+          48.1816681
+        ]
+      },
+      "properties": {
+        "id": 2504121762,
+        "type": "node",
+        "name": "Bierstüberl",
+        "category": "pubs",
+        "amenity": "pub"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6499768,
+          48.1485418
+        ]
+      },
+      "properties": {
+        "id": 2504953885,
+        "type": "node",
+        "name": "Tantra (dauerhaft geschlossen)",
+        "category": "pubs",
+        "addr:city": "München",
+        "addr:housenumber": "3",
+        "addr:postcode": "81929",
+        "addr:street": "Ludwig-Brück-Straße",
+        "amenity": "pub",
+        "shop": "kiosk",
+        "toilets:wheelchair": "no",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5992207,
+          48.1792021
+        ]
+      },
+      "properties": {
+        "id": 2550215948,
+        "type": "node",
+        "name": "Heidequelle",
+        "category": "pubs",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "17a",
+        "addr:postcode": "80805",
+        "addr:street": "Dietersheimer Straße",
+        "air_conditioning": "yes",
+        "amenity": "pub",
+        "indoor_seating": "yes",
+        "opening_hours": "Mo-Th 16:00-22:00; Fr 15:00-24:00; Sa 12:30-24:00; Su 12:30-22:00",
+        "outdoor_seating": "yes",
+        "smoking": "outside",
+        "source": "survey",
+        "source_ref": "address survey 21 November 2013",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5527528,
+          48.1813321
+        ]
+      },
+      "properties": {
+        "id": 2554337965,
+        "type": "node",
+        "name": "5 Rings Sportsbar",
+        "category": "pubs",
+        "amenity": "pub",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "opening_hours": "Mo-Fr 16:00-01:00; Sa-Su 11:00-01:00",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5939832,
+          48.203678
+        ]
+      },
+      "properties": {
+        "id": 2621681521,
+        "type": "node",
+        "name": "Grusonstüberl",
+        "category": "pubs",
+        "amenity": "pub",
+        "opening_hours": "Mo-Th 17:00-01:00, Fr-Su 15:00-01:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5382477,
+          48.0987037
+        ]
+      },
+      "properties": {
+        "id": 2717937047,
+        "type": "node",
+        "name": "Tölzer Stüberl",
+        "category": "pubs",
+        "amenity": "pub",
+        "cuisine": "german",
+        "opening_hours": "Mo-Fr 12:00-24:00; Sa 12:30-24:00",
+        "outdoor_seating": "yes",
+        "payment:credit_cards": "no",
+        "payment:debit_cards": "no",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.4611056,
+          48.2127966
+        ]
+      },
+      "properties": {
+        "id": 2819574705,
+        "type": "node",
+        "name": "Michi`s Stüberl",
+        "category": "pubs",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "48d",
+        "addr:postcode": "80997",
+        "addr:street": "Zum Schwabenbächl",
+        "amenity": "pub",
+        "outdoor_seating": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5945668,
+          48.1310837
+        ]
+      },
+      "properties": {
+        "id": 2821267801,
+        "type": "node",
+        "name": "Lollo Schenke",
+        "category": "pubs",
+        "addr:city": "München",
+        "addr:housenumber": "1",
+        "addr:postcode": "81667",
+        "addr:street": "Milchstraße",
+        "amenity": "pub",
+        "diet:vegetarian": "yes",
+        "indoor_seating": "yes",
+        "opening_hours": "Mo-Su,PH 17:00-01:00, Su,PH 23:30-01:00 off",
+        "outdoor_seating": "yes",
+        "phone": "+49 89 88 568 131",
+        "website": "http://lollo-rosso.com/",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5448516,
+          48.1383673
+        ]
+      },
+      "properties": {
+        "id": 2845112757,
+        "type": "node",
+        "name": "To Klidi",
+        "category": "pubs",
+        "amenity": "pub"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5581507,
+          48.1355152
+        ]
+      },
+      "properties": {
+        "id": 2884314528,
+        "type": "node",
+        "name": "Karotte",
+        "category": "pubs",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "36",
+        "addr:postcode": "80336",
+        "addr:street": "Goethestraße",
+        "amenity": "pub",
+        "contact:mobile": "+49 151 50873872",
+        "contact:website": "http://diekarotte.de",
+        "indoor_seating": "yes",
+        "opening_hours": "Th 17:00-01:00",
+        "outdoor_seating": "yes",
+        "smoking": "outside"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5656754,
+          48.1241642
+        ]
+      },
+      "properties": {
+        "id": 3051676297,
+        "type": "node",
+        "name": "Geyerwally",
+        "category": "pubs",
+        "addr:housenumber": "17",
+        "addr:postcode": "80469",
+        "addr:street": "Geyerstraße",
+        "amenity": "pub",
+        "opening_hours": "Mo-Th 19:00-03:00; Fr-Sa 19:00-03:00",
+        "website": "https://www.sueddeutsche.de/muenchen/die-zehn-schraegsten-kneipen-kult-kultiger-muenchen-1.1534254",
+        "wheelchair": "no",
+        "wifi": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6120575,
+          48.0656285
+        ]
+      },
+      "properties": {
+        "id": 3096117400,
+        "type": "node",
+        "name": "Café IO",
+        "category": "pubs",
+        "addr:city": "Unterhaching",
+        "addr:country": "DE",
+        "addr:housenumber": "5",
+        "addr:postcode": "82008",
+        "addr:street": "Bahnhofsweg",
+        "amenity": "pub",
+        "indoor_seating": "yes",
+        "opening_hours": "Su-Th 11:00-24:00, Fr,Sa 11:00-01:00",
+        "outdoor_seating": "yes",
+        "phone": "+49 172 821 370 8",
+        "smoking": "dedicated",
+        "smoking:outside": "yes",
+        "source": "survey",
+        "toilets:wheelchair": "no",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5687449,
+          48.1321869
+        ]
+      },
+      "properties": {
+        "id": 3147296793,
+        "type": "node",
+        "name": "Vertigo",
+        "category": "pubs",
+        "addr:city": "München",
+        "addr:housenumber": "43",
+        "addr:postcode": "80331",
+        "addr:street": "Blumenstraße",
+        "amenity": "pub",
+        "old_name": "1, 2, 3, Tiki Tiki",
+        "opening_hours": "Mo-Th 19:00-01:00; Fr-Sa 19:00-03:00",
+        "opening_hours:covid19": "closed",
+        "phone": "+49 89 23 96 19 88",
+        "website": "https://vertigo.bar/",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5563702,
+          48.1229988
+        ]
+      },
+      "properties": {
+        "id": 3164582599,
+        "type": "node",
+        "name": "Markt-Stüberl An der Viehwog",
+        "category": "pubs",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "11",
+        "addr:postcode": "80337",
+        "addr:street": "Zenettistraße",
+        "amenity": "pub",
+        "brewery": "Augustiner Bräu München",
+        "contact:website": "https://www.metzgerei-gassner.de/metzgerei-mit-mittagstisch-in-muenchen/",
+        "opening_hours": "Mo-Fr 07:30-14:00; Sa,Su off",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5669088,
+          48.1247037
+        ]
+      },
+      "properties": {
+        "id": 3263444111,
+        "type": "node",
+        "name": "Rennsalon",
+        "category": "pubs",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "13",
+        "addr:postcode": "80469",
+        "addr:street": "Baldestraße",
+        "amenity": "pub",
+        "brewery": "Ayinger",
+        "brewery:pils": "Budweiser Budvar;Astra",
+        "check_date:opening_hours": "2025-07-13",
+        "contact:website": "http://www.rennsalon.de/",
+        "opening_hours": "Tu-Th 20:00-01:30, Fr-Sa 20:00-03:00; Mo,Su off",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5533875,
+          48.1365351
+        ]
+      },
+      "properties": {
+        "id": 3307633814,
+        "type": "node",
+        "name": "Bahalo",
+        "category": "pubs",
+        "amenity": "pub",
+        "check_date": "2023-10-11",
+        "cuisine": "greek",
+        "opening_hours": "Mo-Sa 12:00-01:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6152269,
+          48.1204944
+        ]
+      },
+      "properties": {
+        "id": 3405893303,
+        "type": "node",
+        "name": "Bei Mitzi",
+        "category": "pubs",
+        "addr:postcode": "81671",
+        "amenity": "pub",
+        "opening_hours": "Su-Fr 10:00-01:00; Sa 13:45-01:00",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6104976,
+          48.1194434
+        ]
+      },
+      "properties": {
+        "id": 3405893357,
+        "type": "node",
+        "name": "Nachbarstüberl",
+        "category": "pubs",
+        "amenity": "pub",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5442913,
+          48.1379224
+        ]
+      },
+      "properties": {
+        "id": 3643387755,
+        "type": "node",
+        "name": "Bar Laguna",
+        "category": "pubs",
+        "amenity": "pub",
+        "check_date:opening_hours": "2024-03-29",
+        "indoor_seating": "yes",
+        "opening_hours": "Mo-Su 19:00-22:30",
+        "outdoor_seating": "yes",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5444796,
+          48.1379324
+        ]
+      },
+      "properties": {
+        "id": 3643387757,
+        "type": "node",
+        "name": "Star Cafe",
+        "category": "pubs",
+        "amenity": "pub",
+        "opening_hours": "Mo-Su,PH 14:00-05:00",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5447736,
+          48.1379457
+        ]
+      },
+      "properties": {
+        "id": 3643387762,
+        "type": "node",
+        "name": "Jiamas",
+        "category": "pubs",
+        "amenity": "pub",
+        "indoor_seating": "yes",
+        "opening_hours": "Mo-Su 12:00-24:00",
+        "outdoor_seating": "yes",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.534421,
+          48.1555238
+        ]
+      },
+      "properties": {
+        "id": 3709346493,
+        "type": "node",
+        "name": "Hide-Out 2",
+        "category": "pubs",
+        "addr:city": "München",
+        "addr:housenumber": "22",
+        "addr:postcode": "80634",
+        "addr:street": "Volkartstraße",
+        "amenity": "pub",
+        "brewery": "Augustiner Bräu München",
+        "indoor_seating": "yes",
+        "opening_hours": "Tu-Sa 20:00-03:00",
+        "outdoor_seating": "yes",
+        "website": "https://hideout-muenchen.de/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5622931,
+          48.1568346
+        ]
+      },
+      "properties": {
+        "id": 3751088050,
+        "type": "node",
+        "name": "Schwabinger Bierstüberl",
+        "category": "pubs",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:postcode": "80797",
+        "addr:street": "Schleißheimer Straße",
+        "amenity": "pub",
+        "opening_hours": "Mo-Sa 15:00-22:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5072148,
+          48.1083892
+        ]
+      },
+      "properties": {
+        "id": 3751943087,
+        "type": "node",
+        "name": "Gaststätte Libero",
+        "category": "pubs",
+        "amenity": "pub",
+        "check_date": "2025-10-22",
+        "internet_access": "no",
+        "opening_hours": "Mo-Fr 16:00-23:30; Sa, Su 11:00-23:30",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "phone": "+49 8971090490",
+        "smoking": "outside",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5626279,
+          48.1866952
+        ]
+      },
+      "properties": {
+        "id": 3817959193,
+        "type": "node",
+        "name": "Cafe Bar Halligalli",
+        "category": "pubs",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "17",
+        "addr:postcode": "80809",
+        "addr:street": "Moosacher Straße",
+        "amenity": "pub",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "opening_hours": "Mo-Th 15:00-14:00; Fr-Su 10:00-02:00",
+        "smoking": "outside",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5443727,
+          48.1357678
+        ]
+      },
+      "properties": {
+        "id": 3838023407,
+        "type": "node",
+        "name": "Trakya",
+        "category": "pubs",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "25",
+        "addr:postcode": "80339",
+        "addr:street": "Parkstraße",
+        "amenity": "pub",
+        "brewery": "Augustiner Bräu München",
+        "opening_hours": "Mo-Fr 03:00-12:00+,15:00-04:00; Sa,Su 12:00-04:00",
+        "outdoor_seating": "sidewalk",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5442912,
+          48.1356659
+        ]
+      },
+      "properties": {
+        "id": 3888314996,
+        "type": "node",
+        "name": "Barry's Boazn",
+        "category": "pubs",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "25",
+        "addr:postcode": "80339",
+        "addr:street": "Parkstraße",
+        "amenity": "pub",
+        "brewery": "Augustiner Bräu München",
+        "indoor_seating": "yes",
+        "opening_hours": "Tu-Su 13:00-18:00+",
+        "outdoor_seating": "yes",
+        "payment:credit_cards": "no",
+        "payment:debit_cards": "no",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5798578,
+          48.1380144
+        ]
+      },
+      "properties": {
+        "id": 3893571128,
+        "type": "node",
+        "name": "Dubliner Irish Pub",
+        "category": "pubs",
+        "addr:city": "München",
+        "addr:housenumber": "2",
+        "addr:postcode": "80331",
+        "addr:street": "Platzl",
+        "amenity": "pub",
+        "check_date:opening_hours": "2022-05-19",
+        "indoor_seating": "yes",
+        "opening_hours": "Mo-Su 11:00-05:00",
+        "operator": "Dubliner irishpub Munich GmbH",
+        "outdoor_seating": "yes",
+        "phone": "+49 89 230 764 07",
+        "smoking": "outside",
+        "theme": "irish",
+        "website": "https://www.dubliner-irishpub.de/",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5804018,
+          48.1385557
+        ]
+      },
+      "properties": {
+        "id": 3893571156,
+        "type": "node",
+        "name": "Pusser's",
+        "category": "pubs",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "9",
+        "addr:postcode": "80331",
+        "addr:street": "Falkenturmstraße",
+        "amenity": "pub",
+        "check_date:opening_hours": "2022-05-19",
+        "contact:phone": "+49 89 220500",
+        "contact:website": "https://www.pussersbar.de/welcome-to-pussers-bar.html",
+        "opening_hours": "Su-We 18:00-01:00; Th-Sa 18:00-02:00",
+        "operator": "Firma ON DECK Bar GmbH"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5516866,
+          48.2079003
+        ]
+      },
+      "properties": {
+        "id": 3900500865,
+        "type": "node",
+        "name": "Bei Claus",
+        "category": "pubs",
+        "addr:city": "München",
+        "addr:housenumber": "115",
+        "addr:postcode": "80935",
+        "addr:street": "Weitlstraße",
+        "amenity": "pub",
+        "outdoor_seating": "yes",
+        "toilets:wheelchair": "no",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.578711,
+          48.114377
+        ]
+      },
+      "properties": {
+        "id": 3927438583,
+        "type": "node",
+        "name": "Yildiz",
+        "category": "pubs",
+        "addr:housenumber": "92",
+        "addr:street": "Tegernseer Landstraße",
+        "amenity": "pub",
+        "check_date": "2023-05-07",
+        "check_date:opening_hours": "2022-11-30",
+        "contact:facebook": "https://www.facebook.com/B%C3%A4%C3%A4%C3%A4m-Bar-669609433141480",
+        "opening_hours:signed": "no",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.583405,
+          48.1185651
+        ]
+      },
+      "properties": {
+        "id": 3927493834,
+        "type": "node",
+        "name": "Paulaner Krug",
+        "category": "pubs",
+        "amenity": "pub",
+        "check_date:opening_hours": "2022-11-17",
+        "opening_hours:signed": "no",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.4421122,
+          48.1485013
+        ]
+      },
+      "properties": {
+        "id": 4058212522,
+        "type": "node",
+        "name": "Schiller's Bistro",
+        "category": "pubs",
+        "amenity": "pub",
+        "contact:email": "schillersbistro@t-online.de",
+        "contact:phone": "+49 89 830833",
+        "contact:website": "https://sites.google.com/view/schillers-bistro",
+        "opening_hours": "Mo-Th 11:00-23:00; Fr-Sa 11:00-00:00, Su,PH 12:00-23:00",
+        "outdoor_seating": "yes",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.488785,
+          48.1298066
+        ]
+      },
+      "properties": {
+        "id": 4393286808,
+        "type": "node",
+        "name": "Trinkhalle bei Hoki",
+        "category": "pubs",
+        "amenity": "pub"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.4507372,
+          48.1130372
+        ]
+      },
+      "properties": {
+        "id": 4441272934,
+        "type": "node",
+        "name": "Eldorado-Billard",
+        "category": "pubs",
+        "amenity": "pub",
+        "check_date": "2023-05-28",
+        "description": "Billard-Snooker-Dart",
+        "level": "1",
+        "opening_hours": "14:00-03:00",
+        "sport": "billiards"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5348587,
+          48.1335294
+        ]
+      },
+      "properties": {
+        "id": 4450740123,
+        "type": "node",
+        "name": "De \"KLOANE KNEIP\"N Bei GISI",
+        "category": "pubs",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "63",
+        "addr:postcode": "80339",
+        "addr:street": "Heimeranstraße",
+        "amenity": "pub",
+        "check_date": "2024-10-13",
+        "check_date:opening_hours": "2023-04-22",
+        "opening_hours": "Mo,We-Su 17:00-01:00",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5343159,
+          48.1334187
+        ]
+      },
+      "properties": {
+        "id": 4450785475,
+        "type": "node",
+        "name": "Toni's Bar",
+        "category": "pubs",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "3",
+        "addr:postcode": "80339",
+        "addr:street": "Heimeranplatz",
+        "amenity": "pub",
+        "brewery": "Spatenbräu München",
+        "check_date": "2024-10-13",
+        "opening_hours": "Mo-Fr 17:00-02:00",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5583917,
+          48.1382102
+        ]
+      },
+      "properties": {
+        "id": 4462456589,
+        "type": "node",
+        "name": "Goethe Pub",
+        "category": "pubs",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "10",
+        "addr:postcode": "80336",
+        "addr:street": "Goethestraße",
+        "amenity": "pub",
+        "check_date:opening_hours": "2023-11-23",
+        "indoor_seating": "yes",
+        "opening_hours": "Mo-Sa 09:00-03:00, PH,Su 11:00-03:00",
+        "outdoor_seating": "no",
+        "smoking": "outside"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5322614,
+          48.1399407
+        ]
+      },
+      "properties": {
+        "id": 4471846445,
+        "type": "node",
+        "name": "Joker's Bar",
+        "category": "pubs",
+        "amenity": "pub",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.532189,
+          48.1399447
+        ]
+      },
+      "properties": {
+        "id": 4471846446,
+        "type": "node",
+        "name": "Nascosto",
+        "category": "pubs",
+        "amenity": "pub",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6178918,
+          48.1286311
+        ]
+      },
+      "properties": {
+        "id": 4562672590,
+        "type": "node",
+        "name": "Isareck Stüberl",
+        "category": "pubs",
+        "addr:housenumber": "17",
+        "addr:postcode": "81673",
+        "addr:street": "Dornbergstraße",
+        "amenity": "pub",
+        "check_date:opening_hours": "2023-09-28",
+        "name:de": "Isareck Stüberl",
+        "opening_hours": "Mo-Su 11:00-01:00",
+        "phone": "+49 89 46149328"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5672234,
+          48.109914
+        ]
+      },
+      "properties": {
+        "id": 4563515522,
+        "type": "node",
+        "name": "S21",
+        "category": "pubs",
+        "addr:city": "München",
+        "addr:housenumber": "21",
+        "addr:postcode": "81543",
+        "addr:street": "Schönstraße",
+        "amenity": "pub",
+        "opening_hours": "Mo-Su 09:00-22:00",
+        "phone": "+49176 62166654"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5622172,
+          48.1311098
+        ]
+      },
+      "properties": {
+        "id": 4829347900,
+        "type": "node",
+        "name": "Machito's Bar",
+        "category": "pubs",
+        "amenity": "pub",
+        "opening_hours": "Mo-Th 16:00-12:00; Fr-Su 16:00-03:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5835809,
+          48.0988106
+        ]
+      },
+      "properties": {
+        "id": 4835059917,
+        "type": "node",
+        "name": "Bar zur Hexe",
+        "category": "pubs",
+        "amenity": "pub",
+        "check_date": "2023-09-02",
+        "check_date:opening_hours": "2024-03-14",
+        "indoor_seating": "yes",
+        "opening_hours": "Mo-Sa 15:00-22:00",
+        "outdoor_seating": "no",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5387316,
+          48.1274535
+        ]
+      },
+      "properties": {
+        "id": 4924116022,
+        "type": "node",
+        "name": "Adler",
+        "category": "pubs",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "86b",
+        "addr:postcode": "81373",
+        "addr:street": "Ganghoferstraße",
+        "amenity": "pub",
+        "level": "0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5574752,
+          48.1258795
+        ]
+      },
+      "properties": {
+        "id": 4960091087,
+        "type": "node",
+        "name": "Topbar30",
+        "category": "pubs",
+        "amenity": "pub"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5146731,
+          48.1796156
+        ]
+      },
+      "properties": {
+        "id": 4987058802,
+        "type": "node",
+        "name": "Moccas 50",
+        "category": "pubs",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "258",
+        "addr:postcode": "80992",
+        "addr:street": "Dachauer Straße",
+        "addr:suburb": "Moosach",
+        "amenity": "pub",
+        "contact:mobile": "+49 176 3617 2313",
+        "opening_hours": "Mo-Su 15:00-24:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5721188,
+          48.1188365
+        ]
+      },
+      "properties": {
+        "id": 5020723591,
+        "type": "node",
+        "name": "Bistro Harlekin",
+        "category": "pubs",
+        "amenity": "pub",
+        "opening_hours": "Mo-Th 15:00-01:00, Fr,Sa 14:00-03:00, Su 14:00-01:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5683346,
+          48.131286
+        ]
+      },
+      "properties": {
+        "id": 5072190758,
+        "type": "node",
+        "name": "Beverly Kills Bar",
+        "category": "pubs",
+        "addr:city": "München",
+        "addr:housenumber": "43",
+        "addr:postcode": "80469",
+        "addr:street": "Müllerstraße",
+        "amenity": "pub",
+        "check_date": "2024-05-04",
+        "check_date:opening_hours": "2023-03-19",
+        "indoor_seating": "yes",
+        "opening_hours": "Mo-Fr 08:00-18:00",
+        "outdoor_seating": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5818345,
+          48.1164671
+        ]
+      },
+      "properties": {
+        "id": 5127735021,
+        "type": "node",
+        "name": "Cafe-bar 7",
+        "category": "pubs",
+        "amenity": "pub",
+        "check_date:opening_hours": "2022-11-17",
+        "indoor_seating": "yes",
+        "opening_hours:signed": "no",
+        "outdoor_seating": "yes",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5110418,
+          48.1349254
+        ]
+      },
+      "properties": {
+        "id": 5141084089,
+        "type": "node",
+        "name": "Laimer Jungs Bar Bistro",
+        "category": "pubs",
+        "amenity": "pub",
+        "brewery": "Augustiner"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.4656272,
+          48.2288444
+        ]
+      },
+      "properties": {
+        "id": 5382071847,
+        "type": "node",
+        "name": "Billard da Renzo",
+        "category": "pubs",
+        "addr:city": "Karlsfeld",
+        "addr:country": "DE",
+        "addr:housenumber": "1",
+        "addr:postcode": "85757",
+        "addr:street": "Rathausstraße",
+        "amenity": "pub",
+        "sport": "billiards",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5880818,
+          48.1143846
+        ]
+      },
+      "properties": {
+        "id": 5394121414,
+        "type": "node",
+        "name": "Bistro&Bar Lama Lo",
+        "category": "pubs",
+        "amenity": "pub",
+        "opening_hours": "Mo-We,Fr,Sa 14:00-22:00; Su 12:00-20:00; Th off"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6641389,
+          48.1252294
+        ]
+      },
+      "properties": {
+        "id": 5404244789,
+        "type": "node",
+        "name": "Lucky 7",
+        "category": "pubs",
+        "amenity": "pub",
+        "check_date:opening_hours": "2025-02-18",
+        "indoor_seating": "yes",
+        "opening_hours": "Mo-Su 13:00-05:00",
+        "outdoor_seating": "no",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5290708,
+          48.0993852
+        ]
+      },
+      "properties": {
+        "id": 5431934317,
+        "type": "node",
+        "name": "Bei Jellica",
+        "category": "pubs",
+        "amenity": "pub",
+        "indoor_seating": "yes",
+        "opening_hours": "Mo-Sa 12:00-22:00",
+        "outdoor_seating": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.4885402,
+          48.1411112
+        ]
+      },
+      "properties": {
+        "id": 5478865026,
+        "type": "node",
+        "name": "Löwenstüberl",
+        "category": "pubs",
+        "amenity": "pub",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.568918,
+          48.1384215
+        ]
+      },
+      "properties": {
+        "id": 5720010326,
+        "type": "node",
+        "name": "Augustiner Bierhalle",
+        "category": "pubs",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "27",
+        "addr:postcode": "80331",
+        "addr:street": "Neuhauser Straße",
+        "amenity": "pub",
+        "brewery": "Augustiner Bräu München",
+        "check_date": "2024-10-12",
+        "contact:email": "mail@augustiner-restaurant.com",
+        "contact:fax": "+49 89 2605379",
+        "contact:phone": "+49 89 23183257",
+        "contact:website": "https://www.augustiner-restaurant.com/stammhaus/bierhalle/",
+        "indoor_seating": "yes",
+        "opening_hours": "Mo-Sa 11:00-24:00; Su 10:00-15:00",
+        "outdoor_seating": "yes",
+        "toilets:wheelchair": "yes",
+        "wheelchair": "yes",
+        "wheelchair:description": "barrierefreies WC über steile Rampe zu erreichen (15% Steigung)",
+        "wikidata": "Q41175885"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5564586,
+          48.1243767
+        ]
+      },
+      "properties": {
+        "id": 5868109088,
+        "type": "node",
+        "name": "Zenetti",
+        "category": "pubs",
+        "addr:city": "München",
+        "addr:housenumber": "20",
+        "addr:postcode": "80337",
+        "addr:street": "Zenettistraße",
+        "amenity": "pub",
+        "phone": "+49 89 18901124",
+        "website": "https://zenetti-muenchen.de"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5564504,
+          48.1278075
+        ]
+      },
+      "properties": {
+        "id": 5884460235,
+        "type": "node",
+        "name": "Glamour African Cuisine",
+        "category": "pubs",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "4",
+        "addr:postcode": "80337",
+        "addr:street": "Kapuzinerstraße",
+        "amenity": "pub",
+        "indoor_seating": "yes",
+        "outdoor_seating": "yes",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.583973,
+          48.1169123
+        ]
+      },
+      "properties": {
+        "id": 5896767093,
+        "type": "node",
+        "name": "Bumsvoll Bar",
+        "category": "pubs",
+        "addr:city": "München",
+        "addr:housenumber": "19",
+        "addr:postcode": "81541",
+        "addr:street": "Zugspitzstraße",
+        "amenity": "pub",
+        "indoor_seating": "yes",
+        "opening_hours": "Mo off; Tu-Th 18:00-03:00; Fr-Sa 18:00-05:00; Su19:00-01:00",
+        "outdoor_seating": "no",
+        "smoking": "outside",
+        "wheelchair": "no",
+        "wikidata": "Q41183223"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5296775,
+          48.1388148
+        ]
+      },
+      "properties": {
+        "id": 6027907707,
+        "type": "node",
+        "name": "Konoba Tomislav",
+        "category": "pubs",
+        "amenity": "pub",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5294307,
+          48.1388072
+        ]
+      },
+      "properties": {
+        "id": 6027932035,
+        "type": "node",
+        "name": "Zečević",
+        "category": "pubs",
+        "amenity": "pub"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5355267,
+          48.1464906
+        ]
+      },
+      "properties": {
+        "id": 6169174562,
+        "type": "node",
+        "name": "Tony's Wirtshaus",
+        "category": "pubs",
+        "amenity": "pub",
+        "check_date": "2025-09-29",
+        "indoor_seating": "yes",
+        "opening_hours": "Mo-Su,PH 17:00-01:30",
+        "outdoor_seating": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5686763,
+          48.1113425
+        ]
+      },
+      "properties": {
+        "id": 6281629892,
+        "type": "node",
+        "name": "Schön-Stüberl",
+        "category": "pubs",
+        "addr:city": "München",
+        "addr:housenumber": "4",
+        "addr:postcode": "81543",
+        "addr:street": "Schönstraße",
+        "amenity": "pub",
+        "opening_hours": "Tu-Su 11:00-22:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5677438,
+          48.1100957
+        ]
+      },
+      "properties": {
+        "id": 6281670071,
+        "type": "node",
+        "name": "GUV Bluesbar",
+        "category": "pubs",
+        "addr:city": "München",
+        "addr:housenumber": "20a",
+        "addr:postcode": "81543",
+        "addr:street": "Ludmillastraße",
+        "amenity": "pub",
+        "opening_hours": "Tu-Su,PH 16:00-24:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5710564,
+          48.1123024
+        ]
+      },
+      "properties": {
+        "id": 6289745516,
+        "type": "node",
+        "name": "Bierstüberl bei Ingrid",
+        "category": "pubs",
+        "amenity": "pub",
+        "opening_hours": "Mo-Sa 13:00-22:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5897393,
+          48.1162843
+        ]
+      },
+      "properties": {
+        "id": 6299448442,
+        "type": "node",
+        "name": "Erciyes",
+        "category": "pubs",
+        "amenity": "pub",
+        "check_date:opening_hours": "2025-04-24",
+        "opening_hours:signed": "no",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5655169,
+          48.1247141
+        ]
+      },
+      "properties": {
+        "id": 6308708513,
+        "type": "node",
+        "name": "Kompromiss",
+        "category": "pubs",
+        "amenity": "pub",
+        "brewery": "Augustiner"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5407451,
+          48.1204291
+        ]
+      },
+      "properties": {
+        "id": 6326882351,
+        "type": "node",
+        "name": "Astron",
+        "category": "pubs",
+        "addr:housenumber": "20",
+        "addr:street": "Plinganserstraße",
+        "amenity": "pub",
+        "indoor_seating": "yes",
+        "level": "0",
+        "opening_hours": "Tu-Su 17:00-05:00",
+        "outdoor_seating": "yes",
+        "phone": "+49 89 767 59 359",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5031414,
+          48.1299078
+        ]
+      },
+      "properties": {
+        "id": 6407360018,
+        "type": "node",
+        "name": "CBS",
+        "category": "pubs",
+        "amenity": "pub",
+        "craft": "plumber",
+        "opening_hours": "Mo-Th 07:00-16:30; Fr 07:00-12:00",
+        "phone": "+49 89 2464 6385"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5077796,
+          48.1804364
+        ]
+      },
+      "properties": {
+        "id": 6420324525,
+        "type": "node",
+        "name": "s'Krügerl",
+        "category": "pubs",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "14",
+        "addr:postcode": "80992",
+        "addr:street": "Bunzlauer Straße",
+        "addr:suburb": "Moosach",
+        "amenity": "pub",
+        "brewery": "Augustiner Bräu München"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5548702,
+          48.1280739
+        ]
+      },
+      "properties": {
+        "id": 6434248066,
+        "type": "node",
+        "name": "Tscharlie's",
+        "category": "pubs",
+        "amenity": "pub",
+        "level": "0",
+        "opening_hours": "Tu-Th 18:00-00:00; Fr-Sa 18:00+",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5593896,
+          48.224235
+        ]
+      },
+      "properties": {
+        "id": 6812337966,
+        "type": "node",
+        "name": "Unnamed",
+        "category": "pubs",
+        "amenity": "pub",
+        "brewery": "Augustiner Bräu München",
+        "indoor_seating": "yes",
+        "outdoor_seating": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5795753,
+          48.1364822
+        ]
+      },
+      "properties": {
+        "id": 7161349985,
+        "type": "node",
+        "name": "Scholars Lounge Irish Pub",
+        "category": "pubs",
+        "addr:housenumber": "3",
+        "addr:postcode": "80331",
+        "addr:street": "Hochbrückenstraße",
+        "amenity": "pub",
+        "check_date": "2025-10-28",
+        "opening_hours": "Mo-Fr 14:00-04:00; Sa-Su 12:30-04:00",
+        "phone": "+49 89 90166559",
+        "theme": "irish",
+        "website": "https://www.scholarsloungemunich.com/",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5768467,
+          48.1137676
+        ]
+      },
+      "properties": {
+        "id": 7203655050,
+        "type": "node",
+        "name": "Kastaniengarten",
+        "category": "pubs",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "11",
+        "addr:postcode": "81539",
+        "addr:street": "Martin-Luther-Straße",
+        "amenity": "pub",
+        "old_name": "Kastanienklause",
+        "opening_hours": "We-Sa 16:00-24:00+",
+        "source": "Bing",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5414948,
+          48.1233069
+        ]
+      },
+      "properties": {
+        "id": 7476247251,
+        "type": "node",
+        "name": "Caprice",
+        "category": "pubs",
+        "amenity": "pub",
+        "level": "0",
+        "opening_hours": "Mo-Th 17:00-05:00, Fr,Sa 15:00-05:00, Su 09:00-13:00,17:00-05:00",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5839645,
+          48.1964673
+        ]
+      },
+      "properties": {
+        "id": 7554476548,
+        "type": "node",
+        "name": "Cafe Steherl Bar",
+        "category": "pubs",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "111a",
+        "addr:postcode": "80939",
+        "addr:street": "Ingolstädter Straße",
+        "amenity": "pub",
+        "check_date": "2023-06-03",
+        "microbrewery": "no",
+        "outdoor_seating": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5747029,
+          48.1350357
+        ]
+      },
+      "properties": {
+        "id": 7685434962,
+        "type": "node",
+        "name": "Stehausschank Viktualienmarkt",
+        "category": "pubs",
+        "amenity": "pub",
+        "brewery": "Giesinger",
+        "check_date:opening_hours": "2023-11-30",
+        "indoor_seating": "yes",
+        "opening_hours": "Tu-Sa 11:00-20:00",
+        "operator": "Giesinger Bräu",
+        "outdoor_seating": "sidewalk",
+        "smoking": "outside",
+        "start_date": "2019-11",
+        "website": "https://www.giesinger-braeu.de/",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6407119,
+          48.1492069
+        ]
+      },
+      "properties": {
+        "id": 8390913761,
+        "type": "node",
+        "name": "Pils Hütt'n",
+        "category": "pubs",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "25",
+        "addr:postcode": "81927",
+        "addr:street": "Ostpreußenstraße",
+        "amenity": "pub",
+        "check_date:opening_hours": "2023-03-06",
+        "opening_hours": "Mo-Fr 12:00-24:00; Sa 11:00-24:00; Su 17:00-24:00",
+        "phone": "+49 89 934814"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5445507,
+          48.1379371
+        ]
+      },
+      "properties": {
+        "id": 8851230043,
+        "type": "node",
+        "name": "Diamonds 4-Ever",
+        "category": "pubs",
+        "amenity": "pub"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5741147,
+          48.138091
+        ]
+      },
+      "properties": {
+        "id": 9047980483,
+        "type": "node",
+        "name": "Augustiner Stehausschank",
+        "category": "pubs",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "9",
+        "addr:postcode": "80331",
+        "addr:street": "Frauenplatz",
+        "amenity": "pub",
+        "brewery": "Augustiner Bräu München",
+        "email": "info@bratwurst-gloeckl.de",
+        "fax": "+49 89 29 04 736",
+        "opening_hours": "Mo-Sa 10:00-01:00; Su,PH 10:00-23:00",
+        "outdoor_seating": "yes",
+        "phone": "+49 89 2919450",
+        "toilets:wheelchair": "no",
+        "website": "https://www.bratwurst-gloeckl.de/",
+        "wheelchair": "limited",
+        "wheelchair:description": "Kein Rollstuhl-WC vorhanden. Kein Lift vorhanden."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5448694,
+          48.1583427
+        ]
+      },
+      "properties": {
+        "id": 9525021230,
+        "type": "node",
+        "name": "News",
+        "category": "pubs",
+        "amenity": "pub"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5598675,
+          48.1424953
+        ]
+      },
+      "properties": {
+        "id": 9590332357,
+        "type": "node",
+        "name": "Bufet | Bier & Wurst",
+        "category": "pubs",
+        "addr:city": "München",
+        "addr:housenumber": "7a",
+        "addr:postcode": "80335",
+        "addr:street": "Dachauer Straße",
+        "amenity": "pub",
+        "brewery": "Maxlrainer",
+        "diet:vegetarian": "yes",
+        "email": "info@bufet.de",
+        "opening_hours": "Mo-Sa 18:00-01:00",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "phone": "+49 89 55275965",
+        "website": "https://www.bufet.de/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5712268,
+          48.1786037
+        ]
+      },
+      "properties": {
+        "id": 9823452849,
+        "type": "node",
+        "name": "Zum Deifi",
+        "category": "pubs",
+        "addr:city": "München",
+        "addr:housenumber": "32",
+        "addr:postcode": "80807",
+        "addr:street": "Nietzschestraße",
+        "amenity": "pub",
+        "opening_hours": "Mo-Su 14:00-03:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5523367,
+          48.1473077
+        ]
+      },
+      "properties": {
+        "id": 9844332568,
+        "type": "node",
+        "name": "Higgins Tap Room",
+        "category": "pubs",
+        "addr:city": "München",
+        "addr:housenumber": "122",
+        "addr:postcode": "80335",
+        "addr:street": "Karlstraße",
+        "amenity": "pub",
+        "brewery": "yes",
+        "microbrewery": "yes",
+        "opening_hours": "Th 17:00-23:00, Fr-Sa 15:00-23:00",
+        "website": "https://higginsaleworks.com",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5582871,
+          48.1212904
+        ]
+      },
+      "properties": {
+        "id": 10082408445,
+        "type": "node",
+        "name": "Casa Blanca",
+        "category": "pubs",
+        "amenity": "pub",
+        "check_date": "2024-05-30",
+        "indoor_seating": "yes",
+        "outdoor_seating": "yes",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6058071,
+          48.1357792
+        ]
+      },
+      "properties": {
+        "id": 10575369555,
+        "type": "node",
+        "name": "Einstein 99",
+        "category": "pubs",
+        "amenity": "pub",
+        "check_date": "2025-02-02",
+        "opening_hours": "10:30-03:00",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5741542,
+          48.1706674
+        ]
+      },
+      "properties": {
+        "id": 10665104378,
+        "type": "node",
+        "name": "Zum Holzwurm",
+        "category": "pubs",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "1a",
+        "addr:postcode": "80804",
+        "addr:street": "Scheidplatz",
+        "amenity": "pub",
+        "check_date": "2025-05-18",
+        "cuisine": "german;pizza",
+        "indoor_seating": "yes",
+        "opening_hours": "Mo-Sa 15:00-24:00",
+        "outdoor_seating": "yes",
+        "smoking": "outside",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5347043,
+          48.1504618
+        ]
+      },
+      "properties": {
+        "id": 10678950902,
+        "type": "node",
+        "name": "Taubenschlag Bar",
+        "category": "pubs",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "15",
+        "addr:postcode": "80634",
+        "addr:street": "Schulstraße",
+        "amenity": "pub",
+        "check_date:opening_hours": "2023-07-03",
+        "email": "info@taubenschlag-bar.de",
+        "indoor_seating": "yes",
+        "opening_hours:signed": "no",
+        "outdoor_seating": "yes",
+        "phone": "+49 89 12027833",
+        "smoking": "outside"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5876304,
+          48.1317058
+        ]
+      },
+      "properties": {
+        "id": 10713212040,
+        "type": "node",
+        "name": "Boazn - Öffentliche Bedürfnisanstalt",
+        "category": "pubs",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "2",
+        "addr:street": "Karl-Müller-Weg",
+        "amenity": "pub",
+        "indoor_seating": "yes",
+        "opening_hours": "Mo-We 14:00-01:00; Th-Sa 14:00-03:00; Sa 12:00-03:00",
+        "outdoor_seating": "yes",
+        "phone": "+49 179 49 44 395",
+        "website": "https://boazn.de"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6069485,
+          48.1249162
+        ]
+      },
+      "properties": {
+        "id": 10876108413,
+        "type": "node",
+        "name": "Umadum Talstation",
+        "category": "pubs",
+        "amenity": "pub",
+        "check_date": "2023-05-07",
+        "indoor_seating": "yes",
+        "outdoor_seating": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5342844,
+          48.1465771
+        ]
+      },
+      "properties": {
+        "id": 10876553940,
+        "type": "node",
+        "name": "Papalapap",
+        "category": "pubs",
+        "amenity": "pub",
+        "opening_hours": "Tu-Sa 21:00-05:00; Su,Mo,PH off"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5403756,
+          48.1618185
+        ]
+      },
+      "properties": {
+        "id": 10942451766,
+        "type": "node",
+        "name": "Pils Quelle",
+        "category": "pubs",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "14",
+        "addr:postcode": "80637",
+        "addr:street": "Heideckstraße",
+        "amenity": "pub",
+        "brewery": "Hofbräu München",
+        "indoor_seating": "yes",
+        "outdoor_seating": "sidewalk"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5787202,
+          48.1258949
+        ]
+      },
+      "properties": {
+        "id": 11085831474,
+        "type": "node",
+        "name": "Schwarzer Hahn",
+        "category": "pubs",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "8",
+        "addr:postcode": "81541",
+        "addr:street": "Ohlmüllerstraße",
+        "amenity": "pub",
+        "brewery": "Jever;Astra;Tannenzäpfle;Augustiner Bräu München;Tegernseer;Tillmanns",
+        "contact:facebook": "https://www.facebook.com/people/Schwarzer-Hahn/100063761494838/",
+        "contact:yelp": "https://www.yelp.de/biz/schwarzer-hahn-m%C3%BCnchen",
+        "indoor_seating": "yes",
+        "opening_hours": "Mo-We 20:00-01:00, Th-Sa 20:00-03:00",
+        "outdoor_seating": "no",
+        "smoking": "outside",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5762017,
+          48.1541116
+        ]
+      },
+      "properties": {
+        "id": 11144717776,
+        "type": "node",
+        "name": "Legendary",
+        "category": "pubs",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "11",
+        "addr:postcode": "80799",
+        "addr:street": "Kurfürstenstraße",
+        "amenity": "pub",
+        "contact:website": "https://legendary.eatbu.com/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5762407,
+          48.1323962
+        ]
+      },
+      "properties": {
+        "id": 11711881768,
+        "type": "node",
+        "name": "Dive Bar",
+        "category": "pubs",
+        "amenity": "pub"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.613666,
+          48.1142912
+        ]
+      },
+      "properties": {
+        "id": 13059573814,
+        "type": "node",
+        "name": "Zar",
+        "category": "pubs",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "240",
+        "addr:postcode": "81669",
+        "addr:street": "Rosenheimer Straße",
+        "amenity": "pub",
+        "contact:email": "info@zar-bar.de",
+        "contact:fax": "+49 89 68096035",
+        "contact:phone": "+49 89 68096036",
+        "contact:website": "https://zar-bar.de/",
+        "indoor_seating": "yes",
+        "opening_hours": "Tu-Th 11:00-01:00; Fr 11:00-02:00; Sa 10:00-02:00; Su 10:00-00:00; Mo 11:00-00:00",
+        "outdoor_seating": "yes",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5334271,
+          48.1114989
+        ]
+      },
+      "properties": {
+        "id": 44389898,
+        "type": "way",
+        "name": "Celtis",
+        "category": "pubs",
+        "addr:city": "München",
+        "addr:country": "DE",
+        "addr:housenumber": "2",
+        "addr:postcode": "81369",
+        "addr:street": "Konrad-Celtis-Straße",
+        "amenity": "pub",
+        "building": "yes",
+        "check_date": "2023-05-24",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5251711,
+          48.1251677
+        ]
+      },
+      "properties": {
+        "id": 159426712,
+        "type": "way",
+        "name": "Gaststätte HLC Rot-Weiss",
+        "category": "pubs",
+        "addr:city": "München",
+        "addr:housenumber": "67a",
+        "addr:postcode": "81373",
+        "addr:street": "Grasweg",
+        "amenity": "pub",
+        "building": "yes",
+        "building:levels": "1",
+        "email": "hlcrwgastronomie@yahoo.de",
+        "outdoor_seating": "yes",
+        "phone": "+49 89 7691516",
+        "roof:shape": "flat",
+        "website": "https://www.rotweissmuenchen.de/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5231548,
+          48.1254826
+        ]
+      },
+      "properties": {
+        "id": 159426713,
+        "type": "way",
+        "name": "Gaststätte SC Armin",
+        "category": "pubs",
+        "access": "yes",
+        "amenity": "pub",
+        "building": "yes",
+        "building:levels": "1",
+        "outdoor_seating": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5528471,
+          48.180042
+        ]
+      },
+      "properties": {
+        "id": 1086932932,
+        "type": "way",
+        "name": "Bierstube",
+        "category": "pubs",
+        "amenity": "pub",
+        "contact:facebook": "https://www.facebook.com/bierstube/",
+        "contact:website": "https://www.oly-dorf.de/bierstube-ueberblick/",
+        "indoor": "room",
+        "level": "0",
+        "opening_hours": "Mo-We 19:00-23:30; Th-Sa 19:00-00:30",
+        "operator": "Studenten im Olympiazentrum e.V.",
+        "room": "pub",
+        "smoking": "no",
+        "wheelchair": "yes"
+      }
+    }
+  ],
+  "metadata": {
+    "category": "pubs",
+    "count": 283,
+    "generatedAt": "2025-11-22T19:56:11.094Z",
+    "bbox": {
+      "south": 48.061,
+      "west": 11.36,
+      "north": 48.248,
+      "east": 11.723
+    }
+  }
+}

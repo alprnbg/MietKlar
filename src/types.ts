@@ -36,6 +36,8 @@ export interface DistrictsGeoJSON {
 }
 
 export type RentType = 'apartment' | 'wg' | 'dormitory';
+export type OwnerType = 'private' | 'company';
+export type ApartmentSource = 'immobilienscout24' | 'immowelt' | 'wg-gesucht' | 'ebay-kleinanzeigen' | 'facebook' | 'friends' | 'newspaper' | 'other';
 
 export interface UserRentData {
   district: string;
@@ -46,7 +48,28 @@ export interface UserRentData {
   yearBuilt: number;
   hasBalcony: boolean;
   hasElevator: boolean;
-  heatingIncluded: boolean;
+  recentlyRenovated: boolean;
+  ownerType: OwnerType;
+  ownerCompanyName?: string;
+  apartmentSource: ApartmentSource;
   description: string;
   dateEntered: string;
+  // New fields for location-based entry
+  coordinates?: { lat: number; lng: number };
+  address?: string;
+  street?: string;
+  number?: number;
+  stadtviertel?: string;
+  apartmentType?: string;
+  pricePerSqm?: number;
+}
+
+export interface POIAvailability {
+  hasSubway: boolean;
+  hasHealthcare: boolean;
+  hasSchools: boolean;
+  hasKindergartens: boolean;
+  hasSupermarkets: boolean;
+  hasRestaurants: boolean;
+  hasParks: boolean;
 }
