@@ -1,11 +1,14 @@
 import { useTheme } from '../contexts/ThemeContext';
 
 export const ThemeSwitcher = () => {
-  const { theme, colors, toggleTheme } = useTheme();
+  const { colors } = useTheme();
 
   return (
     <button
-      onClick={toggleTheme}
+      onClick={() => {
+        // Dark mode only - no toggle functionality
+        console.log('Theme switcher - currently dark mode only');
+      }}
       style={{
         position: 'fixed',
         top: '80px',
@@ -33,9 +36,9 @@ export const ThemeSwitcher = () => {
         e.currentTarget.style.background = colors.surface;
         e.currentTarget.style.transform = 'scale(1)';
       }}
-      title={theme === 'dark' ? 'Switch to Light Mode' : 'Switch to Dark Mode'}
+      title='Dark Mode'
     >
-      {theme === 'dark' ? '☀️' : '🌙'}
+      🌙
     </button>
   );
 };

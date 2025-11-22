@@ -1,13 +1,8 @@
-import { RentType } from '../types';
 import { useLanguage } from '../i18n/LanguageContext';
 import { useTheme } from '../contexts/ThemeContext';
 
-interface LegendProps {
-  rentType: RentType;
-}
-
-export const Legend = ({ rentType }: LegendProps) => {
-  const { t, language } = useLanguage();
+export const Legend = () => {
+  const { language } = useLanguage();
   const { colors } = useTheme();
   const isGerman = language === 'de';
 

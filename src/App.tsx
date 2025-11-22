@@ -349,23 +349,20 @@ function App() {
             <LanguageSwitcher />
           )}
           <Map
-            onDistrictClick={setSelectedDistrict}
             districtsData={districtsData}
             rentType={rentType}
             refreshTrigger={mapRefreshTrigger}
-            disableStadtviertelZoom={flowMode === 'mietspiegel'}
             highlightStadtviertel={
               highlightedViertel ||
               (flowMode === 'checkRent' && userRentData ? userRentData.stadtviertel : undefined)
             }
-            forceStadtviertelView={flowMode === 'checkRent'}
             onViertelClick={flowMode === 'checkRent' ? setSelectedViertel : undefined}
             initialCenter={mapSettings.center}
             initialZoom={mapSettings.zoom}
             zoomToViertel={zoomToViertel}
             onZoomComplete={() => setZoomToViertel(null)}
           />
-          <Legend rentType={rentType} />
+          <Legend />
 
           {userRentData && flowMode === 'checkRent' && userRentData.rentType === rentType && (
             <UserRentDisplay

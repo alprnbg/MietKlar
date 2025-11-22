@@ -2,20 +2,17 @@ import { useState, useEffect } from 'react';
 import { MapContainer, TileLayer, GeoJSON, useMapEvents, useMap } from 'react-leaflet';
 import { Layer } from 'leaflet';
 import { getUnfairnessColor } from '../utils/colorScales';
-import { MunichDistrict, DistrictsGeoJSON, RentType } from '../types';
+import { DistrictsGeoJSON, RentType } from '../types';
 import { stadtviertelData } from '../data/stadtviertel';
 import { getAggregatedStatsByStadtviertel, AggregatedRentStats } from '../utils/userRentDatabase';
 import { getViertelCenter } from '../utils/geoUtils';
 import 'leaflet/dist/leaflet.css';
 
 interface MapProps {
-  onDistrictClick: (district: MunichDistrict) => void;
   districtsData: DistrictsGeoJSON;
   rentType: RentType;
   refreshTrigger?: number; // Used to trigger map refresh when user data changes
-  disableStadtviertelZoom?: boolean; // Disable zooming to stadtviertel (for Mietspiegel mode)
   highlightStadtviertel?: string; // Stadtviertel ID to highlight
-  forceStadtviertelView?: boolean; // Always show stadtviertel regardless of zoom (for CheckRent mode)
   onViertelClick?: (viertelId: string) => void; // Callback when a viertel is clicked
   initialCenter?: [number, number]; // Initial map center
   initialZoom?: number; // Initial map zoom level
@@ -54,13 +51,10 @@ function ViertelZoomer({ viertelId, onComplete }: { viertelId: string | null; on
 }
 
 export const Map = ({
-  onDistrictClick,
   districtsData,
   rentType,
   refreshTrigger,
-  disableStadtviertelZoom = false,
   highlightStadtviertel,
-  forceStadtviertelView = false,
   onViertelClick,
   initialCenter = [48.1351, 11.582],
   initialZoom = 11,
@@ -71,7 +65,6 @@ export const Map = ({
   const [geoJsonKey, setGeoJsonKey] = useState(0);
   const [currentZoom, setCurrentZoom] = useState(11);
   const [rentStatsMap, setRentStatsMap] = useState<Map<string, AggregatedRentStats>>(() => getAggregatedStatsByStadtviertel(rentType));
-  const ZOOM_THRESHOLD = 13; // Show stadtviertel when zoom >= 13
 
   useEffect(() => {
     // Force GeoJSON to re-render when data changes or zoom changes
@@ -83,41 +76,6 @@ export const Map = ({
     setRentStatsMap(getAggregatedStatsByStadtviertel(rentType));
     setGeoJsonKey(prev => prev + 1);
   }, [refreshTrigger, rentType]);
-
-  const onEachFeature = (feature: any, layer: Layer) => {
-    const district = feature as MunichDistrict;
-
-    // Bind tooltip to this specific layer
-    layer.bindTooltip(
-      `<div>
-        <strong>${district.properties.name}</strong><br/>
-        <strong>€${district.properties.rentData.pricePerSqm}/m²</strong><br/>
-        Ø Miete: €${district.properties.rentData.averageRent}<br/>
-        Fair Miete: €${district.properties.rentData.fairRent}
-      </div>`,
-      { sticky: true }
-    );
-
-    layer.on({
-      mouseover: () => {
-        setHoveredDistrict(district.properties.name);
-        (layer as any).setStyle({
-          weight: 3,
-          fillOpacity: 0.8
-        });
-      },
-      mouseout: () => {
-        setHoveredDistrict(null);
-        (layer as any).setStyle({
-          weight: 2,
-          fillOpacity: 0.6
-        });
-      },
-      click: () => {
-        onDistrictClick(district);
-      }
-    });
-  };
 
   // Handler for stadtviertel features (neighborhoods)
   const onEachStadtviertel = (feature: any, layer: Layer) => {
@@ -201,7 +159,7 @@ export const Map = ({
           url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
         />
         <ZoomTracker onZoomChange={setCurrentZoom} />
-        <ViertelZoomer viertelId={zoomToViertel} onComplete={onZoomComplete} />
+        <ViertelZoomer viertelId={zoomToViertel ?? null} onComplete={onZoomComplete} />
 
         {/* Always show Stadtviertel with unfairness coloring */}
         <GeoJSON
