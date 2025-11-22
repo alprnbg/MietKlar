@@ -1,0 +1,20 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm install:*)",
+      "Bash(brew install:*)",
+      "Bash(npm run dev:*)",
+      "WebFetch(domain:opendata.muenchen.de)",
+      "WebFetch(domain:geoportal.muenchen.de)",
+      "Bash(curl:*)",
+      "Bash(cat:*)",
+      "Bash(python3:*)",
+      "Bash(pip3 install:*)",
+      "Bash(npm run build:*)",
+      "Bash(node --version)",
+      "Bash(test:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
