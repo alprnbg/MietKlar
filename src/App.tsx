@@ -23,7 +23,7 @@ const STORAGE_KEY = 'munich-rent-user-data';
 const RENT_TYPE_KEY = 'munich-rent-type';
 
 function App() {
-  const { t } = useLanguage();
+  const { t, language } = useLanguage();
   const [viewMode, setViewMode] = useState<ViewMode>('map');
   const [selectedDistrict, setSelectedDistrict] = useState<MunichDistrict | null>(null);
   const [showRentForm, setShowRentForm] = useState(false);
@@ -69,7 +69,7 @@ function App() {
   };
 
   const menuItems = [
-    { id: 'map' as ViewMode, icon: '🗺️', label: t('language') === 'de' ? 'Karte' : 'Map' },
+    { id: 'map' as ViewMode, icon: '🗺️', label: language === 'de' ? 'Karte' : 'Map' },
     { id: 'rentRadar' as ViewMode, icon: '🎯', label: 'RentRadar' },
     { id: 'trustScore' as ViewMode, icon: '⭐', label: 'TrustScore' },
     { id: 'legalAI' as ViewMode, icon: '⚖️', label: 'LegalAI' },

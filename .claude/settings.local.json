@@ -12,7 +12,11 @@
       "Bash(pip3 install:*)",
       "Bash(npm run build:*)",
       "Bash(node --version)",
-      "Bash(test:*)"
+      "Bash(test:*)",
+      "Bash(npx cap init:*)",
+      "Bash(npx cap:*)",
+      "Bash(python convert_stadtviertel.py:*)",
+      "Bash(node generate_rent_data.js:*)"
     ],
     "deny": [],
     "ask": []

@@ -82,17 +82,17 @@ const checklist = [
 ];
 
 export const MoveInHub = () => {
-  const { t } = useLanguage();
+  const { language } = useLanguage();
   const [selectedCategory, setSelectedCategory] = useState<string>('all');
   const [checkedItems, setCheckedItems] = useState<number[]>([]);
 
   const categories = [
-    { key: 'all', label: t('language') === 'de' ? 'Alle' : 'All', icon: '📋' },
-    { key: 'shopping', label: t('language') === 'de' ? 'Einkaufen' : 'Shopping', icon: '🛒' },
-    { key: 'furniture', label: t('language') === 'de' ? 'Möbel' : 'Furniture', icon: '🛋️' },
-    { key: 'transport', label: t('language') === 'de' ? 'Transport' : 'Transport', icon: '🚇' },
-    { key: 'neighborhood', label: t('language') === 'de' ? 'Viertel' : 'Neighborhood', icon: '🏘️' },
-    { key: 'checklist', label: t('language') === 'de' ? 'Checkliste' : 'Checklist', icon: '✅' }
+    { key: 'all', label: language === 'de' ? 'Alle' : 'All', icon: '📋' },
+    { key: 'shopping', label: language === 'de' ? 'Einkaufen' : 'Shopping', icon: '🛒' },
+    { key: 'furniture', label: language === 'de' ? 'Möbel' : 'Furniture', icon: '🛋️' },
+    { key: 'transport', label: language === 'de' ? 'Transport' : 'Transport', icon: '🚇' },
+    { key: 'neighborhood', label: language === 'de' ? 'Viertel' : 'Neighborhood', icon: '🏘️' },
+    { key: 'checklist', label: language === 'de' ? 'Checkliste' : 'Checklist', icon: '✅' }
   ];
 
   const filteredTips = mockTips.filter(tip =>
@@ -120,7 +120,7 @@ export const MoveInHub = () => {
           🏠 Move-in Hub
         </h1>
         <p style={{ color: '#666', fontSize: '16px', lineHeight: '1.6' }}>
-          {t('language') === 'de'
+          {language === 'de'
             ? 'Community-getriebene Tipps & Tricks für neue Bewohner in München. Von Studenten für Studenten.'
             : 'Community-driven tips & tricks for new residents in Munich. By students for students.'}
         </p>
@@ -174,10 +174,10 @@ export const MoveInHub = () => {
           boxShadow: '0 4px 12px rgba(0,0,0,0.1)'
         }}>
           <h2 style={{ fontSize: '24px', marginBottom: '16px', color: '#333' }}>
-            ✅ {t('language') === 'de' ? 'Umzugs-Checkliste' : 'Moving Checklist'}
+            ✅ {language === 'de' ? 'Umzugs-Checkliste' : 'Moving Checklist'}
           </h2>
           <div style={{ marginBottom: '16px', color: '#666' }}>
-            {checkedItems.length} / {checklist.length} {t('language') === 'de' ? 'erledigt' : 'completed'}
+            {checkedItems.length} / {checklist.length} {language === 'de' ? 'erledigt' : 'completed'}
           </div>
           <div style={{
             width: '100%',
@@ -250,7 +250,7 @@ export const MoveInHub = () => {
       {/* Community Tips */}
       <div>
         <h2 style={{ fontSize: '24px', marginBottom: '16px', color: '#333' }}>
-          💡 {t('language') === 'de' ? 'Community Tipps' : 'Community Tips'}
+          💡 {language === 'de' ? 'Community Tipps' : 'Community Tips'}
         </h2>
         <div style={{ display: 'grid', gap: '16px' }}>
           {filteredTips.map(tip => (

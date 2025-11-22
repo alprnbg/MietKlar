@@ -107,26 +107,26 @@ const scamTips = [
 ];
 
 export const ScamPrevention = () => {
-  const { t } = useLanguage();
+  const { language } = useLanguage();
   const [selectedListing, setSelectedListing] = useState<ListingCheck | null>(null);
 
   const getStatusConfig = (status: ListingCheck['status']) => {
     switch (status) {
       case 'safe':
         return {
-          label: t('language') === 'de' ? '✅ Sicher' : '✅ Safe',
+          label: language === 'de' ? '✅ Sicher' : '✅ Safe',
           color: '#4caf50',
           bg: '#e8f5e9'
         };
       case 'suspicious':
         return {
-          label: t('language') === 'de' ? '⚠️ Verdächtig' : '⚠️ Suspicious',
+          label: language === 'de' ? '⚠️ Verdächtig' : '⚠️ Suspicious',
           color: '#ff9800',
           bg: '#fff3e0'
         };
       default:
         return {
-          label: t('language') === 'de' ? '🚨 Gefahr' : '🚨 Danger',
+          label: language === 'de' ? '🚨 Gefahr' : '🚨 Danger',
           color: '#f44336',
           bg: '#ffebee'
         };
@@ -148,7 +148,7 @@ export const ScamPrevention = () => {
           🛡️ Scam Prevention
         </h1>
         <p style={{ color: '#666', fontSize: '16px', lineHeight: '1.6' }}>
-          {t('language') === 'de'
+          {language === 'de'
             ? 'AI-gestützte Scam-Erkennung schützt Sie vor betrügerischen Anzeigen. Bleiben Sie sicher!'
             : 'AI-powered scam detection protects you from fraudulent listings. Stay safe!'}
         </p>
@@ -168,11 +168,11 @@ export const ScamPrevention = () => {
           borderRadius: '12px'
         }}>
           <div style={{ fontSize: '14px', opacity: 0.9, marginBottom: '8px' }}>
-            {t('language') === 'de' ? 'Scams blockiert' : 'Scams Blocked'}
+            {language === 'de' ? 'Scams blockiert' : 'Scams Blocked'}
           </div>
           <div style={{ fontSize: '48px', fontWeight: 'bold' }}>247</div>
           <div style={{ fontSize: '12px', opacity: 0.8, marginTop: '4px' }}>
-            {t('language') === 'de' ? 'Letzter Monat' : 'Last month'}
+            {language === 'de' ? 'Letzter Monat' : 'Last month'}
           </div>
         </div>
 
@@ -183,11 +183,11 @@ export const ScamPrevention = () => {
           borderRadius: '12px'
         }}>
           <div style={{ fontSize: '14px', opacity: 0.9, marginBottom: '8px' }}>
-            {t('language') === 'de' ? 'Verdächtige Anzeigen' : 'Suspicious Listings'}
+            {language === 'de' ? 'Verdächtige Anzeigen' : 'Suspicious Listings'}
           </div>
           <div style={{ fontSize: '48px', fontWeight: 'bold' }}>89</div>
           <div style={{ fontSize: '12px', opacity: 0.8, marginTop: '4px' }}>
-            {t('language') === 'de' ? 'In Prüfung' : 'Under review'}
+            {language === 'de' ? 'In Prüfung' : 'Under review'}
           </div>
         </div>
 
@@ -198,11 +198,11 @@ export const ScamPrevention = () => {
           borderRadius: '12px'
         }}>
           <div style={{ fontSize: '14px', opacity: 0.9, marginBottom: '8px' }}>
-            {t('language') === 'de' ? 'Verifizierte Anzeigen' : 'Verified Listings'}
+            {language === 'de' ? 'Verifizierte Anzeigen' : 'Verified Listings'}
           </div>
           <div style={{ fontSize: '48px', fontWeight: 'bold' }}>1,234</div>
           <div style={{ fontSize: '12px', opacity: 0.8, marginTop: '4px' }}>
-            {t('language') === 'de' ? 'Gesamt' : 'Total'}
+            {language === 'de' ? 'Gesamt' : 'Total'}
           </div>
         </div>
       </div>
@@ -216,7 +216,7 @@ export const ScamPrevention = () => {
         boxShadow: '0 4px 12px rgba(0,0,0,0.1)'
       }}>
         <h2 style={{ fontSize: '24px', marginBottom: '16px', color: '#333' }}>
-          💡 {t('language') === 'de' ? 'Sicherheitstipps' : 'Safety Tips'}
+          💡 {language === 'de' ? 'Sicherheitstipps' : 'Safety Tips'}
         </h2>
         <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(250px, 1fr))', gap: '16px' }}>
           {scamTips.map((tip, index) => (
@@ -244,7 +244,7 @@ export const ScamPrevention = () => {
       {/* Listing Checks */}
       <div>
         <h2 style={{ fontSize: '24px', marginBottom: '16px', color: '#333' }}>
-          🔍 {t('language') === 'de' ? 'Geprüfte Anzeigen' : 'Checked Listings'}
+          🔍 {language === 'de' ? 'Geprüfte Anzeigen' : 'Checked Listings'}
         </h2>
         <div style={{ display: 'grid', gap: '16px' }}>
           {mockListings.map(listing => {
@@ -290,7 +290,7 @@ export const ScamPrevention = () => {
                 <div style={{ marginBottom: '16px' }}>
                   <div style={{ display: 'flex', justifyContent: 'space-between', marginBottom: '8px' }}>
                     <span style={{ fontSize: '13px', fontWeight: '600', color: '#333' }}>
-                      {t('language') === 'de' ? 'Risiko-Score' : 'Risk Score'}
+                      {language === 'de' ? 'Risiko-Score' : 'Risk Score'}
                     </span>
                     <span style={{ fontSize: '13px', fontWeight: 'bold', color: config.color }}>
                       {listing.riskScore}%
@@ -321,7 +321,7 @@ export const ScamPrevention = () => {
                     border: '2px solid #ffc107'
                   }}>
                     <div style={{ fontSize: '14px', fontWeight: 'bold', color: '#333', marginBottom: '12px' }}>
-                      ⚠️ {listing.warnings.length} {t('language') === 'de' ? 'Warnungen' : 'Warnings'}
+                      ⚠️ {listing.warnings.length} {language === 'de' ? 'Warnungen' : 'Warnings'}
                     </div>
                     {listing.warnings.slice(0, 2).map((warning, idx) => (
                       <div key={idx} style={{ fontSize: '13px', color: '#666', marginBottom: '6px', display: 'flex', gap: '8px' }}>
@@ -331,7 +331,7 @@ export const ScamPrevention = () => {
                     ))}
                     {listing.warnings.length > 2 && (
                       <div style={{ fontSize: '13px', color: '#1976d2', marginTop: '8px', fontWeight: '600' }}>
-                        +{listing.warnings.length - 2} {t('language') === 'de' ? 'weitere...' : 'more...'}
+                        +{listing.warnings.length - 2} {language === 'de' ? 'weitere...' : 'more...'}
                       </div>
                     )}
                   </div>
@@ -390,7 +390,7 @@ export const ScamPrevention = () => {
 
             <div style={{ marginBottom: '24px' }}>
               <h3 style={{ fontSize: '18px', marginBottom: '12px' }}>
-                {t('language') === 'de' ? 'Alle Warnungen' : 'All Warnings'}
+                {language === 'de' ? 'Alle Warnungen' : 'All Warnings'}
               </h3>
               {selectedListing.warnings.map((warning, idx) => (
                 <div

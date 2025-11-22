@@ -28,7 +28,7 @@ const mockSharedRents: SharedRent[] = [
 ];
 
 export const RentRadar = () => {
-  const { t } = useLanguage();
+  const { language } = useLanguage();
   const [selectedDistrict, setSelectedDistrict] = useState<string>('all');
   const [showOutliersOnly, setShowOutliersOnly] = useState(false);
 
@@ -51,7 +51,7 @@ export const RentRadar = () => {
           🎯 RentRadar
         </h1>
         <p style={{ color: '#666', fontSize: '16px', lineHeight: '1.6' }}>
-          {t('language') === 'de'
+          {language === 'de'
             ? 'Transparente Kira-Daten von echten Nutzern. AI-gestützte Outlier-Erkennung findet überhöhte Mieten.'
             : 'Transparent rent data from real users. AI-powered outlier detection finds overpriced rentals.'}
         </p>
@@ -71,7 +71,7 @@ export const RentRadar = () => {
           color: 'white'
         }}>
           <div style={{ fontSize: '14px', opacity: 0.9, marginBottom: '8px' }}>
-            {t('language') === 'de' ? 'Geteilte Mieten' : 'Shared Rents'}
+            {language === 'de' ? 'Geteilte Mieten' : 'Shared Rents'}
           </div>
           <div style={{ fontSize: '36px', fontWeight: 'bold' }}>{mockSharedRents.length}</div>
         </div>
@@ -83,7 +83,7 @@ export const RentRadar = () => {
           color: 'white'
         }}>
           <div style={{ fontSize: '14px', opacity: 0.9, marginBottom: '8px' }}>
-            {t('language') === 'de' ? '⚠️ Outliers Erkannt' : '⚠️ Outliers Detected'}
+            {language === 'de' ? '⚠️ Outliers Erkannt' : '⚠️ Outliers Detected'}
           </div>
           <div style={{ fontSize: '36px', fontWeight: 'bold' }}>{outlierCount}</div>
         </div>
@@ -95,7 +95,7 @@ export const RentRadar = () => {
           color: 'white'
         }}>
           <div style={{ fontSize: '14px', opacity: 0.9, marginBottom: '8px' }}>
-            {t('language') === 'de' ? 'Ø Miete' : 'Avg. Rent'}
+            {language === 'de' ? 'Ø Miete' : 'Avg. Rent'}
           </div>
           <div style={{ fontSize: '36px', fontWeight: 'bold' }}>€{Math.round(avgRent)}</div>
         </div>
@@ -107,7 +107,7 @@ export const RentRadar = () => {
           color: 'white'
         }}>
           <div style={{ fontSize: '14px', opacity: 0.9, marginBottom: '8px' }}>
-            {t('language') === 'de' ? 'Ø Preis/m²' : 'Avg. Price/sqm'}
+            {language === 'de' ? 'Ø Preis/m²' : 'Avg. Price/sqm'}
           </div>
           <div style={{ fontSize: '36px', fontWeight: 'bold' }}>€{avgPricePerSqm.toFixed(1)}</div>
         </div>
@@ -127,7 +127,7 @@ export const RentRadar = () => {
       }}>
         <div style={{ flex: '1', minWidth: '200px' }}>
           <label style={{ display: 'block', marginBottom: '8px', fontWeight: '600', color: '#333' }}>
-            {t('language') === 'de' ? 'Stadtbezirk filtern' : 'Filter by district'}
+            {language === 'de' ? 'Stadtbezirk filtern' : 'Filter by district'}
           </label>
           <select
             value={selectedDistrict}
@@ -142,7 +142,7 @@ export const RentRadar = () => {
           >
             {districts.map(d => (
               <option key={d} value={d}>
-                {d === 'all' ? (t('language') === 'de' ? 'Alle Bezirke' : 'All Districts') : d}
+                {d === 'all' ? (language === 'de' ? 'Alle Bezirke' : 'All Districts') : d}
               </option>
             ))}
           </select>
@@ -157,7 +157,7 @@ export const RentRadar = () => {
             style={{ width: '18px', height: '18px', cursor: 'pointer' }}
           />
           <label htmlFor="outliers-only" style={{ fontWeight: '600', color: '#d32f2f', cursor: 'pointer' }}>
-            {t('language') === 'de' ? '⚠️ Nur Outliers anzeigen' : '⚠️ Show outliers only'}
+            {language === 'de' ? '⚠️ Nur Outliers anzeigen' : '⚠️ Show outliers only'}
           </label>
         </div>
       </div>
@@ -189,14 +189,14 @@ export const RentRadar = () => {
                 fontWeight: 'bold',
                 boxShadow: '0 2px 8px rgba(211, 47, 47, 0.3)'
               }}>
-                ⚠️ {rent.outlierPercent}% {t('language') === 'de' ? 'teurer als normal' : 'more expensive'}
+                ⚠️ {rent.outlierPercent}% {language === 'de' ? 'teurer als normal' : 'more expensive'}
               </div>
             )}
 
             <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(150px, 1fr))', gap: '16px' }}>
               <div>
                 <div style={{ fontSize: '12px', color: '#999', marginBottom: '4px' }}>
-                  {t('language') === 'de' ? 'Bezirk' : 'District'}
+                  {language === 'de' ? 'Bezirk' : 'District'}
                 </div>
                 <div style={{ fontSize: '16px', fontWeight: '600', color: '#333' }}>
                   📍 {rent.district}
@@ -205,7 +205,7 @@ export const RentRadar = () => {
 
               <div>
                 <div style={{ fontSize: '12px', color: '#999', marginBottom: '4px' }}>
-                  {t('language') === 'de' ? 'Monatliche Miete' : 'Monthly Rent'}
+                  {language === 'de' ? 'Monatliche Miete' : 'Monthly Rent'}
                 </div>
                 <div style={{ fontSize: '20px', fontWeight: 'bold', color: rent.isOutlier ? '#d32f2f' : '#1976d2' }}>
                   €{rent.monthlyRent}
@@ -214,16 +214,16 @@ export const RentRadar = () => {
 
               <div>
                 <div style={{ fontSize: '12px', color: '#999', marginBottom: '4px' }}>
-                  {t('language') === 'de' ? 'Größe' : 'Size'}
+                  {language === 'de' ? 'Größe' : 'Size'}
                 </div>
                 <div style={{ fontSize: '16px', fontWeight: '600', color: '#333' }}>
-                  {rent.size}m² · {rent.rooms} {t('language') === 'de' ? 'Zimmer' : 'rooms'}
+                  {rent.size}m² · {rent.rooms} {language === 'de' ? 'Zimmer' : 'rooms'}
                 </div>
               </div>
 
               <div>
                 <div style={{ fontSize: '12px', color: '#999', marginBottom: '4px' }}>
-                  {t('language') === 'de' ? 'Preis/m²' : 'Price/sqm'}
+                  {language === 'de' ? 'Preis/m²' : 'Price/sqm'}
                 </div>
                 <div style={{ fontSize: '16px', fontWeight: '600', color: '#333' }}>
                   €{rent.pricePerSqm.toFixed(2)}/m²
@@ -232,7 +232,7 @@ export const RentRadar = () => {
 
               <div>
                 <div style={{ fontSize: '12px', color: '#999', marginBottom: '4px' }}>
-                  {t('language') === 'de' ? 'Baujahr' : 'Year Built'}
+                  {language === 'de' ? 'Baujahr' : 'Year Built'}
                 </div>
                 <div style={{ fontSize: '16px', fontWeight: '600', color: '#333' }}>
                   🏗️ {rent.yearBuilt}
@@ -241,7 +241,7 @@ export const RentRadar = () => {
 
               <div>
                 <div style={{ fontSize: '12px', color: '#999', marginBottom: '4px' }}>
-                  {t('language') === 'de' ? 'Eingereicht' : 'Submitted'}
+                  {language === 'de' ? 'Eingereicht' : 'Submitted'}
                 </div>
                 <div style={{ fontSize: '14px', color: '#666' }}>
                   {new Date(rent.submittedDate).toLocaleDateString()}
@@ -262,7 +262,7 @@ export const RentRadar = () => {
         }}>
           <div style={{ fontSize: '48px', marginBottom: '16px' }}>🔍</div>
           <div style={{ fontSize: '18px' }}>
-            {t('language') === 'de' ? 'Keine Ergebnisse gefunden' : 'No results found'}
+            {language === 'de' ? 'Keine Ergebnisse gefunden' : 'No results found'}
           </div>
         </div>
       )}

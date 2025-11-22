@@ -1,8 +1,9 @@
 import { useState, useEffect } from 'react';
-import { MapContainer, TileLayer, GeoJSON } from 'react-leaflet';
+import { MapContainer, TileLayer, GeoJSON, useMapEvents } from 'react-leaflet';
 import { Layer } from 'leaflet';
 import { getApartmentRentColor, getWGRentColor, getDormitoryRentColor } from '../utils/colorScales';
 import { MunichDistrict, DistrictsGeoJSON, RentType } from '../types';
+import { stadtviertelData } from '../data/stadtviertel';
 import 'leaflet/dist/leaflet.css';
 
 interface MapProps {
@@ -11,14 +12,26 @@ interface MapProps {
   rentType: RentType;
 }
 
+// Component to track zoom level
+function ZoomTracker({ onZoomChange }: { onZoomChange: (zoom: number) => void }) {
+  const map = useMapEvents({
+    zoomend: () => {
+      onZoomChange(map.getZoom());
+    },
+  });
+  return null;
+}
+
 export const Map = ({ onDistrictClick, districtsData, rentType }: MapProps) => {
   const [hoveredDistrict, setHoveredDistrict] = useState<string | null>(null);
   const [geoJsonKey, setGeoJsonKey] = useState(0);
+  const [currentZoom, setCurrentZoom] = useState(11);
+  const ZOOM_THRESHOLD = 13; // Show stadtviertel when zoom >= 13
 
   useEffect(() => {
-    // Force GeoJSON to re-render when data changes
+    // Force GeoJSON to re-render when data changes or zoom changes
     setGeoJsonKey(prev => prev + 1);
-  }, [districtsData]);
+  }, [districtsData, currentZoom]);
 
   const getRentColor =
     rentType === 'apartment' ? getApartmentRentColor :
@@ -60,6 +73,37 @@ export const Map = ({ onDistrictClick, districtsData, rentType }: MapProps) => {
     });
   };
 
+  // Handler for stadtviertel features (neighborhoods)
+  const onEachStadtviertel = (feature: any, layer: Layer) => {
+    const viertelName = feature.properties?.vi_nummer || 'Unknown';
+
+    // Bind tooltip
+    layer.bindTooltip(
+      `<div>
+        <strong>Viertel: ${viertelName}</strong><br/>
+        <em>Detailed rent data coming soon</em>
+      </div>`,
+      { sticky: true }
+    );
+
+    layer.on({
+      mouseover: () => {
+        setHoveredDistrict(viertelName);
+        (layer as any).setStyle({
+          weight: 2,
+          fillOpacity: 0.7
+        });
+      },
+      mouseout: () => {
+        setHoveredDistrict(null);
+        (layer as any).setStyle({
+          weight: 1,
+          fillOpacity: 0.5
+        });
+      }
+    });
+  };
+
   const getStyle = (feature: any) => {
     const district = feature as MunichDistrict;
     const color = getRentColor(district.properties.rentData.averageRent);
@@ -70,6 +114,17 @@ export const Map = ({ onDistrictClick, districtsData, rentType }: MapProps) => {
       opacity: 1,
       color: '#666',
       fillOpacity: 0.6
+    };
+  };
+
+  // Style for stadtviertel (simple blue color for now)
+  const getStadtviertelStyle = () => {
+    return {
+      fillColor: '#4A90E2',
+      weight: 1,
+      opacity: 1,
+      color: '#2E5C8A',
+      fillOpacity: 0.5
     };
   };
 
@@ -84,13 +139,45 @@ export const Map = ({ onDistrictClick, districtsData, rentType }: MapProps) => {
           attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
           url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
         />
-        <GeoJSON
-          key={geoJsonKey}
-          data={districtsData as any}
-          style={getStyle}
-          onEachFeature={onEachFeature}
-        />
+        <ZoomTracker onZoomChange={setCurrentZoom} />
+
+        {/* Show Bezirke (districts) when zoomed out */}
+        {currentZoom < ZOOM_THRESHOLD && (
+          <GeoJSON
+            key={`bezirke-${geoJsonKey}`}
+            data={districtsData as any}
+            style={getStyle}
+            onEachFeature={onEachFeature}
+          />
+        )}
+
+        {/* Show Stadtviertel (neighborhoods) when zoomed in */}
+        {currentZoom >= ZOOM_THRESHOLD && (
+          <GeoJSON
+            key={`viertel-${geoJsonKey}`}
+            data={stadtviertelData as any}
+            style={getStadtviertelStyle}
+            onEachFeature={onEachStadtviertel}
+          />
+        )}
       </MapContainer>
+
+      {/* Zoom indicator */}
+      <div style={{
+        position: 'absolute',
+        bottom: '20px',
+        right: '20px',
+        background: 'rgba(255, 255, 255, 0.95)',
+        padding: '8px 12px',
+        borderRadius: '8px',
+        boxShadow: '0 2px 8px rgba(0,0,0,0.2)',
+        zIndex: 1000,
+        fontSize: '12px',
+        fontWeight: '600',
+        color: '#333'
+      }}>
+        {currentZoom >= ZOOM_THRESHOLD ? '🔍 Stadtviertel' : '📍 Bezirke'} (Zoom: {currentZoom})
+      </div>
 
       {hoveredDistrict && (
         <div style={{

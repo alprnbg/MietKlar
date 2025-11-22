@@ -76,7 +76,7 @@ const mockProfiles: UserProfile[] = [
 ];
 
 export const TrustScore = () => {
-  const { t } = useLanguage();
+  const { language } = useLanguage();
   const [selectedType, setSelectedType] = useState<'all' | 'tenant' | 'landlord'>('all');
   const [selectedProfile, setSelectedProfile] = useState<UserProfile | null>(null);
 
@@ -93,10 +93,10 @@ export const TrustScore = () => {
 
   const getVerificationLabel = (key: keyof UserProfile['verifications']) => {
     const labels = {
-      id: t('language') === 'de' ? 'Ausweis' : 'ID',
-      studentCard: t('language') === 'de' ? 'Studentenausweis' : 'Student ID',
-      workContract: t('language') === 'de' ? 'Arbeitsvertrag' : 'Work Contract',
-      previousRental: t('language') === 'de' ? 'Miethistorie' : 'Rental History'
+      id: language === 'de' ? 'Ausweis' : 'ID',
+      studentCard: language === 'de' ? 'Studentenausweis' : 'Student ID',
+      workContract: language === 'de' ? 'Arbeitsvertrag' : 'Work Contract',
+      previousRental: language === 'de' ? 'Miethistorie' : 'Rental History'
     };
     return labels[key];
   };
@@ -108,7 +108,7 @@ export const TrustScore = () => {
           ⭐ TrustScore
         </h1>
         <p style={{ color: '#666', fontSize: '16px', lineHeight: '1.6' }}>
-          {t('language') === 'de'
+          {language === 'de'
             ? 'Transparente Bewertungen von Mietern und Vermietern. Scam-Erkennung durch AI.'
             : 'Transparent reviews from tenants and landlords. AI-powered scam detection.'}
         </p>
@@ -137,9 +137,9 @@ export const TrustScore = () => {
               transition: 'all 0.2s'
             }}
           >
-            {type === 'all' ? (t('language') === 'de' ? 'Alle' : 'All') :
-              type === 'tenant' ? (t('language') === 'de' ? 'Mieter' : 'Tenants') :
-                (t('language') === 'de' ? 'Vermieter' : 'Landlords')}
+            {type === 'all' ? (language === 'de' ? 'Alle' : 'All') :
+              type === 'tenant' ? (language === 'de' ? 'Mieter' : 'Tenants') :
+                (language === 'de' ? 'Vermieter' : 'Landlords')}
           </button>
         ))}
       </div>
@@ -178,7 +178,7 @@ export const TrustScore = () => {
                   </div>
                   <div style={{ fontSize: '14px', color: '#666' }}>
                     {profile.type === 'tenant' ? '🏠 ' : '🏢 '}
-                    {profile.type === 'tenant' ? (t('language') === 'de' ? 'Mieter' : 'Tenant') : (t('language') === 'de' ? 'Vermieter' : 'Landlord')}
+                    {profile.type === 'tenant' ? (language === 'de' ? 'Mieter' : 'Tenant') : (language === 'de' ? 'Vermieter' : 'Landlord')}
                   </div>
                 </div>
                 <div style={{
@@ -211,7 +211,7 @@ export const TrustScore = () => {
                       ))}
                     </div>
                     <div style={{ fontSize: '12px', color: '#666' }}>
-                      {profile.totalReviews} {t('language') === 'de' ? 'Bewertungen' : 'reviews'}
+                      {profile.totalReviews} {language === 'de' ? 'Bewertungen' : 'reviews'}
                     </div>
                   </div>
                 </div>
@@ -220,7 +220,7 @@ export const TrustScore = () => {
               {/* Verifications */}
               <div style={{ marginBottom: '16px' }}>
                 <div style={{ fontSize: '13px', fontWeight: '600', color: '#333', marginBottom: '8px' }}>
-                  {t('language') === 'de' ? 'Verifizierungen:' : 'Verifications:'}
+                  {language === 'de' ? 'Verifizierungen:' : 'Verifications:'}
                 </div>
                 <div style={{ display: 'flex', flexWrap: 'wrap', gap: '6px' }}>
                   {Object.entries(profile.verifications).map(([key, verified]) => (
@@ -252,7 +252,7 @@ export const TrustScore = () => {
                 {profile.responseRate && (
                   <div>
                     <div style={{ fontSize: '12px', color: '#999' }}>
-                      {t('language') === 'de' ? 'Antwortrate' : 'Response Rate'}
+                      {language === 'de' ? 'Antwortrate' : 'Response Rate'}
                     </div>
                     <div style={{ fontSize: '16px', fontWeight: '600', color: '#333' }}>
                       {profile.responseRate}%
@@ -261,7 +261,7 @@ export const TrustScore = () => {
                 )}
                 <div>
                   <div style={{ fontSize: '12px', color: '#999' }}>
-                    {t('language') === 'de' ? 'Mitglied seit' : 'Member since'}
+                    {language === 'de' ? 'Mitglied seit' : 'Member since'}
                   </div>
                   <div style={{ fontSize: '14px', fontWeight: '600', color: '#333' }}>
                     {new Date(profile.memberSince).toLocaleDateString()}
@@ -279,7 +279,7 @@ export const TrustScore = () => {
                   border: '2px solid #f44336'
                 }}>
                   <div style={{ color: '#c62828', fontSize: '14px', fontWeight: 'bold' }}>
-                    🚨 {profile.scamWarnings} {t('language') === 'de' ? 'Scam-Warnungen' : 'Scam Warnings'}
+                    🚨 {profile.scamWarnings} {language === 'de' ? 'Scam-Warnungen' : 'Scam Warnings'}
                   </div>
                 </div>
               )}
@@ -336,7 +336,7 @@ export const TrustScore = () => {
 
             <div style={{ marginBottom: '24px' }}>
               <h3 style={{ fontSize: '18px', marginBottom: '12px' }}>
-                {t('language') === 'de' ? 'Bewertungen' : 'Reviews'}
+                {language === 'de' ? 'Bewertungen' : 'Reviews'}
               </h3>
               {selectedProfile.reviews.map(review => (
                 <div

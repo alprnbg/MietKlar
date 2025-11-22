@@ -60,7 +60,7 @@ const mockAnalysisResults: ContractIssue[] = [
 ];
 
 export const LegalAICheck = () => {
-  const { t } = useLanguage();
+  const { language } = useLanguage();
   const [analyzing, setAnalyzing] = useState(false);
   const [showResults, setShowResults] = useState(false);
   const [fileName, setFileName] = useState<string | null>(null);
@@ -83,21 +83,21 @@ export const LegalAICheck = () => {
       case 'critical':
         return {
           icon: '🚨',
-          label: t('language') === 'de' ? 'Kritisch' : 'Critical',
+          label: language === 'de' ? 'Kritisch' : 'Critical',
           color: '#d32f2f',
           bg: '#ffebee'
         };
       case 'warning':
         return {
           icon: '⚠️',
-          label: t('language') === 'de' ? 'Warnung' : 'Warning',
+          label: language === 'de' ? 'Warnung' : 'Warning',
           color: '#ed6c02',
           bg: '#fff4e6'
         };
       default:
         return {
           icon: 'ℹ️',
-          label: t('language') === 'de' ? 'Info' : 'Info',
+          label: language === 'de' ? 'Info' : 'Info',
           color: '#0288d1',
           bg: '#e1f5fe'
         };
@@ -114,7 +114,7 @@ export const LegalAICheck = () => {
           ⚖️ LegalAI Check
         </h1>
         <p style={{ color: '#666', fontSize: '16px', lineHeight: '1.6' }}>
-          {t('language') === 'de'
+          {language === 'de'
             ? 'Laden Sie Ihren Mietvertrag hoch und lassen Sie ihn von unserer AI auf unfaire und illegale Klauseln prüfen.'
             : 'Upload your rental contract and have it checked by our AI for unfair and illegal clauses.'}
         </p>
@@ -132,12 +132,12 @@ export const LegalAICheck = () => {
             <>
               <div style={{ fontSize: '64px', marginBottom: '24px' }}>📄</div>
               <h2 style={{ fontSize: '24px', marginBottom: '16px', color: '#333' }}>
-                {t('language') === 'de'
+                {language === 'de'
                   ? 'Mietvertrag hochladen'
                   : 'Upload Rental Contract'}
               </h2>
               <p style={{ color: '#666', marginBottom: '32px', lineHeight: '1.6' }}>
-                {t('language') === 'de'
+                {language === 'de'
                   ? 'Unterstützte Formate: PDF, DOC, DOCX (max. 10MB)'
                   : 'Supported formats: PDF, DOC, DOCX (max. 10MB)'}
               </p>
@@ -158,7 +158,7 @@ export const LegalAICheck = () => {
                 onMouseEnter={(e) => e.currentTarget.style.transform = 'translateY(-2px)'}
                 onMouseLeave={(e) => e.currentTarget.style.transform = 'translateY(0)'}
               >
-                {t('language') === 'de' ? '📤 Datei auswählen' : '📤 Select File'}
+                {language === 'de' ? '📤 Datei auswählen' : '📤 Select File'}
               </label>
               <input
                 id="contract-upload"
@@ -169,7 +169,7 @@ export const LegalAICheck = () => {
               />
               {fileName && (
                 <div style={{ marginTop: '16px', color: '#666', fontSize: '14px' }}>
-                  {t('language') === 'de' ? 'Ausgewählt:' : 'Selected:'} {fileName}
+                  {language === 'de' ? 'Ausgewählt:' : 'Selected:'} {fileName}
                 </div>
               )}
             </>
@@ -179,7 +179,7 @@ export const LegalAICheck = () => {
                 <span style={{ display: 'inline-block', animation: 'spin 2s linear infinite' }}>🔄</span>
               </div>
               <h2 style={{ fontSize: '24px', marginBottom: '16px', color: '#333' }}>
-                {t('language') === 'de'
+                {language === 'de'
                   ? 'AI analysiert Ihren Vertrag...'
                   : 'AI is analyzing your contract...'}
               </h2>
@@ -226,7 +226,7 @@ export const LegalAICheck = () => {
               borderRadius: '12px'
             }}>
               <div style={{ fontSize: '14px', opacity: 0.9, marginBottom: '8px' }}>
-                {t('language') === 'de' ? 'Kritische Probleme' : 'Critical Issues'}
+                {language === 'de' ? 'Kritische Probleme' : 'Critical Issues'}
               </div>
               <div style={{ fontSize: '48px', fontWeight: 'bold' }}>{criticalCount}</div>
             </div>
@@ -238,7 +238,7 @@ export const LegalAICheck = () => {
               borderRadius: '12px'
             }}>
               <div style={{ fontSize: '14px', opacity: 0.9, marginBottom: '8px' }}>
-                {t('language') === 'de' ? 'Warnungen' : 'Warnings'}
+                {language === 'de' ? 'Warnungen' : 'Warnings'}
               </div>
               <div style={{ fontSize: '48px', fontWeight: 'bold' }}>{warningCount}</div>
             </div>
@@ -250,7 +250,7 @@ export const LegalAICheck = () => {
               borderRadius: '12px'
             }}>
               <div style={{ fontSize: '14px', opacity: 0.9, marginBottom: '8px' }}>
-                {t('language') === 'de' ? 'Vertrags-Score' : 'Contract Score'}
+                {language === 'de' ? 'Vertrags-Score' : 'Contract Score'}
               </div>
               <div style={{ fontSize: '48px', fontWeight: 'bold' }}>C+</div>
             </div>
@@ -259,7 +259,7 @@ export const LegalAICheck = () => {
           {/* Issues List */}
           <div style={{ marginBottom: '24px' }}>
             <h2 style={{ fontSize: '24px', marginBottom: '16px', color: '#333' }}>
-              {t('language') === 'de' ? 'Gefundene Probleme' : 'Found Issues'}
+              {language === 'de' ? 'Gefundene Probleme' : 'Found Issues'}
             </h2>
             <div style={{ display: 'grid', gap: '16px' }}>
               {mockAnalysisResults.map(issue => {
@@ -306,7 +306,7 @@ export const LegalAICheck = () => {
                       marginBottom: '12px'
                     }}>
                       <div style={{ fontSize: '13px', fontWeight: 'bold', color: '#333', marginBottom: '8px' }}>
-                        ⚖️ {t('language') === 'de' ? 'Rechtliche Grundlage:' : 'Legal Reference:'}
+                        ⚖️ {language === 'de' ? 'Rechtliche Grundlage:' : 'Legal Reference:'}
                       </div>
                       <div style={{ fontSize: '13px', color: '#555', lineHeight: '1.6' }}>
                         {issue.legalReference}
@@ -320,7 +320,7 @@ export const LegalAICheck = () => {
                       borderLeft: '4px solid #2196f3'
                     }}>
                       <div style={{ fontSize: '13px', fontWeight: 'bold', color: '#1976d2', marginBottom: '8px' }}>
-                        💡 {t('language') === 'de' ? 'Empfehlung:' : 'Recommendation:'}
+                        💡 {language === 'de' ? 'Empfehlung:' : 'Recommendation:'}
                       </div>
                       <div style={{ fontSize: '13px', color: '#333', lineHeight: '1.6' }}>
                         {issue.recommendation}
@@ -353,7 +353,7 @@ export const LegalAICheck = () => {
                 cursor: 'pointer'
               }}
             >
-              {t('language') === 'de' ? 'Neuen Vertrag prüfen' : 'Check New Contract'}
+              {language === 'de' ? 'Neuen Vertrag prüfen' : 'Check New Contract'}
             </button>
             <button
               style={{
@@ -367,7 +367,7 @@ export const LegalAICheck = () => {
                 cursor: 'pointer'
               }}
             >
-              {t('language') === 'de' ? '📥 Bericht herunterladen' : '📥 Download Report'}
+              {language === 'de' ? '📥 Bericht herunterladen' : '📥 Download Report'}
             </button>
           </div>
         </div>
