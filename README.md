@@ -1,5 +1,9 @@
 # München Mietenübersicht
 
+### Presentation Link: https://docs.google.com/presentation/d/1SLaT66ZoI_Q_-8t36kOf78QVjLYxCqsY/edit?usp=sharing&ouid=105215994056907434853&rtpof=true&sd=true
+### Video Demo: https://youtu.be/kNLnQ7zRNyk?si=074RPYjHocVM0SSM
+
+
 An interactive map application for Munich residents to learn about fair rents across different districts.
 
 ## Features
